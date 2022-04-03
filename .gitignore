@@ -131,3 +131,5 @@ dmypy.json
 *.pdf
 
 notes.md
+
+/nvBench/
