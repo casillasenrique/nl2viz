@@ -113,4 +113,32 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .fancy {
+    transition: border-color 1s linear;
+    width: 400px;
+    max-width: 50vw;
+  }
+
+  .fancy::placeholder {
+    opacity: 0;
+  }
+
+  .fancy:focus {
+    outline: none;
+    border-bottom-width: 2px;
+    border-image: linear-gradient(to left, rgb(255, 157, 0), rgb(255, 230, 0));
+    border-image-slice: 1;
+  }
+
+  .fancy:focus ~ label {
+    bottom: 75%;
+    color: rgb(209, 213, 219);
+    font-size: smaller;
+  }
+
+  .placeholder-shown {
+    bottom: 75%;
+    font-size: smaller;
+  }
 }
