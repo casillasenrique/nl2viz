@@ -129,8 +129,13 @@ dmypy.json
 .pyre/
 
 *.pdf
+**/server-jars
 
 notes.md
 
 /nvBench/
 /nl4dv/
+/ncNet
+/stanford-corenlp*
+
+.vscode

@@ -1,0 +1,31 @@
+.Loader li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  opacity: 0;
+  transform: rotate(calc(18deg * var(--i)));
+  animation: spin 2s linear infinite calc(100ms * var(--i));
+}
+
+.Loader li::before {
+  content: '';
+  position: absolute;
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%;
+  background-color: goldenrod;
+  box-shadow: 0 0 0.4em goldenrod, 0 0 0.5em goldenrod;
+}
+
+@keyframes spin {
+  5% {
+    opacity: 1;
+  }
+  75%,
+  100% {
+    opacity: 0;
+  }
+}
