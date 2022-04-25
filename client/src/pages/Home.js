@@ -1,7 +1,6 @@
-import Head from 'next/head';
 import { useState } from 'react';
-import axios from 'axios';
 import { Vega } from 'react-vega';
+import axios from 'axios';
 import Loader from '../components/Loader';
 
 const temp_saved_response = {
@@ -97,25 +96,19 @@ export default function Home() {
     setLoadingViz(true);
     setVizIndex(0);
     axios
-      .get(`${SERVER_URL}/execute?q=${vizQuery}`)
+      .get(`${SERVER_URL}/api/execute?query=${vizQuery}`)
       .then((res) => {
         setNlVizData(res.data.response);
-        setLoadingViz(false);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(() => setLoadingViz(false));
     setVizQuery('');
   };
 
   return (
     <div className="flex justify-center items-center flex-col gap-2 p-2">
-      <Head>
-        <title>NLVIZ</title>
-        <meta
-          name="description"
-          content="Natural language to visualization survey and benchmarks"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <h1 className="text-gray-200 p-2 text-5xl">
         Natural Language to Visualization Survey and Benchmarks
       </h1>
