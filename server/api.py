@@ -2,7 +2,7 @@ from html import escape
 from flask_restful import Resource, reqparse
 import flask as f
 
-from server.nl4dv_setup import get_nl4dv_instance
+from server.nl4dv_setup import get_nl4dv_instance, switch_dataset
 
 import os
 import re
@@ -77,3 +77,26 @@ class DataHandler(Resource):
             return f.send_from_directory(f.current_app.config["CSV_DATA"], filename)
         except FileNotFoundError:
             f.abort(404)
+
+
+class DatasetsHandler(Resource):
+    def get(self):
+        filepath = os.path.join("server", "assets", "data")
+        return {
+            "message": "Successfully fetched all stored data (names of files only)",
+            "data": os.listdir(filepath),
+        }
+    
+    def post(self):
+        """Switch the dataset to use for the model."""
+        print(f.request.form)
+        
+        new_dataset = f.request.form["dataset"]
+        if not new_dataset:
+            f.abort(400, description="No dataset specified.")
+        if new_dataset not in os.listdir(f.current_app.config["CSV_DATA"]):
+            f.abort(404, description=f'Dataset "{new_dataset}" not found.')
+            
+        switch_dataset(nl4dv_instance, new_dataset)
+        return {"message": f"Successfully switched dataset to {new_dataset}"}
+        

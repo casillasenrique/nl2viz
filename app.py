@@ -20,4 +20,5 @@ def serve(path):
 
 api.add_resource(endpoints.HelloHandler, "/api/hello")
 api.add_resource(endpoints.ExecuteHandler, "/api/execute/")
+api.add_resource(endpoints.DatasetsHandler, "/api/datasets/")
 api.add_resource(endpoints.DataHandler, "/api/data/<string:dataset_name>")

@@ -2,12 +2,14 @@ from nl4dv import NL4DV
 import os
 
 
+DATA_PATH = os.path.join("server", "assets", "data")
+
 def get_nl4dv_instance():
 
     # Initialize an instance of NL4DV
     # ToDo: verify the path to the source data file. modify accordingly.
     nl4dv_instance = NL4DV(
-        data_url=os.path.join("server", "assets", "data", "movies-w-year.csv")
+        data_url=os.path.join(DATA_PATH, "cinema.csv")
     )
 
     # using Stanford Core NLP
@@ -39,6 +41,12 @@ def get_nl4dv_instance():
     # Set the Dependency Parser
     nl4dv_instance.set_dependency_parser(config=dependency_parser_config)
 
+    return nl4dv_instance
+
+def switch_dataset(nl4dv_instance: NL4DV, dataset_name):
+    # Switch the dataset
+    nl4dv_instance.set_data(data_url=os.path.join(DATA_PATH, dataset_name))
+    
     return nl4dv_instance
 
 

@@ -239,7 +239,7 @@ export default function Home() {
               </li>
               <li>
                 <b> Attributes shown: </b>
-                {nlVizData.visList[vizIndex].attributes.join(', ')}
+                {nlVizData.visList[vizIndex]?.attributes.join(', ')}
               </li>
             </ul>
           )}
