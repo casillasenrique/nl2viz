@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Vega } from 'react-vega';
 import axios from 'axios';
 import Loader from '../components/Loader';
@@ -86,9 +86,26 @@ const SERVER_URL = 'http://localhost:5000';
 
 export default function Home() {
   const [vizQuery, setVizQuery] = useState('');
+  const [selectedModel, setSelectedModel] = useState(
+    '--Please choose an option--',
+  );
+  const [selectedDataset, setSelectedDataset] = useState(
+    '--Please choose an option--',
+  );
+  const [availableDatasets, setAvailableDatasets] = useState([]);
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
   const [vizIndex, setVizIndex] = useState(0);
+
+  useEffect(() => {
+    axios
+      .get(`${SERVER_URL}/api/datasets`)
+      .then((res) => {
+        console.log(res.data.data)
+        setAvailableDatasets(res.data.data);
+      })
+      .catch((err) => console.error(err));
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -129,6 +146,17 @@ export default function Home() {
           onSubmit={handleSubmit}
         >
           <span>
+            <label htmlFor="model-select">Select dataset: </label>
+            <select className="dropdown" name="model" id="model-select">
+              <option value="">--Please choose an option--</option>
+              {availableDatasets.map((dataset, i) => (
+                <option value={dataset} key={i}>
+                  {dataset}
+                </option>
+              ))}
+            </select>
+          </span>
+          <span>
             <input
               className="w-96 pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
               type="text"
@@ -138,19 +166,17 @@ export default function Home() {
               onChange={(e) => setVizQuery(e.target.value)}
             />
 
-            <button
-              className="p-2 rounded-md bg-gradient-to-tr from-yellow-500 bg-yellow-700 hover:bg-yellow-500 hover:scale-105 transition-all disabled:bg-yellow-700 disabled:from-inherit disabled:transform-none disabled:text-gray-400"
-              disabled={!vizQuery.trim()}
-            >
+            <button className="btn-primary" disabled={!vizQuery.trim()}>
               Submit Query
             </button>
           </span>
           <span>
             <label htmlFor="model-select">Select a model to use: </label>
             <select
-              className="bg-slate-700 py-1 px-2 rounded-md hover:bg-slate-600 transition-colors"
+              className="dropdown"
               name="model"
               id="model-select"
+              onChange={(e) => console.log(e)}
             >
               <option value="">--Please choose an option--</option>
               <option value="nl4dv">nl4dv</option>
@@ -214,7 +240,7 @@ export default function Home() {
                 <button
                   disabled={vizIndex <= 0}
                   onClick={() => setVizIndex(vizIndex - 1)}
-                  className="p-2 h-max rounded-md bg-gradient-to-tr from-yellow-500 bg-yellow-700 hover:bg-yellow-500 hover:scale-105 transition-all disabled:bg-yellow-700 disabled:from-inherit disabled:transform-none disabled:text-gray-400"
+                  className="btn-primary"
                 >
                   Previous visualization
                 </button>
@@ -222,7 +248,7 @@ export default function Home() {
                 <button
                   disabled={vizIndex >= nlVizData.visList.length - 1}
                   onClick={() => setVizIndex(vizIndex + 1)}
-                  className="p-2 h-max rounded-md bg-gradient-to-tr from-yellow-500 bg-yellow-700 hover:bg-yellow-500 hover:scale-105 transition-all disabled:bg-yellow-700 disabled:from-inherit disabled:transform-none disabled:text-gray-400"
+                  className="btn-primary"
                 >
                   Next visualization
                 </button>
