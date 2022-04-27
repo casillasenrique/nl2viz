@@ -1,0 +1,4 @@
+part_id,part_name,chargeable_yn,chargeable_amount,other_part_details
+1,top,0,4,
+2,middle,1,9,
+3,package,1,9,

@@ -1,0 +1,15 @@
+Allergy,AllergyType
+Eggs,food
+Nuts,food
+Milk,food
+Shellfish,food
+Anchovies,food
+Wheat,food
+Soy,food
+Ragweed,environmental
+Tree Pollen,environmental
+Grass Pollen,environmental
+Cat,animal
+Dog,animal
+Rodent,animal
+Bee Stings,animal

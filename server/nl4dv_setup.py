@@ -9,7 +9,7 @@ def get_nl4dv_instance():
     # Initialize an instance of NL4DV
     # ToDo: verify the path to the source data file. modify accordingly.
     nl4dv_instance = NL4DV(
-        data_url=os.path.join(DATA_PATH, "cinema.csv")
+        data_url=os.path.join(DATA_PATH, "cinema", "cinema.csv"),
     )
 
     # using Stanford Core NLP

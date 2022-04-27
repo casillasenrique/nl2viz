@@ -1,0 +1,16 @@
+fault_log_entry_id,part_fault_id,fault_status
+12,3,Reported
+7,4,Reported
+1,9,Return
+1,14,Fixed
+6,4,Waiting
+14,8,Waiting
+1,10,Fixed
+3,8,Return
+11,2,Reported
+3,11,Fixed
+11,8,Reported
+4,14,Waiting
+13,15,Fixed
+13,1,Fixed
+4,6,Reported

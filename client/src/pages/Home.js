@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Vega } from 'react-vega';
 import axios from 'axios';
-import Loader from '../components/Loader';
+import QueryForm from '../components/QueryForm';
+import Dashboard from '../components/Dashboard';
 
 const temp_saved_response = {
   content: '<p>Hello, World!</p>',
@@ -95,23 +95,32 @@ export default function Home() {
   const [availableDatasets, setAvailableDatasets] = useState([]);
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
-  const [vizIndex, setVizIndex] = useState(0);
 
   useEffect(() => {
     axios
       .get(`${SERVER_URL}/api/datasets`)
       .then((res) => {
-        console.log(res.data.data)
-        setAvailableDatasets(res.data.data);
+        console.log(res.data.response);
+        setAvailableDatasets(res.data.response);
       })
       .catch((err) => console.error(err));
   }, []);
+
+  const handleChangeDataset = (e) => {
+    const newDataset = e.target.value;
+    axios
+      .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
+      .then((res) => {
+        console.log(res.data.message);
+        setSelectedDataset(res.data.response);
+      })
+      .catch((err) => console.error(err));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Submitting!');
     setLoadingViz(true);
-    setVizIndex(0);
     axios
       .get(`${SERVER_URL}/api/execute?query=${vizQuery}`)
       .then((res) => {
@@ -139,51 +148,16 @@ export default function Home() {
           Enter what you want to vizualize.
         </label>
 
-        <form
-          className="flex flex-col gap-3"
-          id="query"
-          action=""
-          onSubmit={handleSubmit}
-        >
-          <span>
-            <label htmlFor="model-select">Select dataset: </label>
-            <select className="dropdown" name="model" id="model-select">
-              <option value="">--Please choose an option--</option>
-              {availableDatasets.map((dataset, i) => (
-                <option value={dataset} key={i}>
-                  {dataset}
-                </option>
-              ))}
-            </select>
-          </span>
-          <span>
-            <input
-              className="w-96 pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
-              type="text"
-              name="Vizualization query"
-              value={vizQuery}
-              id=""
-              onChange={(e) => setVizQuery(e.target.value)}
-            />
-
-            <button className="btn-primary" disabled={!vizQuery.trim()}>
-              Submit Query
-            </button>
-          </span>
-          <span>
-            <label htmlFor="model-select">Select a model to use: </label>
-            <select
-              className="dropdown"
-              name="model"
-              id="model-select"
-              onChange={(e) => console.log(e)}
-            >
-              <option value="">--Please choose an option--</option>
-              <option value="nl4dv">nl4dv</option>
-              <option value="ncNet">ncNet</option>
-            </select>
-          </span>
-        </form>
+        <QueryForm
+          handleSubmit={handleSubmit}
+          currentQuery={vizQuery}
+          handleUpdateQuery={setVizQuery}
+          currentDataset={selectedDataset}
+          availableDatasets={availableDatasets}
+          handleUpdateDataset={handleChangeDataset}
+          currentModel={selectedModel}
+          handleUpdateModel={setSelectedModel}
+        />
       </span>
 
       <span className="flex items-end gap-2">
@@ -204,73 +178,11 @@ export default function Home() {
       </span>
       {/* Show the submitted query */}
 
-      <span className="flex w-full justify-between">
-        <div className="p-1 mr-5 text-left min-w-[400px] w-[1000px] overflow-x-scroll bg-gray-800">
-          <pre id="json">
-            {nlVizData && !loadingViz ? (
-              <code> {JSON.stringify(nlVizData, null, 4)}</code>
-            ) : (
-              <code>No data</code>
-            )}
-          </pre>
-        </div>
+      <Dashboard 
+        nlVizData={nlVizData}
+        loadingViz={loadingViz}
+      />
 
-        <div className="sticky top-3 flex w-full h-full justify-center">
-          {loadingViz && <Loader />}
-          {nlVizData?.visList.length && !loadingViz && (
-            <div className="flex flex-col justify-start items-center gap-5">
-              <Vega
-                spec={{
-                  ...nlVizData.visList[vizIndex].vlSpec,
-                  autosize: 'fit',
-                  resize: true,
-                  contains: 'padding',
-                  width: 700,
-                  height: 500,
-                }}
-                actions={{
-                  export: true,
-                  source: false,
-                  compiled: false,
-                  editor: false,
-                }}
-                downloadFileName={'Just Name It'}
-              />
-              <span className="flex gap-5 items-center">
-                <button
-                  disabled={vizIndex <= 0}
-                  onClick={() => setVizIndex(vizIndex - 1)}
-                  className="btn-primary"
-                >
-                  Previous visualization
-                </button>
-                <label>{vizIndex + 1}</label>
-                <button
-                  disabled={vizIndex >= nlVizData.visList.length - 1}
-                  onClick={() => setVizIndex(vizIndex + 1)}
-                  className="btn-primary"
-                >
-                  Next visualization
-                </button>
-              </span>
-            </div>
-          )}
-        </div>
-        <div className="text-left min-w-[400px] max-w-xl">
-          <h2 className="text-xl">Visualization info:</h2>
-          {nlVizData && !loadingViz && (
-            <ul>
-              <li>
-                <b>Number of visualizations:</b> {nlVizData.visList.length}
-              </li>
-              <li>
-                <b> Attributes shown: </b>
-                {nlVizData.visList[vizIndex]?.attributes.join(', ')}
-              </li>
-            </ul>
-          )}
-        </div>
-      </span>
     </div>
   );
 }
