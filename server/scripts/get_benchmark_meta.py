@@ -15,12 +15,12 @@ for benchmark in benchmark_data.values():
     tables_used = [
         sql_query_tokens[i + 1]
         for i in range(len(sql_query_tokens) - 1)
-        if sql_query_tokens[i] == "FROM"
+        if sql_query_tokens[i] == "FROM" or sql_query_tokens[i] == "JOIN"
     ]
 
     benchmark_meta.append(
         {
-            'tables_used': tables_used,
+            "tables_used": tables_used,
             "db_id": benchmark["db_id"],
             "nl_queries": benchmark["nl_queries"],
             "vega_spec": benchmark["vis_obj"],

@@ -92,6 +92,7 @@ export default function Home() {
   const [selectedDataset, setSelectedDataset] = useState(
     '--Please choose an option--',
   );
+  const [availableQueries, setAvailableQueries] = useState([]);
   const [availableDatasets, setAvailableDatasets] = useState([]);
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
@@ -112,7 +113,13 @@ export default function Home() {
       .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
       .then((res) => {
         console.log(res.data.message);
-        setSelectedDataset(res.data.response);
+        const dataset = res.data.response;
+        setSelectedDataset(dataset);
+        axios
+          .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
+          .then((res) => {
+            setAvailableQueries(res.data.response);
+          });
       })
       .catch((err) => console.error(err));
   };
@@ -151,6 +158,7 @@ export default function Home() {
         <QueryForm
           handleSubmit={handleSubmit}
           currentQuery={vizQuery}
+          availableQueries={availableQueries}
           handleUpdateQuery={setVizQuery}
           currentDataset={selectedDataset}
           availableDatasets={availableDatasets}
@@ -178,11 +186,7 @@ export default function Home() {
       </span>
       {/* Show the submitted query */}
 
-      <Dashboard 
-        nlVizData={nlVizData}
-        loadingViz={loadingViz}
-      />
-
+      <Dashboard nlVizData={nlVizData} loadingViz={loadingViz} />
     </div>
   );
 }

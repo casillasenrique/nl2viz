@@ -1,12 +1,12 @@
-from html import escape
-from flask_cors import cross_origin
-from flask_restful import Resource, reqparse
-import flask as f
-
 from server.nl4dv_setup import get_nl4dv_instance, switch_dataset
-
+from flask_restful import Resource, reqparse
+from flask_cors import cross_origin
+from html import escape
+import flask as f
+import json
 import os
 import re
+
 
 URL = "http://localhost:5000"
 
@@ -50,7 +50,7 @@ def dataset_handler():
 
 @api.route("/datasets")
 @api.route("/datasets/<dataset_name>")
-def datasets_handler(dataset_name=None):    
+def datasets_handler(dataset_name=None):
     if dataset_name is None or dataset_name == "":
         return {
             "message": "Successfully fetched all stored data (names of files only)",
@@ -58,13 +58,25 @@ def datasets_handler(dataset_name=None):
         }
 
     filename = escape(dataset_name)
-    print("Got filename:", filename)
-    filepath = os.path.join(".", "assets", "data")
-    print(filepath)
     try:
         return f.send_from_directory(f.current_app.config["CSV_DATA"], filename)
     except FileNotFoundError:
         f.abort(404, description=f'Dataset "{filename}" not found.')
+
+
+def get_dataset_name_from_path(path: str):
+    return os.path.basename(os.path.normpath(path)).strip()
+
+
+def execute_query(query: str):
+    result = nl4dv_instance.analyze_query(query)
+
+    # Change the data URL to the localhost URL
+    dataset_name = get_dataset_name_from_path(result["dataset"])
+    for vis in result["visList"]:
+        vis["vlSpec"]["data"]["url"] = f"{URL}/api/datasets/{dataset_name}"
+
+    return result
 
 
 @api.route("/execute/")
@@ -73,18 +85,64 @@ def execute_handler():
     if not query:
         f.abort(400, description="No query specified.")
 
-    print(query)
-    result = {}
-    result = nl4dv_instance.analyze_query(query)
-
-    # Change the data URL to the localhost URL
-    dataset_name = re.split(r"(/|\\)", result["dataset"])[-1]
-    print(dataset_name)
-    for vis in result["visList"]:
-        vis["vlSpec"]["data"]["url"] = f"{URL}/api/datasets/{dataset_name}"
-
+    result = execute_query(query)
     return {
         "message": f"Successfully executed query: {query}",
         "response": result,
     }
 
+
+def find_benchmarks_for_dataset(dataset_name: str):
+    dataset_name = dataset_name.replace(".csv", "")
+    with open(
+        f"{f.current_app.config['BENCHMARK_DATA']}/benchmark_meta.json", "r"
+    ) as file:
+        benchmark_metadata = json.load(file)
+
+    print("searching for benchmarks with", dataset_name)
+
+    print("Faculty" in benchmark_metadata[0]["tables_used"])
+    benchmarks_with_dataset = [
+        benchmark
+        for benchmark in benchmark_metadata
+        if dataset_name in benchmark["tables_used"]
+        and len(benchmark["tables_used"]) == 1
+    ]
+    return benchmarks_with_dataset
+
+
+@api.route("/benchmark/<dataset_name>/queries")
+def benchmark_handler(dataset_name: str):
+    """Get the benchmark's NL queries for the given dataset."""
+    dataset_name = dataset_name.replace(".csv", "")
+    all_benchmarks = find_benchmarks_for_dataset(dataset_name)
+    possible_queries = []
+    for benchmark in all_benchmarks:
+        possible_queries.extend(benchmark["nl_queries"])
+    return {
+        "message": f"Possible NL benchmark queries for {dataset_name}",
+        "response": possible_queries,
+    }
+
+
+@api.route("/benchmark/execute")
+def benchmark_execute_handler():
+
+    query = f.request.args.get("query")
+    if not query:
+        f.abort(400, description="No query specified.")
+
+    dataset_name = get_dataset_name_from_path(nl4dv_instance.data_url).replace(
+        ".csv", ""
+    )
+    print("dataset_name:", dataset_name)
+    all_benchmarks = find_benchmarks_for_dataset(dataset_name)
+    benchmarks_with_query = [
+        benchmark for benchmark in all_benchmarks if query in benchmark["nl_queries"]
+    ]
+
+    model_result = execute_query(query)
+    return {
+        "message": f'Successfully executed query. Benchmark query "{query}" found in {len(benchmarks_with_query)} benchmarks (1)',
+        "response": {"benchmark": benchmarks_with_query, "model_result": model_result},
+    }

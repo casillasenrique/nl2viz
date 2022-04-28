@@ -1,15 +1,17 @@
-import React from 'react';
+import SearchBar from "./SearchBar";
 
 const QueryForm = ({
+  currentQuery,
+  availableQueries,
+  handleUpdateQuery,
   currentModel,
   handleUpdateModel,
   currentDataset,
   availableDatasets,
   handleUpdateDataset,
-  currentQuery,
-  handleUpdateQuery,
   handleSubmit,
 }) => {
+
   return (
     <form
       className="flex flex-col gap-3"
@@ -43,6 +45,7 @@ const QueryForm = ({
           id=""
           onChange={(e) => handleUpdateQuery(e.target.value)}
         />
+        <SearchBar availableSearches={availableQueries} />
 
         <button className="btn-primary" disabled={!currentQuery.trim()}>
           Submit Query
