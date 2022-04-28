@@ -4,6 +4,7 @@ import os
 
 DATA_PATH = os.path.join("server", "assets", "data")
 
+
 def get_nl4dv_instance():
 
     # Initialize an instance of NL4DV
@@ -43,10 +44,18 @@ def get_nl4dv_instance():
 
     return nl4dv_instance
 
-def switch_dataset(nl4dv_instance: NL4DV, dataset_name):
+
+def switch_dataset(nl4dv_instance: NL4DV, dataset_name, is_benchmark=False):
     # Switch the dataset
+    if is_benchmark:
+        nl4dv_instance.set_data(
+            data_url=os.path.join(
+                os.path.join("server", "assets", "benchmark", "data"), dataset_name
+            )
+        )
+        return nl4dv_instance
+
     nl4dv_instance.set_data(data_url=os.path.join(DATA_PATH, dataset_name))
-    
     return nl4dv_instance
 
 

@@ -2,11 +2,11 @@ import { memo, useEffect, useState } from 'react';
 import Loader from './Loader';
 import { Vega, VegaLite } from 'react-vega';
 
-const Dashboard = ({ nlVizData, loadingViz }) => {
+const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
   const [vizIndex, setVizIndex] = useState(0);
 
   useEffect(() => {
-    console.log('refreshing')
+    console.log('refreshing');
     setVizIndex(0);
   }, [nlVizData]);
 
@@ -29,11 +29,11 @@ const Dashboard = ({ nlVizData, loadingViz }) => {
             <VegaLite
               spec={{
                 ...nlVizData.visList[vizIndex].vlSpec,
-                autosize: 'fit',
                 resize: true,
                 contains: 'padding',
-                width: 700,
+                width: 500,
                 height: 500,
+                background: '#fafafa',
               }}
               actions={{
                 export: true,
@@ -62,7 +62,69 @@ const Dashboard = ({ nlVizData, loadingViz }) => {
             </span>
           </div>
         )}
+        {benchmarkVizData && !loadingViz && (
+          <div className="flex flex-col justify-start items-center gap-5">
+            <VegaLite
+              spec={{
+                data: {
+                  values: [
+                    { x_data: 'County Clare', y_data: 3 },
+                    { x_data: 'County Cork', y_data: 1 },
+                    { x_data: 'County Dublin', y_data: 1 },
+                    { x_data: 'County Laois', y_data: 1 },
+                    { x_data: 'County Louth', y_data: 1 },
+                    { x_data: 'County Tipperary', y_data: 2 },
+                    { x_data: 'County Wicklow', y_data: 1 },
+                  ],
+                },
+                mark: 'bar',
+                encoding: {
+                  x: {
+                    field: 'x_data',
+                    type: 'nominal',
+                    title: 'Location',
+                    sort: { op: 'sum', field: 'y_data', order: 'ascending' },
+                  },
+                  y: {
+                    field: 'y_data',
+                    type: 'quantitative',
+                    title: 'count(*)',
+                  },
+                },
+                width: 500,
+                height: 500,
+                background: '#fafafa',
+              }}
+              actions={{
+                export: true,
+                source: false,
+                compiled: false,
+                editor: true,
+              }}
+              downloadFileName={'Just Name It'}
+            />
+            <span className="flex gap-5 items-center">
+              {/* <button
+                disabled={vizIndex <= 0}
+                onClick={() => setVizIndex(vizIndex - 1)}
+                className="btn-primary"
+              >
+                Previous visualization
+              </button> */}
+              <h2 className='text-2xl'>BENCHMARK</h2>
+              {/* <button
+                disabled={vizIndex >= nlVizData.visList.length - 1}
+                onClick={() => setVizIndex(vizIndex + 1)}
+                className="btn-primary"
+              >
+                Next visualization
+              </button> */}
+            </span>
+          </div>
+        )}
       </div>
+
+      <div></div>
       <div className="text-left min-w-[400px] max-w-xl">
         <h2 className="text-xl">Visualization info:</h2>
         {nlVizData && !loadingViz && (

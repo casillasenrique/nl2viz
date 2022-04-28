@@ -97,15 +97,16 @@ export default function Home() {
   const [availableDatasets, setAvailableDatasets] = useState([]);
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
+  const [benchmarkVizData, setBenchmarkVizData] = useState(null);
 
   useEffect(() => {
     axios
-      .get(`${SERVER_URL}/api/datasets`)
+      .get(`${SERVER_URL}/api/benchmark/datasets`)
       .then((res) => {
         const datasets = res.data.response;
         setAvailableDatasets(res.data.response);
         axios
-          .get(`${SERVER_URL}/api/benchmark/${"cinema"}/queries`)
+          .get(`${SERVER_URL}/api/benchmark/${'cinema'}/queries`)
           .then((res) => {
             setAvailableQueries(res.data.response);
             setLoading(false);
@@ -118,7 +119,7 @@ export default function Home() {
     const newDataset = e.target.value;
     setLoading(true);
     axios
-      .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
+      .post(`${SERVER_URL}/api/benchmark/dataset`, { dataset: newDataset })
       .then((res) => {
         console.log(res.data.message);
         const dataset = res.data.response;
@@ -135,8 +136,22 @@ export default function Home() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Submitting!');
     setLoadingViz(true);
+    console.log('Submitting!');
+    if (availableQueries.includes(vizQuery)) {
+      axios
+        .get(`${SERVER_URL}/api/benchmark/execute?query=${vizQuery}`)
+        .then((res) => {
+          setNlVizData(res.data.response.model_result);
+          setBenchmarkVizData(res.data.response.benchmark);
+        })
+        .catch((err) => {
+          console.log(err);
+        })
+        .finally(() => setLoadingViz(false));
+      setVizQuery('');
+      return;
+    }
     axios
       .get(`${SERVER_URL}/api/execute?query=${vizQuery}`)
       .then((res) => {
@@ -196,7 +211,11 @@ export default function Home() {
       </span>
       {/* Show the submitted query */}
 
-      <Dashboard nlVizData={nlVizData} loadingViz={loadingViz} />
+      <Dashboard
+        nlVizData={nlVizData}
+        benchmarkVizData={benchmarkVizData}
+        loadingViz={loadingViz}
+      />
     </div>
   );
 }
