@@ -86,6 +86,7 @@ const SERVER_URL = 'http://localhost:5000';
 
 export default function Home() {
   const [vizQuery, setVizQuery] = useState('');
+  const [loading, setLoading] = useState(true);
   const [selectedModel, setSelectedModel] = useState(
     '--Please choose an option--',
   );
@@ -101,14 +102,21 @@ export default function Home() {
     axios
       .get(`${SERVER_URL}/api/datasets`)
       .then((res) => {
-        console.log(res.data.response);
+        const datasets = res.data.response;
         setAvailableDatasets(res.data.response);
+        axios
+          .get(`${SERVER_URL}/api/benchmark/${"cinema"}/queries`)
+          .then((res) => {
+            setAvailableQueries(res.data.response);
+            setLoading(false);
+          });
       })
       .catch((err) => console.error(err));
   }, []);
 
   const handleChangeDataset = (e) => {
     const newDataset = e.target.value;
+    setLoading(true);
     axios
       .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
       .then((res) => {
@@ -119,6 +127,7 @@ export default function Home() {
           .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
           .then((res) => {
             setAvailableQueries(res.data.response);
+            setLoading(false);
           });
       })
       .catch((err) => console.error(err));
@@ -165,6 +174,7 @@ export default function Home() {
           handleUpdateDataset={handleChangeDataset}
           currentModel={selectedModel}
           handleUpdateModel={setSelectedModel}
+          loading={loading}
         />
       </span>
 

@@ -20,15 +20,16 @@ import {
   RefinementList,
 } from 'react-instantsearch-dom';
 
+import { getAlgoliaResults } from '@algolia/autocomplete-js';
+
 import { Autocomplete } from './Autocomplete';
 
 import '@algolia/autocomplete-theme-classic/dist/theme.css';
 import './SearchBar.css';
 
-const searchClient = algoliasearch(
-  'latency',
-  '6be0576ff61c053d5f9a3225e2a90f76',
-);
+const appId = 'latency';
+const apiKey = '6be0576ff61c053d5f9a3225e2a90f76';
+const searchClient = algoliasearch(appId, apiKey);
 
 function createURL(searchState) {
   return qs.stringify(searchState, { addQueryPrefix: true });
@@ -46,38 +47,30 @@ function urlToSearchState({ search }) {
   return qs.parse(search.slice(1));
 }
 
-const VirtualSearchBox = connectSearchBox(() => null);
+export default function SearchBar({ availableSearches, onSearch }) {
+  useEffect(() => {
+    console.log('refreshed');
+  }, [availableSearches]);
 
-export default function SearchBar({ availableSearches }) {
   const [searchState, setSearchState] = useState(() =>
     urlToSearchState(window.location),
   );
-  const timerRef = useRef(null);
-
-  useEffect(() => {
-    clearTimeout(timerRef.current);
-
-    timerRef.current = setTimeout(() => {
-      window.history.pushState(
-        searchState,
-        null,
-        searchStateToUrl({ location: window.location }, searchState),
-      );
-    }, 400);
-  }, [searchState]);
 
   const onSubmit = useCallback(({ state }) => {
+    onSearch(state.query);
     setSearchState((searchState) => ({
       ...searchState,
       query: state.query,
     }));
   }, []);
+
   const onReset = useCallback(() => {
     setSearchState((searchState) => ({
       ...searchState,
       query: '',
     }));
   }, []);
+
   const plugins = useMemo(() => {
     const recentSearchesPlugin = createLocalStorageRecentSearchesPlugin({
       key: 'search',
@@ -95,76 +88,57 @@ export default function SearchBar({ availableSearches }) {
       },
     });
 
-    return [
-      recentSearchesPlugin,
-      createQuerySuggestionsPlugin({
-        searchClient,
-        indexName: 'instant_search_demo_query_suggestions',
-        getSearchParams() {
-          return recentSearchesPlugin.data.getAlgoliaSearchParams({
-            hitsPerPage: 5,
-          });
-        },
-        transformSource({ source }) {
-          return {
-            ...source,
-            onSelect(params) {
-              setSearchState((searchState) => ({
-                ...searchState,
-                query: params.item.query,
-              }));
-            },
-          };
-        },
-      }),
-    ];
+    return [recentSearchesPlugin];
   }, []);
 
   return (
-    <div className="container">
-      <InstantSearch
-        searchClient={searchClient}
-        indexName="instant_search"
-        searchState={searchState}
-        onSearchStateChange={setSearchState}
-        createURL={createURL}
-      >
-        {/* A virtual search box is required for InstantSearch to understand the `query` search state property */}
-        <VirtualSearchBox />
+    <div className="w-[500px] h-12 pr-1 mr-1 bg-transparent">
+      {true && (
+        <Autocomplete
+          
+          placeholder="Find query"
+          openOnFocus={true}
+          onSubmit={onSubmit}
+          onReset={onReset}
+          plugins={plugins}
+          getSources={({ query }) => [
+            {
+              sourceId: 'products',
+              getItems() {
+                return availableSearches
+                  .map((search) => ({ label: search, url: search }))
+                  .filter(({ label }) =>
+                    label.toLowerCase().includes(query?.toLowerCase()),
+                  );
+              },
+              getItemUrl({ item }) {
+                return item.url;
+              },
+              templates: {
+                item({ item, components }) {
+                  // console.log(components);
+                  return (
+                    // <components.Highlight hit={item} attribute={["label"]} attributes />
+                    <span
+                      style={{ width: '100%', height: '100%' }}
+                      onClick={() => {
+                        onSearch(item.label);
 
-        <div className="search-panel">
-          <div className="search-panel__results">
-            <Autocomplete
-              placeholder="Search"
-              detachedMediaQuery="none"
-              initialState={{
-                query: searchState.query,
-              }}
-              // getSources={() => {
-              //   return [
-              //     {
-              //       sourceId: 'links',
-              //       getItems() {
-              //         return [
-              //           { label: 'Twitter', url: 'https://twitter.com' },
-              //           { label: 'GitHub', url: 'https://github.com' },
-              //         ];
-              //       },
-              //       getItemUrl({ item }) {
-              //         return item.url;
-              //       },
-              //       // ...
-              //     },
-              //   ];
-              // }}
-              openOnFocus={true}
-              onSubmit={onSubmit}
-              onReset={onReset}
-              plugins={plugins}
-            />
-          </div>
-        </div>
-      </InstantSearch>
+                        setSearchState((searchState) => ({
+                          ...searchState,
+                          query: item.label,
+                        }));
+                      }}
+                    >
+                      {item.label}
+                    </span>
+                  );
+                },
+              },
+            },
+          ]}
+        />
+      )}
     </div>
   );
 }

@@ -1,7 +1,8 @@
-import SearchBar from "./SearchBar";
+import SearchBar from './SearchBar';
 
 const QueryForm = ({
   currentQuery,
+  loading,
   availableQueries,
   handleUpdateQuery,
   currentModel,
@@ -11,7 +12,6 @@ const QueryForm = ({
   handleUpdateDataset,
   handleSubmit,
 }) => {
-
   return (
     <form
       className="flex flex-col gap-3"
@@ -36,16 +36,22 @@ const QueryForm = ({
           ))}
         </select>
       </span>
-      <span>
-        <input
-          className="w-96 pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
-          type="text"
-          name="Vizualization query"
-          value={currentQuery}
-          id=""
-          onChange={(e) => handleUpdateQuery(e.target.value)}
-        />
-        <SearchBar availableSearches={availableQueries} />
+      <span className='flex'>
+        {!currentQuery && !loading ? (
+          <SearchBar
+            availableSearches={availableQueries}
+            onSearch={handleUpdateQuery}
+          />
+        ) : (
+          <input
+            className="w-[500px] pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
+            type="text"
+            name="Vizualization query"
+            value={currentQuery}
+            id=""
+            onChange={(e) => handleUpdateQuery(e.target.value)}
+          />
+        )}
 
         <button className="btn-primary" disabled={!currentQuery.trim()}>
           Submit Query
