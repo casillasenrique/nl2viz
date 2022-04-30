@@ -1,4 +1,4 @@
-from server.nl4dv_setup import get_nl4dv_instance, switch_dataset
+from server.model_setup import get_ncNetInstance, get_nl4dv_instance
 
 from flask_restful import Resource, abort, reqparse
 from flask_cors import cross_origin
@@ -14,6 +14,12 @@ URL = "http://localhost:5000"
 SUPPORTED_NL2VIZ_MODELS = {"nl4dv", "ncNet"}
 USERS = []
 
+ncNetInstance = get_ncNetInstance()
+print(ncNetInstance.show_dataset())
+viz = ncNetInstance.nl2vis("create a pie chart showing the different capacity",)[
+    0
+]  # nl2vis will return a list a [Vis, VegaLiteSpec]
+print(viz.spec)
 nl4dv_instance = get_nl4dv_instance()
 
 api = f.Blueprint("api", __name__)
@@ -126,7 +132,7 @@ def dataset_handler():
             response = f.jsonify({"message": f'Dataset "{new_dataset}" not found.'})
             response.status_code = 404
             return response
-        print('About to switch dataset to', new_dataset)
+        print("About to switch dataset to", new_dataset)
         client.switch_dataset(new_dataset)
         return {
             "message": f"Successfully switched dataset to {new_dataset}",
