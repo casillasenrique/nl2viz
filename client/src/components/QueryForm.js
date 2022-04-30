@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import QuerySearchBar from './QuerySearchBar';
 
 const QueryForm = ({
   loading,
@@ -21,12 +20,12 @@ const QueryForm = ({
   };
 
   const newDatasetSelected = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     handleUpdateDataset(e.target.value);
   };
 
   const newModelSelected = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     handleUpdateModel(e.target.value);
   };
 
@@ -35,17 +34,27 @@ const QueryForm = ({
       className="flex flex-col w-screen max-w-screen-md gap-5 bg-slate-900 p-6 rounded-md shadow-md shadow-gray-800"
       id="query"
       action=""
-      onSubmit={(e) => e.preventDefault()}
+      onSubmit={formSubmitted}
     >
-      {/* <label htmlFor="query" className="text-gray-200 text-left">
-          Enter a sentence of what you want to vizualize.
-        </label> */}
-      <span className="flex">
-        <QuerySearchBar
-          availableQueries={availableQueries}
-          currentQuery={currentVizQuery}
-          handleUpdateQuery={setCurrentVizQuery}
+      <span className="flex items-end">
+        <input
+          className="w-full h-full pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300 placeholder:text-gray-500"
+          type="text"
+          name="Vizualization query"
+          value={currentVizQuery}
+          // Timeout since we need to wait for the button to be pressed
+          placeholder="Enter a sentence of what you want to vizualize"
+          id="query-choice"
+          list="available-queries"
+          onChange={(e) => setCurrentVizQuery(e.target.value)}
         />
+        <datalist id="available-queries" className="bg-slate-50 text-ellipsis">
+          {availableQueries.map((query, i) => (
+            <option key={`${i}${query}`} value={query}>
+              {query}
+            </option>
+          ))}
+        </datalist>
         <button
           className="btn-primary min-w-fit"
           type="submit"
@@ -55,7 +64,6 @@ const QueryForm = ({
             !currentModel ||
             !currentDataset
           }
-          onClick={formSubmitted}
         >
           Submit Query
         </button>
@@ -70,7 +78,7 @@ const QueryForm = ({
             name="model"
             id="model-select"
             form={'query'}
-            defaultValue={'nl4dv'}
+            value={currentModel}
             onChange={newModelSelected}
           >
             {availableModels.map((model) => (
@@ -88,6 +96,7 @@ const QueryForm = ({
             className="dropdown"
             name="dataset"
             id="dataset-select"
+            value={currentDataset}
             onChange={newDatasetSelected}
           >
             {availableDatasets.map((dataset, i) => (

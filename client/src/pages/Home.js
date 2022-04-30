@@ -5,85 +5,6 @@ import Dashboard from '../components/Dashboard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const temp_saved_response = {
-  content: '<p>Hello, World!</p>',
-  query: 'create a barchart showing average gross across genres',
-  response: {
-    alias: null,
-    attributeMap: {
-      Genre: {
-        ambiguity: [],
-        inferenceType: 'explicit',
-        isAmbiguous: false,
-        name: 'Genre',
-        queryPhrase: ['genres'],
-      },
-      'Worldwide Gross': {
-        ambiguity: [],
-        inferenceType: 'explicit',
-        isAmbiguous: false,
-        name: 'Worldwide Gross',
-        queryPhrase: ['gross'],
-      },
-    },
-    contextObj: null,
-    dataset: '.\\assets\\data\\movies-w-year.csv',
-    followUpQuery: false,
-    query: 'create a barchart showing average gross across genres',
-    query_raw: 'create a barchart showing average gross across genres',
-    taskMap: {
-      derived_value: [
-        {
-          attributes: ['Worldwide Gross'],
-          inferenceType: 'explicit',
-          operator: 'AVG',
-          queryPhrase: 'average',
-          task: 'derived_value',
-          values: [],
-        },
-      ],
-    },
-    visList: [
-      {
-        attributes: ['Worldwide Gross', 'Genre'],
-        inferenceType: 'explicit',
-        queryPhrase: 'barchart',
-        tasks: ['derived_value'],
-        visType: 'barchart',
-        vlSpec: {
-          $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
-          data: {
-            format: {
-              type: 'csv',
-            },
-            url: 'http://localhost:5000/data/movies-w-year.csv',
-          },
-          encoding: {
-            x: {
-              aggregate: null,
-              field: 'Genre',
-              type: 'nominal',
-            },
-            y: {
-              aggregate: 'mean',
-              axis: {
-                format: 's',
-              },
-              field: 'Worldwide Gross',
-              type: 'quantitative',
-            },
-          },
-          mark: {
-            tooltip: true,
-            type: 'bar',
-          },
-          transform: [],
-        },
-      },
-    ],
-  },
-};
-
 const SERVER_URL = 'http://localhost:5000';
 
 export default function Home() {
@@ -100,12 +21,16 @@ export default function Home() {
 
   useEffect(() => {
     Promise.all([
-      axios.get(`${SERVER_URL}/api/datasets`),
-      axios.get(`${SERVER_URL}/api/models`),
+      axios.get(`${SERVER_URL}/api/datasets`), // All datasets
+      axios.get(`${SERVER_URL}/api/dataset?${document.cookie}`), // Current dataset
+      axios.get(`${SERVER_URL}/api/models`), // All models
+      axios.get(`${SERVER_URL}/api/model?${document.cookie}`), // Current model
     ])
-      .then(([datasets, models]) => {
+      .then(([datasets, currentDataset, models, currentModel]) => {
         setAvailableDatasets(datasets.data.response);
         setAvailableModels(models.data.response);
+        setSelectedDataset(currentDataset.data.response);
+        setSelectedModel(currentModel.data.response);
         setLoading(false);
       })
       .catch((err) => toast.error(err));
