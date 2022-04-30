@@ -21,21 +21,21 @@ def get_nl4dv_instance():
 
     # using Stanford Core NLP
     # ToDo: verify the paths to the jars. modify accordingly.
-    dependency_parser_config = {
-        "name": "corenlp",
-        "model": os.path.join(
-            MODELS_PATH,
-            "nl4dv",
-            "server-jars",
-            "stanford-english-corenlp-2018-10-05-models.jar",
-        ),
-        "parser": os.path.join(
-            MODELS_PATH,
-            "nl4dv",
-            "server-jars",
-            "stanford-parser.jar",
-        ),
-    }
+    # dependency_parser_config = {
+    #     "name": "corenlp",
+    #     "model": os.path.join(
+    #         MODELS_PATH,
+    #         "nl4dv",
+    #         "server-jars",
+    #         "stanford-english-corenlp-2018-10-05-models.jar",
+    #     ),
+    #     "parser": os.path.join(
+    #         MODELS_PATH,
+    #         "nl4dv",
+    #         "server-jars",
+    #         "stanford-parser.jar",
+    #     ),
+    # }
 
     # using Stanford CoreNLPServer
     # ToDo: verify the URL to the CoreNLPServer. modify accordingly.
@@ -43,7 +43,7 @@ def get_nl4dv_instance():
 
     # using Spacy
     # ToDo: ensure that the below spacy model is installed. if using another model, modify accordingly.
-    # dependency_parser_config = {"name": "spacy", "model": "en_core_web_sm", "parser": None}
+    dependency_parser_config = {"name": "spacy", "model": "en_core_web_sm", "parser": None}
 
     # Set the Dependency Parser
     nl4dv_instance.set_dependency_parser(config=dependency_parser_config)
