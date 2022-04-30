@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import QueryForm from '../components/QueryForm';
 import Dashboard from '../components/Dashboard';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const temp_saved_response = {
   content: '<p>Hello, World!</p>',
@@ -101,7 +103,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get(`${SERVER_URL}/api/benchmark/datasets`)
+      .get(`${SERVER_URL}/api/datasets`)
       .then((res) => {
         const datasets = res.data.response;
         setAvailableDatasets(res.data.response);
@@ -119,19 +121,27 @@ export default function Home() {
     const newDataset = e.target.value;
     setLoading(true);
     axios
-      .post(`${SERVER_URL}/api/benchmark/dataset`, { dataset: newDataset })
+      .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
       .then((res) => {
         console.log(res.data.message);
         const dataset = res.data.response;
         setSelectedDataset(dataset);
+        toast.success(res.data.message);
         axios
           .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
           .then((res) => {
+            const newAvailableQueries = res.data.response;
+            console.log(newAvailableQueries);
+            if (!newAvailableQueries.length) {
+              toast.warn('No queries available for this dataset.');
+            }
             setAvailableQueries(res.data.response);
             setLoading(false);
           });
       })
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        toast.error(`Error: ${err.response.data.message}`);
+      });
   };
 
   const handleSubmit = (submittedQuery) => {
@@ -211,6 +221,7 @@ export default function Home() {
         benchmarkVizData={benchmarkVizData}
         loadingViz={loadingViz}
       />
+      <ToastContainer theme="dark" />
     </div>
   );
 }

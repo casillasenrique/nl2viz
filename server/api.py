@@ -131,6 +131,8 @@ def get_client() -> Client:
 
 @api.route("/dataset", methods=["GET", "POST"])
 def dataset_handler():
+    benchmark_data_path = os.path.join(f.current_app.config["BENCHMARK_PATH"], "data")
+
     client = get_client()
     if f.request.method == "GET":
         try:
@@ -147,8 +149,10 @@ def dataset_handler():
         new_dataset = form["dataset"]
         if not new_dataset:
             f.abort(400, description="No dataset specified.")
-        if new_dataset not in os.listdir(f.current_app.config["CSV_DATA"]):
-            f.abort(404, description=f'Dataset "{new_dataset}" not found.')
+        if new_dataset not in os.listdir(benchmark_data_path):
+            response = f.jsonify({"message": f'Dataset "{new_dataset}" not found.'})
+            response.status_code = 404
+            return response
 
         client.switch_dataset(new_dataset)
         return {
@@ -271,7 +275,7 @@ def model_handler():
                 description=f'Model "{new_model}" not supported, please choose one of {SUPPORTED_NL2VIZ_MODELS}',
             )
         client.set_nl2viz_instance(new_model)
-        print('Successfully set model to', new_model)
+        print("Successfully set model to", new_model)
         return {
             "message": f"Successfully switched model to {new_model}",
             "response": new_model,
