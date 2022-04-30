@@ -1,10 +1,9 @@
-import SearchBar from './SearchBar';
+import { useState } from 'react';
+import QuerySearchBar from './QuerySearchBar';
 
 const QueryForm = ({
-  currentQuery,
   loading,
   availableQueries,
-  handleUpdateQuery,
   currentModel,
   handleUpdateModel,
   currentDataset,
@@ -12,12 +11,20 @@ const QueryForm = ({
   handleUpdateDataset,
   handleSubmit,
 }) => {
+  const [currentVizQuery, setCurrentVizQuery] = useState('');
+
+  const formSubmitted = (e) => {
+    e.preventDefault();
+    handleSubmit(currentVizQuery);
+    setCurrentVizQuery('');
+  };
+
   return (
     <form
       className="flex flex-col gap-3"
       id="query"
       action=""
-      onSubmit={handleSubmit}
+      onSubmit={formSubmitted}
     >
       <span>
         <label htmlFor="dataset-select">Select dataset: </label>
@@ -36,24 +43,13 @@ const QueryForm = ({
           ))}
         </select>
       </span>
-      <span className='flex'>
-        {!currentQuery && !loading ? (
-          <SearchBar
-            availableSearches={availableQueries}
-            onSearch={handleUpdateQuery}
-          />
-        ) : (
-          <input
-            className="w-[500px] pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
-            type="text"
-            name="Vizualization query"
-            value={currentQuery}
-            id=""
-            onChange={(e) => handleUpdateQuery(e.target.value)}
-          />
-        )}
-
-        <button className="btn-primary" disabled={!currentQuery.trim()}>
+      <span className="flex">
+        <QuerySearchBar
+          availableQueries={availableQueries}
+          currentQuery={currentVizQuery}
+          handleUpdateQuery={setCurrentVizQuery}
+        />
+        <button className="btn-primary" disabled={!currentVizQuery.trim()}>
           Submit Query
         </button>
       </span>

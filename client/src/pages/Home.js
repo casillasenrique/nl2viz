@@ -134,13 +134,12 @@ export default function Home() {
       .catch((err) => console.error(err));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (submittedQuery) => {
     setLoadingViz(true);
     console.log('Submitting!');
-    if (availableQueries.includes(vizQuery)) {
+    if (availableQueries.includes(submittedQuery)) {
       axios
-        .get(`${SERVER_URL}/api/benchmark/execute?query=${vizQuery}`)
+        .get(`${SERVER_URL}/api/benchmark/execute?query=${submittedQuery}`)
         .then((res) => {
           setNlVizData(res.data.response.model_result);
           setBenchmarkVizData(res.data.response.benchmark);
@@ -149,11 +148,10 @@ export default function Home() {
           console.log(err);
         })
         .finally(() => setLoadingViz(false));
-      setVizQuery('');
       return;
     }
     axios
-      .get(`${SERVER_URL}/api/execute?query=${vizQuery}`)
+      .get(`${SERVER_URL}/api/execute?query=${submittedQuery}`)
       .then((res) => {
         setNlVizData(res.data.response);
       })
@@ -161,7 +159,6 @@ export default function Home() {
         console.log(err);
       })
       .finally(() => setLoadingViz(false));
-    setVizQuery('');
   };
 
   return (
@@ -181,9 +178,7 @@ export default function Home() {
 
         <QueryForm
           handleSubmit={handleSubmit}
-          currentQuery={vizQuery}
           availableQueries={availableQueries}
-          handleUpdateQuery={setVizQuery}
           currentDataset={selectedDataset}
           availableDatasets={availableDatasets}
           handleUpdateDataset={handleChangeDataset}
