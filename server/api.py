@@ -85,23 +85,6 @@ def jsonify_user(user: Client):
     }
 
 
-@api.route("/client")
-def client_handler():
-    # client_id = f.request.args.get("query")
-    try:
-        client_id = f.session["client_id"]
-        return {"message": "Welcome back, " + client_id}
-    except KeyError:
-        client_id = f.request.args.get("cId")
-        if not client_id:
-            return {
-                "message": "No client set up here, please provide a client id (cId=...)"
-            }
-        f.session["client_id"] = client_id
-        USERS.append(Client(client_id))
-        return {"message": "Hello, " + client_id}
-
-
 @api.route("/clients")
 def clients_handler():
     return {"clients": [jsonify_user(user) for user in USERS]}

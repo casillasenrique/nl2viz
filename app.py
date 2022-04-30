@@ -14,8 +14,6 @@ app.config["CSV_DATA"] = os.path.join("server", "assets", "data")
 app.config["BENCHMARK_PATH"] = os.path.join("server", "assets", "benchmark")
 app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = SESSION_TYPE
-Session(app)
-
 
 @app.route("/", defaults={"path": ""})
 def serve(path):
