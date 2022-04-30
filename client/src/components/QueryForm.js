@@ -81,6 +81,7 @@ const QueryForm = ({
             value={currentModel || ''}
             onChange={newModelSelected}
           >
+            <option disabled value="">--Select a model--</option>
             {availableModels.map((model) => (
               <option key={model} value={model}>
                 {model}
@@ -99,6 +100,7 @@ const QueryForm = ({
             value={currentDataset || ''}
             onChange={newDatasetSelected}
           >
+            <option disabled value="">--Select a dataset--</option>
             {availableDatasets.map((dataset, i) => (
               <option value={dataset} key={i}>
                 {dataset}

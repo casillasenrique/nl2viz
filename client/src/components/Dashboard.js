@@ -32,10 +32,16 @@ const Dashboard = ({
     }
     return (
       <div className="flex flex-col gap-3">
-        <h3 className="text-gray-200 text-lg">
-          <b>Showing: </b>"{nlVizData.query}"
+        <h3 className="flex gap-2 text-gray-200 text-lg">
+          <b>Showing:</b>
+          <p
+            className="hover:text-yellow-500 hover:cursor-pointer transition-colors"
+            onClick={() => handleSubmitQuery(nlVizData.query)}
+          >
+            "{nlVizData.query}"
+          </p>
         </h3>
-        {benchmarkVizData && (
+        {benchmarkVizData.length && (
           <div>
             <h3 className="text-gray-400">
               <b>Equivalent queries:</b>
@@ -52,7 +58,7 @@ const Dashboard = ({
                     className="w-fit hover:text-yellow-500 hover:cursor-pointer transition-colors"
                     onClick={() => handleSubmitQuery(q)}
                   >
-                    "{q}"{/* <a href={`/\?query=${q}`}></a> */}
+                    "{q}"
                   </li>
                 ))}
             </ol>
@@ -80,7 +86,7 @@ const Dashboard = ({
         spec={{
           ...nlVizData.visList[vizIndex].vlSpec,
           resize: true,
-          contains: 'padding',
+          autosize: 'fit',
           width: 500,
           height: 400,
           background: '#fafafa',
@@ -101,7 +107,7 @@ const Dashboard = ({
       return <Loader />;
     }
 
-    if (!benchmarkVizData) {
+    if (!benchmarkVizData?.length) {
       return (
         <h3 className="text-gray-200 text-lg">
           <b>Could not find a benchmark associated with this NL query</b>
@@ -113,8 +119,7 @@ const Dashboard = ({
       <VegaLite
         spec={{
           ...benchmarkVizData[0].vega_spec,
-          resize: true,
-          contains: 'padding',
+          autosize: 'fit',
           width: 500,
           height: 400,
           background: '#fafafa',
@@ -201,7 +206,8 @@ const Dashboard = ({
               <li>
                 Attributes shown:{' '}
                 <code className="text-gray-200">
-                  {nlVizData.visList[vizIndex]?.attributes.join(', ')}
+                  {nlVizData.visList[vizIndex]?.attributes?.join(', ') ||
+                    'None provided'}
                 </code>
               </li>
               <li>

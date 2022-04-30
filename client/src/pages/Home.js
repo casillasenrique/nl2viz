@@ -36,17 +36,22 @@ export default function Home() {
         ];
         setAvailableDatasets(datasets);
         setAvailableModels(models);
-        setSelectedDataset(currentDataset);
-        setSelectedModel(currentModel);
+
+        if (currentDataset) {
+          setSelectedDataset(currentDataset);
+        }
+        if (currentModel) {
+          setSelectedModel(currentModel);
+        }
 
         if (currentDataset) {
           fetchAvailableQueries(currentDataset).then((queries) => {
             setAvailableQueries(queries);
-            setLoading(false);
           });
         }
       })
-      .catch((err) => toast.error(err));
+      .catch((err) => toast.error(err))
+      .finally(() => setLoading(false));
   }, []);
 
   const fetchAvailableQueries = async (dataset) => {
@@ -72,15 +77,16 @@ export default function Home() {
             toast.warn('No queries available for this dataset.');
           }
           setAvailableQueries(queries);
-          setLoading(false);
         });
       })
       .catch((err) => {
         toast.error(`Error: ${err.response.data.message}`);
-      });
+      })
+      .finally(() => setLoading(false));
   };
 
   const handleChangeModel = (newModel) => {
+    setLoading(true);
     axios
       .post(`${SERVER_URL}/api/model?${document.cookie}`, { model: newModel })
       .then((res) => {
@@ -90,7 +96,8 @@ export default function Home() {
       })
       .catch((err) => {
         toast.error(`Error: ${err.response.data.message}`);
-      });
+      })
+      .finally(() => setLoading(false));
   };
 
   const handleSubmit = (submittedQuery) => {
@@ -103,6 +110,7 @@ export default function Home() {
         )
         .then((res) => {
           setNlVizData(res.data.response.model_result);
+          console.log(res.data.response.benchmark);
           setBenchmarkVizData(res.data.response.benchmark);
         })
         .catch((err) => {

@@ -14,27 +14,32 @@ URL = "http://localhost:5000"
 SUPPORTED_NL2VIZ_MODELS = {"nl4dv", "ncNet"}
 USERS = []
 
-ncNetInstance = get_ncNetInstance()
-print(ncNetInstance.show_dataset())
-viz = ncNetInstance.nl2vis("create a pie chart showing the different capacity",)[
-    0
-]  # nl2vis will return a list a [Vis, VegaLiteSpec]
-print(viz.spec)
-nl4dv_instance = get_nl4dv_instance()
+# ncNetInstance = get_ncNetInstance()
+# print(ncNetInstance.show_dataset())
+# viz = ncNetInstance.nl2vis("create a pie chart showing the different capacity",)[
+#     0
+# ]  # nl2vis will return a list a [Vis, VegaLiteSpec]
+# print(viz.spec)
+# nl4dv_instance = get_nl4dv_instance()
 
 api = f.Blueprint("api", __name__)
 
 
 def _switch_dataset(nl2viz_instance, model_type, dataset):
     if model_type == "nl4dv":
-        response = nl2viz_instance.set_data(
+        nl2viz_instance.set_data(
             data_url=os.path.join(
                 f.current_app.config["BENCHMARK_PATH"], "data", dataset
             )
         )
     elif model_type == "ncNet":
-        # TODO:
-        return
+        nl2viz_instance.specify_dataset(
+            data_type="csv",
+            table_name=dataset.replace(".csv", ""),
+            data_url=os.path.join(
+                f.current_app.config["BENCHMARK_PATH"], "data", dataset
+            ),
+        )
 
 
 def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
@@ -47,25 +52,41 @@ def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
         for vis in result["visList"]:
             new_url = f"{URL}/api/datasets/{dataset_name}"
             vis["vlSpec"]["data"]["url"] = new_url
+        result["query"] = query
         return result
     elif model_type == "ncNet":
-        # TODO: implement ncNet
-        return
+        viz = nl2viz_instance.nl2vis(query)[
+            0
+        ]  # nl2vis will return a list a [Vis, VegaLiteSpec]
+        # We don't need to worry about the dataset URL, ncNet is nice enough to
+        # encode the data manually
+        # print("Hello!!!", viz.spec)
+        visObj = {"vlSpec": viz.spec, "attributes": None}
+        result = {
+            "visList": [visObj],
+            "query": query,
+            "query_raw": query.lower().strip(),
+        }
+        return result
 
 
 class Client:
-    def __init__(self, client_id) -> None:
+    def __init__(self, client_id, set_defaults=False) -> None:
         self.client_id = client_id
         self.dataset = ""  # The name of the dataset (includes the extension)
         self.model_type = ""  # The type of model (e.g. "nl4dv" or "ncNet")
         self.nl2viz_instance = None
+
+        if set_defaults:
+            self.dataset = "cinema.csv"
+            self.set_nl2viz_instance("nl4dv", self.dataset)
 
     def set_nl2viz_instance(self, model_type, starting_dataset: str = "cinema.csv"):
         self.model_type = model_type
         if model_type == "nl4dv":
             self.nl2viz_instance = get_nl4dv_instance()
         elif model_type == "ncNet":
-            self.nl2viz_instance = None  # TODO
+            self.nl2viz_instance = get_ncNetInstance()
 
         if starting_dataset:
             self.dataset = starting_dataset
@@ -102,7 +123,7 @@ def get_client(client_id) -> Client:
             print("found client", user.client_id)
             return user
     else:
-        new_client = Client(client_id)
+        new_client = Client(client_id, set_defaults=False)
         USERS.append(new_client)
         print("User created", client_id)
         return new_client
@@ -255,7 +276,7 @@ def model_handler():
                 404,
                 description=f'Model "{new_model}" not supported, please choose one of {SUPPORTED_NL2VIZ_MODELS}',
             )
-        client.set_nl2viz_instance(new_model)
+        client.set_nl2viz_instance(new_model, starting_dataset=client.dataset)
         print("Successfully set model to", new_model)
         return {
             "message": f"Successfully switched model to {new_model}",
