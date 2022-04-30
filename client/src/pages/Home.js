@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../components/Loader';
 
-const SERVER_URL = 'http://localhost:5000';
+const SERVER_URL = 'https://nl2vis.herokuapp.com';
 
 export default function Home() {
   const [vizQuery, setVizQuery] = useState('');
