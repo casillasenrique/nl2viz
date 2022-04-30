@@ -21,7 +21,7 @@ api = f.Blueprint("api", __name__)
 
 def _switch_dataset(nl2viz_instance, model_type, dataset):
     if model_type == "nl4dv":
-        nl2viz_instance.set_data(
+        response = nl2viz_instance.set_data(
             data_url=os.path.join(
                 f.current_app.config["BENCHMARK_PATH"], "data", dataset
             )
@@ -33,6 +33,7 @@ def _switch_dataset(nl2viz_instance, model_type, dataset):
 
 def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
     if model_type == "nl4dv":
+        print("EXECUTING QUERY:", query, "on nl4dv")
         result = nl2viz_instance.analyze_query(query)
 
         # Change the data URL to the localhost URL
@@ -68,7 +69,7 @@ class Client:
         return self.dataset
 
     def switch_dataset(self, new_dataset):
-        _switch_dataset(self.nl2viz_instance, self.model_type, self.dataset)
+        _switch_dataset(self.nl2viz_instance, self.model_type, new_dataset)
         self.dataset = new_dataset
 
     def execute_query(self, query: str) -> dict:
@@ -106,23 +107,12 @@ def clients_handler():
     return {"clients": [jsonify_user(user) for user in USERS]}
 
 
-def get_client() -> Client:
-    try:
-        # Get the client from session
-        client_id = f.session["client_id"]
-        print("Found existing client_id", client_id)
-        for user in USERS:
-            if user.client_id == client_id:
-                return user
-        else:
-            new_client = Client(client_id)
-            USERS.append(new_client)
-            print("User created", client_id)
-            return new_client
-    except KeyError:
-        # No user was found, create a new one
-        client_id = str(uuid.uuid4())
-        f.session["client_id"] = client_id
+def get_client(client_id) -> Client:
+    for user in USERS:
+        if user.client_id == client_id:
+            print("found client", user.client_id)
+            return user
+    else:
         new_client = Client(client_id)
         USERS.append(new_client)
         print("User created", client_id)
@@ -133,7 +123,7 @@ def get_client() -> Client:
 def dataset_handler():
     benchmark_data_path = os.path.join(f.current_app.config["BENCHMARK_PATH"], "data")
 
-    client = get_client()
+    client = get_client(f.request.args.get("token"))
     if f.request.method == "GET":
         try:
             dataset_name = client.get_current_dataset()
@@ -153,7 +143,7 @@ def dataset_handler():
             response = f.jsonify({"message": f'Dataset "{new_dataset}" not found.'})
             response.status_code = 404
             return response
-
+        print('About to switch dataset to', new_dataset)
         client.switch_dataset(new_dataset)
         return {
             "message": f"Successfully switched dataset to {new_dataset}",
@@ -220,7 +210,7 @@ def benchmark_handler(dataset_name: str):
 @api.route("/execute/")
 def execute_handler():
     """Only executes the query, does not try to yield the benchmark"""
-    client = get_client()
+    client = get_client(f.request.args.get("token"))
     query = f.request.args.get("query")
     if not query:
         f.abort(400, description="No query specified.")
@@ -234,13 +224,13 @@ def execute_handler():
 
 @api.route("/benchmark/execute")
 def benchmark_execute_handler():
-    client = get_client()
+    client = get_client(f.request.args.get("token"))
     query = f.request.args.get("query")
     if not query:
         f.abort(400, description="No query specified.")
 
     dataset_name = client.get_current_dataset()
-    print("dataset_name:", dataset_name)
+    print("Client's current dataset:", dataset_name)
     all_benchmarks = find_benchmarks_for_dataset(dataset_name)
     benchmarks_with_query = [
         benchmark for benchmark in all_benchmarks if query in benchmark["nl_queries"]
@@ -255,7 +245,7 @@ def benchmark_execute_handler():
 
 @api.route("/model", methods=["GET", "POST"])
 def model_handler():
-    client = get_client()
+    client = get_client(f.request.args.get("token"))
     if f.request.method == "GET":
         # If GET, returns the client's current model
         return {
@@ -268,7 +258,9 @@ def model_handler():
         new_model = form["model"]
         print("Switching model to", new_model)
         if not new_model:
-            f.abort(400, description="No dataset specified.")
+            response = f.jsonify({"message": f"No model specified."})
+            response.status_code = 400
+            return response
         if new_model not in SUPPORTED_NL2VIZ_MODELS:
             f.abort(
                 404,
@@ -280,3 +272,11 @@ def model_handler():
             "message": f"Successfully switched model to {new_model}",
             "response": new_model,
         }
+
+
+@api.route("/models")
+def models_handler():
+    return {
+        "message": "Successfully fetched all supported models",
+        "response": list(SUPPORTED_NL2VIZ_MODELS),
+    }

@@ -66,31 +66,9 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
           <div className="flex flex-col justify-start items-center gap-5">
             <VegaLite
               spec={{
-                data: {
-                  values: [
-                    { x_data: 'County Clare', y_data: 3 },
-                    { x_data: 'County Cork', y_data: 1 },
-                    { x_data: 'County Dublin', y_data: 1 },
-                    { x_data: 'County Laois', y_data: 1 },
-                    { x_data: 'County Louth', y_data: 1 },
-                    { x_data: 'County Tipperary', y_data: 2 },
-                    { x_data: 'County Wicklow', y_data: 1 },
-                  ],
-                },
-                mark: 'bar',
-                encoding: {
-                  x: {
-                    field: 'x_data',
-                    type: 'nominal',
-                    title: 'Location',
-                    sort: { op: 'sum', field: 'y_data', order: 'ascending' },
-                  },
-                  y: {
-                    field: 'y_data',
-                    type: 'quantitative',
-                    title: 'count(*)',
-                  },
-                },
+                ...benchmarkVizData[0].vega_spec,
+                resize: true,
+                contains: 'padding',
                 width: 500,
                 height: 500,
                 background: '#fafafa',
@@ -111,7 +89,7 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
               >
                 Previous visualization
               </button> */}
-              <h2 className='text-2xl'>BENCHMARK</h2>
+              <h2 className="text-2xl">BENCHMARK</h2>
               {/* <button
                 disabled={vizIndex >= nlVizData.visList.length - 1}
                 onClick={() => setVizIndex(vizIndex + 1)}

@@ -12,7 +12,7 @@ CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
 app.config["CSV_DATA"] = os.path.join("server", "assets", "data")
 app.config["BENCHMARK_PATH"] = os.path.join("server", "assets", "benchmark")
-app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = SESSION_TYPE
 Session(app)
 

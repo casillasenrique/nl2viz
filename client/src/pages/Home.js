@@ -89,39 +89,34 @@ const SERVER_URL = 'http://localhost:5000';
 export default function Home() {
   const [vizQuery, setVizQuery] = useState('');
   const [loading, setLoading] = useState(true);
-  const [selectedModel, setSelectedModel] = useState(
-    '--Please choose an option--',
-  );
-  const [selectedDataset, setSelectedDataset] = useState(
-    '--Please choose an option--',
-  );
+  const [selectedModel, setSelectedModel] = useState(null);
+  const [selectedDataset, setSelectedDataset] = useState(null);
   const [availableQueries, setAvailableQueries] = useState([]);
   const [availableDatasets, setAvailableDatasets] = useState([]);
+  const [availableModels, setAvailableModels] = useState([]);
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
   const [benchmarkVizData, setBenchmarkVizData] = useState(null);
 
   useEffect(() => {
-    axios
-      .get(`${SERVER_URL}/api/datasets`)
-      .then((res) => {
-        const datasets = res.data.response;
-        setAvailableDatasets(res.data.response);
-        axios
-          .get(`${SERVER_URL}/api/benchmark/${'cinema'}/queries`)
-          .then((res) => {
-            setAvailableQueries(res.data.response);
-            setLoading(false);
-          });
+    Promise.all([
+      axios.get(`${SERVER_URL}/api/datasets`),
+      axios.get(`${SERVER_URL}/api/models`),
+    ])
+      .then(([datasets, models]) => {
+        setAvailableDatasets(datasets.data.response);
+        setAvailableModels(models.data.response);
+        setLoading(false);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => toast.error(err));
   }, []);
 
-  const handleChangeDataset = (e) => {
-    const newDataset = e.target.value;
+  const handleChangeDataset = (newDataset) => {
     setLoading(true);
     axios
-      .post(`${SERVER_URL}/api/dataset`, { dataset: newDataset })
+      .post(`${SERVER_URL}/api/dataset?${document.cookie}`, {
+        dataset: newDataset,
+      })
       .then((res) => {
         console.log(res.data.message);
         const dataset = res.data.response;
@@ -144,12 +139,27 @@ export default function Home() {
       });
   };
 
+  const handleChangeModel = (newModel) => {
+    axios
+      .post(`${SERVER_URL}/api/model?${document.cookie}`, { model: newModel })
+      .then((res) => {
+        const model = res.data.response;
+        setSelectedModel(model);
+        toast.success(res.data.message);
+      })
+      .catch((err) => {
+        toast.error(`Error: ${err.response.data.message}`);
+      });
+  };
+
   const handleSubmit = (submittedQuery) => {
     setLoadingViz(true);
     console.log('Submitting!');
     if (availableQueries.includes(submittedQuery)) {
       axios
-        .get(`${SERVER_URL}/api/benchmark/execute?query=${submittedQuery}`)
+        .get(
+          `${SERVER_URL}/api/benchmark/execute?query=${submittedQuery}&${document.cookie}`,
+        )
         .then((res) => {
           setNlVizData(res.data.response.model_result);
           setBenchmarkVizData(res.data.response.benchmark);
@@ -161,7 +171,9 @@ export default function Home() {
       return;
     }
     axios
-      .get(`${SERVER_URL}/api/execute?query=${submittedQuery}`)
+      .get(
+        `${SERVER_URL}/api/execute?query=${submittedQuery}&${document.cookie}`,
+      )
       .then((res) => {
         setNlVizData(res.data.response);
       })
@@ -182,10 +194,6 @@ export default function Home() {
       </p>
 
       <span className="mt-10">
-        <label htmlFor="query" className="text-gray-200 text-lg">
-          Enter what you want to vizualize.
-        </label>
-
         <QueryForm
           handleSubmit={handleSubmit}
           availableQueries={availableQueries}
@@ -193,7 +201,8 @@ export default function Home() {
           availableDatasets={availableDatasets}
           handleUpdateDataset={handleChangeDataset}
           currentModel={selectedModel}
-          handleUpdateModel={setSelectedModel}
+          availableModels={availableModels}
+          handleUpdateModel={handleChangeModel}
           loading={loading}
         />
       </span>

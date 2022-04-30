@@ -42,20 +42,24 @@ const QuerySearchBar = ({
   };
 
   return (
-    <div className="QuerySearchBar relative flex flex-col">
+    <div className="QuerySearchBar w-full relative flex flex-col">
       <input
-        className="w-[500px] h-full pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300"
+        className="h-full pb-1 pr-1 mr-1 bg-transparent border-b-2 border-yellow-500  focus:border-gray-100 focus:outline-none transition-colors duration-300 placeholder:text-gray-500"
         type="text"
         name="Vizualization query"
         value={currentQuery}
         onFocus={() => setFocused(true)}
         // Timeout since we need to wait for the button to be pressed
         onBlur={() => setTimeout(() => setFocused(false), 200)}
+        placeholder="Enter a sentence of what you want to vizualize"
         id=""
-        onChange={(e) => handleUpdate(e.target.value)}
+        onChange={(e) => {
+          e.preventDefault();
+          handleUpdate(e.target.value);
+        }}
       />
       {focused && shownQueries.queries.length > 0 && (
-        <ul className="absolute z-10 w-[500px] rounded-md p-2 flex flex-col bg-slate-800  max-h-96 top-12 overflow-scroll overflow-x-hidden align-baseline shadow-md shadow-gray-700">
+        <ul className="absolute z-10 rounded-md p-2 flex flex-col bg-slate-800  max-h-96 top-12 overflow-scroll overflow-x-hidden align-baseline shadow-md shadow-gray-700">
           {shownQueries.queries.map((query, i) => (
             <Suggestion
               key={`${i}${query}`}
