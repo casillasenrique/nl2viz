@@ -2,7 +2,12 @@ import { memo, useEffect, useState } from 'react';
 import Loader from './Loader';
 import { Vega, VegaLite } from 'react-vega';
 
-const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
+const Dashboard = ({
+  nlVizData,
+  loadingViz,
+  benchmarkVizData,
+  handleSubmitQuery,
+}) => {
   const [vizIndex, setVizIndex] = useState(0);
 
   useEffect(() => {
@@ -10,7 +15,7 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
     setVizIndex(0);
   }, [nlVizData]);
 
-  const getTitle = () => {
+  const showTitle = () => {
     if (!nlVizData && !loadingViz) {
       return (
         <h3 className="text-xl">
@@ -28,11 +33,13 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
     return (
       <div className="flex flex-col gap-3">
         <h3 className="text-gray-200 text-lg">
-        <b>Showing: </b>"{nlVizData.query}"
+          <b>Showing: </b>"{nlVizData.query}"
         </h3>
         {benchmarkVizData && (
-          <div className='text-left'>
-            <h3 className="text-gray-400"><b>Related queries:</b></h3>
+          <div>
+            <h3 className="text-gray-400">
+              <b>Equivalent queries:</b>
+            </h3>
             <ol className="text-gray-400">
               {benchmarkVizData[0].nl_queries
                 .filter((q) => {
@@ -40,8 +47,12 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
                   return q.toLowerCase() !== nlVizData.query_raw.toLowerCase();
                 })
                 .map((q) => (
-                  <li key={q}>
-                    <a href={`/\?query=${q}`}>"{q}"</a>
+                  <li
+                    key={q}
+                    className="w-fit hover:text-yellow-500 hover:cursor-pointer transition-colors"
+                    onClick={() => handleSubmitQuery(q)}
+                  >
+                    "{q}"{/* <a href={`/\?query=${q}`}></a> */}
                   </li>
                 ))}
             </ol>
@@ -51,114 +62,166 @@ const Dashboard = ({ nlVizData, loadingViz, benchmarkVizData }) => {
     );
   };
 
+  const showModelViz = () => {
+    if (loadingViz) {
+      return <Loader />;
+    }
+
+    if (!nlVizData?.visList.length) {
+      return (
+        <h3 className="text-gray-200 text-lg">
+          <b>The model did not produce a visualization!</b>
+        </h3>
+      );
+    }
+
+    return (
+      <VegaLite
+        spec={{
+          ...nlVizData.visList[vizIndex].vlSpec,
+          resize: true,
+          contains: 'padding',
+          width: 500,
+          height: 400,
+          background: '#fafafa',
+        }}
+        actions={{
+          export: true,
+          source: false,
+          compiled: false,
+          editor: true,
+        }}
+        downloadFileName={'Just Name It'}
+      />
+    );
+  };
+
+  const showBenchmarkViz = () => {
+    if (loadingViz) {
+      return <Loader />;
+    }
+
+    if (!benchmarkVizData) {
+      return (
+        <h3 className="text-gray-200 text-lg">
+          <b>Could not find a benchmark associated with this NL query</b>
+        </h3>
+      );
+    }
+
+    return (
+      <VegaLite
+        spec={{
+          ...benchmarkVizData[0].vega_spec,
+          resize: true,
+          contains: 'padding',
+          width: 500,
+          height: 400,
+          background: '#fafafa',
+        }}
+        actions={{
+          export: true,
+          source: false,
+          compiled: false,
+          editor: true,
+        }}
+        downloadFileName={'Just Name It'}
+      />
+    );
+  };
+
   return (
-    <span className="flex w-full justify-between bg-slate-900">
-      <div className="Dashboard-left w-1/6 resize-x p-1 mr-5 text-left overflow-x-scroll bg-gray-800">
-        <pre id="json">
-          {nlVizData && !loadingViz ? (
+    <span className="max-h-screen flex w-full justify-between bg-slate-900">
+      <div className="Dashboard-left relative p-1 rounded-sm w-1/6 resize-x text-left bg-gray-800">
+        <h2 className="absolute backdrop-blur-md  text-gray-400">
+          <code>Raw model output</code>
+        </h2>
+        <pre id="json" className="h-full overflow-y-scroll">
+          {nlVizData && !loadingViz && (
             <code> {JSON.stringify(nlVizData, null, 4)}</code>
-          ) : (
-            <code>No data</code>
           )}
         </pre>
       </div>
-      <div className="Dashboard-center w-2/3 flex flex-col gap-2">
-        <div className='my-5'>
-        {getTitle()}
-        </div>
-        <div className="sticky bg-black top-3 flex w-full h-[500px] justify-center">
-          {loadingViz && <Loader />}
-          {nlVizData?.visList.length && !loadingViz && (
-            <div className="flex flex-col justify-start items-center gap-5">
-              <VegaLite
-                spec={{
-                  ...nlVizData.visList[vizIndex].vlSpec,
-                  resize: true,
-                  contains: 'padding',
-                  width: 500,
-                  height: 500,
-                  background: '#fafafa',
-                }}
-                actions={{
-                  export: true,
-                  source: false,
-                  compiled: false,
-                  editor: true,
-                }}
-                downloadFileName={'Just Name It'}
-              />
-              <span className="flex gap-5 items-center">
-                <button
-                  disabled={vizIndex <= 0}
-                  onClick={() => setVizIndex(vizIndex - 1)}
-                  className="btn-primary"
-                >
-                  Previous visualization
-                </button>
-                <label>{vizIndex + 1}</label>
-                <button
-                  disabled={vizIndex >= nlVizData.visList.length - 1}
-                  onClick={() => setVizIndex(vizIndex + 1)}
-                  className="btn-primary"
-                >
-                  Next visualization
-                </button>
-              </span>
+      <div className="Dashboard-center text-left w-2/3 flex flex-col gap-2">
+        <div className="my-5 px-3">{showTitle()}</div>
+        <div className="Dashboard-visualizations bg-slate-800 rounded-md flex">
+          <div className="Dashboard-model-viz p-2 flex flex-col gap-1 w-1/2">
+            <h2 className="text-gray-400 text-center">
+              <code>Model Output</code>
+            </h2>
+            <div className="h-[500px] flex justify-center items-center border-2 border-gray-700 rounded-md">
+              {showModelViz()}
             </div>
-          )}
-          {benchmarkVizData && !loadingViz && (
-            <div className="flex flex-col justify-start items-center gap-5">
-              <VegaLite
-                spec={{
-                  ...benchmarkVizData[0].vega_spec,
-                  resize: true,
-                  contains: 'padding',
-                  width: 500,
-                  height: 500,
-                  background: '#fafafa',
-                }}
-                actions={{
-                  export: true,
-                  source: false,
-                  compiled: false,
-                  editor: true,
-                }}
-                downloadFileName={'Just Name It'}
-              />
-              <span className="flex gap-5 items-center">
-                {/* <button
-                disabled={vizIndex <= 0}
-                onClick={() => setVizIndex(vizIndex - 1)}
-                className="btn-primary"
-              >
-                Previous visualization
-              </button> */}
-                <h2 className="text-2xl">BENCHMARK</h2>
-                {/* <button
-                disabled={vizIndex >= nlVizData.visList.length - 1}
-                onClick={() => setVizIndex(vizIndex + 1)}
-                className="btn-primary"
-              >
-                Next visualization
-              </button> */}
-              </span>
+          </div>
+          <div className="Dashboard-benchmark-viz p-2 flex flex-col gap-1 w-1/2">
+            <h2 className="text-gray-400 text-center">
+              <code>Benchmark Output</code>
+            </h2>
+            <div className="h-[500px] p-2 flex justify-center items-center border-2 border-gray-700 rounded-md">
+              {showBenchmarkViz()}
             </div>
-          )}
+          </div>
         </div>
-      </div>
-      <div className="Dashboard-right w-1/6 text-left">
-        <h2 className="text-xl">Visualization info:</h2>
-        {nlVizData && !loadingViz && (
-          <ul>
-            <li>
-              <b>Number of visualizations:</b> {nlVizData.visList.length}
-            </li>
-            <li>
-              <b> Attributes shown: </b>
-              {nlVizData.visList[vizIndex]?.attributes.join(', ')}
-            </li>
-          </ul>
+        {nlVizData?.visList.length > 0 && (
+          <span className="w-1/2 flex gap-5 justify-center items-center">
+            <button
+              disabled={vizIndex <= 0}
+              onClick={() => setVizIndex(vizIndex - 1)}
+              className="btn-primary"
+            >
+              Previous visualization
+            </button>
+            <label className="text-lg text-gray-300">
+              {vizIndex + 1}/{nlVizData.visList.length || 0}
+            </label>
+            <button
+              disabled={vizIndex >= nlVizData.visList.length - 1}
+              onClick={() => setVizIndex(vizIndex + 1)}
+              className="btn-primary"
+            >
+              Next visualization
+            </button>
+          </span>
         )}
+      </div>
+      <div className="Dashboard-right p-3 w-1/6 text-left text-gray-300 flex flex-col gap-3">
+        <div>
+          <h2 className="text-lg text-gray-200">Visualization info:</h2>
+          {nlVizData && !loadingViz && (
+            <ul>
+              <li>
+                Model name: <code className="text-gray-200">{'TODO'}</code>
+              </li>
+              <li>
+                Visualization Count:{' '}
+                <code className="text-gray-200">
+                  {nlVizData.visList.length}
+                </code>
+              </li>
+              <li>
+                Attributes shown:{' '}
+                <code className="text-gray-200">
+                  {nlVizData.visList[vizIndex]?.attributes.join(', ')}
+                </code>
+              </li>
+              <li>
+                Associated benchmarks:{' '}
+                <code className="text-gray-200">{benchmarkVizData.length}</code>
+              </li>
+            </ul>
+          )}
+        </div>
+        <pre
+          id="json"
+          className="rounded-md h-full overflow-y-scroll bg-gray-800"
+        >
+          <h2 className="absolute backdrop-blur-md ml-2 pt-1 text-gray-400">
+            <code>Raw benchmark output</code>
+          </h2>
+          {benchmarkVizData && !loadingViz && (
+            <code> {JSON.stringify(benchmarkVizData, null, 4)}</code>
+          )}
+        </pre>
       </div>
     </span>
   );

@@ -159,6 +159,7 @@ export default function Home() {
         nlVizData={nlVizData}
         benchmarkVizData={benchmarkVizData}
         loadingViz={loadingViz}
+        handleSubmitQuery={handleSubmit}
       />
       <ToastContainer theme="dark" />
     </div>
