@@ -4,6 +4,7 @@ import QueryForm from '../components/QueryForm';
 import Dashboard from '../components/Dashboard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loader from '../components/Loader';
 
 const SERVER_URL = 'http://localhost:5000';
 
@@ -26,15 +27,34 @@ export default function Home() {
       axios.get(`${SERVER_URL}/api/models`), // All models
       axios.get(`${SERVER_URL}/api/model?${document.cookie}`), // Current model
     ])
-      .then(([datasets, currentDataset, models, currentModel]) => {
-        setAvailableDatasets(datasets.data.response);
-        setAvailableModels(models.data.response);
-        setSelectedDataset(currentDataset.data.response);
-        setSelectedModel(currentModel.data.response);
-        setLoading(false);
+      .then(([datasetsRes, currentDatasetRes, modelsRes, currentModelRes]) => {
+        const [datasets, currentDataset, models, currentModel] = [
+          datasetsRes.data.response,
+          currentDatasetRes.data.response,
+          modelsRes.data.response,
+          currentModelRes.data.response,
+        ];
+        setAvailableDatasets(datasets);
+        setAvailableModels(models);
+        setSelectedDataset(currentDataset);
+        setSelectedModel(currentModel);
+
+        if (currentDataset) {
+          fetchAvailableQueries(currentDataset).then((queries) => {
+            setAvailableQueries(queries);
+            setLoading(false);
+          });
+        }
       })
       .catch((err) => toast.error(err));
   }, []);
+
+  const fetchAvailableQueries = async (dataset) => {
+    return axios
+      .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
+      .then((res) => res.data.response)
+      .catch((err) => toast.error(err));
+  };
 
   const handleChangeDataset = (newDataset) => {
     setLoading(true);
@@ -47,17 +67,13 @@ export default function Home() {
         const dataset = res.data.response;
         setSelectedDataset(dataset);
         toast.success(res.data.message);
-        axios
-          .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
-          .then((res) => {
-            const newAvailableQueries = res.data.response;
-            console.log(newAvailableQueries);
-            if (!newAvailableQueries.length) {
-              toast.warn('No queries available for this dataset.');
-            }
-            setAvailableQueries(res.data.response);
-            setLoading(false);
-          });
+        fetchAvailableQueries(dataset).then((queries) => {
+          if (!queries.length) {
+            toast.warn('No queries available for this dataset.');
+          }
+          setAvailableQueries(queries);
+          setLoading(false);
+        });
       })
       .catch((err) => {
         toast.error(`Error: ${err.response.data.message}`);
@@ -118,7 +134,7 @@ export default function Home() {
         natural language to visualization systems.
       </p>
 
-      <span className="mt-10">
+      <span className="flex relative">
         <QueryForm
           handleSubmit={handleSubmit}
           availableQueries={availableQueries}
@@ -130,24 +146,13 @@ export default function Home() {
           handleUpdateModel={handleChangeModel}
           loading={loading}
         />
+        {loading && (
+          <div className="absolute -left-16 top-5">
+            <Loader />
+          </div>
+        )}
       </span>
 
-      <span className="flex items-end gap-2">
-        <div className="mt-10 flex justify-center flex-col text-center">
-          {nlVizData && !loadingViz ? (
-            <>
-              <h3 className="text-xl">Current visualization query:</h3>
-              <p className="text-gray-200">"{nlVizData.query}"</p>
-            </>
-          ) : (
-            <h3 className="text-xl">
-              {loadingViz
-                ? 'Generating visualization(s)...'
-                : 'Enter a query above to get started.'}
-            </h3>
-          )}
-        </div>
-      </span>
       {/* Show the submitted query */}
 
       <Dashboard

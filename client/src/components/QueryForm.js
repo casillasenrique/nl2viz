@@ -78,7 +78,7 @@ const QueryForm = ({
             name="model"
             id="model-select"
             form={'query'}
-            value={currentModel}
+            value={currentModel || ''}
             onChange={newModelSelected}
           >
             {availableModels.map((model) => (
@@ -96,7 +96,7 @@ const QueryForm = ({
             className="dropdown"
             name="dataset"
             id="dataset-select"
-            value={currentDataset}
+            value={currentDataset || ''}
             onChange={newDatasetSelected}
           >
             {availableDatasets.map((dataset, i) => (
