@@ -1,15 +1,20 @@
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory, request, session
 from flask_restful import Api
 from flask_cors import CORS
 from server.api import api
+from flask_session import Session
 import os
 
 
 app = Flask(__name__, static_url_path="", static_folder="client/build")
+SESSION_TYPE = 'filesystem'
 CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
 app.config["CSV_DATA"] = os.path.join("server", "assets", "data")
-app.config["BENCHMARK_DATA"] = os.path.join("server", "assets", "benchmark")
+app.config["BENCHMARK_PATH"] = os.path.join("server", "assets", "benchmark")
+app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_TYPE"] = SESSION_TYPE
+Session(app)
 
 
 @app.route("/", defaults={"path": ""})

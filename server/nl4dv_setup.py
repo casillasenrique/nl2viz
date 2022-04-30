@@ -45,7 +45,7 @@ def get_nl4dv_instance():
     return nl4dv_instance
 
 
-def switch_dataset(nl4dv_instance: NL4DV, dataset_name, is_benchmark=False):
+def switch_dataset(nl2dv_instance: NL4DV, dataset_name, is_benchmark=False):
     # Switch the dataset
     if is_benchmark:
         nl4dv_instance.set_data(

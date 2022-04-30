@@ -140,3 +140,5 @@ notes.md
 /stanford-corenlp*
 
 .vscode
+
+/flask_session
