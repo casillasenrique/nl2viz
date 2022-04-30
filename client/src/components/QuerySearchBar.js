@@ -54,7 +54,7 @@ const QuerySearchBar = ({
         id=""
         onChange={(e) => handleUpdate(e.target.value)}
       />
-      {focused && (
+      {focused && shownQueries.queries.length > 0 && (
         <ul className="absolute z-10 w-[500px] rounded-md p-2 flex flex-col bg-slate-800  max-h-96 top-12 overflow-scroll overflow-x-hidden align-baseline shadow-md shadow-gray-700">
           {shownQueries.queries.map((query, i) => (
             <Suggestion
