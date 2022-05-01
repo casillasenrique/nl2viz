@@ -1,5 +1,5 @@
 -f https://download.pytorch.org/whl/torch_stable.html
--f https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz#egg=en_core_web_sm
+https://github.com/explosion/spacy-models/releases/download/en_vectors_web_sm-2.1.0/en_vectors_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
 beautifulsoup4==4.10.0
 Flask==2.1.1
 Flask-Cors==3.0.10
