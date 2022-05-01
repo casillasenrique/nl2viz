@@ -23,32 +23,41 @@ export default function Home() {
   useEffect(() => {
     Promise.all([
       axios.get(`${SERVER_URL}/api/datasets`), // All datasets
-      axios.get(`${SERVER_URL}/api/dataset?${document.cookie}`), // Current dataset
       axios.get(`${SERVER_URL}/api/models`), // All models
-      axios.get(`${SERVER_URL}/api/model?${document.cookie}`), // Current model
+      axios.get(`${SERVER_URL}/api/model?${document.cookie}`),
     ])
-      .then(([datasetsRes, currentDatasetRes, modelsRes, currentModelRes]) => {
-        const [datasets, currentDataset, models, currentModel] = [
+      .then(([datasetsRes, modelsRes, currentModelRes]) => {
+        const [datasets, models, currentModel] = [
           datasetsRes.data.response,
-          currentDatasetRes.data.response,
           modelsRes.data.response,
           currentModelRes.data.response,
         ];
         setAvailableDatasets(datasets);
         setAvailableModels(models);
 
-        if (currentDataset) {
-          setSelectedDataset(currentDataset);
-        }
         if (currentModel) {
           setSelectedModel(currentModel);
         }
 
-        if (currentDataset) {
-          fetchAvailableQueries(currentDataset).then((queries) => {
-            setAvailableQueries(queries);
+        // Then fetch the dataset to try to avoid concurrency issues
+        axios
+          .get(`${SERVER_URL}/api/dataset?${document.cookie}`)
+          .then((res) => {
+            const currentDataset = res.data.response;
+            fetchAvailableQueries(currentDataset)
+              .then((queries) => {
+                if (currentDataset) {
+                  setSelectedDataset(currentDataset);
+                  setAvailableQueries(queries);
+                }
+              })
+              .catch((err) => {
+                toast.error(err.response.data.message);
+              });
+          })
+          .catch((err) => {
+            toast.error(err.response.data.message);
           });
-        }
       })
       .catch((err) => toast.error(err))
       .finally(() => setLoading(false));

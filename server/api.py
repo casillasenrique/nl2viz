@@ -98,6 +98,7 @@ class Client:
     def switch_dataset(self, new_dataset):
         _switch_dataset(self.nl2viz_instance, self.model_type, new_dataset)
         self.dataset = new_dataset
+        print('Successfully switched dataset to', new_dataset)
 
     def execute_query(self, query: str) -> dict:
         return _execute_query(self.nl2viz_instance, self.model_type, query)
@@ -121,6 +122,7 @@ def get_client(client_id) -> Client:
     for user in USERS:
         if user.client_id == client_id:
             print("found client", user.client_id)
+            print(user)
             return user
     else:
         new_client = Client(client_id, set_defaults=False)
