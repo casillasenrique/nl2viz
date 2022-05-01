@@ -1,28 +1,89 @@
 from server.model_setup import get_ncNetInstance, get_nl4dv_instance
 
-from flask_restful import Resource, abort, reqparse
-from flask_cors import cross_origin
 from html import escape
 import flask as f
 import json
 import os
-import re
-import uuid
+from uuid import uuid4
 
 
 URL = "http://localhost:5000"
 SUPPORTED_NL2VIZ_MODELS = {"nl4dv", "ncNet"}
 USERS = []
 
-# ncNetInstance = get_ncNetInstance()
-# print(ncNetInstance.show_dataset())
-# viz = ncNetInstance.nl2vis("create a pie chart showing the different capacity",)[
-#     0
-# ]  # nl2vis will return a list a [Vis, VegaLiteSpec]
-# print(viz.spec)
-# nl4dv_instance = get_nl4dv_instance()
-
 api = f.Blueprint("api", __name__)
+
+
+class Client:
+    def __init__(self, client_id, set_defaults=False) -> None:
+        self.client_id = client_id
+        self.dataset = ""  # The name of the dataset (includes the extension)
+        self.model_type = ""  # The type of model (e.g. "nl4dv" or "ncNet")
+        self.nl2viz_instance = None
+
+        if set_defaults:
+            self.dataset = "cinema.csv"
+            self.set_nl2viz_instance("nl4dv", self.dataset)
+
+    def set_nl2viz_instance(self, model_type, starting_dataset: str = "cinema.csv"):
+        self.model_type = model_type
+        if model_type == "nl4dv":
+            self.nl2viz_instance = get_nl4dv_instance()
+        elif model_type == "ncNet":
+            self.nl2viz_instance = get_ncNetInstance()
+
+        if starting_dataset:
+            self.dataset = starting_dataset
+            _switch_dataset(self.nl2viz_instance, self.model_type, self.dataset)
+
+    def get_current_dataset(self):
+        return self.dataset
+
+    def switch_dataset(self, new_dataset):
+        _switch_dataset(self.nl2viz_instance, self.model_type, new_dataset)
+        self.dataset = new_dataset
+        print("Successfully switched dataset to", new_dataset)
+
+    def execute_query(self, query: str) -> dict:
+        return _execute_query(self.nl2viz_instance, self.model_type, query)
+
+
+def _get_client(with_message=False):
+    if "client" in f.session:
+        client = f.session["client"]
+        message = "Welcome back, " + client.client_id
+    else:
+        new_client_id = str(uuid4())
+        client = Client(new_client_id, set_defaults=True)
+        f.session["client"] = client
+        message = "Hello, " + client.client_id
+
+    if with_message:
+        return {
+            "message": message,
+            "client": client,
+        }
+    return client
+
+
+def _update_client(new_client):
+    f.session["client"] = new_client
+
+
+def _jsonify_client(client: Client):
+    return {
+        "client_id": client.client_id,
+        "model_type": client.model_type,
+        "dataset": client.dataset,
+        "has_instance": client.nl2viz_instance is not None,
+    }
+
+
+@api.route("/client")
+def client_handler():
+    res = _get_client(with_message=True)
+    res["client"] = _jsonify_client(res["client"])
+    return f.jsonify(res)
 
 
 def _switch_dataset(nl2viz_instance, model_type, dataset):
@@ -70,72 +131,10 @@ def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
         return result
 
 
-class Client:
-    def __init__(self, client_id, set_defaults=False) -> None:
-        self.client_id = client_id
-        self.dataset = ""  # The name of the dataset (includes the extension)
-        self.model_type = ""  # The type of model (e.g. "nl4dv" or "ncNet")
-        self.nl2viz_instance = None
-
-        if set_defaults:
-            self.dataset = "cinema.csv"
-            self.set_nl2viz_instance("nl4dv", self.dataset)
-
-    def set_nl2viz_instance(self, model_type, starting_dataset: str = "cinema.csv"):
-        self.model_type = model_type
-        if model_type == "nl4dv":
-            self.nl2viz_instance = get_nl4dv_instance()
-        elif model_type == "ncNet":
-            self.nl2viz_instance = get_ncNetInstance()
-
-        if starting_dataset:
-            self.dataset = starting_dataset
-            _switch_dataset(self.nl2viz_instance, self.model_type, self.dataset)
-
-    def get_current_dataset(self):
-        return self.dataset
-
-    def switch_dataset(self, new_dataset):
-        _switch_dataset(self.nl2viz_instance, self.model_type, new_dataset)
-        self.dataset = new_dataset
-        print('Successfully switched dataset to', new_dataset)
-
-    def execute_query(self, query: str) -> dict:
-        return _execute_query(self.nl2viz_instance, self.model_type, query)
-
-
-def jsonify_user(user: Client):
-    return {
-        "client_id": user.client_id,
-        "model_type": user.model_type,
-        "dataset": user.dataset,
-        "has_instance": user.nl2viz_instance is not None,
-    }
-
-
-@api.route("/clients")
-def clients_handler():
-    return {"clients": [jsonify_user(user) for user in USERS]}
-
-
-def get_client(client_id) -> Client:
-    for user in USERS:
-        if user.client_id == client_id:
-            print("found client", user.client_id)
-            print(user)
-            return user
-    else:
-        new_client = Client(client_id, set_defaults=False)
-        USERS.append(new_client)
-        print("User created", client_id)
-        return new_client
-
-
 @api.route("/dataset", methods=["GET", "POST"])
 def dataset_handler():
     benchmark_data_path = os.path.join(f.current_app.config["BENCHMARK_PATH"], "data")
-
-    client = get_client(f.request.args.get("token"))
+    client = _get_client()
     if f.request.method == "GET":
         try:
             dataset_name = client.get_current_dataset()
@@ -222,7 +221,7 @@ def benchmark_handler(dataset_name: str):
 @api.route("/execute/")
 def execute_handler():
     """Only executes the query, does not try to yield the benchmark"""
-    client = get_client(f.request.args.get("token"))
+    client = _get_client()
     query = f.request.args.get("query")
     if not query:
         f.abort(400, description="No query specified.")
@@ -236,7 +235,7 @@ def execute_handler():
 
 @api.route("/benchmark/execute")
 def benchmark_execute_handler():
-    client = get_client(f.request.args.get("token"))
+    client = _get_client()
     query = f.request.args.get("query")
     if not query:
         f.abort(400, description="No query specified.")
@@ -257,7 +256,7 @@ def benchmark_execute_handler():
 
 @api.route("/model", methods=["GET", "POST"])
 def model_handler():
-    client = get_client(f.request.args.get("token"))
+    client = _get_client()
     if f.request.method == "GET":
         # If GET, returns the client's current model
         return {
