@@ -23,6 +23,7 @@ export default function Home() {
   useEffect(() => {
     Promise.all([
       axios.get(`${SERVER_URL}/api/datasets`), // All datasets
+      axios.get(`${SERVER_URL}/api/model?${document.cookie}`),
       axios.get(`${SERVER_URL}/api/models`), // All models
     ])
       .then(([datasetsRes, modelsRes, currentModelRes]) => {
