@@ -7,7 +7,7 @@ import os
 from uuid import uuid4
 
 
-URL = "http://localhost:5000"
+URL = "https://nl2viz.herokuapp.com"
 SUPPORTED_NL2VIZ_MODELS = {"nl4dv", "ncNet"}
 USERS = []
 

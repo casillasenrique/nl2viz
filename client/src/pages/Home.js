@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../components/Loader';
 
-const SERVER_URL = 'http://localhost:5000';
+const SERVER_URL = 'https://nl2viz.herokuapp.com';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +32,7 @@ export default function Home() {
           modelsRes.data.response,
           currentModelRes.data.response,
         ];
+        datasets.sort()
         setAvailableDatasets(datasets);
         setAvailableModels(models);
 
@@ -48,7 +49,6 @@ export default function Home() {
               fetchAvailableQueries(currentDataset)
                 .then((queries) => {
                   setSelectedDataset(currentDataset);
-                  queries.sort();
                   setAvailableQueries(queries);
                 })
                 .catch((err) => {
@@ -86,7 +86,6 @@ export default function Home() {
           if (!queries.length) {
             toast.warn('No queries available for this dataset.');
           }
-          queries.sort();
           setAvailableQueries(queries);
         });
       })
