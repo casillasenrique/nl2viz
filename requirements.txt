@@ -18,4 +18,5 @@ pytest-cov~=2.6.0
 python-Levenshtein~=0.12.0
 si-prefix~=1.2.2
 spacy~=2.2
+py_stringsimjoin
 gunicorn

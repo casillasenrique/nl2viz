@@ -41,7 +41,7 @@ const Dashboard = ({
             "{nlVizData.query}"
           </p>
         </h3>
-        {benchmarkVizData.length && (
+        {benchmarkVizData?.length && (
           <div>
             <h3 className="text-gray-400">
               <b>Equivalent queries:</b>
