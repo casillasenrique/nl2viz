@@ -18,4 +18,4 @@ python-Levenshtein~=0.12.0
 si-prefix~=1.2.2
 spacy~=2.2
 gunicorn
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
+-e https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz#egg=en_core_web_sm
