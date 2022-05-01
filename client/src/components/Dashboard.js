@@ -7,6 +7,7 @@ const Dashboard = ({
   loadingViz,
   benchmarkVizData,
   handleSubmitQuery,
+  noQueryYet,
 }) => {
   const [vizIndex, setVizIndex] = useState(0);
 
@@ -16,7 +17,7 @@ const Dashboard = ({
   }, [nlVizData]);
 
   const showTitle = () => {
-    if (!nlVizData && !loadingViz) {
+    if (noQueryYet && !loadingViz) {
       return (
         <h3 className="text-xl">
           <b>Enter a query above to get started.</b>
@@ -41,7 +42,7 @@ const Dashboard = ({
             "{nlVizData.query}"
           </p>
         </h3>
-        {benchmarkVizData?.length && (
+        {benchmarkVizData?.length > 0 && (
           <div>
             <h3 className="text-gray-400">
               <b>Equivalent queries:</b>
@@ -71,6 +72,10 @@ const Dashboard = ({
   const showModelViz = () => {
     if (loadingViz) {
       return <Loader />;
+    }
+
+    if (noQueryYet) {
+      return <></>
     }
 
     if (!nlVizData?.visList.length) {
@@ -105,6 +110,10 @@ const Dashboard = ({
   const showBenchmarkViz = () => {
     if (loadingViz) {
       return <Loader />;
+    }
+
+    if (noQueryYet) {
+      return <></>
     }
 
     if (!benchmarkVizData?.length) {

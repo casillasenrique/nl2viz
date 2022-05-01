@@ -9,7 +9,6 @@ import Loader from '../components/Loader';
 const SERVER_URL = 'http://localhost:5000';
 
 export default function Home() {
-  const [vizQuery, setVizQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedDataset, setSelectedDataset] = useState(null);
@@ -19,6 +18,7 @@ export default function Home() {
   const [loadingViz, setLoadingViz] = useState(false);
   const [nlVizData, setNlVizData] = useState(null);
   const [benchmarkVizData, setBenchmarkVizData] = useState(null);
+  const [noQueryYet, setNoQueryYet] = useState(true);
 
   useEffect(() => {
     Promise.all([
@@ -44,16 +44,17 @@ export default function Home() {
           .get(`${SERVER_URL}/api/dataset?${document.cookie}`)
           .then((res) => {
             const currentDataset = res.data.response;
-            fetchAvailableQueries(currentDataset)
-              .then((queries) => {
-                if (currentDataset) {
+            if (currentDataset) {
+              fetchAvailableQueries(currentDataset)
+                .then((queries) => {
                   setSelectedDataset(currentDataset);
+                  queries.sort();
                   setAvailableQueries(queries);
-                }
-              })
-              .catch((err) => {
-                toast.error(err.response.data.message);
-              });
+                })
+                .catch((err) => {
+                  toast.error(err.response.data.message);
+                });
+            }
           })
           .catch((err) => {
             toast.error(err.response.data.message);
@@ -85,6 +86,7 @@ export default function Home() {
           if (!queries.length) {
             toast.warn('No queries available for this dataset.');
           }
+          queries.sort();
           setAvailableQueries(queries);
         });
       })
@@ -125,7 +127,10 @@ export default function Home() {
         .catch((err) => {
           console.log(err);
         })
-        .finally(() => setLoadingViz(false));
+        .finally(() => {
+          setLoadingViz(false)
+          setNoQueryYet(false);
+        });
       return;
     }
     axios
@@ -177,6 +182,7 @@ export default function Home() {
         benchmarkVizData={benchmarkVizData}
         loadingViz={loadingViz}
         handleSubmitQuery={handleSubmit}
+        noQueryYet={noQueryYet}
       />
       <ToastContainer theme="dark" />
     </div>
