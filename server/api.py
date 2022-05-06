@@ -10,7 +10,7 @@ import jsonpickle
 
 URL = "http://localhost:5000"
 SUPPORTED_NL2VIZ_MODELS = {"nl4dv", "ncNet"}
-USERS = []
+CLIENTS = []
 
 api = f.Blueprint("api", __name__)
 
@@ -50,49 +50,54 @@ class Client:
     def execute_query(self, query: str) -> dict:
         return _execute_query(self.nl2viz_instance, self.model_type, query)
 
+    def jsonify(self):
+        return {
+            "client_id": self.client_id,
+            "model_type": self.model_type,
+            "dataset": self.dataset,
+            "has_instance": self.nl2viz_instance is not None,
+        }
+
+
+def _create_client():
+    new_client_id = str(uuid4())
+    new_client = Client(new_client_id, set_defaults=True)
+    CLIENTS.append(new_client)
+    f.session["clientId"] = new_client_id
+    print("New client created with id:", new_client_id)
+    return new_client, "Hello, " + new_client_id
+
 
 def _get_client(with_message=False):
-    if "client" in f.session:
-        # client = f.session["client"]
-        print('Decoding client from session...')
-        client = jsonpickle.decode(f.session["client"])
-        print('Succesfully decoded client')
-        message = "Welcome back, " + client.client_id
+    if "clientId" not in f.session:
+        client, message = _create_client()
     else:
-        new_client_id = str(uuid4())
-        client = Client(new_client_id, set_defaults=True)
-        # f.session['client'] = client
-        print('Encoding client to session...')
-        f.session["client"] = jsonpickle.encode(client)
-        print('Succesfully encoded client')
-        message = "Hello, " + client.client_id
+        client_id = f.session["clientId"]
+        for client in CLIENTS:
+            if client.client_id == client_id:
+                print("found client", client.client_id)
+                message = "Welcome back, " + client.client_id
+                break
+        else:
+            client, message = _create_client()
 
     if with_message:
         return {
             "message": message,
-            "client": client,
+            "client": client.jsonify(),
         }
     return client
-
-
-def _update_client(new_client):
-    f.session["client"] = new_client
-
-
-def _jsonify_client(client: Client):
-    return {
-        "client_id": client.client_id,
-        "model_type": client.model_type,
-        "dataset": client.dataset,
-        "has_instance": client.nl2viz_instance is not None,
-    }
 
 
 @api.route("/client")
 def client_handler():
     res = _get_client(with_message=True)
-    res["client"] = _jsonify_client(res["client"])
     return f.jsonify(res)
+
+
+@api.route("/clients")
+def clients_handler():
+    return {"clients": [client.jsonify() for client in CLIENTS]}
 
 
 def _switch_dataset(nl2viz_instance, model_type, dataset):
@@ -289,14 +294,6 @@ def model_handler():
         model_obj = client.set_nl2viz_instance(
             new_model, starting_dataset=client.dataset
         )
-        # f.session["model"] = jsonpickle.encode(new_model)
-        # f.session['client'] = ''
-        print('Setting client to JSON pickle')
-        # f.session['client'] = jsonpickle.encode(client)
-        print('Setting client to JSON pickle done')
-        f.session['client'] = jsonpickle.encode(client)
-        # print("New model:", f.session["model"])
-        # print("Successfully set model to", new_model)
         return {
             "message": f"Successfully switched model to {new_model}",
             "response": new_model,
