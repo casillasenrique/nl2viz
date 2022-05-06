@@ -32,7 +32,7 @@ export default function Home() {
           modelsRes.data.response,
           currentModelRes.data.response,
         ];
-        datasets.sort()
+        datasets.sort();
         setAvailableDatasets(datasets);
         setAvailableModels(models);
 
@@ -105,6 +105,7 @@ export default function Home() {
         toast.success(res.data.message);
       })
       .catch((err) => {
+        console.error(err);
         toast.error(`Error: ${err.response.data.message}`);
       })
       .finally(() => setLoading(false));
@@ -127,7 +128,7 @@ export default function Home() {
           console.log(err);
         })
         .finally(() => {
-          setLoadingViz(false)
+          setLoadingViz(false);
           setNoQueryYet(false);
         });
       return;

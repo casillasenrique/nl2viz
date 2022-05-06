@@ -5,6 +5,7 @@ import flask as f
 import json
 import os
 from uuid import uuid4
+import jsonpickle
 
 
 URL = "http://localhost:5000"
@@ -36,6 +37,8 @@ class Client:
             self.dataset = starting_dataset
             _switch_dataset(self.nl2viz_instance, self.model_type, self.dataset)
 
+        return self.nl2viz_instance
+
     def get_current_dataset(self):
         return self.dataset
 
@@ -50,12 +53,18 @@ class Client:
 
 def _get_client(with_message=False):
     if "client" in f.session:
-        client = f.session["client"]
+        # client = f.session["client"]
+        print('Decoding client from session...')
+        client = jsonpickle.decode(f.session["client"])
+        print('Succesfully decoded client')
         message = "Welcome back, " + client.client_id
     else:
         new_client_id = str(uuid4())
         client = Client(new_client_id, set_defaults=True)
-        f.session["client"] = client
+        # f.session['client'] = client
+        print('Encoding client to session...')
+        f.session["client"] = jsonpickle.encode(client)
+        print('Succesfully encoded client')
         message = "Hello, " + client.client_id
 
     if with_message:
@@ -277,8 +286,17 @@ def model_handler():
                 404,
                 description=f'Model "{new_model}" not supported, please choose one of {SUPPORTED_NL2VIZ_MODELS}',
             )
-        client.set_nl2viz_instance(new_model, starting_dataset=client.dataset)
-        print("Successfully set model to", new_model)
+        model_obj = client.set_nl2viz_instance(
+            new_model, starting_dataset=client.dataset
+        )
+        # f.session["model"] = jsonpickle.encode(new_model)
+        # f.session['client'] = ''
+        print('Setting client to JSON pickle')
+        # f.session['client'] = jsonpickle.encode(client)
+        print('Setting client to JSON pickle done')
+        f.session['client'] = jsonpickle.encode(client)
+        # print("New model:", f.session["model"])
+        # print("Successfully set model to", new_model)
         return {
             "message": f"Successfully switched model to {new_model}",
             "response": new_model,
