@@ -5,7 +5,6 @@ import flask as f
 import json
 import os
 from uuid import uuid4
-import jsonpickle
 
 
 URL = "http://localhost:5000"
