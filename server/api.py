@@ -88,17 +88,6 @@ def _get_client(with_message=False):
     return client
 
 
-@api.route("/client")
-def client_handler():
-    res = _get_client(with_message=True)
-    return f.jsonify(res)
-
-
-@api.route("/clients")
-def clients_handler():
-    return {"clients": [client.jsonify() for client in CLIENTS]}
-
-
 def _switch_dataset(nl2viz_instance, model_type, dataset):
     if model_type == "nl4dv":
         nl2viz_instance.set_data(
@@ -122,7 +111,7 @@ def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
         result = nl2viz_instance.analyze_query(query)
 
         # Change the data URL to the localhost URL
-        dataset_name = get_dataset_name_from_path(result["dataset"])
+        dataset_name = _get_dataset_name_from_path(result["dataset"])
         for vis in result["visList"]:
             new_url = f"{URL}/api/datasets/{dataset_name}"
             vis["vlSpec"]["data"]["url"] = new_url
@@ -142,6 +131,44 @@ def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
             "query_raw": query.lower().strip(),
         }
         return result
+
+
+def _get_dataset_name_from_path(path: str):
+    return os.path.basename(os.path.normpath(path)).strip()
+
+
+def _find_benchmarks_for_dataset(dataset_name: str):
+    dataset_name = dataset_name.replace(".csv", "")
+    benchmark_meta_path = os.path.join(
+        f.current_app.config["BENCHMARK_PATH"], "benchmark_meta.json"
+    )
+    table_to_benchmark_lookup_path = os.path.join(
+        f.current_app.config["BENCHMARK_PATH"], "table_to_benchmark_lookup.json"
+    )
+
+    with open(benchmark_meta_path, "r") as file:
+        benchmark_metadata: dict = json.load(file)
+
+    with open(table_to_benchmark_lookup_path, "r") as file:
+        lookup = json.load(file)
+
+    b_ids = lookup[dataset_name]
+    print("Getting benchmarks with", dataset_name)
+    benchmarks_with_dataset = [
+        benchmark for b_id, benchmark in benchmark_metadata.items() if b_id in b_ids
+    ]
+    return benchmarks_with_dataset
+
+
+@api.route("/client")
+def client_handler():
+    res = _get_client(with_message=True)
+    return f.jsonify(res)
+
+
+@api.route("/clients")
+def clients_handler():
+    return {"clients": [client.jsonify() for client in CLIENTS]}
 
 
 @api.route("/dataset", methods=["GET", "POST"])
@@ -194,34 +221,11 @@ def datasets_handler(dataset_name=None):
         f.abort(404, description=f'Dataset "{filename}" not found.')
 
 
-def get_dataset_name_from_path(path: str):
-    return os.path.basename(os.path.normpath(path)).strip()
-
-
-def find_benchmarks_for_dataset(dataset_name: str):
-    dataset_name = dataset_name.replace(".csv", "")
-    benchmark_meta_path = os.path.join(
-        f.current_app.config["BENCHMARK_PATH"], "benchmark_meta.json"
-    )
-
-    with open(benchmark_meta_path, "r") as file:
-        benchmark_metadata = json.load(file)
-
-    print("searching for benchmarks with", dataset_name)
-    benchmarks_with_dataset = [
-        benchmark
-        for benchmark in benchmark_metadata
-        if dataset_name in benchmark["tables_used"]
-        and len(benchmark["tables_used"]) == 1
-    ]
-    return benchmarks_with_dataset
-
-
 @api.route("/benchmark/<dataset_name>/queries")
 def benchmark_handler(dataset_name: str):
     """Get the benchmark's NL queries for the given dataset."""
     dataset_name = dataset_name.replace(".csv", "")
-    all_benchmarks = find_benchmarks_for_dataset(dataset_name)
+    all_benchmarks = _find_benchmarks_for_dataset(dataset_name)
     possible_queries = []
     for benchmark in all_benchmarks:
         possible_queries.extend(benchmark["nl_queries"])
@@ -255,7 +259,7 @@ def benchmark_execute_handler():
 
     dataset_name = client.get_current_dataset()
     print("Client's current dataset:", dataset_name)
-    all_benchmarks = find_benchmarks_for_dataset(dataset_name)
+    all_benchmarks = _find_benchmarks_for_dataset(dataset_name)
     benchmarks_with_query = [
         benchmark for benchmark in all_benchmarks if query in benchmark["nl_queries"]
     ]
