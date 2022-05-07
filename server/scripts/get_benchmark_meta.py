@@ -89,101 +89,6 @@ def save_benchmark_meta():
         json.dump(benchmark_meta, f, indent=4)
 
 
-# import time
-
-# # Data processing.
-# import pandas as pd
-
-# # "Vanilla" python parallelism.
-# import multiprocessing
-
-# # Scalable data analytics: dask.
-# import dask.bag as db
-# from dask.distributed import Client, LocalCluster
-
-# import json
-
-# import warnings
-
-# warnings.filterwarnings("ignore")
-
-# import logging
-
-# def save_benchmarks_with_single_databases():
-#     n_cores = multiprocessing.cpu_count()
-#     print("Number of cores we have: ", n_cores)
-
-#     # Create a cluster and client
-#     print("> Creating a cluster and client...")
-#     cluster = LocalCluster(
-#         ip=None,
-#         n_workers=n_cores,
-#         processes=True,
-#         silence_logs=logging.ERROR,
-#         # interface="lo",
-#     )
-#     client = Client(cluster)
-
-#     print("Succesfully connected to cluster")
-
-#     # COMPUTATION
-#     t1_start = time.perf_counter()
-#     # Load notebook runs using the same method from lecture
-#     events: db.Bag = db.read_text(
-#         "https://archive.analytics.mybinder.org/index.jsonl"
-#     )
-#     events = events.map(json.loads)
-#     events = events.filter(lambda entry: "2022" in entry["date"])
-#     events = events.pluck("name")
-#     urls = events.map(lambda name: f"https://archive.analytics.mybinder.org/{name}")
-#     notebook_runs: db.Bag = db.read_text(urls.compute()).map(json.loads)
-
-#     res = notebook_runs.foldby(
-#         "provider",
-#         lambda count, y: count + 1,
-#         0,
-#         lambda total1, total2: total1 + total2,
-#     )
-#     # Get the top 3 providers by count and report result
-#     top3 = res.topk(3, key=lambda freq_pair: freq_pair[1])
-#     print(f"Result: {top3.take(3)}")
-#     t1_stop = time.perf_counter()
-
-#     # Calculate time elapsed
-#     elapsed = (t1_stop - t1_start) * 1000
-#     print(f"Elapsed time (ms): {elapsed}")
-
-
-# # # Read the json file from config.BENCHMARK_JSON_PATH
-# # with open(config.BENCHMARK_JSON_PATH, "r") as f:
-# #     benchmark_data: dict = json.load(f)
-
-# # benchmark_meta = []
-# # for benchmark in benchmark_data.values():
-# #     sql_query = benchmark["vis_query"]["data_part"]["sql_part"]
-# #     has_join = "JOIN" in sql_query
-
-# #     sql_query_tokens = sql_query.split()
-# #     tables_used = [
-# #         sql_query_tokens[i + 1]
-# #         for i in range(len(sql_query_tokens) - 1)
-# #         if sql_query_tokens[i] == "FROM" or sql_query_tokens[i] == "JOIN"
-# #     ]
-
-# #     benchmark_meta.append(
-# #         {
-# #             "tables_used": tables_used,
-# #             "db_id": benchmark["db_id"],
-#             "nl_queries": benchmark["nl_queries"],
-#             "vega_spec": benchmark["vis_obj"],
-#         }
-#     )
-
-
-# with open(config.BENCHMARK_META_PATH, "w") as f:
-#     json.dump(benchmark_meta, f, indent=4)
-
-
 def save_benchmarks_with_one_table():
     benchmarks_with_one_table = []
     for meta_file in os.listdir(config.BENCHMARK_DIR_PATH):
@@ -206,5 +111,36 @@ def save_benchmarks_with_one_table():
     return benchmarks_with_one_table
 
 
+def save_table_to_benchmark_lookup():
+    with open(config.BENCHMARK_META_PATH, "r", encoding="utf-8") as f:
+        benchmarks = json.load(f)
+        
+    table_to_benchmark_lookup = {}
+    for b_id, benchmark in benchmarks.items():
+        for table in benchmark["tables_used"]:
+            table_to_benchmark_lookup[table] = [b_id] + table_to_benchmark_lookup.get(table, [])
+        
+    with open(config.TABLE_TO_BENCHMARK_LOOKUP_PATH, "w", encoding="utf-8") as f:
+        json.dump(table_to_benchmark_lookup, f, indent=4)
+    
+
+# def add_benchmark_id_to_meta():
+#     with open(config.BENCHMARK_META_PATH, "r", encoding="utf-8") as f:
+#         benchmarks = json.load(f)
+
+#     new_meta = {}
+#     for benchmark in benchmarks:
+#         new_meta[benchmark['id']] = {
+#             'tables_used': benchmark['tables_used'],
+#             'original_db_id': benchmark['db_id'],
+#             'nl_queries': benchmark['nl_queries'],
+#             'vega_spec': benchmark['vega_spec'],
+#         }
+        
+#     with open(config.BENCHMARK_META_PATH, "w", encoding="utf-8") as f:
+#         json.dump(new_meta, f, indent=4)
+
 if __name__ == "__main__":
-    save_benchmarks_with_one_table()
+    # save_benchmarks_with_one_table()
+    # add_benchmark_id_to_meta()
+    save_table_to_benchmark_lookup()
