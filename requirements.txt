@@ -20,4 +20,3 @@ spacy~=2.2
 py_stringsimjoin
 gunicorn
 uuid
-scimage
