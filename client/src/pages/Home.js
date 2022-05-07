@@ -5,6 +5,7 @@ import Dashboard from '../components/Dashboard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../components/Loader';
+import githubLogo from '../images/github-logo.png';
 
 const SERVER_URL = 'http://localhost:5000';
 
@@ -148,31 +149,49 @@ export default function Home() {
 
   return (
     <div className="flex justify-center items-center flex-col gap-2 p-2">
-      <h1 className="text-gray-200 p-2 text-5xl">
-        Natural Language to Visualization Survey and Benchmarks
+      <h1 className="text-gray-200 p-2 text-4xl mb-3">
+        Natural Language to Visualization Benchmarks
       </h1>
-      <p className="text-gray-100 ">
-        This is a website that serves as an end-to-end system for benchmarking
-        natural language to visualization systems.
-      </p>
 
-      <span className="flex relative">
-        <QueryForm
-          handleSubmit={handleSubmit}
-          availableQueries={availableQueries}
-          currentDataset={selectedDataset}
-          availableDatasets={availableDatasets}
-          handleUpdateDataset={handleChangeDataset}
-          currentModel={selectedModel}
-          availableModels={availableModels}
-          handleUpdateModel={handleChangeModel}
-          loading={loading}
-        />
-        {loading && (
-          <div className="absolute -left-16 top-5">
-            <Loader />
-          </div>
-        )}
+      <span className="flex w-full">
+        <div className="w-1/5 p-2">
+          <p className="text-gray-100 text-left">
+            This is a website that serves as an end-to-end system for
+            benchmarking natural language to visualization systems.
+          </p>
+        </div>
+        <div className="w-4/5 flex justify-center relative">
+          <QueryForm
+            handleSubmit={handleSubmit}
+            availableQueries={availableQueries}
+            currentDataset={selectedDataset}
+            availableDatasets={availableDatasets}
+            handleUpdateDataset={handleChangeDataset}
+            currentModel={selectedModel}
+            availableModels={availableModels}
+            handleUpdateModel={handleChangeModel}
+            loading={loading}
+          />
+          {loading && (
+            <div className="absolute left-2 top-3 w-60">
+              <Loader />
+            </div>
+          )}
+        </div>
+        <div className="flex w-1/5 justify-end items-start p-2">
+          <a
+            className="flex gap-2 items-center w-fit text-gray-200 hover:text-gray-50 transition-colors"
+            href="https://github.com/casillasenrique/6s079-final-project"
+            target="_blank"
+          >
+            <img
+              className="rounded-full w-5 border-2"
+              src={githubLogo}
+              alt="GitHub Logo"
+            />
+            <p>v1.0.2</p>
+          </a>
+        </div>
       </span>
 
       {/* Show the submitted query */}
