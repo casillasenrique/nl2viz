@@ -32,7 +32,7 @@ export default function Home() {
           modelsRes.data.response,
           currentModelRes.data.response,
         ];
-        datasets.sort();
+        datasets.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
         setAvailableDatasets(datasets);
         setAvailableModels(models);
 
