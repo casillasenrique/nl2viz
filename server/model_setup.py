@@ -6,10 +6,8 @@ DATA_PATH = os.path.join("server", "assets", "benchmark", "data")
 MODELS_PATH = os.path.join("server", "models")
 
 
-def get_nl4dv_instance():
-    nl4dv_instance = NL4DV(
-        data_url=os.path.join(DATA_PATH, "cinema.csv"),
-    )
+def get_nl4dv_instance(data_path=os.path.join(DATA_PATH, "cinema.csv")):
+    nl4dv_instance = NL4DV(data_url=data_path)
 
     # using Spacy
     # ToDo: ensure that the below spacy model is installed. if using another model, modify accordingly.
@@ -25,7 +23,7 @@ def get_nl4dv_instance():
     return nl4dv_instance
 
 
-def get_ncNetInstance():
+def get_ncNetInstance(data_path=os.path.join(DATA_PATH, "cinema.csv")):
     from .models.ncNet.ncNet import ncNet
 
     trained_ncNet_model_path = os.path.join(
@@ -35,7 +33,7 @@ def get_ncNetInstance():
     ncNetInstance.specify_dataset(
         data_type="csv",
         table_name="cinema",
-        data_url=os.path.join(DATA_PATH, "cinema.csv"),
+        data_url=data_path,
     )
     return ncNetInstance
 

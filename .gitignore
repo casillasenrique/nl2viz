@@ -144,3 +144,6 @@ notes.md
 /flask_session
 
 /server/models/ncNet/dataset/database/*
+
+dask-worker-*
+node_modules/
