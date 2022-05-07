@@ -1,0 +1,16 @@
+game_id,id,Player,Injury,Number_of_matches,Source
+1,1,Davide Santon,Clean-up surgery on his right knee,12,inter.it
+2,2,Maicon,Knee problem,2,inter.it
+3,3,Dejan Stanković,Hamstring muscle strain in his left thigh,2,inter.it
+4,4,Wesley Sneijder,Foot injury,1,inter.it
+5,5,Diego Milito,Slight thigh strain in right leg,1,inter.it
+5,6,Javier Zanetti,Post-traumatic pneumothrorax,4,inter.it
+6,7,Walter Samuel,Right thigh muscle strain,3,inter.it
+6,8,Thiago Motta,Surgery on his right knee,10,inter.it
+6,9,Goran Pandev,Ankle problem,3,inter.it
+8,10,Iván Córdoba,Sustained a biceps femoris strain in his left leg,1,inter.it
+9,11,Esteban Cambiasso,First-degree strain left hamstring muscles,2,inter.it
+10,12,Dejan Stanković (2),Right calf strain,4 (6),inter.it
+10,13,Wesley Sneijder (2),Fainted during half time,1 (2),inter.it
+11,14,Esteban Cambiasso (2),Sustained posterior thigh strains in his left leg,4 (6),inter.it
+12,15,Thiago Motta (2),Knee problem,7 (17),inter.it

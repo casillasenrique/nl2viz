@@ -1,0 +1,14 @@
+id,Vehicle_Flight_number,Date,Pilot,Velocity,Altitude,airport_id,company_id
+1,M2-F1 #0,"March 1, 1963",Thompson,135.0,0.0,1,2
+2,M2-F1 #1,"August 16, 1963",Thompson,240.0,3650.0,2,3
+3,M2-F1 #6,"September 3, 1963",Thompson,240.0,3650.0,2,4
+4,M2-F1 #13,"October 25, 1963",Thompson,240.0,3650.0,3,4
+5,M2-F1 #14,"November 8, 1963",Thompson,240.0,3650.0,4,5
+6,M2-F1 #21,"January 29, 1964",Thompson,240.0,3650.0,4,6
+7,M2-F1 #33,"March 30, 1964",Peterson,240.0,3650.0,5,11
+8,M2-F1 #39,"May 19, 1964",Peterson,240.0,3650.0,2,13
+9,M2-F1 #61,"July 16, 1965",Thompson,240.0,3650.0,6,11
+10,M2-F1 #64,"August 30, 1965",Thompson,240.0,3650.0,9,1
+11,M2-F1 #70,"October 8, 1965",Thompson,240.0,3650.0,4,5
+12,M2-F1 #71,"March 28, 1966",Thompson,240.0,3650.0,6,7
+13,M2-F1 #73,"August 4, 1966",Peterson,240.0,3650.0,8,9

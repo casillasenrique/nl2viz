@@ -1,6 +1,8 @@
-Aircraft_ID,Aircraft,Description,Max_Gross_Weight,Total_disk_area,Max_disk_Loading
-1,Robinson R-22,Light utility helicopter,"1,370 lb (635 kg)",497 ft² (46.2 m²),2.6 lb/ft² (14 kg/m²)
-2,Bell 206B3 JetRanger,Turboshaft utility helicopter,"3,200 lb (1,451 kg)",872 ft² (81.1 m²),3.7 lb/ft² (18 kg/m²)
-3,CH-47D Chinook,Tandem rotor helicopter,"50,000 lb (22,680 kg)","5,655 ft² (526 m²)",8.8 lb/ft² (43 kg/m²)
-4,Mil Mi-26,Heavy-lift helicopter,"123,500 lb (56,000 kg)","8,495 ft² (789 m²)",14.5 lb/ft² (71 kg/m²)
-5,CH-53E Super Stallion,Heavy-lift helicopter,"73,500 lb (33,300 kg)","4,900 ft² (460 m²)",15 lb/ft² (72 kg/m²)
+Aircraft_ID,Order_Year,Manufacturer,Model,Fleet_Series,Powertrain,Fuel_Propulsion
+1,1992,Gillig,Phantom (High Floor),444-464 (21),DD S50EGR Allison WB-400R,Diesel
+2,1996,Gillig,Phantom (High Floor),465-467 (3),DD S50 Allison WB-400R,Diesel
+3,1998,Gillig,Phantom (High Floor),468-473 (6),DD S50 Allison WB-400R,Diesel
+4,2000,Gillig,Advantage (Low Floor),474-481 (8),Cummins ISC Allison WB-400R,Diesel
+5,2002,Gillig,Advantage (Low Floor),482-492 (11),Cummins ISL Allison WB-400R,Diesel
+6,2010,NFI,GE40LFR,300-309 (10),Ford Triton V10 ISE-Thundervolt TB40-HG,Hybrid
+7,2011,NFI,C40LFR,310-329 (20),Cummins Westport ISL-G Allison WB-400R,CNG

@@ -1,0 +1,17 @@
+station_id,day_of_week,high_temperature,low_temperature,precipitation,wind_speed_mph
+1,Monday,59,54,90.0,13
+1,Tuesday,66,55,20.0,12
+1,Wednesday,60,52,10.0,14
+1,Thursday,55,50,30.0,13
+1,Friday,55,52,50.0,17
+1,Saturday,55,52,50.0,14
+1,Sunday,54,52,50.0,12
+2,Monday,58,54,60.0,20
+2,Tuesday,57,54,80.0,22
+2,Wednesday,59,55,90.0,23
+2,Thursday,59,56,70.0,24
+3,Monday,49,46,30.0,10
+3,Tuesday,50,49,50.0,9
+3,Wednesday,55,54,60.0,8
+4,Monday,58,54,70.0,7
+10,Tuesday,59,52,90.0,22

@@ -1,0 +1,8 @@
+Mission_ID,Ship_ID,Code,Launched_Year,Location,Speed_knots,Fate
+1,1,VMV-1,1930,Germany,25,Decommissioned 1950
+2,2,VMV-2,1930,Germany,25,Decommissioned 1950
+3,3,VMV-3,1930,"Helsinki , Finland",23,Lost (burned) 1931
+4,5,VMV-4 Former: Sterling,1916,Norway,16,Retired 1939
+5,6,VMV-5,1931,"Uusikaupunki , Finland",23,Decommissioned 1959
+6,7,VMV-6,1931,"Uusikaupunki , Finland",23,Decommissioned 1960
+7,8,VMV-7,1932,"Turku , Finland",23,Lost (burned and sunk) 1933

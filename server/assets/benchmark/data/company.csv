@@ -1,0 +1,11 @@
+Company_ID,Rank,Company,Headquarters,Main_Industry,Sales_billion,Profits_billion,Assets_billion,Market_Value
+1,1,ExxonMobil,USA,Oil and gas,433.5,41.1,331.1,407.4
+2,3,General Electric,USA,Conglomerate,147.3,14.2,717.2,213.7
+3,4,Royal Dutch Shell,Netherlands,Oil and gas,470.2,30.9,340.5,227.6
+4,5,Industrial and Commercial Bank of China,China,Banking,82.6,25.1,2039.1,237.4
+5,6,HSBC,UK,Banking,102.0,16.2,2550.0,164.3
+6,7,PetroChina,China,Oil and gas,310.1,20.6,304.7,294.7
+7,8,Berkshire Hathaway,USA,Conglomerate,143.7,10.3,392.6,202.2
+8,9,Wells Fargo,USA,Banking,87.6,15.9,1313.9,178.7
+9,10,Petrobras,Brazil,Oil and gas,145.9,20.1,319.4,180.0
+10,11,BP,UK,Oil and gas,375.5,25.7,292.5,147.4

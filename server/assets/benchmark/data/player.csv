@@ -1,0 +1,16 @@
+Player_ID,name,Position,Club_ID,Apps,Tries,Goals,Points
+1,Michael Platt,Full Back,1,20.0,5.0,0,20.0
+2,Dave Halley,Right Wing,2,23.0,9.0,0,36.0
+3,James Evans,Right Centre,1,30.0,9.0,0,36.0
+4,Tame Tupou,Left Wing,2,10.0,3.0,0,12.0
+5,Iestyn Harris,Stand Off,4,27.0,3.0,50/60,110.0
+6,Paul Deacon (c),Scrum Half,4,20.0,3.0,90/106,188.0
+7,Joe Vagana,Prop,5,19.0,1.0,0/1,4.0
+8,Terry Newton,Hooker,5,26.0,9.0,0,36.0
+9,Andy Lynch,Prop,2,29.0,5.0,0,20.0
+10,David Solomona,Second Row,2,24.0,5.0,0,20.0
+11,Glenn Morrison (vc),Second Row,2,14.0,6.0,0,24.0
+12,Jamie Langley (vc),Loose Forward,2,28.0,2.0,0,8.0
+13,Chris Feather,Prop,3,13.0,1.0,0,4.0
+14,Matt Cook,Second Row,4,17.0,4.0,0,16.0
+15,Sam Burgess,Loose Forward,4,23.0,8.0,0,32.0

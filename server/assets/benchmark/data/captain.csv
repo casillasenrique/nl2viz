@@ -1,0 +1,8 @@
+Captain_ID,Name,Ship_ID,age,Class,Rank
+1,Captain Sir Henry Langford,1,40,Third-rate ship of the line,Midshipman
+2,Captain Beves Conway,2,54,Third-rate ship of the line,Midshipman
+3,Lieutenant Hugh Bolitho,3,43,Cutter,Midshipman
+4,Lieutenant Montagu Verling,4,45,Armed schooner,Midshipman
+5,Captain Henry Dumaresq,5,38,Frigate,Lieutenant
+6,Captain Gilbert Pears,2,60,Third-rate ship of the line,Lieutenant
+7,Commander Richard Bolitho,3,38,Sloop-of-war,"Commander, junior captain"

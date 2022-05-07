@@ -1,0 +1,4 @@
+catalog_level_number,catalog_id,catalog_level_name
+1,1,Category
+8,2,Sub-Category
+9,8,Product

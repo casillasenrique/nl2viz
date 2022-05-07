@@ -1,0 +1,10 @@
+Estimation_ID,Low_Estimate,High_Estimate,Film_ID,Type,Market_ID,Year
+1,80000.0,80400.0,1,Mass suicide murder,1,1945
+2,8000.0,8000.0,2,Mass suicide,2,1944
+3,3000.0,80400.0,3,Mass human sacrifice,3,1487
+4,960.0,960.0,4,Mass suicide,2,1973
+5,913.0,913.0,4,Mass suicide murder,1,1978
+6,300.0,1000.0,4,Mass suicide,1,2000
+7,53.0,53.0,4,Mass suicide,1,1994
+8,39.0,39.0,1,Mass suicide,2,1997
+9,16.0,16.0,1,Mass suicide,3,1995

@@ -1,0 +1,8 @@
+Shop_ID,Employee_ID,Start_from,Is_full_time
+1,1,2009,T
+1,2,2003,T
+8,3,2011,F
+4,4,2012,T
+5,5,2013,T
+2,6,2010,F
+6,7,2008,T

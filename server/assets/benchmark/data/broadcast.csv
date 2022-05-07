@@ -1,0 +1,12 @@
+Channel_ID,Program_ID,Time_of_day
+1,1,Morning
+2,1,Night
+3,2,Morning
+4,1,Night
+5,4,Morning
+6,3,Morning
+7,3,Noon
+8,2,Night
+9,3,Noon
+10,4,Night
+1,2,Night

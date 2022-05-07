@@ -1,0 +1,7 @@
+County_ID,Name,Population,Police_officers,Residents_per_officer,Case_burden,Crime_rate,Police_force,Location
+1,Abbotsford,128165,187,685,81,118.0,Abbotsford Police Department,East
+2,Burnaby,204320,253,808,100,123.0,RCMP,East
+3,Campbell River,30810,40,770,137,178.0,RCMP,West
+4,Castlegar,7821,11,711,107,150.0,RCMP,North
+5,Central Saanich,16821,21,801,39,49.0,Central Saanich Police,East
+6,Chilliwack,73066,91,803,140,174.0,RCMP,West

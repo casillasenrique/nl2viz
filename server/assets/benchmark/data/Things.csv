@@ -1,0 +1,16 @@
+thing_id,organization_id,Type_of_Thing_Code,service_type_code,service_details
+1,8,Electronics,Check,Unsatisfied
+2,8,Electronics,Cleanning,Satisfied
+10,8,Commen,Check,Satisfied
+14,10,Furniture,Cleanning,Satisfied
+26,8,Electronics,Cleanning,Unsatisfied
+35,7,Electronics,Cleanning,Satisfied
+45,8,Commen,Check,Satisfied
+46,8,Commen,Check,Satisfied
+47,10,Commen,Cleanning,Satisfied
+58,8,Electronics,Check,Satisfied
+68,10,Commen,Cleanning,Unsatisfied
+80,8,Furniture,Check,Unsatisfied
+84,8,Commen,Check,Unsatisfied
+85,8,Commen,Cleanning,Unsatisfied
+92,7,Commen,Check,Unsatisfied
