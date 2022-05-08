@@ -150,3 +150,5 @@ node_modules/
 
 tmp/
 /server/assets/benchmark/evaluation/
+
+*.pptx
