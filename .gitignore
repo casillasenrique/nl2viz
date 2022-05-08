@@ -147,3 +147,6 @@ notes.md
 
 dask-worker-*
 node_modules/
+
+tmp/
+/server/assets/benchmark/evaluation/
