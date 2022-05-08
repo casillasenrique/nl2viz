@@ -1,6 +1,6 @@
 import { memo, useEffect, useState } from 'react';
 import Loader from './Loader';
-import { Vega, VegaLite } from 'react-vega';
+import { VegaLite } from 'react-vega';
 
 const Dashboard = ({
   nlVizData,

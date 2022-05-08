@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
 import QueryForm from '../components/QueryForm';
 import Dashboard from '../components/Dashboard';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../components/Loader';
+import axios from 'axios';
 import githubLogo from '../images/github-logo.png';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home({ version, serverUrl }) {
   const [loading, setLoading] = useState(true);
