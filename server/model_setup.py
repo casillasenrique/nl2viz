@@ -23,7 +23,7 @@ def get_nl4dv_instance(data_path=os.path.join(DATA_PATH, "cinema.csv")):
     return nl4dv_instance
 
 
-def get_ncNetInstance(data_path=os.path.join(DATA_PATH, "cinema.csv")):
+def get_ncNetInstance(data_path=os.path.join(DATA_PATH, "cinema.csv"), table_name='cinema'):
     from .models.ncNet.ncNet import ncNet
 
     trained_ncNet_model_path = os.path.join(
@@ -32,9 +32,9 @@ def get_ncNetInstance(data_path=os.path.join(DATA_PATH, "cinema.csv")):
     ncNetInstance = ncNet(trained_model=trained_ncNet_model_path)
     ncNetInstance.specify_dataset(
         data_type="csv",
-        table_name="cinema",
+        table_name=table_name,
         data_url=data_path,
-    )
+    )        
     return ncNetInstance
 
 

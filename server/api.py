@@ -118,12 +118,14 @@ def _execute_query(nl2viz_instance, model_type, query: str) -> dict:
         result["query"] = query
         return result
     elif model_type == "ncNet":
-        viz = nl2viz_instance.nl2vis(query)[
-            0
-        ]  # nl2vis will return a list a [Vis, VegaLiteSpec]
+        try:
+            viz = nl2viz_instance.nl2vis(query)[
+                0
+            ]  # nl2vis will return a list a [Vis, VegaLiteSpec]
+        except Exception as e:
+            return {"visList": [], "query": query, "query_raw": query.lower().strip()}
         # We don't need to worry about the dataset URL, ncNet is nice enough to
         # encode the data manually
-        # print("Hello!!!", viz.spec)
         visObj = {"vlSpec": viz.spec, "attributes": None}
         result = {
             "visList": [visObj],
