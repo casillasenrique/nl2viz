@@ -1,0 +1,136 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "debate",
+    "results": [
+        {
+            "query": "A bar chart showing how many debates are held for each venue.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299479958879611
+            }
+        },
+        {
+            "query": "Bar chart x axis venue y axis how many venue",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299479958879611
+            }
+        },
+        {
+            "query": "Bar chart x axis venue y axis how many venue, order in desc by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299851257802737
+            }
+        },
+        {
+            "query": "A bar chart showing how many debates are held for each venue, and list how many venue in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299851257802737
+            }
+        },
+        {
+            "query": "A pie chart for listing the number of the venues of debates in ascending order of the number of audience.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the venues of debates in ascending order of the number of audience, and count them by a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the venues of debates in ascending order of the number of audience.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "A bar chart showing how many debates are held for each venue, and show by the X in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299851257802737
+            }
+        },
+        {
+            "query": "Bar chart x axis venue y axis how many venue, show by the X in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7299851257802737
+            }
+        },
+        {
+            "query": "How many debates are held for each venue? Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing the number of venue across venue.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart showing how many debates are held for each venue, order in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "Bar chart x axis venue y axis how many venue, order in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the venues of debates in ascending order of the number of audience.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "List the venues of debates in ascending order of the number of audience, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "List the number of the venues of debates in ascending order of the number of audience.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "A bar chart showing how many debates are held for each venue, and I want to show y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        },
+        {
+            "query": "Bar chart x axis venue y axis how many venue, display y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7289531384003102
+            }
+        }
+    ],
+    "errors": [
+        "\"List the number of the venues of debates in ascending order of the number of audience.\" has 2 benchmarks associated with it",
+        "\"List the number of the venues of debates in ascending order of the number of audience.\" has 2 benchmarks associated with it"
+    ]
+}

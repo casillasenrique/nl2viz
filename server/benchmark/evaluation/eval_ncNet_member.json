@@ -1,0 +1,495 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "member",
+    "results": [
+        {
+            "query": "A bar chart showing the number of members in each country, rank from low to high by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115665379510424
+            }
+        },
+        {
+            "query": "Plot how many country by grouped by country as a bar graph, rank from low to high by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110574031125393
+            }
+        },
+        {
+            "query": "A bar chart showing the number of members in each country, I want to display y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8080597549293459
+            }
+        },
+        {
+            "query": "Plot how many country by grouped by country as a bar graph, and show from low to high by the the number of country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110574031125393
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different address, and rank x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7606162637497188
+            }
+        },
+        {
+            "query": "Find the number of members living in each address Show bar chart, list in desc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7637857681774353
+            }
+        },
+        {
+            "query": "Show the hometown of all members, and rank X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282563940366374
+            }
+        },
+        {
+            "query": "Count the hometown by hometown using a bar chart, and order in descending by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282563940366374
+            }
+        },
+        {
+            "query": "Bar chart of the number of hometown from each hometown, and rank X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282563940366374
+            }
+        },
+        {
+            "query": "Count the hometown by hometown, display x axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282563940366374
+            }
+        },
+        {
+            "query": "How many members are there in each country? Visualize in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7718444436138205
+            }
+        },
+        {
+            "query": "Give me a pie to show how many country from different country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7718444436138205
+            }
+        },
+        {
+            "query": "A bar chart showing the average purchase time for each coffee shop address.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different address, I want to display names from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6218253119712541
+            }
+        },
+        {
+            "query": "Find the number of members living in each address Show bar chart, and I want to show x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7607060191781315
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each by a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8093328920651754
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the different countries and the number of members from each.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8093328920651754
+            }
+        },
+        {
+            "query": "I want to know the proportion of the number of members for each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8094842674578605
+            }
+        },
+        {
+            "query": "A bar chart showing the number of members in each country, and sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8088939606490598
+            }
+        },
+        {
+            "query": "Plot how many country by grouped by country as a bar graph, could you display by the y axis from high to low please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118916088322532
+            }
+        },
+        {
+            "query": "Count the hometown by hometown, and sort from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9312471879580073
+            }
+        },
+        {
+            "query": "Show the hometown of all members, and list in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.694150594300576
+            }
+        },
+        {
+            "query": "Bar chart of the number of hometown from each hometown, and I want to display total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.962315731093229
+            }
+        },
+        {
+            "query": "Count the hometown by hometown using a bar chart, and could you list y axis in desc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.962315731093229
+            }
+        },
+        {
+            "query": "Show the hometown of all members.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.929705633466165
+            }
+        },
+        {
+            "query": "Count the hometown by hometown.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.929705633466165
+            }
+        },
+        {
+            "query": "Count the hometown by hometown using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.929705633466165
+            }
+        },
+        {
+            "query": "Bar chart of the number of hometown from each hometown",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.929705633466165
+            }
+        },
+        {
+            "query": "Show the number of purchases for each coffee shop address in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A scatter chart showing the correlation between age and purchase time for each coffee shop.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.744306135909556
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each with a bar chart, list Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each Visualize by bar chart, list by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by country as a bar graph, and display y axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Show the average age of members for each coffee shop address in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by country as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each Visualize by bar chart, order by the y axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by country as a bar graph, and order by the y axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each with a bar chart, and could you order in asc by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Count the hometown by hometown, could you display how many hometown in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9816811887241301
+            }
+        },
+        {
+            "query": "Show the hometown of all members, rank in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9399469687817147
+            }
+        },
+        {
+            "query": "Count the hometown by hometown using a bar chart, show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9816811887241301
+            }
+        },
+        {
+            "query": "Bar chart of the number of hometown from each hometown, order Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9816811887241301
+            }
+        },
+        {
+            "query": "A bar chart showing the number of members in each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8088939606490598
+            }
+        },
+        {
+            "query": "Plot how many country by grouped by country as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118916088322532
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different address, and could you sort in ascending by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7575365147504152
+            }
+        },
+        {
+            "query": "Find the number of members living in each address Show bar chart, I want to show by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7607060191781315
+            }
+        },
+        {
+            "query": "Show the number of purchases for each coffee shop address in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of members living in each address. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8638149496966417
+            }
+        },
+        {
+            "query": "I want to know the proportion of the number of members for each address.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8638149496966417
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each Visualize by bar chart, and could you list x axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by country as a bar graph, and could you rank by the x-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each with a bar chart, and could you sort by the Country in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118607421395208
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different address, show in desc by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.762885861776594
+            }
+        },
+        {
+            "query": "Find the number of members living in each address Show bar chart, and rank by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7637857681774353
+            }
+        },
+        {
+            "query": "Count the hometown by hometown, I want to sort by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9931552427407112
+            }
+        },
+        {
+            "query": "Count the hometown by hometown using a bar chart, and show by the bars in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9931552427407112
+            }
+        },
+        {
+            "query": "Bar chart of the number of hometown from each hometown, could you display X-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9931552427407112
+            }
+        },
+        {
+            "query": "Show the hometown of all members, I want to sort by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9931552427407112
+            }
+        },
+        {
+            "query": "A bar chart showing the number of members in each country, and rank by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6704018679883815
+            }
+        },
+        {
+            "query": "Plot how many country by grouped by country as a bar graph, show X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8118916088322532
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each with a bar chart, rank by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by country as a bar graph, and could you sort by the Country from low to high please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Show the different countries and the number of members from each Visualize by bar chart, rank by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8110265364198069
+            }
+        },
+        {
+            "query": "Find the number of members living in each address. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7638263584577355
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different address",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7637857681774353
+            }
+        },
+        {
+            "query": "A scatter chart showing the correlation between age and purchase time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7419199556845824
+            }
+        },
+        {
+            "query": "Show me a scatter plot of time of purchase and age for .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7419199556845824
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"A bar chart showing the average purchase time for each coffee shop address.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Show the number of purchases for each coffee shop address in a bar chart.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Show the average age of members for each coffee shop address in a bar chart.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Show the number of purchases for each coffee shop address in a pie chart.\" - <class 'IndexError'>: list index out of range"
+    ]
+}

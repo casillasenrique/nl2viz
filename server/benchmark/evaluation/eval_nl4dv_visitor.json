@@ -1,0 +1,49 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "visitor",
+    "results": [
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, and list by the Level_of_membership in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7184369165378506
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, could you order by the y-axis in asc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7184369165378488
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, could you order by the Name from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718436916537848
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, list in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.71843691653785
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718436916537848
+            }
+        },
+        {
+            "query": "Find the name and membership level of the visitors whose membership level is higher than 4. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

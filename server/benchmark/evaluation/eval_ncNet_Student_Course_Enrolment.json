@@ -1,0 +1,370 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Student_Course_Enrolment",
+    "results": [
+        {
+            "query": "List the number of completion students in each month and bin date of completion by month interval with a bar chart, display from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each month? Return a bar chart binning date of completion by month interval, and order in descending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion, could you order in desc by the Y please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and bin date of completion by weekday with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a bar chart binning date of completion by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a line chart grouping by date of completion, and order by the X-axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the general trend of the number of date of completion over the date of completion, and rank by the X-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and group by date of completion in a line chart, and show from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion, and show total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each month and bin date of completion by month interval with a bar chart, sort Y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each month? Return a bar chart binning date of completion by month interval, show total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday, rank the number of date of enrolment from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart, and could you show Y-axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of enrolment y axis the number of date of enrolment, sort in desc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of enrolment from each date of enrolment",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a bar chart binning date of completion by weekday, display how many date of completion in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion, and could you sort from high to low by the how many date of completion?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and bin date of completion by weekday with a bar chart, and list in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each month and bin date of completion by month interval with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each month? Return a bar chart binning date of completion by month interval.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of enrolment y axis the number of date of enrolment",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and group by date of completion in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a line chart grouping by date of completion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the general trend of the number of date of completion over the date of completion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of completion from each date of completion, I want to sort by the y axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a bar chart binning date of completion by weekday, and I want to sort y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and bin date of completion by weekday with a bar chart, rank in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart, list y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval, order in desc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of enrolment from each date of enrolment, and could you rank by the y-axis in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many completion students in each day? Return a line chart grouping by date of completion, rank by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the general trend of the number of date of completion over the date of completion, and display x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of completion students in each day and group by date of completion in a line chart, and order from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of enrolment y axis the number of date of enrolment, and list y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday, and list y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart, I want to show in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many date of enrolment from each date of enrolment, and could you list by the Y-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart, and sort by the y axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval, and I want to order in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"List the number of completion students in each month and bin date of completion by month interval with a bar chart, display from high to low by the Y-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each month? Return a bar chart binning date of completion by month interval, and order in descending by the y axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion, could you order in desc by the Y please?\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and bin date of completion by weekday with a bar chart.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a bar chart binning date of completion by weekday.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "\"Bar chart of how many date of completion from each date of completion\" has 2 benchmarks associated with it",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a line chart grouping by date of completion, and order by the X-axis in descending please.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Visualize the general trend of the number of date of completion over the date of completion, and rank by the X-axis in desc.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and group by date of completion in a line chart, and show from high to low by the X-axis please.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion, and show total number in ascending order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each month and bin date of completion by month interval with a bar chart, sort Y-axis in asc order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each month? Return a bar chart binning date of completion by month interval, show total number in ascending order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday, rank the number of date of enrolment from high to low order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart, and could you show Y-axis in descending order?\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart x axis date of enrolment y axis the number of date of enrolment, sort in desc by the Y-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of enrolment from each date of enrolment\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a bar chart binning date of completion by weekday, display how many date of completion in descending order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion, and could you sort from high to low by the how many date of completion?\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and bin date of completion by weekday with a bar chart, and list in desc by the y-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each month and bin date of completion by month interval with a bar chart.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each month? Return a bar chart binning date of completion by month interval.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "\"Bar chart of how many date of completion from each date of completion\" has 2 benchmarks associated with it",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart x axis date of enrolment y axis the number of date of enrolment\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and group by date of completion in a line chart.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a line chart grouping by date of completion.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Visualize the general trend of the number of date of completion over the date of completion.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of completion from each date of completion, I want to sort by the y axis in ascending please.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a bar chart binning date of completion by weekday, and I want to sort y-axis in asc order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and bin date of completion by weekday with a bar chart, rank in ascending by the y axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart, list y axis in desc order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval, order in desc by the Y-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of enrolment from each date of enrolment, and could you rank by the y-axis in desc?\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many completion students in each day? Return a line chart grouping by date of completion, rank by the x axis from low to high.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Visualize the general trend of the number of date of completion over the date of completion, and display x axis from low to high order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of completion students in each day and group by date of completion in a line chart, and order from low to high by the x-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart x axis date of enrolment y axis the number of date of enrolment, and list y axis from low to high order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each day? Return a bar chart binning date of enrolment by weekday, and list y axis from low to high order.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each day and bin date of enrolment by weekday with a bar chart, I want to show in asc by the total number.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"Bar chart of how many date of enrolment from each date of enrolment, and could you list by the Y-axis in asc?\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"List the number of enrolment students in each month and bin date of enrolment by month interval with a bar chart, and sort by the y axis from low to high.\" - <class 'KeyError'>: 'Student_Course_Enrolment'",
+        "Error when executing \"How many enrolment students in each month? Return a bar chart binning date of enrolment by month interval, and I want to order in asc by the y-axis.\" - <class 'KeyError'>: 'Student_Course_Enrolment'"
+    ]
+}

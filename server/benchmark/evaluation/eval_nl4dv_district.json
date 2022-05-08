@@ -1,0 +1,147 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "district",
+    "results": [
+        {
+            "query": "Find the name and population of districts with population between 200000 and 200000. Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "What are the district names and city populations for all districts that between 200,000 and 2,000,000 residents? Show a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "Find the name and population of districts with population between 200000 and 200000 Show a bar chart, I want to rank in asc by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, show by the City_Population in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539886907562604
+            }
+        },
+        {
+            "query": "What are the district names and city populations for all districts that between 200,000 and 2,000,000 residents? Show a bar graph, I want to rank in asc by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539886907562604
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, display by the City_Population from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539886907562604
+            }
+        },
+        {
+            "query": "Find the name and population of districts with population between 200000 and 200000 Show a bar chart, display in asc by the District_name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7549543027585122
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, I want to sort by the bars in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, and show in ascending by the District_name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "What are the district names and city populations for all districts that between 200,000 and 2,000,000 residents? Show a bar graph, order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7547225776222916
+            }
+        },
+        {
+            "query": "Find the name and population of districts with population between 200000 and 200000 Show a bar chart, and sort District_name from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542540348848236
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, and display in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754043645662389
+            }
+        },
+        {
+            "query": "What are the district names and city populations for all districts that between 200,000 and 2,000,000 residents? Show a bar graph, and rank in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754043645662389
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, I want to list X from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754043645662389
+            }
+        },
+        {
+            "query": "What are the district names and city populations for all districts that between 200,000 and 2,000,000 residents? Show a bar graph, display in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582621629517816
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, show by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582621629517816
+            }
+        },
+        {
+            "query": "Find the name and population of districts with population between 200000 and 200000 Show a bar chart, show by the y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the district names and city populations for all districts that between 200,000 and 2,000,000 residents?, and I want to sort Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582621629517816
+            }
+        }
+    ],
+    "errors": []
+}

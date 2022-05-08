@@ -1,0 +1,357 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "technician",
+    "results": [
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980291047302828
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980291047302828
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980291047302828
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980291047302828
+            }
+        },
+        {
+            "query": "What is the name of the technician whose team is not 'NYY', and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "List the number of the name of technicians whose team is not \"NYY\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "List the name of technicians whose team is not \"NYY\", and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of technicians whose team is not \"NYY\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there, could you sort X in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team, and could you sort X in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team with a bar chart, and show by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across team, and show bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "List the number of the name of technicians whose team is not \"NYY\", and I want to order from low to high by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8049533499292317
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of technicians whose team is not \"NYY\", I want to rank in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724856833139414
+            }
+        },
+        {
+            "query": "List the name of technicians whose team is not \"NYY\", and count them by a bar chart, I want to order from low to high by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8049533499292317
+            }
+        },
+        {
+            "query": "What is the name of the technician whose team is not 'NYY', and count them by a bar chart, show by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724856833139414
+            }
+        },
+        {
+            "query": "What is the name of the technician whose team is not 'NYY', and count them by a bar chart, show by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7782748766460988
+            }
+        },
+        {
+            "query": "List the number of the name of technicians whose team is not \"NYY\", could you order from high to low by the Y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8079207615979286
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of technicians whose team is not \"NYY\", order by the y axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8079207615979286
+            }
+        },
+        {
+            "query": "List the name of technicians whose team is not \"NYY\", and count them by a bar chart, could you list Y from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8079207615979286
+            }
+        },
+        {
+            "query": "List the number of the name of technicians whose team is not \"NYY\", could you show bar in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "List the name of technicians whose team is not \"NYY\", and count them by a bar chart, rank x axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "What is the name of the technician whose team is not 'NYY', and count them by a bar chart, could you show bar in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of technicians whose team is not \"NYY\", I want to display from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7893381306372702
+            }
+        },
+        {
+            "query": "List the name of technicians whose team is not \"NYY\", and count them by a bar chart, and show x-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7714148284472399
+            }
+        },
+        {
+            "query": "What is the name of the technician whose team is not 'NYY', and count them by a bar chart, order by the X-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7714148284472399
+            }
+        },
+        {
+            "query": "List the number of the name of technicians whose team is not \"NYY\", order by the X-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7714148284472399
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of technicians whose team is not \"NYY\", show x-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7714148284472399
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941883453121476
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team, list by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.921816816587672
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across team, show X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.921816816587672
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team with a bar chart, and display from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.921816816587672
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there, and list names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.921816816587672
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team with a bar chart, and order Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9922605570228279
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team, I want to display by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8906883482141734
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there, and order Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9922605570228279
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across team, show the total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9922605570228279
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across team, sort from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9928506066008911
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team, show by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8892485582714033
+            }
+        },
+        {
+            "query": "For each team, how many technicians are there, and sort from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8892485582714033
+            }
+        },
+        {
+            "query": "Show different teams of technicians and the number of technicians in each team with a bar chart, could you show the total number in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9928506066008911
+            }
+        },
+        {
+            "query": "What are the names of the technicians by ascending order of age, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        },
+        {
+            "query": "List the number of the names of technicians in ascending order of age.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of the technicians by ascending order of age?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the names of technicians in ascending order of age.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        },
+        {
+            "query": "What are the number of the names of the technicians by ascending order of age?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        },
+        {
+            "query": "List the names of technicians in ascending order of age, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6597865966813089
+            }
+        }
+    ],
+    "errors": []
+}

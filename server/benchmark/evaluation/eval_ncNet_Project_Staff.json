@@ -1,0 +1,248 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Project_Staff",
+    "results": [
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date to by the number of date to as a trend line",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date to by grouped by date to as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart, I want to list in asc by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date from by grouped by date from as a bar graph, list Y in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart, order by the the number of date to in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date to by grouped by date to as a bar graph, and list Y from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date from by grouped by date from as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart, and could you show by the X in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date to by the number of date to as a trend line, and sort by the x-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval, I want to rank in descending by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart, and rank X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval, rank by the x axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of how many date from over the date from?, I want to rank in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date to by the number of date to as a trend line, I want to show by the X in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart, and rank X in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval, display by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date from by grouped by date from as a bar graph, and I want to list in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart, and display from high to low by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many date to by grouped by date to as a bar graph, I want to sort y axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart, and I want to show y-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of how many date from over the date from?, and display in ascending by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval, order from low to high by the date_from please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart, and order from low to high by the date_from please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of how many date from over the date from?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart.\"",
+        "Error when executing query: \"Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval.\"",
+        "Error when executing query: \"Plot date to by the number of date to as a trend line\"",
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart.\"",
+        "Error when executing query: \"Plot how many date to by grouped by date to as a bar graph\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart, I want to list in asc by the Y-axis please.\"",
+        "Error when executing query: \"Plot how many date from by grouped by date from as a bar graph, list Y in asc order.\"",
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart, order by the the number of date to in asc.\"",
+        "Error when executing query: \"Plot how many date to by grouped by date to as a bar graph, and list Y from low to high order please.\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart.\"",
+        "Error when executing query: \"Plot how many date from by grouped by date from as a bar graph\"",
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart, and could you show by the X in desc?\"",
+        "Error when executing query: \"Plot date to by the number of date to as a trend line, and sort by the x-axis from high to low.\"",
+        "Error when executing query: \"Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval, I want to rank in descending by the X.\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart, and rank X from high to low order.\"",
+        "Error when executing query: \"Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval, rank by the x axis in desc.\"",
+        "Error when executing query: \"Can you draw the trend of how many date from over the date from?, I want to rank in desc by the X-axis.\"",
+        "Error when executing query: \"Plot date to by the number of date to as a trend line, I want to show by the X in asc.\"",
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into YEAR interval and count them with a line chart, and rank X in asc order.\"",
+        "Error when executing query: \"Give me the trend about the date_to attributes of all researchers, and bin the date_to into Year interval, display by the x-axis from low to high.\"",
+        "Error when executing query: \"Plot how many date from by grouped by date from as a bar graph, and I want to list in descending by the total number.\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart, and display from high to low by the y axis.\"",
+        "Error when executing query: \"Plot how many date to by grouped by date to as a bar graph, I want to sort y axis in desc order please.\"",
+        "Error when executing query: \"When do all the researcher role staff stop working? Bin the time into weekday interval and count them with a bar chart, and I want to show y-axis in descending order please.\"",
+        "Error when executing query: \"Can you draw the trend of how many date from over the date from?, and display in ascending by the X.\"",
+        "Error when executing query: \"Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval, order from low to high by the date_from please.\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart, and order from low to high by the date_from please.\"",
+        "Error when executing query: \"When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart.\"",
+        "Error when executing query: \"Give me the trend about the date_from attributes of all researchers, and bin the date into Year interval.\"",
+        "Error when executing query: \"Can you draw the trend of how many date from over the date from?\""
+    ]
+}

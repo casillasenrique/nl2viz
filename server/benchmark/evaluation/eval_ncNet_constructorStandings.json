@@ -1,0 +1,48 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "constructorStandings",
+    "results": [
+        {
+            "query": "Show me the correlation about what are the numbers of races for each constructor id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter chart. what are the numbers of races for each constructor id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the numbers of races for each constructor id. Show the correlation.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each constructor id, how many races are there. Show scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot a scatter chart, count(*) by constructorid.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Show me the correlation about what are the numbers of races for each constructor id?\" - <class 'KeyError'>: 'constructorStandings'",
+        "Error when executing \"Scatter chart. what are the numbers of races for each constructor id?\" - <class 'KeyError'>: 'constructorStandings'",
+        "Error when executing \"What are the numbers of races for each constructor id. Show the correlation.\" - <class 'KeyError'>: 'constructorStandings'",
+        "Error when executing \"For each constructor id, how many races are there. Show scatter chart.\" - <class 'KeyError'>: 'constructorStandings'",
+        "Error when executing \"Plot a scatter chart, count(*) by constructorid.\" - <class 'KeyError'>: 'constructorStandings'"
+    ]
+}

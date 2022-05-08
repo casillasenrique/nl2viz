@@ -1,0 +1,133 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "tv_channel",
+    "results": [
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English. Show the number of different pixel aspect ratios with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "What are the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the comparison of the total number of pixel aspect ratio in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the comparison of the pixel aspect ratio and the nation of the tv channels that do not use English.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English. Show the proportion of the pixel aspect ratio with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the proportion of the pixel aspect ratio with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie chart showing the proportion of the pixel aspect ratio and the nation of the tv channels that do not use English.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the comparison of the pixel aspect ratio and the nation of the tv channels that do not use English, show by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "What are the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the comparison of the total number of pixel aspect ratio in a bar chart, order in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English Show the number of different pixel aspect ratios with a bar chart, list in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872297
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the comparison of the pixel aspect ratio and the nation of the tv channels that do not use English, I want to display in desc by the Pixel_aspect_ratio_PAR.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199606
+            }
+        },
+        {
+            "query": "What are the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the comparison of the total number of pixel aspect ratio in a bar chart, I want to display in desc by the Pixel_aspect_ratio_PAR.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199606
+            }
+        },
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English Show the number of different pixel aspect ratios with a bar chart, list X-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199606
+            }
+        },
+        {
+            "query": "What are the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the comparison of the total number of pixel aspect ratio in a bar chart, sort by the y axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872306
+            }
+        },
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English Show the number of different pixel aspect ratios with a bar chart, and I want to rank by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872306
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the comparison of the pixel aspect ratio and the nation of the tv channels that do not use English, I want to rank by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194662798872306
+            }
+        },
+        {
+            "query": "What are the pixel aspect ratio and country of origin for all TV channels that do not use English? Show the comparison of the total number of pixel aspect ratio in a bar chart, order names in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199605
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the comparison of the pixel aspect ratio and the nation of the tv channels that do not use English, could you sort by the X-axis in ascending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199605
+            }
+        },
+        {
+            "query": "Find the pixel aspect ratio and the nation of the tv channels that do not use English Show the number of different pixel aspect ratios with a bar chart, I want to show by the Pixel_aspect_ratio_PAR in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7194736216199605
+            }
+        }
+    ],
+    "errors": []
+}

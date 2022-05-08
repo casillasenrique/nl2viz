@@ -1,0 +1,21 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "user_profiles",
+    "results": [
+        {
+            "query": "List the name and number of followers for each user, and sort the results by the number of followers in descending order with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8068542073895696
+            }
+        },
+        {
+            "query": "List the name and number of followers for each user, and sort the results by the number of followers in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8068542073895696
+            }
+        }
+    ],
+    "errors": []
+}

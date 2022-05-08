@@ -1,0 +1,271 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "mountain",
+    "results": [
+        {
+            "query": "What are the correlation between the height and prominence of mountains which do not belong to the range 'Aberdare Range'? Plot the result by a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9978325092687647
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the countries of the mountains that have a height larger than 5000.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7902411972793978
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7902411972793978
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of mountains with height bigger than 5000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a bar chart, and I want to list y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of mountains with height bigger than 5000?, order by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000, and I want to list y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the countries of the mountains that have a height larger than 5000, and I want to list y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?, I want to rank by the Y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a bar chart, could you sort y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the countries of the mountains that have a height larger than 5000, list y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of mountains with height bigger than 5000?, and show from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?, and show from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a bar chart, list in desc by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000, and could you show y axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a bar chart, display by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000, display from high to low by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a bar chart, and display from high to low by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?, and sort names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the countries of the mountains that have a height larger than 5000, list in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of mountains with height bigger than 5000?, could you show in descending by the Country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a bar chart, display X in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941406
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a bar chart, and could you show in ascending by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the countries of the mountains that have a height larger than 5000, could you show in ascending by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?, I want to display X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a bar chart, and list in ascending by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of mountains with height bigger than 5000?, and I want to show by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000, could you order in ascending by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7430529478941411
+            }
+        },
+        {
+            "query": "A pie chart for returning the number of the countries of the mountains that have a height larger than 5000.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8290968954349522
+            }
+        },
+        {
+            "query": "A pie chart for what are the number of the countries of mountains with height bigger than 5000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8290968954349522
+            }
+        },
+        {
+            "query": "Return the countries of the mountains that have a height larger than 5000, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8290968954349522
+            }
+        },
+        {
+            "query": "What are the countries of mountains with height bigger than 5000, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8290968954349522
+            }
+        },
+        {
+            "query": "Return the number of the countries of the mountains that have a height larger than 5000.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7902411972793978
+            }
+        },
+        {
+            "query": "What are the number of the countries of mountains with height bigger than 5000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7902411972793978
+            }
+        }
+    ],
+    "errors": [
+        "\"Return the number of the countries of the mountains that have a height larger than 5000.\" has 2 benchmarks associated with it",
+        "\"What are the number of the countries of mountains with height bigger than 5000?\" has 2 benchmarks associated with it",
+        "\"Return the number of the countries of the mountains that have a height larger than 5000.\" has 2 benchmarks associated with it",
+        "\"What are the number of the countries of mountains with height bigger than 5000?\" has 2 benchmarks associated with it"
+    ]
+}

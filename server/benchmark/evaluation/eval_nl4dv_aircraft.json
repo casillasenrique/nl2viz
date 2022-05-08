@@ -1,0 +1,306 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "aircraft",
+    "results": [
+        {
+            "query": "A bar chart for what are the number of the descriptions for the aircrafts?, rank by the Y-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?, and rank by the Y-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the description of all aircrafts, list y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts, and rank by the Y-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a bar chart, and order by the total number in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a bar chart, list y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of description versus the number of description, rank by the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?, sort bar in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts, and show in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the descriptions for the aircrafts?, and sort by the names in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the description of all aircrafts, and order bars in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a bar chart, and order by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a bar chart, and sort bar in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of description versus the number of description, show in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the descriptions for the aircrafts?, and show by the Description in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the description of all aircrafts, and I want to rank X in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a bar chart, I want to display in descending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a bar chart, and I want to display in descending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?, and could you list in descending by the Description?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of description versus the number of description, show by the x-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts, show by the Description in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a bar chart, and I want to rank by the how many description in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts, and could you display from low to high by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the description of all aircrafts, and show by the y axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a bar chart, list in asc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the descriptions for the aircrafts?, and could you display from low to high by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?, I want to rank by the how many description in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of description versus the number of description, and could you sort by the y axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the description of all aircrafts.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the descriptions for the aircrafts?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of description versus the number of description",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart for what are the number of the descriptions for the aircrafts?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the descriptions for the aircrafts?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the descriptions for the aircrafts, and count them by a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart for listing the number of the description of all aircrafts.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the description of all aircrafts.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the description of all aircrafts, and count them by a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many description across description.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"What are the number of the descriptions for the aircrafts?\" has 2 benchmarks associated with it",
+        "\"List the number of the description of all aircrafts.\" has 2 benchmarks associated with it",
+        "\"What are the number of the descriptions for the aircrafts?\" has 2 benchmarks associated with it",
+        "\"List the number of the description of all aircrafts.\" has 2 benchmarks associated with it"
+    ]
+}

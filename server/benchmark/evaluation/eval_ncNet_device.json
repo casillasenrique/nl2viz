@@ -1,0 +1,178 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "device",
+    "results": [
+        {
+            "query": "A bar chart about what are the different software platforms for devices, and how many devices have each?, and could you display by the x-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7616930842064753
+            }
+        },
+        {
+            "query": "Bar chart x axis software platform y axis the total number, sort by the Software_Platform in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7616930842064753
+            }
+        },
+        {
+            "query": "what are the different software platforms for devices, and how many devices have each?, and show by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7616930842064753
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each, I want to show by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7616930842064753
+            }
+        },
+        {
+            "query": "A pie chart about what are the different software platforms for devices, and how many devices have each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.751978884512281
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the different software platforms for devices, and how many devices have each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.751978884512281
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different software platform.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9873701583803508
+            }
+        },
+        {
+            "query": "A bar chart about what are the different software platforms for devices, and how many devices have each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "what are the different software platforms for devices, and how many devices have each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "Bar chart x axis software platform y axis the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "what are the different software platforms for devices, and how many devices have each?, order by the x-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "Bar chart x axis software platform y axis the total number, I want to show in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each, I want to show bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "A bar chart about what are the different software platforms for devices, and how many devices have each?, and show in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "what are the different software platforms for devices, and how many devices have each?, order in ascending by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9916940360297818
+            }
+        },
+        {
+            "query": "A bar chart about what are the different software platforms for devices, and how many devices have each?, and rank by the the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7616930842064753
+            }
+        },
+        {
+            "query": "Bar chart x axis software platform y axis the total number, could you list total number in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9916940360297818
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each, could you rank the total number in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9916940360297818
+            }
+        },
+        {
+            "query": "Bar chart x axis software platform y axis the total number, and sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "What are the different software platforms for devices, and how many devices have each, sort in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "A bar chart about what are the different software platforms for devices, and how many devices have each?, sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        },
+        {
+            "query": "what are the different software platforms for devices, and how many devices have each?, sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991694036029782
+            }
+        }
+    ],
+    "errors": [
+        "\"What are the different software platforms for devices, and how many devices have each.\" has 2 benchmarks associated with it",
+        "\"What are the different software platforms for devices, and how many devices have each.\" has 2 benchmarks associated with it"
+    ]
+}

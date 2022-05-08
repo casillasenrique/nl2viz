@@ -1,0 +1,196 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "exhibition",
+    "results": [
+        {
+            "query": "Bin the Year into weekday interval, then group and count by Year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343358111902235
+            }
+        },
+        {
+            "query": "Give a bar chart that bins year into weekday interval, group by year and count them.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343358111902235
+            }
+        },
+        {
+            "query": "Show me how many year by year in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343358111902235
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, group by year, and count year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504769864528059
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, return a bar chart that groups by year and counts the total number of years.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504769864528059
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, group by themes, count year, and the x-axis is Year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8001140393818355
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, show me a stacked bar chart that groups by themes, counts year, and the x-axis is Year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8001140393818355
+            }
+        },
+        {
+            "query": "Show me how many year by year in a histogram, could you display y axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343567846033444
+            }
+        },
+        {
+            "query": "Bin the Year into weekday interval, then group and count by Year, and I want to display by the how many year in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343567846033444
+            }
+        },
+        {
+            "query": "Give a bar chart that bins year into weekday interval, group by year and count them, and I want to sort in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343567846033444
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, return a bar chart that groups by year and counts the total number of years, I want to list y axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7523827266294044
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, group by year, and count year, and display by the the number of year from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7523827266294044
+            }
+        },
+        {
+            "query": "Stacked bar of year and the number of year colored by Theme, and sort from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7072281904098613
+            }
+        },
+        {
+            "query": "Group by the theme and count the year with a stacked bar chart, I want to list by the the number of year from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7072281904098613
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, show me a stacked bar chart that groups by themes, counts year, and the x-axis is Year, show by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975092747155054
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, group by themes, count year, and the x-axis is Year, show from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975092747155054
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, group by themes, count year, and the x-axis is Year, show y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8001206029042764
+            }
+        },
+        {
+            "query": "Find those themes and years for all exhibitions with ticket prices lower than 15, show me a stacked bar chart that groups by themes, counts year, and the x-axis is Year, I want to show how many year in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8001206029042764
+            }
+        },
+        {
+            "query": "Group by the theme and count the year with a stacked bar chart, and show from high to low by the the number of year please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708561253571078
+            }
+        },
+        {
+            "query": "Stacked bar of year and the number of year colored by Theme, display in desc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708561253571078
+            }
+        },
+        {
+            "query": "Bin the Year into weekday interval, then group and count by Year, display Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7405982752051333
+            }
+        },
+        {
+            "query": "Give a bar chart that bins year into weekday interval, group by year and count them, display in descending by the how many year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7405982752051333
+            }
+        },
+        {
+            "query": "Show me how many year by year in a histogram, and I want to list Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7405982752051333
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, return a bar chart that groups by year and counts the total number of years, and I want to display in ascending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504769864528059
+            }
+        },
+        {
+            "query": "Find those years for all exhibitions with ticket prices lower than 15, group by year, and count year, and order by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504769864528059
+            }
+        },
+        {
+            "query": "Group by the theme and count the year with a stacked bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7063182960968198
+            }
+        },
+        {
+            "query": "Stacked bar of year and the number of year colored by Theme",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7063182960968198
+            }
+        }
+    ],
+    "errors": []
+}

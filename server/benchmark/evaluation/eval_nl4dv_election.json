@@ -1,0 +1,238 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "election",
+    "results": [
+        {
+            "query": "Show how many committee from each committee, I want to sort names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7699240969384032
+            }
+        },
+        {
+            "query": "How many delegates in each committee? Return a bar chart, I want to order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7699240969384032
+            }
+        },
+        {
+            "query": "Show the number of delegates in each committee with a bar chart, and show by the bar from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show vote_percent from each date, and I want to rank by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6609812039606672
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections in a bar chart, and I want to rank by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6609712413538041
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections Show bar chart, I want to rank by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6609712413538041
+            }
+        },
+        {
+            "query": "How many delegates in each committee? Return a bar chart, and display by the y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of delegates in each committee with a bar chart, and display in descending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show how many committee from each committee, I want to sort in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show vote_percent from different date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7690010267376644
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections Show bar chart, show by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6723276707148171
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections in a bar chart, list by the Vote_Percent in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6723276707148171
+            }
+        },
+        {
+            "query": "Show vote_percent from each date, list by the Vote_Percent in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6723276707148171
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections Show bar chart, order by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.659491762330113
+            }
+        },
+        {
+            "query": "Show vote_percent from each date, and I want to rank x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596466976671813
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections in a bar chart, rank in ascending by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.659491762330113
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6727610878121597
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6727610878121597
+            }
+        },
+        {
+            "query": "Show vote_percent from each date",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6727610878121597
+            }
+        },
+        {
+            "query": "Show how many committee from each committee, show X from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7722589246254309
+            }
+        },
+        {
+            "query": "Show the number of delegates in each committee with a bar chart, and show by the Committee in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many delegates in each committee? Return a bar chart, list by the X in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections Show bar chart, and list y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6580434683343656
+            }
+        },
+        {
+            "query": "Show vote_percent from each date, could you show y axis from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6585468419966979
+            }
+        },
+        {
+            "query": "List the dates and vote percents of elections in a bar chart, and I want to order by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6580434683343656
+            }
+        },
+        {
+            "query": "Show the number of delegates in each committee with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many delegates in each committee? Return a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show how many committee from each committee",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many delegates in each committee? Return a bar chart, display in asc by the how many committee please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show how many committee from each committee, sort from low to high by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of delegates in each committee with a bar chart, and could you order y axis in ascending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7699234552150728
+            }
+        }
+    ],
+    "errors": []
+}

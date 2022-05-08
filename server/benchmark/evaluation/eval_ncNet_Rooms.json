@@ -1,0 +1,1646 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Rooms",
+    "results": [
+        {
+            "query": "Please use a bar chart to show the minimum price of the rooms in a different decor, I want to rank by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum of the rooms in different decor using a bar chart, order by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the minimum price of the rooms for each different decor? Show me a bar chart!, I want to list in ascending by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of decor versus minimal baseprice, and sort Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the rooms for each different decor? Show me a bar chart!, and I want to order in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average price of the rooms in a different decor, and sort from low to high by the X please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a bar chart, sort from low to high by the X please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for the average of baseprice of each decor, and list from low to high by the decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just show the average and minimum price of the rooms in different decor using a scatter.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show avg(baseprice) vs minimal baseprice as scatter plot use a different color for each decor",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the number of rooms for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the number of rooms for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across bedtype",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum of the rooms in different decor using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the minimum price of the rooms for each different decor? Show me a bar chart!",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the minimum price of the rooms in a different decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of decor versus minimal baseprice",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average base price of rooms, for each bed type?, sort by the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type Show bar chart, display in asc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, display Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of different bed type? List bed type and average base price, and show in asc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of rooms, for each bed type?, and display Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average base price of different bed type? List bed type and average base price, could you list in asc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the average of baseprice by bedtype in a histogram, and order in asc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price Show bar chart, could you list by the Y-axis from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type Plot them as bar chart, and display total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price Show bar chart, and show in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of rooms, for each bed type?, and sort from high to low by the mean baseprice.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of different bed type? List bed type and average base price, I want to display in desc by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type Show bar chart, and show by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, and show in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average base price of different bed type? List bed type and average base price, and I want to display in desc by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the average of baseprice by bedtype in a histogram, show y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average base price of rooms, for each bed type?, and list mean baseprice in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type Plot them as bar chart, sort by the total number in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on how many rooms have king beds? Report the number for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many rooms have king beds? Report the number for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, X is bed type and the Y-axis is their appearance frequency, list in desc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of each type of bed by a bar chart, and list bedType from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of different bed type? List bed type and average base price, order X from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type Show bar chart, rank X in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average base price of different bed type? List bed type and average base price, and rank in ascending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type Plot them as bar chart, and display in asc by the bedType please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price Show bar chart, order X from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, display in asc by the bedType please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average base price of rooms, for each bed type?, display x axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the average of baseprice by bedtype in a histogram, and could you sort in ascending by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of rooms, for each bed type?, and rank X in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Using a pie chart to show the proportion of each type of bed.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you show me the proportion of each bed type using a pie chart?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type, sort bar in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many rooms have king beds? Report the number for each decor type, could you list x-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type Plot them as bar chart, list by the x-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many rooms have king beds? Report the number for each decor type, and could you list x-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the proportion of how many rooms cost more than 120, for each different decor?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie. how many rooms cost more than 120, for each different decor?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for the average of baseprice of each decor, and list by the bar in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average price of the rooms in a different decor, list bars in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the rooms for each different decor? Show me a bar chart!, list by the x-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a bar chart, could you sort X in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the proportion of the minimum price of the rooms for each different decor? Show me a pie chart!",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a pie chart to show the proportion of the minimum price of the rooms in a different decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum price of the rooms in different decor using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total minimal baseprice across decor as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type Show bar chart, I want to show by the x axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type Visualize by bar chart, and show in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the number of rooms for each bed type?, and order by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across bedtype, and rank bar in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the number of rooms for each bed type?, could you show x-axis in asc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum of the rooms in different decor using a bar chart, show by the total number in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of decor versus minimal baseprice, order by the total number in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the minimum price of the rooms for each different decor? Show me a bar chart!, sort in descending by the minimal baseprice.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the minimum price of the rooms in a different decor, and display by the y-axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for the average of baseprice of each decor, and rank by the the average of baseprice in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average price of the rooms in a different decor, and display in ascending by the the average of baseprice.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the rooms for each different decor? Show me a bar chart!, and sort y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a bar chart, list in ascending by the the average of baseprice.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for the average of baseprice of each decor, could you display Y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the rooms for each different decor? Show me a bar chart!, and sort total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a bar chart, and could you display Y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average price of the rooms in a different decor, and display Y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of the decor of rooms that have a king bed using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, group and count the decor of rooms that have a king bed.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many rooms have king beds? Report the number for each decor type, order by the X-axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type Plot them as bar chart, show X from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many rooms have king beds? Report the number for each decor type, and sort from low to high by the decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type, could you show in asc by the names?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of each type of bed by a bar chart, and I want to list by the y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, X is bed type and the Y-axis is their appearance frequency, I want to list by the y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type Show bar chart, could you list by the y axis from high to low?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type Visualize by bar chart, and I want to show in descending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the number of rooms for each bed type?, show by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across bedtype, show by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the number of rooms for each bed type?, list in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type Plot them as bar chart, and I want to rank by the y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many rooms have king beds? Report the number for each decor type, and could you order by the y-axis from high to low please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many rooms have king beds? Report the number for each decor type, and rank from high to low by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type, I want to rank by the y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of each type of bed by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, X is bed type and the Y-axis is their appearance frequency.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across bedtype, and I want to show y axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type Show bar chart, order by the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the number of rooms for each bed type?, and order by the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the number of rooms for each bed type?, display Y in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type Visualize by bar chart, sort y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum of the rooms in different decor using a bar chart, and display by the X-axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the minimum price of the rooms for each different decor? Show me a bar chart!, rank by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of decor versus minimal baseprice, could you show in ascending by the names?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the minimum price of the rooms in a different decor, rank decor from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across bedtype, and list from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the number of rooms for each bed type?, and I want to show from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the number of rooms for each bed type?, could you sort in descending by the x-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type Visualize by bar chart, and could you list by the bedType in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type Show bar chart, list from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the minimum of the rooms in different decor using a bar chart, and rank by the decor in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the minimum price of the rooms in a different decor, sort by the X-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the minimum price of the rooms for each different decor? Show me a bar chart!, I want to sort in descending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of decor versus minimal baseprice, and sort by the X-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average base price of different bed type? List bed type and average base price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of different bed type? List bed type and average base price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of rooms, for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average base price of rooms, for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the average of baseprice by bedtype in a histogram",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for how many rooms cost more than 120, for each different decor?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many rooms cost more than 120, for each different decor?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many rooms have king beds? Report the number for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many rooms have king beds? Report the number for each decor type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for how many rooms cost more than 120, for each different decor?, could you order from high to low by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor Show bar chart, and list by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many rooms cost more than 120, for each different decor?, and list by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor Plot them as bar chart, I want to rank by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms have king beds? Report the number for each decor type Plot them as bar chart, I want to sort by the Y from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many rooms have king beds? Report the number for each decor type, and rank by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with king bed for each decor type, I want to order the total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many rooms have king beds? Report the number for each decor type, and rank Y-axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price Show bar chart, rank bar in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of rooms, for each bed type?, I want to show bedType from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average base price of different bed type? List bed type and average base price, sort by the bars from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average base price of rooms, for each bed type?, I want to show bedType from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the average of baseprice by bedtype in a histogram, and sort by the bars from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average base price of different bed type? List bed type and average base price, order by the bedType in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type Show bar chart, and list in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, I want to display by the bar from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type Plot them as bar chart, and order by the bedType in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just show the average and minimum price of the rooms in different decor using a scatter.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a scatter plot of avg(baseprice) and minimal baseprice for .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor Show bar chart, list by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for how many rooms cost more than 120, for each different decor?, order by the bar in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many rooms cost more than 120, for each different decor?, and list by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor Plot them as bar chart, and rank by the decor from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the frequency of the decor of rooms that have a king bed using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie chart, group and count the decor of rooms that have a king bed.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many rooms cost more than 120, for each different decor?, show bar from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor Plot them as bar chart, order in desc by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor Show bar chart, list by the decor in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for how many rooms cost more than 120, for each different decor?, list by the names in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie on what is the average base price of different bed type? List bed type and average base price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what is the average base price of different bed type? List bed type and average base price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of different bed type? List bed type and average base price. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average base price of different bed type. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each bed type, find the average room price. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie on what is the average base price of rooms, for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what is the average base price of rooms, for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average base price of rooms, for each bed type. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing mean baseprice across bedtype.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, X is bed type and the Y-axis is their appearance frequency, show by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of each type of bed by a bar chart, list in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms for each bed type. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the number of rooms for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the number of rooms for each bed type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of rooms for each bed type. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different bedtype.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of each type of bed by a bar chart, and display by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart, X is bed type and the Y-axis is their appearance frequency, and could you sort by the Y in asc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the proportion of the average base price of the rooms for each different decor? Show me a pie chart!",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a pie chart to show the proportion of the average price of the rooms in a different decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the average base price for each decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average price of the rooms in different decor using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the rooms for each different decor? Show me a bar chart!",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average price of the rooms in a different decor.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for the average of baseprice of each decor",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many rooms cost more than 120, for each different decor?, could you list Y-axis from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of rooms with price higher than 120 for different decor Show bar chart, and could you list Y-axis from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many rooms cost more than 120, for each different decor Plot them as bar chart, and list by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for how many rooms cost more than 120, for each different decor?, could you sort y-axis from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Please use a bar chart to show the minimum price of the rooms in a different decor, I want to rank by the Y in asc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum of the rooms in different decor using a bar chart, order by the y-axis from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the minimum price of the rooms for each different decor? Show me a bar chart!, I want to list in ascending by the Y please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart of decor versus minimal baseprice, and sort Y-axis from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average price of the rooms for each different decor? Show me a bar chart!, and I want to order in ascending by the x-axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the average price of the rooms in a different decor, and sort from low to high by the X please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a bar chart, sort from low to high by the X please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a bar chart for the average of baseprice of each decor, and list from low to high by the decor.\" - <class 'KeyError'>: 'Rooms'",
+        "\"Just show the average and minimum price of the rooms in different decor using a scatter.\" has 2 benchmarks associated with it",
+        "Error when executing \"Just show the average and minimum price of the rooms in different decor using a scatter.\" - <class 'KeyError'>: 'Rooms'",
+        "\"What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.\" has 2 benchmarks associated with it",
+        "Error when executing \"What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.\" - <class 'KeyError'>: 'Rooms'",
+        "\"Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.\" has 2 benchmarks associated with it",
+        "Error when executing \"Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show avg(baseprice) vs minimal baseprice as scatter plot use a different color for each decor\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type. Visualize by bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"A bar chart about what are the number of rooms for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what are the number of rooms for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type. Show bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a bar chart showing the total number across bedtype\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum of the rooms in different decor using a bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the minimum price of the rooms for each different decor? Show me a bar chart!\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the minimum price of the rooms in a different decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart of decor versus minimal baseprice\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart for what is the average base price of rooms, for each bed type?, sort by the total number in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type Show bar chart, display in asc by the y axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, display Y from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of different bed type? List bed type and average base price, and show in asc by the Y-axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of rooms, for each bed type?, and display Y from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"what is the average base price of different bed type? List bed type and average base price, could you list in asc by the Y?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the average of baseprice by bedtype in a histogram, and order in asc by the Y-axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price Show bar chart, could you list by the Y-axis from low to high?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type Plot them as bar chart, and display total number in asc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price Show bar chart, and show in desc by the total number.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of rooms, for each bed type?, and sort from high to low by the mean baseprice.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of different bed type? List bed type and average base price, I want to display in desc by the Y-axis please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type Show bar chart, and show by the Y from high to low.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, and show in desc by the total number.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"what is the average base price of different bed type? List bed type and average base price, and I want to display in desc by the Y-axis please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the average of baseprice by bedtype in a histogram, show y axis in descending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart for what is the average base price of rooms, for each bed type?, and list mean baseprice in descending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type Plot them as bar chart, sort by the total number in desc please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type. Plot them as pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the proportion on how many rooms have king beds? Report the number for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a pie chart for how many rooms have king beds? Report the number for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, X is bed type and the Y-axis is their appearance frequency, list in desc by the x axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of each type of bed by a bar chart, and list bedType from high to low order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of different bed type? List bed type and average base price, order X from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type Show bar chart, rank X in ascending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"what is the average base price of different bed type? List bed type and average base price, and rank in ascending by the X-axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type Plot them as bar chart, and display in asc by the bedType please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price Show bar chart, order X from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, display in asc by the bedType please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart for what is the average base price of rooms, for each bed type?, display x axis in asc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the average of baseprice by bedtype in a histogram, and could you sort in ascending by the bars?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of rooms, for each bed type?, and rank X in ascending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Using a pie chart to show the proportion of each type of bed.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Can you show me the proportion of each bed type using a pie chart?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type, sort bar in desc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on how many rooms have king beds? Report the number for each decor type, could you list x-axis from high to low order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type Plot them as bar chart, list by the x-axis in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"how many rooms have king beds? Report the number for each decor type, and could you list x-axis from high to low order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor. Show the proportion.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give the proportion of how many rooms cost more than 120, for each different decor?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Pie. how many rooms cost more than 120, for each different decor?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor. Plot them as pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a bar chart for the average of baseprice of each decor, and list by the bar in descending please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the average price of the rooms in a different decor, list bars in descending order please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average price of the rooms for each different decor? Show me a bar chart!, list by the x-axis in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a bar chart, could you sort X in descending order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the proportion of the minimum price of the rooms for each different decor? Show me a pie chart!\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a pie chart to show the proportion of the minimum price of the rooms in a different decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum price of the rooms in different decor using a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compute the total minimal baseprice across decor as a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type Show bar chart, I want to show by the x axis in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type Visualize by bar chart, and show in ascending by the bars.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what are the number of rooms for each bed type?, and order by the X in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a bar chart showing the total number across bedtype, and rank bar in asc order please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"A bar chart about what are the number of rooms for each bed type?, could you show x-axis in asc order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum of the rooms in different decor using a bar chart, show by the total number in desc please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart of decor versus minimal baseprice, order by the total number in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the minimum price of the rooms for each different decor? Show me a bar chart!, sort in descending by the minimal baseprice.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the minimum price of the rooms in a different decor, and display by the y-axis from high to low please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a bar chart for the average of baseprice of each decor, and rank by the the average of baseprice in asc please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the average price of the rooms in a different decor, and display in ascending by the the average of baseprice.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average price of the rooms for each different decor? Show me a bar chart!, and sort y-axis in ascending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a bar chart, list in ascending by the the average of baseprice.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a bar chart for the average of baseprice of each decor, could you display Y-axis from high to low order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average price of the rooms for each different decor? Show me a bar chart!, and sort total number in desc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a bar chart, and could you display Y-axis from high to low order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the average price of the rooms in a different decor, and display Y-axis in desc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of the decor of rooms that have a king bed using a bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, group and count the decor of rooms that have a king bed.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on how many rooms have king beds? Report the number for each decor type, order by the X-axis in ascending please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type Plot them as bar chart, show X from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"how many rooms have king beds? Report the number for each decor type, and sort from low to high by the decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type, could you show in asc by the names?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of each type of bed by a bar chart, and I want to list by the y-axis in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, X is bed type and the Y-axis is their appearance frequency, I want to list by the y-axis in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type Show bar chart, could you list by the y axis from high to low?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type Visualize by bar chart, and I want to show in descending by the y axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"A bar chart about what are the number of rooms for each bed type?, show by the total number in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a bar chart showing the total number across bedtype, show by the total number in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what are the number of rooms for each bed type?, list in desc by the total number.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type Plot them as bar chart, and I want to rank by the y-axis in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"how many rooms have king beds? Report the number for each decor type, and could you order by the y-axis from high to low please?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on how many rooms have king beds? Report the number for each decor type, and rank from high to low by the the total number .\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type, I want to rank by the y-axis in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of each type of bed by a bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, X is bed type and the Y-axis is their appearance frequency.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a bar chart showing the total number across bedtype, and I want to show y axis from low to high order please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type Show bar chart, order by the total number from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what are the number of rooms for each bed type?, and order by the total number from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"A bar chart about what are the number of rooms for each bed type?, display Y in asc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type Visualize by bar chart, sort y-axis in ascending order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum of the rooms in different decor using a bar chart, and display by the X-axis from low to high please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the minimum price of the rooms for each different decor? Show me a bar chart!, rank by the X in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart of decor versus minimal baseprice, could you show in ascending by the names?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the minimum price of the rooms in a different decor, rank decor from low to high order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a bar chart showing the total number across bedtype, and list from high to low by the X-axis please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what are the number of rooms for each bed type?, and I want to show from high to low by the bars.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"A bar chart about what are the number of rooms for each bed type?, could you sort in descending by the x-axis?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type Visualize by bar chart, and could you list by the bedType in desc?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type Show bar chart, list from high to low by the X-axis please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the minimum of the rooms in different decor using a bar chart, and rank by the decor in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the minimum price of the rooms in a different decor, sort by the X-axis in desc please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the minimum price of the rooms for each different decor? Show me a bar chart!, I want to sort in descending by the bars.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart of decor versus minimal baseprice, and sort by the X-axis in desc please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"what is the average base price of different bed type? List bed type and average base price.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of different bed type? List bed type and average base price.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price. Plot them as bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type. Show bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price. Show bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of rooms, for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart for what is the average base price of rooms, for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type. Plot them as bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the average of baseprice by bedtype in a histogram\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor. Show bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a histogram for how many rooms cost more than 120, for each different decor?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a bar chart for how many rooms cost more than 120, for each different decor?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor. Plot them as bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on how many rooms have king beds? Report the number for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"how many rooms have king beds? Report the number for each decor type.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type. Plot them as bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a histogram for how many rooms cost more than 120, for each different decor?, could you order from high to low by the Y-axis?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor Show bar chart, and list by the Y in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a bar chart for how many rooms cost more than 120, for each different decor?, and list by the Y in descending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor Plot them as bar chart, I want to rank by the Y-axis from high to low.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms have king beds? Report the number for each decor type Plot them as bar chart, I want to sort by the Y from low to high please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"how many rooms have king beds? Report the number for each decor type, and rank by the y axis in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with king bed for each decor type, I want to order the total number in asc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on how many rooms have king beds? Report the number for each decor type, and rank Y-axis from low to high order please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price Show bar chart, rank bar in desc order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of rooms, for each bed type?, I want to show bedType from high to low order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a bar chart on what is the average base price of different bed type? List bed type and average base price, sort by the bars from high to low.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Draw a bar chart for what is the average base price of rooms, for each bed type?, I want to show bedType from high to low order.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me the average of baseprice by bedtype in a histogram, and sort by the bars from high to low.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"what is the average base price of different bed type? List bed type and average base price, order by the bedType in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type Show bar chart, and list in desc by the X-axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price Plot them as bar chart, I want to display by the bar from high to low.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type Plot them as bar chart, and order by the bedType in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "\"Just show the average and minimum price of the rooms in different decor using a scatter.\" has 2 benchmarks associated with it",
+        "Error when executing \"Just show the average and minimum price of the rooms in different decor using a scatter.\" - <class 'KeyError'>: 'Rooms'",
+        "\"What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.\" has 2 benchmarks associated with it",
+        "Error when executing \"What is the relationship between the average price and the minimum price of the rooms for each different decor? How about using a line chart to show them.\" - <class 'KeyError'>: 'Rooms'",
+        "\"Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.\" has 2 benchmarks associated with it",
+        "Error when executing \"Please give me scatter to visualize two attr: the average and minimum price of the rooms in different decor using a scatter.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show me a scatter plot of avg(baseprice) and minimal baseprice for .\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor Show bar chart, list by the names in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a histogram for how many rooms cost more than 120, for each different decor?, order by the bar in ascending please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a bar chart for how many rooms cost more than 120, for each different decor?, and list by the names in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor Plot them as bar chart, and rank by the decor from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the frequency of the decor of rooms that have a king bed using a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Pie chart, group and count the decor of rooms that have a king bed.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a bar chart for how many rooms cost more than 120, for each different decor?, show bar from high to low order please.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor Plot them as bar chart, order in desc by the X.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor Show bar chart, list by the decor in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a histogram for how many rooms cost more than 120, for each different decor?, list by the names in desc.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a pie on what is the average base price of different bed type? List bed type and average base price.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a pie chart on what is the average base price of different bed type? List bed type and average base price.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of different bed type? List bed type and average base price. Visualize by pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average base price of different bed type. Plot them as pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"For each bed type, find the average room price. Show the proportion.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a pie on what is the average base price of rooms, for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a pie chart on what is the average base price of rooms, for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average base price of rooms, for each bed type. Show a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Create a pie chart showing mean baseprice across bedtype.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, X is bed type and the Y-axis is their appearance frequency, show by the names in ascending.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of each type of bed by a bar chart, list in ascending by the x axis.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms for each bed type. Show the proportion.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a pie chart with what are the number of rooms for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Return a pie chart on what are the number of rooms for each bed type?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What are the number of rooms for each bed type. Show a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a pie to show the total number from different bedtype.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Compare the frequency of each type of bed by a bar chart, and display by the y-axis from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Bar chart, X is bed type and the Y-axis is their appearance frequency, and could you sort by the Y in asc please?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a pie chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the proportion of the average base price of the rooms for each different decor? Show me a pie chart!\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a pie chart to show the proportion of the average price of the rooms in a different decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"I want to know the proportion of the average base price for each decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Show the average price of the rooms in different decor using a bar chart.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"What is the average price of the rooms for each different decor? Show me a bar chart!\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Please use a bar chart to show the average price of the rooms in a different decor.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a bar chart for the average of baseprice of each decor\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Visualize a bar chart for how many rooms cost more than 120, for each different decor?, could you list Y-axis from low to high order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Find the number of rooms with price higher than 120 for different decor Show bar chart, and could you list Y-axis from low to high order?\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"How many rooms cost more than 120, for each different decor Plot them as bar chart, and list by the Y from low to high.\" - <class 'KeyError'>: 'Rooms'",
+        "Error when executing \"Give me a histogram for how many rooms cost more than 120, for each different decor?, could you sort y-axis from low to high order?\" - <class 'KeyError'>: 'Rooms'"
+    ]
+}

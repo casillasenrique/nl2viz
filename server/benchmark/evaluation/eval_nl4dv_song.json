@@ -1,0 +1,259 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "song",
+    "results": [
+        {
+            "query": "what is the average rating of songs for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what is the average song rating for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a pie chart for what is the average song rating for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show mean rating from different languages.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average rating of songs for each language?, and I want to order by the x axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language Plot them as bar chart, I want to sort languages in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language Plot them as bar chart, display by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average song rating for each language?, list by the names from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average rating of songs for each language?, display by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me mean rating by languages in a histogram, and list by the names from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language Plot them as bar chart, I want to rank by the languages from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average rating of songs for each language?, list x-axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average song rating for each language?, list from high to low by the languages please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average rating of songs for each language?, list x-axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me mean rating by languages in a histogram, sort X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language Plot them as bar chart, and show by the languages in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language Plot them as bar chart, and could you list from high to low by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me mean rating by languages in a histogram, order by the mean rating in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average rating of songs for each language?, and could you sort total number in desc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average rating of songs for each language?, order by the mean rating in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average song rating for each language?, could you sort total number in desc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language Plot them as bar chart, could you list from high to low by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average rating of songs for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average rating of songs for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average song rating for each language?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me mean rating by languages in a histogram",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average song rating for each language Plot them as bar chart, order by the mean rating in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average rating of songs for each language?, and display by the mean rating from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average rating of songs for each language?, order by the mean rating in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me mean rating by languages in a histogram, order by the mean rating in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average rating of songs for each language Plot them as bar chart, and order in ascending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average song rating for each language?, and list from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

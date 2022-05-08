@@ -1,0 +1,434 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "match_season",
+    "results": [
+        {
+            "query": "Show the position of players and the corresponding number of players in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about how many players played each position?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many players played each position?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many players played each position. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different position.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620021924100092
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many players played each position?, order by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players Visualize by bar chart, list by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players with a bar chart, and could you list from low to high by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "How many players played each position Plot them as bar chart, rank by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Return a bar chart on how many players played each position?, show in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each position, display bars from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the draft pick numbers and draft classes for players who play the Defender position?, and list from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7669172695785033
+            }
+        },
+        {
+            "query": "What are the draft pick numbers and draft classes for players who play the Defender position Show bar chart, and could you order by the Y-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7669172695785033
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders in a bar chart, could you order by the Y-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7672706016022927
+            }
+        },
+        {
+            "query": "what are the draft pick numbers and draft classes for players who play the Defender position?, could you sort by the y-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7669172695785033
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders Show bar chart, list from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7672706016022927
+            }
+        },
+        {
+            "query": "How many players played each position Plot them as bar chart, and could you display y axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each position, rank from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many players played each position?, rank from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Return a bar chart on how many players played each position?, and list y-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players with a bar chart, and order by the the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players Visualize by bar chart, rank from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090081
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many players played each position?, order names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705740507772529
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players with a bar chart, and order names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705740507772529
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players Visualize by bar chart, could you order in descending by the names please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705740507772529
+            }
+        },
+        {
+            "query": "Return a bar chart on how many players played each position?, rank Position from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6885030874872978
+            }
+        },
+        {
+            "query": "How many players played each position Plot them as bar chart, and order names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705740507772529
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each position, and could you order by the x-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705740507772529
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Return a bar chart on how many players played each position?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many players played each position?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "How many players played each position. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each position",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057405077725317
+            }
+        },
+        {
+            "query": "What are the draft pick numbers and draft classes for players who play the Defender position Show bar chart, I want to rank from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711440650985654
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the draft pick numbers and draft classes for players who play the Defender position?, could you display in desc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711440650985654
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders Show bar chart, show Y-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.771497397122355
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders in a bar chart, and list Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.771497397122355
+            }
+        },
+        {
+            "query": "what are the draft pick numbers and draft classes for players who play the Defender position?, rank in descending by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711440650985654
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each position, show the total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players with a bar chart, and show the total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many players played each position?, display by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "How many players played each position Plot them as bar chart, and rank in asc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "Show the position of players and the corresponding number of players Visualize by bar chart, and could you show in ascending by the Y please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "Return a bar chart on how many players played each position?, show the total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7057211852090077
+            }
+        },
+        {
+            "query": "What are the draft pick numbers and draft classes for players who play the Defender position Show bar chart, and could you order x-axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders in a bar chart, and list by the Draft_Class from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7675005406389692
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders Show bar chart, and display from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7675005406389692
+            }
+        },
+        {
+            "query": "what are the draft pick numbers and draft classes for players who play the Defender position?, and list by the Draft_Class from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the draft pick numbers and draft classes for players who play the Defender position?, display in descending by the Draft_Class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7675005406389692
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7675005406389692
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the draft pick numbers and draft classes for players who play the Defender position?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "what are the draft pick numbers and draft classes for players who play the Defender position?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "What are the draft pick numbers and draft classes for players who play the Defender position. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7671472086151798
+            }
+        },
+        {
+            "query": "what are the draft pick numbers and draft classes for players who play the Defender position?, rank by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7713552034287129
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders Show bar chart, I want to list by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7717085354525025
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the draft pick numbers and draft classes for players who play the Defender position?, could you list by the x axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7713552034287129
+            }
+        },
+        {
+            "query": "What are the draft pick numbers and draft classes for players who play the Defender position Show bar chart, show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7713552034287129
+            }
+        },
+        {
+            "query": "Show the draft pick numbers and draft classes of players whose positions are defenders in a bar chart, and show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7717085354525025
+            }
+        }
+    ],
+    "errors": []
+}

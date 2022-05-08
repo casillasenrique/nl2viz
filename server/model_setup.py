@@ -2,7 +2,7 @@ from nl4dv import NL4DV
 import os
 
 print(__file__)
-DATA_PATH = os.path.join("server", "assets", "benchmark", "data")
+DATA_PATH = os.path.join("server", "benchmark", "data")
 MODELS_PATH = os.path.join("server", "models")
 
 

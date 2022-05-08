@@ -1,0 +1,538 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "country",
+    "results": [
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, shows the correlation between average life expectancy and total population.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276928386729372
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, shows the correlation between average life expectancy and total population with a scatter plot.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276928386729372
+            }
+        },
+        {
+            "query": "Plot a scatter chart, sum(population) by mean lifeexpectancy.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276928386729372
+            }
+        },
+        {
+            "query": "Draw a bar chart of continent versus mean lifeexpectancy, and could you show from low to high by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "Return a bar chart showing average life expectancy of each continent where the average life expectancy is shorter than 72, could you show from low to high by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy, and list y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, shows the proportion of their total population with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6461861385315296
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of the total population of continents that have an average life expectancy of less than 72.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6461861385315296
+            }
+        },
+        {
+            "query": "Give me a pie to show sum population from different continent.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6607462159880746
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, and rank in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5887713769745125
+            }
+        },
+        {
+            "query": "What are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72 Visualize by bar chart, and display Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5887713769745125
+            }
+        },
+        {
+            "query": "Find the government form name and total population for each government form whose average life expectancy is longer than 72, and I want to order in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6105828405771715
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, sort by the sum population in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5633596393427119
+            }
+        },
+        {
+            "query": "Bar graph to show total number of population from different governmentform, and list in asc by the sum population.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5887713769745125
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Return a bar chart showing average life expectancy of each continent where the average life expectancy is shorter than 72.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Draw a bar chart of continent versus mean lifeexpectancy",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "A pie chart shows the average life expectancy for each continent where the average life expectancy is shorter than 72.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8822780631487556
+            }
+        },
+        {
+            "query": "For continents that have an average life expectancy less than 72, shows their average life expectancy with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654708972107622
+            }
+        },
+        {
+            "query": "Compute the total mean lifeexpectancy across continent as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8822780631487556
+            }
+        },
+        {
+            "query": "Find the government form name and total population for each government form whose average life expectancy is longer than 72, and sort names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.575416663023618
+            }
+        },
+        {
+            "query": "What are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72 Visualize by bar chart, sort names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.575416663023618
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, and rank by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.575416663023618
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, sort names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.575416663023618
+            }
+        },
+        {
+            "query": "Bar graph to show total number of population from different governmentform, I want to list bars in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.575416663023618
+            }
+        },
+        {
+            "query": "Find the government form name and total population for each government form whose average life expectancy is longer than 72.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "What are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "Bar graph to show total number of population from different governmentform",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and areas of countries with the top 5 largest area?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8188052642427027
+            }
+        },
+        {
+            "query": "What are the names and areas of countries with the top 5 largest area. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8188052642427027
+            }
+        },
+        {
+            "query": "Return the names and surface areas of the 5 largest countries by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8188052642427027
+            }
+        },
+        {
+            "query": "Return the names and surface areas of the 5 largest countries. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8188052642427027
+            }
+        },
+        {
+            "query": "What are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72 Visualize by bar chart, I want to list x axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5528545180899165
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, and order in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5661549875590383
+            }
+        },
+        {
+            "query": "Bar graph to show total number of population from different governmentform, and order in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5661549875590383
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, sort x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5528545180899165
+            }
+        },
+        {
+            "query": "Find the government form name and total population for each government form whose average life expectancy is longer than 72, and list X-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5528545180899165
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, rank from high to low by the sum population.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5801422011098957
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72?, and could you show by the y axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "What are the different government forms and what is the total population of each for government forms that have an average life expectancy greater than 72 Visualize by bar chart, display in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "Find the government form name and total population for each government form whose average life expectancy is longer than 72, and rank in desc by the sum population please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5801422011098957
+            }
+        },
+        {
+            "query": "Bar graph to show total number of population from different governmentform, and list from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5638004592317527
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy, sort X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "Return a bar chart showing average life expectancy of each continent where the average life expectancy is shorter than 72, show by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "Draw a bar chart of continent versus mean lifeexpectancy, order by the bars in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47875742139211575
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a scatter chart shows their average life expectancy and the total population of each continent",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7378314749254846
+            }
+        },
+        {
+            "query": "Show sum(population) vs mean lifeexpectancy as scatter plot use a different color for each Continent",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7378314749254846
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, show their total population with a bar chart, display in asc by the sum population.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5810372083415141
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum population across continent, and show in ascending by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6567000572526168
+            }
+        },
+        {
+            "query": "What is the total population corresponding to continents that have an average life expectancy of less than 72? Visualize them in a bar chart, and show in ascending by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5810372083415141
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, show their total population with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6256416315978521
+            }
+        },
+        {
+            "query": "What is the total population corresponding to continents that have an average life expectancy of less than 72? Visualize them in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5742308747211187
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum population across continent",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.3323391211015978
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, show their total population with a bar chart, rank in desc by the Continent.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6226312327743703
+            }
+        },
+        {
+            "query": "What is the total population corresponding to continents that have an average life expectancy of less than 72? Visualize them in a bar chart, and could you order from high to low by the Continent please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5691497472502143
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum population across continent, and rank in desc by the Continent.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5725456986813353
+            }
+        },
+        {
+            "query": "Return a pie on what are the names and areas of countries with the top 5 largest area?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about what are the names and areas of countries with the top 5 largest area?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and areas of countries with the top 5 largest area.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the names and surface areas of the 5 largest countries with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the names and surface areas of the 5 largest countries. Visualize by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy, list from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.4750192014857209
+            }
+        },
+        {
+            "query": "Return a bar chart showing average life expectancy of each continent where the average life expectancy is shorter than 72, could you rank in desc by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Draw a bar chart of continent versus mean lifeexpectancy, list from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, show their total population with a bar chart, and list by the X-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6205704683457741
+            }
+        },
+        {
+            "query": "What is the total population corresponding to continents that have an average life expectancy of less than 72? Visualize them in a bar chart, I want to sort in ascending by the Continent.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6203765737535499
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum population across continent, I want to rank Continent from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5703200900725679
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy, and display by the Continent from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Draw a bar chart of continent versus mean lifeexpectancy, and rank in descending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Return a bar chart showing average life expectancy of each continent where the average life expectancy is shorter than 72, and display in descending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.47928451455001947
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum population across continent, could you display y-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5824301200852955
+            }
+        },
+        {
+            "query": "For each continent where the average life expectancy is shorter than 72, show their total population with a bar chart, list sum population in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5824301200852955
+            }
+        },
+        {
+            "query": "What is the total population corresponding to continents that have an average life expectancy of less than 72? Visualize them in a bar chart, list by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6239495391638458
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Return a pie on what are the names and areas of countries with the top 5 largest area?\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"A pie chart about what are the names and areas of countries with the top 5 largest area?\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"What are the names and areas of countries with the top 5 largest area.\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"Return the names and surface areas of the 5 largest countries with a pie chart.\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"Return the names and surface areas of the 5 largest countries. Visualize by a pie chart.\" - <class 'KeyError'>: 'x'"
+    ]
+}

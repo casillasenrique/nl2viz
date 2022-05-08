@@ -1,0 +1,94 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "artwork",
+    "results": [
+        {
+            "query": ", I want to list by the bars from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each type, and order names in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.740995135836305
+            }
+        },
+        {
+            "query": ", and order in asc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each type, and order y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7409614628095716
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across type.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each type, and I want to sort in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7414552183837017
+            }
+        },
+        {
+            "query": ", rank in desc by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each type",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.740995135836305
+            }
+        },
+        {
+            "query": ", and order by the bar in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each type, and I want to sort names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343716701370372
+            }
+        }
+    ],
+    "errors": [
+        "\"\" has 2 benchmarks associated with it",
+        "\"\" has 2 benchmarks associated with it"
+    ]
+}

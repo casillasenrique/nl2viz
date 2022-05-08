@@ -1,0 +1,84 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "airport",
+    "results": [
+        {
+            "query": "List the number of airports in each country with a bar chart ordered alphabetically by the name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7085607959586598
+            }
+        },
+        {
+            "query": ", sort Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, sort total number from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7136291101136393
+            }
+        },
+        {
+            "query": ", show X-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, and sort in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7136291101136393
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, and order in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7099341794207682
+            }
+        },
+        {
+            "query": ", show by the Country in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7099341794207682
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7099341794207682
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, rank total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7099341794207682
+            }
+        },
+        {
+            "query": ", order y axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

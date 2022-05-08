@@ -1,0 +1,64 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Grants",
+    "results": [
+        {
+            "query": "Visualize a scatter chart on what is the total amount of grants given by each organisations? Also list the organisation id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter chart. what is the total amount of grants given by each organisations? Also list the organisation id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the total amount of grants given by each organisations? Also list the organisation id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter chart. what is the total amount of grant money given to each organization and what is its id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "plot scatter on what is the total amount of grant money given to each organization and what is its id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the total amount of grant money given to each organization and what is its id. Show the correlation.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot a scatter chart, sum(grant amount) by organisation_id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Visualize a scatter chart on what is the total amount of grants given by each organisations? Also list the organisation id.\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"Scatter chart. what is the total amount of grants given by each organisations? Also list the organisation id.\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"What is the total amount of grants given by each organisations? Also list the organisation id.\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"Scatter chart. what is the total amount of grant money given to each organization and what is its id?\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"plot scatter on what is the total amount of grant money given to each organization and what is its id?\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"What is the total amount of grant money given to each organization and what is its id. Show the correlation.\" - <class 'KeyError'>: 'Grants'",
+        "Error when executing \"Plot a scatter chart, sum(grant amount) by organisation_id.\" - <class 'KeyError'>: 'Grants'"
+    ]
+}

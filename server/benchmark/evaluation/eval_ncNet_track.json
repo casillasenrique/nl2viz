@@ -1,0 +1,82 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "track",
+    "results": [
+        {
+            "query": "Show names and seatings for all tracks opened after 2000 by a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991377409357058
+            }
+        },
+        {
+            "query": "Show names and seatings for all tracks opened after 2000.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991377409357058
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the names and seatings for all tracks opened after 2000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991377409357058
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the names and seatings for all tracks opened after 2000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991377409357058
+            }
+        },
+        {
+            "query": "What are the names and seatings for all tracks opened after 2000, ordered by seating. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7247064280220089
+            }
+        },
+        {
+            "query": "Show names and seatings, ordered by seating for all tracks opened after 2000 in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9574251246553521
+            }
+        },
+        {
+            "query": "Show names and seatings, ordered by seating for all tracks opened after 2000. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and seatings for all tracks opened after 2000, ordered by seating?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and seatings for all tracks opened after 2000, ordered by seating?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and seatings for all tracks opened after 2000, ordered by seating. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Show names and seatings, ordered by seating for all tracks opened after 2000. Plot them as bar chart.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Return a histogram on what are the names and seatings for all tracks opened after 2000, ordered by seating?\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Return a bar chart on what are the names and seatings for all tracks opened after 2000, ordered by seating?\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"What are the names and seatings for all tracks opened after 2000, ordered by seating. Visualize by bar chart.\" - <class 'IndexError'>: list index out of range"
+    ]
+}

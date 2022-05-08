@@ -1,0 +1,535 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "phone",
+    "results": [
+        {
+            "query": "Plot the total number by grouped by carrier as a bar graph, I want to show by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier Plot them as bar chart, show from low to high by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a bar chart, could you rank by the Y in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "Bar graph to show mean memory in g from different carrier, and could you order from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the memories and carriers of phones?, and show Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, and show by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones Show bar chart, and show by the mean memory in g in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by carrier as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "Plot total number of memory in g by grouped by carrier as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the memories and carriers of phones?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "Bar graph to show mean memory in g from different carrier",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones, rank X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, and display by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "Plot total number of memory in g by grouped by carrier as a bar graph, could you rank by the x axis from high to low please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "Bar graph to show mean memory in g from different carrier, sort X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, list x axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones Show bar chart, order in descending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the memories and carriers of phones?, list by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a bar chart, order by the x axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier Plot them as bar chart, I want to list from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by carrier as a bar graph, and list in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier Plot them as bar chart, show by the Y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a bar chart, and order by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by carrier as a bar graph, and could you show in descending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098245483422563
+            }
+        },
+        {
+            "query": "Bar chart x axis carrier y axis the number of carrier, sort in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "What is the number of carriers of phones? Give me a bar chart, sort in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "Can you show a bar chart to visualize the number of carriers?, sort in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones, could you sort total number in desc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "Plot total number of memory in g by grouped by carrier as a bar graph, and I want to list by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, and order by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155736254126556
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the memories and carriers of phones?, list bars from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, sort x-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6913255633018841
+            }
+        },
+        {
+            "query": "Bar graph to show mean memory in g from different carrier, rank in asc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones Show bar chart, could you rank by the X-axis from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190248
+            }
+        },
+        {
+            "query": "What is the proportion of carriers of phones?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487913299375012
+            }
+        },
+        {
+            "query": "Can you visualize a pie chart to show the proportion of carriers?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing the number of carrier across carrier.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis carrier y axis the number of carrier, and rank by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "Can you show a bar chart to visualize the number of carriers?, order in ascending by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "What is the number of carriers of phones? Give me a bar chart, and show Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, rank total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones Show bar chart, rank total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the memories and carriers of phones?, and could you rank by the total number from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "Bar graph to show mean memory in g from different carrier, rank Y-axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074148852190252
+            }
+        },
+        {
+            "query": "Bar chart x axis carrier y axis the number of carrier, display bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "What is the number of carriers of phones? Give me a bar chart, could you order in desc by the Carrier?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "Can you show a bar chart to visualize the number of carriers?, and list x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089426667004273
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by carrier as a bar graph, and I want to list in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a bar chart, and rank by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier Plot them as bar chart, order in asc by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7098272719942385
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones, show in ascending by the sum memory in g.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, could you list in ascending by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "Plot total number of memory in g by grouped by carrier as a bar graph, display by the sum memory in g in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the memories and carriers of phones?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the memories and carriers of phones?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500846943236829
+            }
+        },
+        {
+            "query": "Give me a pie to show total number of memory in g from different carrier.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500846943236829
+            }
+        },
+        {
+            "query": "What is the number of carriers of phones? Give me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "Can you show a bar chart to visualize the number of carriers?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "Bar chart x axis carrier y axis the number of carrier",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "Bar chart x axis carrier y axis the number of carrier, show by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "What is the number of carriers of phones? Give me a bar chart, and sort X in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6925213560001954
+            }
+        },
+        {
+            "query": "Can you show a bar chart to visualize the number of carriers?, and I want to display in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089453903524096
+            }
+        },
+        {
+            "query": "What are the memories and carriers of phones, order by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "A bar chart about what are the memories and carriers of phones?, and order by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "Plot total number of memory in g by grouped by carrier as a bar graph, and list Carrier in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155709017606641
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show different carriers of phones together with the number of phones with each carrier.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487913299375012
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each carrier.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487913299375012
+            }
+        }
+    ],
+    "errors": [
+        "\"A bar chart about what are the memories and carriers of phones?\" has 2 benchmarks associated with it",
+        "\"A bar chart about what are the memories and carriers of phones?\" has 2 benchmarks associated with it"
+    ]
+}

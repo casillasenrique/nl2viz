@@ -1,0 +1,147 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "stadium",
+    "results": [
+        {
+            "query": "Show me a bar chart for how many stadiums does each country have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many stadiums does each country have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "How many stadiums does each country have. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, I want to show Y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9865449937988165
+            }
+        },
+        {
+            "query": "How many stadiums does each country have Show bar chart, and rank by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8697222135959741
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many stadiums does each country have?, and list in descending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9865449937988165
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many stadiums does each country have?, list in descending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9865449937988165
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, and could you display by the x axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many stadiums does each country have?, and could you sort in ascending by the names please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many stadiums does each country have?, and show in asc by the Country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "How many stadiums does each country have Show bar chart, and I want to display from low to high by the Country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940237766490791
+            }
+        },
+        {
+            "query": "How many stadiums does each country have Show bar chart, could you display Y in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903644789458362
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many stadiums does each country have?, and I want to display by the total number in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903644789458362
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, sort in asc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903644789458362
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many stadiums does each country have?, and show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903644789458362
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many stadiums does each country have?, could you display x axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8684947599859414
+            }
+        },
+        {
+            "query": "Show me the total number by country in a histogram, could you order in desc by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9279197922609944
+            }
+        },
+        {
+            "query": "How many stadiums does each country have Show bar chart, could you rank X from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8684947599859414
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many stadiums does each country have?, and could you order in desc by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8684947599859414
+            }
+        }
+    ],
+    "errors": []
+}

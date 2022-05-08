@@ -1,0 +1,87 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "payments",
+    "results": [
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart, order in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6548783492881066
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6600840969324561
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6584825912360878
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart, show in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6592929911913863
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a line chart, and show X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6600840969324561
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a line chart, and display in descending by the payment_date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6600840969324561
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart, order by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6704455603536351
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a line chart, show X from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6600334123653928
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a line chart, order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6600334123653928
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart, and I want to rank y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6479138554982029
+            }
+        },
+        {
+            "query": "What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6584825912360878
+            }
+        }
+    ],
+    "errors": [
+        "\"What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart\" has 2 benchmarks associated with it",
+        "\"What are the payment date of the payment with amount paid higher than 300 or with payment type is 'Check, and count them by a bar chart\" has 2 benchmarks associated with it"
+    ]
+}

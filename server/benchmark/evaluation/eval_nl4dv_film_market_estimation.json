@@ -1,0 +1,49 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "film_market_estimation",
+    "results": [
+        {
+            "query": "Draw a scatter chart for what are the low and high estimates of film markets?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a scatter on what are the low and high estimates of film markets?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the low and high estimates of film markets. Visualize by scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the low and high estimates for all film markets in a scatter chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the low and high estimates for all film markets. Show scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot a scatter chart, low estimate by high_estimate.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

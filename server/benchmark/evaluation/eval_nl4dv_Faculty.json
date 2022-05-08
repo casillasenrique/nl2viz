@@ -1,0 +1,1228 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Faculty",
+    "results": [
+        {
+            "query": "Show the proportion of male and female faculty.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155559065976246
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Give me a proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155559065976246
+            }
+        },
+        {
+            "query": "I want to know the proportion of faculty members for each sex.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155559065976246
+            }
+        },
+        {
+            "query": "Bar chart of sum count(*) from each rank, sort from high to low by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty for each rank in a bar chart, and sort from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253681262260744
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Show bar chart, and sort from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253681262260744
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Visualize in bar chart, and I want to order in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233160044366521
+            }
+        },
+        {
+            "query": "Show how many rank from each rank, and rank by the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty members for each rank in a bar chart, I want to order by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233160044366521
+            }
+        },
+        {
+            "query": "Show the proportion of faculty for each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Give me a proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "I want to know the proportion of faculty members for each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Return a bar chart on how many faculty members does each building have? List the result with the name of the building.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members does each building have? List the result with the name of the building.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different building",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across rank, display Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members do we have for each faculty rank?, and sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489733
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank Show bar chart, and sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489733
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it Show bar chart, display by the y axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489733
+            }
+        },
+        {
+            "query": "A bar chart about how many faculty members do we have for each faculty rank?, and display Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489733
+            }
+        },
+        {
+            "query": "Show all the ranks and the number of male and female faculty for each rank in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7154861258896158
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank and gender? Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7154861258896158
+            }
+        },
+        {
+            "query": "Stacked bar chart of the total number for with each Sex in each rank",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty for each rank in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253650728148487
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253650728148487
+            }
+        },
+        {
+            "query": "Bar chart of sum count(*) from each rank",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the total number for with each Sex in each rank, I want to show in desc by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all the ranks and the number of male and female faculty for each rank in a bar chart, I want to show in desc by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155591576584387
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank and gender? Plot them as bar chart, rank by the y-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7155591576584387
+            }
+        },
+        {
+            "query": "Bar chart of sum count(*) from each rank, and rank X-axis in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Show bar chart, and could you show x axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.724272033220303
+            }
+        },
+        {
+            "query": "Show the number of faculty for each rank in a bar chart, list bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.724272033220303
+            }
+        },
+        {
+            "query": "A pie chart showing the number of faculty members for each rank.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Return a pie.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "Compute the total the number of rank across rank as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489739
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members do we have for each faculty rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489739
+            }
+        },
+        {
+            "query": "A bar chart about how many faculty members do we have for each faculty rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489739
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254599181489739
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across rank",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the proportion of how many male and female assistant professors do we have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about how many male and female assistant professors do we have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across rank, and could you list in desc by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many faculty members do we have for each faculty rank?, display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254568647377476
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it Show bar chart, and I want to list from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254568647377476
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members do we have for each faculty rank?, rank x-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254568647377476
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank Show bar chart, could you list in desc by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7254568647377476
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members does each building have? List the result with the name of the building, list by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "Return a bar chart on how many faculty members does each building have? List the result with the name of the building, and rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building with a bar chart, list by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different building, and could you rank by the bar from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have with a bar chart, could you rank by the bar from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building Visualize by bar chart, sort by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have Plot them as bar chart, and rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831788
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have Plot them as bar chart, show in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Return a bar chart on how many faculty members does each building have? List the result with the name of the building, and rank the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building Visualize by bar chart, I want to order in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members does each building have? List the result with the name of the building, list Y from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different building, and I want to order in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building with a bar chart, and could you display in desc by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have with a bar chart, and could you display in desc by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "A bar chart showing the number of male and female faculty, rank y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum count(*) across sex, order y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Draw a bar chart, display from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Display a bar chart for how many male and female assistant professors do we have?, list by the names in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have, display in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a bar chart, rank in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors Plot them as bar chart, display in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many male and female assistant professors do we have?, and order by the bars in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Visualize in bar chart, and order in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7244120974424243
+            }
+        },
+        {
+            "query": "Show how many rank from each rank, and show x axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty members for each rank in a bar chart, list in desc by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7244120974424243
+            }
+        },
+        {
+            "query": "Return a bar chart on how many faculty members does each building have? List the result with the name of the building, order from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members does each building have? List the result with the name of the building, show from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have Plot them as bar chart, and show from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building Visualize by bar chart, and order from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have with a bar chart, display in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building with a bar chart, show from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6823260087831806
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different building, and I want to list bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum count(*) across sex, could you order in desc by the Sex?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Draw a bar chart, could you order in desc by the Sex?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "A bar chart showing the number of male and female faculty, display in descending by the Sex.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7478551368985112
+            }
+        },
+        {
+            "query": "Return a pie on how many faculty members does each building have? List the result with the name of the building.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7478551368985112
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many faculty members does each building have? List the result with the name of the building.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across building.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show how many rank from each rank, rank by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty members for each rank in a bar chart, rank by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.72441515085365
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Visualize in bar chart, and show by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.72441515085365
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a bar chart, list y axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have, list y axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many male and female assistant professors do we have?, display in asc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many male and female assistant professors do we have?, I want to order in ascending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors Plot them as bar chart, order Y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it Show bar chart, and could you order from low to high by the bar?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243638251432021
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across rank, and could you order from low to high by the bar?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many faculty members do we have for each faculty rank?, and rank in ascending by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243638251432021
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank Show bar chart, display in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243638251432021
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members do we have for each faculty rank?, display in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243638251432021
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many male and female assistant professors do we have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many male and female assistant professors do we have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a bar chart, and order names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many male and female assistant professors do we have?, and sort from low to high by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many male and female assistant professors do we have?, list by the Sex from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors Plot them as bar chart, and display in asc by the Sex.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have, and list by the Sex from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart showing the number of male and female faculty.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Draw a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum count(*) across sex",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank and gender? Plot them as bar chart, I want to sort y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7146205055306473
+            }
+        },
+        {
+            "query": "Stacked bar chart of the total number for with each Sex in each rank, could you rank in asc by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all the ranks and the number of male and female faculty for each rank in a bar chart, rank by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7146205055306473
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Show bar chart, rank X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253650728148487
+            }
+        },
+        {
+            "query": "Show the number of faculty for each rank in a bar chart, and list X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7253650728148487
+            }
+        },
+        {
+            "query": "Bar chart of sum count(*) from each rank, I want to display from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Show bar chart, order from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7242689798090766
+            }
+        },
+        {
+            "query": "Show the number of faculty for each rank in a bar chart, and I want to list by the total number of count(*) from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7242689798090766
+            }
+        },
+        {
+            "query": "Bar chart of sum count(*) from each rank, show total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Draw a bar chart, and I want to order by the names in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum count(*) across sex, and rank in asc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart showing the number of male and female faculty, and could you show by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie on how many faculty members do we have for each faculty rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "Visualize a pie chart with how many faculty members do we have for each faculty rank?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7852815384411089
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different rank.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank and gender? Plot them as bar chart, and list from low to high by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7145913298037335
+            }
+        },
+        {
+            "query": "Show all the ranks and the number of male and female faculty for each rank in a bar chart, and I want to rank X in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7145913298037335
+            }
+        },
+        {
+            "query": "Stacked bar chart of the total number for with each Sex in each rank, and show names from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart showing the number of male and female faculty, order by the Y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Create a bar chart showing sum count(*) across sex, and order by the Y-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each gender? Draw a bar chart, order by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507889703617874
+            }
+        },
+        {
+            "query": "Show all the ranks and the number of male and female faculty for each rank in a bar chart, list by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7154247086361402
+            }
+        },
+        {
+            "query": "Stacked bar chart of the total number for with each Sex in each rank, order by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank and gender? Plot them as bar chart, and list by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7154247086361402
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors with a bar chart, and sort from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of male and female assistant professors Plot them as bar chart, and I want to display y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many male and female assistant professors do we have?, and sort from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many male and female assistant professors do we have?, I want to display y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many male and female assistant professors do we have, order by the total number in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of faculty members for each rank in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233160044366521
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Visualize in bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233160044366521
+            }
+        },
+        {
+            "query": "Show how many rank from each rank",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have Plot them as bar chart, rank total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Return a bar chart on how many faculty members does each building have? List the result with the name of the building, and show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building with a bar chart, and display Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "How many faculty members does each building have? List the result with the name of the building Visualize by bar chart, order total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members does each building have? List the result with the name of the building, and order total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Show all the buildings along with the number of faculty members the buildings have with a bar chart, and could you display from low to high by the y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.68236265245752
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different building, rank y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show how many rank from each rank, show X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of the faculty members for each rank? Visualize in bar chart, and show X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233190578478785
+            }
+        },
+        {
+            "query": "Show the number of faculty members for each rank in a bar chart, sort in ascending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7233190578478785
+            }
+        },
+        {
+            "query": "Show the proportion of the number of ranks for each rank.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each rank? Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the number of rank from different rank.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each faculty rank, show the number of faculty members who have it Show bar chart, and could you show total number from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243607717319756
+            }
+        },
+        {
+            "query": "A bar chart about how many faculty members do we have for each faculty rank?, and display by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243607717319756
+            }
+        },
+        {
+            "query": "How many faculty members do we have for each faculty rank Show bar chart, I want to list in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243607717319756
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many faculty members do we have for each faculty rank?, and list by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7243607717319756
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across rank, rank by the the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"How many male and female assistant professors do we have.\" has 2 benchmarks associated with it",
+        "\"How many male and female assistant professors do we have.\" has 2 benchmarks associated with it"
+    ]
+}

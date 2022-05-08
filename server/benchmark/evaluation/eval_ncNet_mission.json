@@ -1,0 +1,112 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "mission",
+    "results": [
+        {
+            "query": "What is the total number of each fate? Give me the result in a bar graph, list X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "Compare the total number of each fate with a bar chart, list X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "Show the number of fate from each fate, sort x-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "Compare the total number of each fate with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "What is the total number of each fate? Give me the result in a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "Show the number of fate from each fate",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939296010698248
+            }
+        },
+        {
+            "query": "Show the number of fate from each fate, and rank by the y axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9791520009175758
+            }
+        },
+        {
+            "query": "Compare the total number of each fate with a bar chart, could you show by the the number of fate in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9820171596704604
+            }
+        },
+        {
+            "query": "What is the total number of each fate? Give me the result in a bar graph, and display in desc by the the number of fate please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9791520009175758
+            }
+        },
+        {
+            "query": "Compare the total number of each fate with a bar chart, and display Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9757898416247651
+            }
+        },
+        {
+            "query": "What is the total number of each fate? Give me the result in a bar graph, and could you order Y-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9757898416247651
+            }
+        },
+        {
+            "query": "Show the number of fate from each fate, and could you order Y-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9757898416247651
+            }
+        },
+        {
+            "query": "What is the total number of each fate? Give me the result in a bar graph, display x-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9243170683855736
+            }
+        },
+        {
+            "query": "Compare the total number of each fate with a bar chart, show from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9243170683855736
+            }
+        },
+        {
+            "query": "Show the number of fate from each fate, I want to show by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9243170683855736
+            }
+        }
+    ],
+    "errors": []
+}

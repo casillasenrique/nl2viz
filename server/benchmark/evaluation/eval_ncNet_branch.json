@@ -1,0 +1,51 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "branch",
+    "results": [
+        {
+            "query": "Compare the number of cities from the branch table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940997495249242
+            }
+        },
+        {
+            "query": "Compare the number of cities from the branch table using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart, grouping by city attribute, and compute the total number in each group.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9940997495249242
+            }
+        },
+        {
+            "query": "Show me the proportion of cities of the branch table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992204026942054
+            }
+        },
+        {
+            "query": "Show me the proportion of cities of the branch table with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992204026942054
+            }
+        },
+        {
+            "query": "Compute the total how many city across city as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992204026942054
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Compare the number of cities from the branch table using a bar chart.\" - <class 'IndexError'>: list index out of range"
+    ]
+}

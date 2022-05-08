@@ -1,0 +1,980 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "department",
+    "results": [
+        {
+            "query": "Show me a line chart of how the number of creation change over the creation, sort by the Creation in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of departments created in different year and bin creation time by year in a line chart, list x axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250935134310952
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of creation change over the creation, rank in desc by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of departments created in different year and bin creation time by year in a line chart, and show X in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250935134310952
+            }
+        },
+        {
+            "query": "Show sum of budget in different year and group by department creation time with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.759597429377024
+            }
+        },
+        {
+            "query": "Can you draw the trend of sum budget in billions over the creation?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many departments are in each school?, rank X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "Find the number of departments in each school Plot them as bar chart, could you list in ascending by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "Return a bar chart on how many departments are in each school?, display in ascending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "How many departments are in each school Show bar chart, display by the bars in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "How many departments for each building? Draw a bar chart, and show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6505726601064119
+            }
+        },
+        {
+            "query": "Bar chart of how many building from each building, and could you rank by the X in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of departments for each building with a bar chart, and show X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6505726601064119
+            }
+        },
+        {
+            "query": "Show average of budget in different year and group by department creation time with a line chart, and order by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7598001630591171
+            }
+        },
+        {
+            "query": "Show average of budget in different year and group by department creation time with a line chart, and I want to sort in desc by the Creation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7598001630591171
+            }
+        },
+        {
+            "query": "Plot the average of budget in billions over creation in a line chart, and order by the Creation in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of budget in billions over creation in a line chart, I want to sort in desc by the Creation.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of departments for each building with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6505726601064119
+            }
+        },
+        {
+            "query": "How many departments for each building? Draw a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6505726601064119
+            }
+        },
+        {
+            "query": "Bar chart of how many building from each building",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of departments in each school. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "A bar chart about how many departments are in each school?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Return a bar chart on how many departments are in each school?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "How many departments are in each school. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Can you draw the trend of sum budget in billions over the creation?, could you show by the x-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in different year and group by department creation time with a line chart, and rank from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7595831501617988
+            }
+        },
+        {
+            "query": "Can you draw the trend of sum budget in billions over the creation?, I want to rank x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in different year and group by department creation time with a line chart, and display by the X-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7595831501617988
+            }
+        },
+        {
+            "query": "Show the number of departments created in different year and bin creation time by year in a line chart, and sort Creation in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250588685519381
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of creation change over the creation, display X-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of departments created in different year and bin creation time by year in a line chart, and I want to rank in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250588685519381
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of creation change over the creation, sort by the X in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many building from each building, sort bar from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many departments for each building? Draw a bar chart, and sort by the X in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6504880956092893
+            }
+        },
+        {
+            "query": "List the number of departments for each building with a bar chart, and could you rank bar from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6504880956092893
+            }
+        },
+        {
+            "query": "I want to see trend of the number of creation by creation, and I want to list from low to high by the Creation.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the number of creation by creation, order from low to high by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many departments are built in each year? Group by creation time in a line chart, and order by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7951057535463969
+            }
+        },
+        {
+            "query": "How many departments are built in each year? Group by creation time in a line chart, order from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7951057535463969
+            }
+        },
+        {
+            "query": "How many departments are built in each year? Group by creation time in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7951057535463969
+            }
+        },
+        {
+            "query": "I want to see trend of the number of creation by creation",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the average of budget in billions by creation, order in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in each year and bin creation time by year in a line chart, and could you display by the X-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the average of budget in billions by creation, and order in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in each year and bin creation time by year in a line chart, order by the x-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the average of budget in billions by creation, could you sort by the X-axis in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in each year and bin creation time by year in a line chart, sort from high to low by the Creation.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the average of budget in billions by creation, list from high to low by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in each year and bin creation time by year in a line chart, and could you rank in descending by the Creation?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many different locations does each school have?, and list by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many different locations does each school have?, and I want to list bar in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school with a bar chart, and order by the x-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school Show bar chart, sort by the X from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many different locations does each school have Show bar chart, I want to list bar in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the budget of each department in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7373522947406673
+            }
+        },
+        {
+            "query": "Give me a bar chart for budget_in_billions of each name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many different locations does each school have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on how many different locations does each school have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many different locations does each school have. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of sum budget in billions over the creation?, I want to rank x axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in different year and group by department creation time with a line chart, and I want to display in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.759597429377024
+            }
+        },
+        {
+            "query": "Can you draw the trend of sum budget in billions over the creation?, could you display by the x-axis in descending please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in different year and group by department creation time with a line chart, and order x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.759597429377024
+            }
+        },
+        {
+            "query": "How many different locations does each school have Show bar chart, and order from low to high by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school Show bar chart, and could you show by the total number from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many different locations does each school have?, I want to order Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school with a bar chart, I want to order Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many different locations does each school have?, order from low to high by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many different locations does each school have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many different locations does each school have?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many different locations does each school have. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of departments in each school Plot them as bar chart, and I want to show by the y axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "How many departments are in each school Show bar chart, could you sort by the total number in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "A bar chart about how many departments are in each school?, could you order in descending by the count(DISTINCTdept_name)?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "Return a bar chart on how many departments are in each school?, and list by the total number in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092479420649204
+            }
+        },
+        {
+            "query": "How many departments are built in each year? Group by creation time in a line chart, display from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7950867296518279
+            }
+        },
+        {
+            "query": "How many departments are built in each year? Group by creation time in a line chart, and rank x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7950867296518279
+            }
+        },
+        {
+            "query": "I want to see trend of the number of creation by creation, and display from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the number of creation by creation, could you list in descending by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many departments for each building? Draw a bar chart, show Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.658657208446956
+            }
+        },
+        {
+            "query": "Bar chart of how many building from each building, and display total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of departments for each building with a bar chart, show by the how many building from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.658657208446956
+            }
+        },
+        {
+            "query": "Plot the average of budget in billions over creation in a line chart, and order by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in different year and group by department creation time with a line chart, show in ascending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7597859250146243
+            }
+        },
+        {
+            "query": "Plot the average of budget in billions over creation in a line chart, and show Creation in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in different year and group by department creation time with a line chart, order by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7597859250146243
+            }
+        },
+        {
+            "query": "Give me a bar chart for budget_in_billions of each name, show in ascending by the Name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the budget of each department in a bar chart, and order bars in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7373522947406673
+            }
+        },
+        {
+            "query": "Find the number of departments in each school. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie. how many departments are in each school?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7742388005953003
+            }
+        },
+        {
+            "query": "Return a pie on how many departments are in each school?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7742388005953003
+            }
+        },
+        {
+            "query": "How many departments are in each school. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in each year and bin creation time by year in a line chart, rank by the X from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how sum budget in billions change over the creation, and sort by the x-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how sum budget in billions change over the creation, order x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in each year and bin creation time by year in a line chart, sort by the x-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of departments created in different year and bin creation time by year in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250935134310952
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of creation change over the creation",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of how many building from each building, rank by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of departments for each building with a bar chart, sort by the Y in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6526320793670227
+            }
+        },
+        {
+            "query": "How many departments for each building? Draw a bar chart, and rank in asc by the how many building.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6526320793670227
+            }
+        },
+        {
+            "query": "Count different addresses of each school with a bar chart, show SCHOOL_CODE in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many different locations does each school have Show bar chart, and I want to sort by the X-axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school Show bar chart, could you rank in ascending by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many different locations does each school have?, sort by the SCHOOL_CODE in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many different locations does each school have?, I want to list X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the budget of each department in a bar chart, and list by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7372864826467379
+            }
+        },
+        {
+            "query": "Give me a bar chart for budget_in_billions of each name, and show in descending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of departments in each school Plot them as bar chart, show y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "How many departments are in each school Show bar chart, and show y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "A bar chart about how many departments are in each school?, show y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Return a bar chart on how many departments are in each school?, and list by the count(DISTINCTdept_name) in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Show me a line chart of how sum budget in billions change over the creation, could you show from low to high by the x-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in each year and bin creation time by year in a line chart, could you show from low to high by the x-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how sum budget in billions change over the creation, I want to rank X-axis in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in each year and bin creation time by year in a line chart, and could you rank from low to high by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show average of budget in each year and bin creation time by year in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to see trend of the average of budget in billions by creation",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many different locations does each school have?, and sort from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school with a bar chart, display in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count different addresses of each school Show bar chart, sort from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many different locations does each school have?, and sort from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many different locations does each school have Show bar chart, sort from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for budget_in_billions of each name, and sort by the total number in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the budget of each department in a bar chart, I want to sort in ascending by the Budget_in_Billions.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7396309256905013
+            }
+        },
+        {
+            "query": "Return a bar chart on how many departments are in each school?, I want to show from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "A bar chart about how many departments are in each school?, and I want to order by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Find the number of departments in each school Plot them as bar chart, order in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "How many departments are in each school Show bar chart, and could you list by the x-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7092527116447088
+            }
+        },
+        {
+            "query": "Show average of budget in different year and group by department creation time with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7597859250146243
+            }
+        },
+        {
+            "query": "Plot the average of budget in billions over creation in a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the budget of each department in a bar chart, sort by the Y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7464084504696963
+            }
+        },
+        {
+            "query": "Give me a bar chart for budget_in_billions of each name, and sort by the Y-axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show sum of budget in each year and bin creation time by year in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how sum budget in billions change over the creation",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,140 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "list",
+    "results": [
+        {
+            "query": "For each fourth-grade classroom, show the classroom number and the total number of students using it. Show the correlation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7381768938045933
+            }
+        },
+        {
+            "query": "For each classroom, show the classroom number and find how many students are using it. Plot them as scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7040055990935287
+            }
+        },
+        {
+            "query": "Scatter plot to show classroom on x axis and the total number on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7040055990935287
+            }
+        },
+        {
+            "query": "For each grade, report the correlation between grade and the total number of students in the grade.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.701465910211815
+            }
+        },
+        {
+            "query": "For each grade, show me the relationships between grade and the total number of students in the grade.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.701465910211815
+            }
+        },
+        {
+            "query": "A scatter plot shows the correlation between grade and the total number of students in the grade.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7083114211811026
+            }
+        },
+        {
+            "query": "Scatter plot to show grade on x axis and the total number on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7083114211811026
+            }
+        },
+        {
+            "query": "For each grade 0 classroom, report the total number of students. Visualize by scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7303128169962122
+            }
+        },
+        {
+            "query": "For each grade 0 classroom, return the classroom number and the count of students. Show the correlation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7303128169962122
+            }
+        },
+        {
+            "query": "For each classroom report the grade that is taught in it. Report just the classroom number and the grade number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7363538849778813
+            }
+        },
+        {
+            "query": "A scatter chart about what are the grade number and classroom number of each class in the list?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7363538849778813
+            }
+        },
+        {
+            "query": "Draw a scatter chart for what are the grade number and classroom number of each class in the list?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7363538849778813
+            }
+        },
+        {
+            "query": "What are the grade number and classroom number of each class in the list. Visualize by scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7363538849778813
+            }
+        },
+        {
+            "query": "Scatter plot to show classroom on x axis and grade on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7363538849778813
+            }
+        },
+        {
+            "query": "Find the number of students in one classroom. Plot them as scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7034784973299977
+            }
+        },
+        {
+            "query": "Scatter. how many students does one classroom have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7034784973299977
+            }
+        },
+        {
+            "query": "Return a scatter on how many students does one classroom have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7034784973299977
+            }
+        },
+        {
+            "query": "How many students does one classroom have. Show the correlation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6963145284164559
+            }
+        },
+        {
+            "query": "Plot a scatter chart, count(*) by classroom.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7034784973299977
+            }
+        }
+    ],
+    "errors": []
+}

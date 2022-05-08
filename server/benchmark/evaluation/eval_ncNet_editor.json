@@ -1,0 +1,252 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "editor",
+    "results": [
+        {
+            "query": "Draw a bar chart of name versus age, sort Y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Compare each editors' ages using a bar chart, sort by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "Visualize a bar chart to show editors' names and their ages, could you show total number from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7390064899346461
+            }
+        },
+        {
+            "query": "What are the names and ages of editors? Show me a bar chart, and sort Y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Display a bar chart for the names and the ages of editors, sort Y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "What are the names and ages of editors? Show me a bar chart, and sort in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9100828644049468
+            }
+        },
+        {
+            "query": "Visualize a bar chart to show editors' names and their ages, and sort Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Compare each editors' ages using a bar chart, sort by the Y-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Display a bar chart for the names and the ages of editors, order by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9100828644049468
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus age, and I want to rank by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9100828644049468
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, could you rank in asc by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720868071060764
+            }
+        },
+        {
+            "query": "Group and count the name attribute for visualizing a bar chart, display in ascending by the Name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720868071060764
+            }
+        },
+        {
+            "query": "Compare each editors' ages using a bar chart, and could you list bars in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.882013876825952
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus age, and I want to list in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.882013876825952
+            }
+        },
+        {
+            "query": "What are the names and ages of editors? Show me a bar chart, I want to list in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.882013876825952
+            }
+        },
+        {
+            "query": "Visualize a bar chart to show editors' names and their ages, I want to rank bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.882013876825952
+            }
+        },
+        {
+            "query": "Display a bar chart for the names and the ages of editors, and I want to rank bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.882013876825952
+            }
+        },
+        {
+            "query": "Group and count the name attribute for visualizing a bar chart, and display in descending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.672863055490842
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, sort by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.672863055490842
+            }
+        },
+        {
+            "query": "Visualize a bar chart to show editors' names and their ages, and I want to sort from low to high by the Name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Display a bar chart for the names and the ages of editors, list by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Compare each editors' ages using a bar chart, sort by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus age, and I want to rank by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "What are the names and ages of editors? Show me a bar chart, and I want to order by the x axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991291691179572
+            }
+        },
+        {
+            "query": "Group and count the name attribute for visualizing a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720868071060764
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720868071060764
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, and could you sort in ascending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6728636733980066
+            }
+        },
+        {
+            "query": "Group and count the name attribute for visualizing a bar chart, and display total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6729081852682759
+            }
+        },
+        {
+            "query": "Display a bar chart for the names and the ages of editors.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "Visualize a bar chart to show editors' names and their ages.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "What are the names and ages of editors? Show me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "Compare each editors' ages using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus age",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8648795978993898
+            }
+        },
+        {
+            "query": "Group and count the name attribute for visualizing a bar chart, show y axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.672102418916368
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, could you sort Y in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.672102418916368
+            }
+        }
+    ],
+    "errors": []
+}

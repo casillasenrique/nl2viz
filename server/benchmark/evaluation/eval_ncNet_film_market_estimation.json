@@ -1,0 +1,49 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "film_market_estimation",
+    "results": [
+        {
+            "query": "Draw a scatter chart for what are the low and high estimates of film markets?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7179801145903318
+            }
+        },
+        {
+            "query": "Return a scatter on what are the low and high estimates of film markets?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.633604751395057
+            }
+        },
+        {
+            "query": "What are the low and high estimates of film markets. Visualize by scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.633604751395057
+            }
+        },
+        {
+            "query": "Return the low and high estimates for all film markets in a scatter chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.633604751395057
+            }
+        },
+        {
+            "query": "Return the low and high estimates for all film markets. Show scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.633604751395057
+            }
+        },
+        {
+            "query": "Plot a scatter chart, low estimate by high_estimate.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6138751594944707
+            }
+        }
+    ],
+    "errors": []
+}

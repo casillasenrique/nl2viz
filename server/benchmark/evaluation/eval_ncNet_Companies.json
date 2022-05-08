@@ -1,0 +1,152 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Companies",
+    "results": [
+        {
+            "query": "compare the number of companies from different industries using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "a pie chart about the number of companies in different industries.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of different industry types.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and sort in ascending by the Industry.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", order by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", and order by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and sort in ascending by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", and show in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and list by the the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and assets of each company, sorted in ascending order of company name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the name and assets of each company, sorted in ascending order of company name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and assets of each company, sorted in ascending order of company name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the name and assets of each company in ascending order of company name in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the name and assets of each company in ascending order of company name. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", rank from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and rank from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"compare the number of companies from different industries using a pie chart.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"a pie chart about the number of companies in different industries.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"I want to know the proportion of different industry types.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Plot the total number by grouped by industry as a bar graph, and sort in ascending by the Industry.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \", order by the bars from low to high.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \", and order by the y axis in ascending.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Plot the total number by grouped by industry as a bar graph, and sort in ascending by the the total number .\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Plot the total number by grouped by industry as a bar graph\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \", and show in desc by the total number.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Plot the total number by grouped by industry as a bar graph, and list by the the total number from high to low.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Draw a bar chart for what are the name and assets of each company, sorted in ascending order of company name?\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Return a bar chart on what are the name and assets of each company, sorted in ascending order of company name?\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"What are the name and assets of each company, sorted in ascending order of company name.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"List the name and assets of each company in ascending order of company name in a bar chart.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"List the name and assets of each company in ascending order of company name. Plot them as bar chart.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \", rank from high to low by the bars.\" - <class 'KeyError'>: 'Companies'",
+        "Error when executing \"Plot the total number by grouped by industry as a bar graph, and rank from high to low by the bars.\" - <class 'KeyError'>: 'Companies'"
+    ]
+}

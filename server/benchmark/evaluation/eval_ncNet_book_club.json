@@ -1,0 +1,292 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "book_club",
+    "results": [
+        {
+            "query": "How many books fall into each category, list by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Give me a histogram for how many books fall into each category?, and order by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Show the total number from each category, and list by the total number in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many books fall into each category?, order by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category, and list by the total number in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category with a bar chart, and rank by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Give me a histogram for how many books fall into each category?, list X-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "Show the total number from each category, I want to list in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category with a bar chart, and show by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "How many books fall into each category, I want to list in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category, I want to list in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many books fall into each category?, show by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9907270389554629
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Give me a histogram for how many books fall into each category?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many books fall into each category?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "How many books fall into each category.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Show the total number from each category",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8698430053176782
+            }
+        },
+        {
+            "query": "Show the number of books for each year in descending order by year and visualize in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708928699436539
+            }
+        },
+        {
+            "query": "What are the number of books for each year, ordered by year descending? Return a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708928699436539
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category, list in asc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "How many books fall into each category, and could you order by the bars in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many books fall into each category?, and display by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Give me a histogram for how many books fall into each category?, and rank in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Show the total number from each category, could you order by the bars in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category with a bar chart, and I want to sort by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929235677672746
+            }
+        },
+        {
+            "query": "Show the number of books for each year in descending order by year and visualize in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708928699436539
+            }
+        },
+        {
+            "query": "What are the number of books for each year, ordered by year descending? Return a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708928699436539
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many books fall into each category?, sort the total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990738142184664
+            }
+        },
+        {
+            "query": "Show the total number from each category, rank y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990738142184664
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category, and sort from high to low by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990738142184664
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category with a bar chart, and order by the the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8684245282022185
+            }
+        },
+        {
+            "query": "How many books fall into each category, and rank y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990738142184664
+            }
+        },
+        {
+            "query": "Give me a histogram for how many books fall into each category?, and rank the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990738142184664
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9984409983917164
+            }
+        },
+        {
+            "query": "Show all book categories and the number of books in each category. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9984409983917164
+            }
+        },
+        {
+            "query": "Return a pie on how many books fall into each category?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9984409983917164
+            }
+        },
+        {
+            "query": "Pie. how many books fall into each category?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6773330564162067
+            }
+        },
+        {
+            "query": "How many books fall into each category. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6773330564162067
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across category.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9984409983917164
+            }
+        }
+    ],
+    "errors": [
+        "\"Show the number of books for each year in descending order by year and visualize in a bar chart.\" has 2 benchmarks associated with it",
+        "\"What are the number of books for each year, ordered by year descending? Return a bar chart.\" has 2 benchmarks associated with it",
+        "\"Show the number of books for each year in descending order by year and visualize in a bar chart.\" has 2 benchmarks associated with it",
+        "\"What are the number of books for each year, ordered by year descending? Return a bar chart.\" has 2 benchmarks associated with it"
+    ]
+}

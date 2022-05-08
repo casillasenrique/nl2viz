@@ -1,0 +1,595 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "cinema",
+    "results": [
+        {
+            "query": "Show the capacity for each cinema in a bar chart, and sort from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9990172202303702
+            }
+        },
+        {
+            "query": "Create a bar chart showing capacity across name, and show by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.898257440028004
+            }
+        },
+        {
+            "query": "Create a bar chart showing capacity across name, order Name in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8943928305734635
+            }
+        },
+        {
+            "query": "Show the capacity for each cinema in a bar chart, list x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9217005938033992
+            }
+        },
+        {
+            "query": "Show the capacity for each cinema in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.898257440028004
+            }
+        },
+        {
+            "query": "Create a bar chart showing capacity across name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.898257440028004
+            }
+        },
+        {
+            "query": "Tell me the average of capacity of cinemas open for each year in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "Can you draw the trend of the average of capacity over the openning year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "A bar chart showing the average of capacity of cinemas open for each year, and order in ascending by the the average of capacity.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8696494751524119
+            }
+        },
+        {
+            "query": "Show me the average of capacity by openning year in a histogram, and order in ascending by the the average of capacity.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8696494751524119
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9077901835744783
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9077901835744783
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9077901835744783
+            }
+        },
+        {
+            "query": "Show the capacity for each cinema in a bar chart, and rank by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9990172202303702
+            }
+        },
+        {
+            "query": "Create a bar chart showing capacity across name, and I want to show x axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9990172202303702
+            }
+        },
+        {
+            "query": "Show me the average of capacity by openning year in a histogram, order by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8328117139700272
+            }
+        },
+        {
+            "query": "A bar chart showing the average of capacity of cinemas open for each year, order by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8328117139700272
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of cinemas open for each year in descending order of opening year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6942943566651288
+            }
+        },
+        {
+            "query": "A bar chart showing the sum of capacity of cinemas open for each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705339828479278
+            }
+        },
+        {
+            "query": "Give me a bar chart for total number of capacity of each openning year",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705339828479278
+            }
+        },
+        {
+            "query": "What is the sum of capacity of cinemas open for each year? Return a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "Plot sum capacity over openning year in a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "Tell me how many cinemas open for each year in a bar chart, and sort Y in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8081546227258135
+            }
+        },
+        {
+            "query": "Bar chart of how many openning year from each openning year, list from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8081546227258135
+            }
+        },
+        {
+            "query": "A bar chart showing the sum of capacity of cinemas open for each year, rank by the X from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.828147212287941
+            }
+        },
+        {
+            "query": "Give me a bar chart for total number of capacity of each openning year, and could you show in ascending by the names please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.828147212287941
+            }
+        },
+        {
+            "query": "Tell me how many cinemas open for each year in a bar chart, and list by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8093208916689241
+            }
+        },
+        {
+            "query": "Bar chart of how many openning year from each openning year, I want to show names in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8093208916689241
+            }
+        },
+        {
+            "query": "Tell me how many cinemas open for each year in a bar chart, and display by the the number of openning year from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7521137295119162
+            }
+        },
+        {
+            "query": "Bar chart of how many openning year from each openning year, and display by the the number of openning year from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7521137295119162
+            }
+        },
+        {
+            "query": "A bar chart showing the average of capacity of cinemas open for each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.821353562726045
+            }
+        },
+        {
+            "query": "Show me the average of capacity by openning year in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.821353562726045
+            }
+        },
+        {
+            "query": "Show how many cinemas open for each year in a line chart, show x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Show how many cinemas open for each year in a line chart, and rank by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Plot openning year by how many openning year as a trend line, display by the x axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Plot openning year by how many openning year as a trend line, and show x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Give me a bar chart for total number of capacity of each openning year, and sort bars in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7209317107046168
+            }
+        },
+        {
+            "query": "A bar chart showing the sum of capacity of cinemas open for each year, could you sort in desc by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7209317107046168
+            }
+        },
+        {
+            "query": "Show me the average of capacity by openning year in a histogram, and order Openning_year from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8156036962310157
+            }
+        },
+        {
+            "query": "A bar chart showing the average of capacity of cinemas open for each year, sort Openning_year in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8156036962310157
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across location, list y axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.978343242475498
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there Show bar chart, could you order in ascending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9077901835744783
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there by a bar chart, sort from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9077901835744783
+            }
+        },
+        {
+            "query": "Show how many cinemas open for each year in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Plot openning year by how many openning year as a trend line",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.705056441710746
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across location, could you sort Location from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9927354087778283
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there by a bar chart, and I want to show bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9927354087778283
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there Show bar chart, I want to display in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9927354087778283
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there Show bar chart, sort y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9823643525984355
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across location, and rank by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9380019412355783
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there by a bar chart, could you show in desc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9380019412355783
+            }
+        },
+        {
+            "query": "What is the sum of capacity of cinemas open for each year? Return a line chart, could you display from low to high by the x axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "What is the sum of capacity of cinemas open for each year? Return a line chart, and could you display by the x-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "Plot sum capacity over openning year in a line chart, and I want to rank by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "Plot sum capacity over openning year in a line chart, and could you display X-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911927743839483
+            }
+        },
+        {
+            "query": "Tell me how many cinemas open for each year in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6942943566651288
+            }
+        },
+        {
+            "query": "Bar chart of how many openning year from each openning year",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6942943566651288
+            }
+        },
+        {
+            "query": "Plot sum capacity over openning year in a line chart, I want to display by the X in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911969508977039
+            }
+        },
+        {
+            "query": "What is the sum of capacity of cinemas open for each year? Return a line chart, could you show in descending by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911969508977039
+            }
+        },
+        {
+            "query": "What is the sum of capacity of cinemas open for each year? Return a line chart, could you sort by the X-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7911969508977039
+            }
+        },
+        {
+            "query": "A bar chart showing the sum of capacity of cinemas open for each year, and could you show y axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8271914889281172
+            }
+        },
+        {
+            "query": "Give me a bar chart for total number of capacity of each openning year, order by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705339828479278
+            }
+        },
+        {
+            "query": "A bar chart showing the sum of capacity of cinemas open for each year, and show by the Y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215714386083784
+            }
+        },
+        {
+            "query": "Give me a bar chart for total number of capacity of each openning year, and show by the Y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215714386083784
+            }
+        },
+        {
+            "query": "Show how many cinemas open for each year in a line chart, show X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7050107431310507
+            }
+        },
+        {
+            "query": "Plot openning year by how many openning year as a trend line, could you rank X from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7050107431310507
+            }
+        },
+        {
+            "query": "Show how many cinemas open for each year in a line chart, and could you rank X from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7050107431310507
+            }
+        },
+        {
+            "query": "Can you draw the trend of the average of capacity over the openning year?, and sort by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "Can you draw the trend of the average of capacity over the openning year?, rank in desc by the Openning_year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "Tell me the average of capacity of cinemas open for each year in a line chart, and sort in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "Tell me the average of capacity of cinemas open for each year in a line chart, show x-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7896147015673658
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there Show bar chart, rank by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8690043579988949
+            }
+        },
+        {
+            "query": "Show each location and the number of cinemas there by a bar chart, and sort bars in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8690043579988949
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across location, order in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8690043579988949
+            }
+        },
+        {
+            "query": "Tell me the average of capacity of cinemas open for each year in a line chart, sort in asc by the Openning_year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7895955438854675
+            }
+        },
+        {
+            "query": "Can you draw the trend of the average of capacity over the openning year?, display X from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7895955438854675
+            }
+        },
+        {
+            "query": "Tell me the average of capacity of cinemas open for each year in a line chart, rank Openning_year from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7895955438854675
+            }
+        },
+        {
+            "query": "Can you draw the trend of the average of capacity over the openning year?, and show by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7895955438854675
+            }
+        },
+        {
+            "query": "Show me the average of capacity by openning year in a histogram, and I want to rank bar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8697766691597918
+            }
+        },
+        {
+            "query": "A bar chart showing the average of capacity of cinemas open for each year, sort in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8697766691597918
+            }
+        },
+        {
+            "query": "Show the capacity for each cinema in a bar chart, list y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9990172202303702
+            }
+        },
+        {
+            "query": "Create a bar chart showing capacity across name, sort Capacity from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9990172202303702
+            }
+        },
+        {
+            "query": "Tell me how many cinemas open for each year in a bar chart, and sort X-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.69430196462841
+            }
+        },
+        {
+            "query": "Bar chart of how many openning year from each openning year, and could you show in descending by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.69430196462841
+            }
+        }
+    ],
+    "errors": []
+}

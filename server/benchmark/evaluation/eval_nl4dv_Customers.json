@@ -1,0 +1,539 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Customers",
+    "results": [
+        {
+            "query": "Please compare the frequency of the customer details using a bar chart, and I want to show x-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of customer details from different customer details, and list in desc by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of items in each customer details category?, list in desc by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of items in each customer details category?, and show in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the frequency of the customer details using a bar chart, and could you list from low to high by the customer_details?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of customer details from different customer details, and rank names in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer status code y axis the total number",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a line chart, and could you list by the date_of_birth from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a line chart, and show from low to high by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a line chart, could you display by the X in ascending please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a line chart, and show from low to high by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer last name y axis how many customer last name, could you list from high to low by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers for different customer last name? Draw a bar chart, rank by the bar in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for different customer last name in a bar chart, show by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers for different customer last name? Draw a bar chart, and show names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for different customer last name in a bar chart, could you sort x-axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer last name y axis how many customer last name, and sort bars from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code, could you rank bar in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way Visualize by bar chart, and I want to sort by the names from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code in a bar chart, could you rank bar in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer status code y axis the total number, list by the x-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a line chart, rank in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a line chart, and list from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a line chart, list X-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a line chart, list from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a bar chart, I want to list from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a bar chart, and order by the Y-axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for different customer last name in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers for different customer last name? Draw a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer last name y axis how many customer last name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the frequency of the customer details using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of items in each customer details category?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of customer details from different customer details",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart to show customer status codes and the number of customers having each status code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each customer status code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of items in each customer details category?, I want to order in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of customer details from different customer details, I want to order in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the frequency of the customer details using a bar chart, could you display in ascending by the y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for different customer last name in a bar chart, show by the the number of customer last name in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer last name y axis how many customer last name, and could you order the number of customer last name from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers for different customer last name? Draw a bar chart, could you order the number of customer last name from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer status code y axis the total number, list total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code in a bar chart, list total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way Visualize by bar chart, list by the total number in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code, I want to display by the y axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer last name y axis how many customer last name, and sort from high to low by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers for different customer last name? Draw a bar chart, and could you rank total number in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for different customer last name in a bar chart, and show in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code, order from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way Visualize by bar chart, and I want to rank y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer status code y axis the total number, and could you order Y-axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code in a bar chart, and order from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis customer status code y axis the total number, and sort from low to high by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code, order by the bar from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each customer status code, how many customers are classified that way Visualize by bar chart, and display in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all customer status codes and the number of customers having each status code in a bar chart, sort from low to high by the X please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of items in each customer details category?, and list total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of customer details from different customer details, and list Y from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the frequency of the customer details using a bar chart, and sort in desc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for each gender in a scatter chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of customers for each gender. Show scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a scatter on how many customers are there of each gender?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a scatter chart for how many customers are there of each gender?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many customers are there of each gender. Visualize by scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter plot to show gender on x axis and the total number on y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "When are the birthdays of customer who are classified as 'Good Customer' status, and count them by a bar chart, could you order y-axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the date of birth of every customer whose status code is 'Good Customer', and count them by a bar chart, I want to rank by the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

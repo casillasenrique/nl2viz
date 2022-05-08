@@ -1,0 +1,189 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "orchestra",
+    "results": [
+        {
+            "query": "Visualize a bar chart for how many orchestras does each record company manage?, rank by the Record_Company from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many orchestras does each record company manage Show bar chart, and could you display by the bars in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many orchestras does each record company manage?, and could you show in ascending by the bar?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of record company versus the total number, and I want to list in ascending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many orchestras does each record company manage?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many orchestras does each record company manage?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many orchestras does each record company manage. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of record company versus the total number",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many orchestras does each record company manage?, could you list by the x-axis in desc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many orchestras does each record company manage Show bar chart, and I want to list in desc by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many orchestras does each record company manage?, and I want to show by the names from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of record company versus the total number, I want to show by the names from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many orchestras does each record company manage?, display by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many orchestras does each record company manage Show bar chart, I want to rank in ascending by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many orchestras does each record company manage?, could you list by the the total number in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of record company versus the total number, and I want to rank in ascending by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the record companies of orchestras in descending order of years in which they were founded, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the record companies of orchestras, sorted descending by the years in which they were founded, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the record companies of orchestras in descending order of years in which they were founded?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the record companies of orchestras, sorted descending by the years in which they were founded.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the record companies of orchestras, sorted descending by the years in which they were founded.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the record companies of orchestras in descending order of years in which they were founded?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a bar chart for how many orchestras does each record company manage?, could you sort by the y-axis in descending please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of record company versus the total number, rank in descending by the the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how many orchestras does each record company manage?, display by the y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many orchestras does each record company manage Show bar chart, show by the y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

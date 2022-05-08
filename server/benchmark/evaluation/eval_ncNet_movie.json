@@ -1,0 +1,121 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "movie",
+    "results": [
+        {
+            "query": "Show all director names who have a movie in the year 1999 or 2000, and count them by a bar chart, order by the Y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7322316914284427
+            }
+        },
+        {
+            "query": "Which directors had a movie in either 1999 or 2000, and count them by a bar chart, show by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show the number of movies for each year in a bar chart and ordered by budget.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6198131026229597
+            }
+        },
+        {
+            "query": "What is the number of movies for each year, ordered by budget in millions? Visualize in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6198131026229597
+            }
+        },
+        {
+            "query": "Show all director names who have a movie in the year 1999 or 2000, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Which directors had a movie in either 1999 or 2000, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Which directors had a movie in either 1999 or 2000, and count them by a bar chart, and show in asc by the Director.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show all director names who have a movie in the year 1999 or 2000, and count them by a bar chart, and could you display by the Director in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009228373262325
+            }
+        },
+        {
+            "query": "Which directors had a movie in either 1999 or 2000, and count them by a bar chart, could you order X-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7332849238241498
+            }
+        },
+        {
+            "query": "Show all director names who have a movie in the year 1999 or 2000, and count them by a bar chart, and I want to display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6980617188164621
+            }
+        },
+        {
+            "query": "Show how many movies did each director direct in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5832222558084896
+            }
+        },
+        {
+            "query": "Which directors had a movie in either 1999 or 2000, and count them by a bar chart, I want to order Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.698037503801476
+            }
+        },
+        {
+            "query": "Show all director names who have a movie in the year 1999 or 2000, and count them by a bar chart, and could you sort Y in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.698037503801476
+            }
+        },
+        {
+            "query": "Show the number of movies for each year in a bar chart and ordered by budget.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6198131026229597
+            }
+        },
+        {
+            "query": "What is the number of movies for each year, ordered by budget in millions? Visualize in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6198131026229597
+            }
+        }
+    ],
+    "errors": [
+        "FileNotFoundError",
+        "\"Show the number of movies for each year in a bar chart and ordered by budget.\" has 2 benchmarks associated with it",
+        "\"What is the number of movies for each year, ordered by budget in millions? Visualize in a bar chart.\" has 2 benchmarks associated with it",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "\"Show the number of movies for each year in a bar chart and ordered by budget.\" has 2 benchmarks associated with it",
+        "\"What is the number of movies for each year, ordered by budget in millions? Visualize in a bar chart.\" has 2 benchmarks associated with it"
+    ]
+}

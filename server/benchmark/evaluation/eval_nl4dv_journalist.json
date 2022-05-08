@@ -1,0 +1,567 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "journalist",
+    "results": [
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality in a bar chart, and I want to display by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819927135597141
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality Visualize by bar chart, order in asc by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819927135597141
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by nationality as a bar graph, I want to list by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7829519479599164
+            }
+        },
+        {
+            "query": "A bar chart about what are the nationalities and their average ages of journalists?, and order y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "Draw a bar chart of nationality versus the average of age, I want to order total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7295830723610518
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?, order total number in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "What are the nationalities and their average ages of journalists Show me a bar chart, order total number in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "Show me the propotion of the journalist's nationality using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8272428663823724
+            }
+        },
+        {
+            "query": "Visualize a pie chart, count and group by nationality from the journalist table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8272428663823724
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many nationality across nationality.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality in a bar chart, and could you display from high to low by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819927135597143
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality Visualize by bar chart, order y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819927135597143
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by nationality as a bar graph, and sort Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.782951947959917
+            }
+        },
+        {
+            "query": "Return a histogram on what are the nationalities and the total ages of journalists?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the nationalities and total ages of journalists?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7903806181234874
+            }
+        },
+        {
+            "query": "What are the nationalities and the taotal ages of journalists. Visualize by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.798502182928989
+            }
+        },
+        {
+            "query": "Bar chart of sum age from each nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8131030175990194
+            }
+        },
+        {
+            "query": "Visualize a bar chart, count and group by nationality from the journalist table, display by the total number in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7809178312048072
+            }
+        },
+        {
+            "query": "Compare the total number of journalist with different nationality using a bar chart, and rank by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7809178312048072
+            }
+        },
+        {
+            "query": "Bar graph to show the number of nationality from different nationality, and rank by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819799133119988
+            }
+        },
+        {
+            "query": "Compare the total number of journalist with different nationality using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Visualize a bar chart, count and group by nationality from the journalist table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Bar graph to show the number of nationality from different nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819672296213888
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8272428663823724
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.785957392072862
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across nationality.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart, count and group by nationality from the journalist table, rank in ascending by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7809178312048065
+            }
+        },
+        {
+            "query": "Compare the total number of journalist with different nationality using a bar chart, and show in ascending by the how many nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7809178312048065
+            }
+        },
+        {
+            "query": "Bar graph to show the number of nationality from different nationality, and rank from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819799133119982
+            }
+        },
+        {
+            "query": "Bar graph to show the number of nationality from different nationality, list in descending by the Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819672296213889
+            }
+        },
+        {
+            "query": "Visualize a bar chart, count and group by nationality from the journalist table, list X in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Compare the total number of journalist with different nationality using a bar chart, and list in descending by the Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Visualize a bar chart, count and group by nationality from the journalist table, show x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Compare the total number of journalist with different nationality using a bar chart, I want to order by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.780905147514197
+            }
+        },
+        {
+            "query": "Bar graph to show the number of nationality from different nationality, and order by the Nationality in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819672296213888
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality in a bar chart, and display names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691048
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality Visualize by bar chart, could you display by the x axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691048
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by nationality as a bar graph, rank bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7829392642693068
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the nationalities and total ages of journalists?, and display from low to high by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7915152506883496
+            }
+        },
+        {
+            "query": "Bar chart of sum age from each nationality, and list by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8131052719887428
+            }
+        },
+        {
+            "query": "Return a histogram on what are the nationalities and the total ages of journalists?, and list by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the nationalities and the taotal ages of journalists Visualize by a bar chart, sort y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996368154938516
+            }
+        },
+        {
+            "query": "Return a histogram on what are the nationalities and the total ages of journalists?, and I want to show by the total number of age in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the nationalities and total ages of journalists?, and list Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7903806181234874
+            }
+        },
+        {
+            "query": "Bar chart of sum age from each nationality, and I want to show by the total number of age in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8131030175990194
+            }
+        },
+        {
+            "query": "What are the nationalities and the taotal ages of journalists Visualize by a bar chart, I want to show by the total number of age in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.798502182928989
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "A bar chart about what are the nationalities and their average ages of journalists?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "What are the nationalities and their average ages of journalists. Show me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "Draw a bar chart of nationality versus the average of age",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7295830723610518
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by nationality as a bar graph, and I want to order x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7829392642693067
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality Visualize by bar chart, and I want to order x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691044
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality in a bar chart, and I want to sort in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691044
+            }
+        },
+        {
+            "query": "What are the nationalities and their average ages of journalists Show me a bar chart, and list x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "Draw a bar chart of nationality versus the average of age, and I want to order in ascending by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7295830723610518
+            }
+        },
+        {
+            "query": "A bar chart about what are the nationalities and their average ages of journalists?, I want to rank by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?, could you list Nationality from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.708410724574113
+            }
+        },
+        {
+            "query": "What are the nationalities and the taotal ages of journalists Visualize by a bar chart, show from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.798502182928989
+            }
+        },
+        {
+            "query": "Bar chart of sum age from each nationality, could you rank X in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8131030175990194
+            }
+        },
+        {
+            "query": "Return a histogram on what are the nationalities and the total ages of journalists?, I want to rank X from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the nationalities and total ages of journalists?, I want to sort by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7903806181234874
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691044
+            }
+        },
+        {
+            "query": "Show the different nationalities and the number of journalists of each nationality. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7819800298691044
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by nationality as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7829392642693067
+            }
+        },
+        {
+            "query": "What are the nationalities and their average ages of journalists Show me a bar chart, and order by the Y from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?, show in asc by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        },
+        {
+            "query": "A bar chart about what are the nationalities and their average ages of journalists?, could you list from low to high by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        },
+        {
+            "query": "Draw a bar chart of nationality versus the average of age, and list in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7295830723610547
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the nationalities and the total ages of journalists?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the nationalities and the total ages of journalists?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the nationalities and the total ages of journalists. Return me a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing total number of age across nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.827465087505915
+            }
+        },
+        {
+            "query": "Bar chart of sum age from each nationality, and display by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8131052719887428
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the nationalities and total ages of journalists?, I want to rank by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7915152506883496
+            }
+        },
+        {
+            "query": "Return a histogram on what are the nationalities and the total ages of journalists?, I want to rank by the bar in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the nationalities and the taotal ages of journalists Visualize by a bar chart, could you list bars in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996368154938516
+            }
+        },
+        {
+            "query": "A bar chart about what are the nationalities and their average ages of journalists?, and rank X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        },
+        {
+            "query": "Draw a bar chart of nationality versus the average of age, list from high to low by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7295830723610547
+            }
+        },
+        {
+            "query": "What are the nationalities and their average ages of journalists Show me a bar chart, order in descending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?, and I want to show from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7097268846465833
+            }
+        }
+    ],
+    "errors": []
+}

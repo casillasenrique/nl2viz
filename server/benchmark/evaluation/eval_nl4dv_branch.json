@@ -1,0 +1,49 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "branch",
+    "results": [
+        {
+            "query": "Compare the number of cities from the branch table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7267992564413642
+            }
+        },
+        {
+            "query": "Compare the number of cities from the branch table using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7267992564413642
+            }
+        },
+        {
+            "query": "Visualize a bar chart, grouping by city attribute, and compute the total number in each group.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7267992564413642
+            }
+        },
+        {
+            "query": "Show me the proportion of cities of the branch table.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7562107666773187
+            }
+        },
+        {
+            "query": "Show me the proportion of cities of the branch table with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total how many city across city as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

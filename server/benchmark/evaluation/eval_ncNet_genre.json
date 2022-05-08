@@ -1,0 +1,48 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "genre",
+    "results": [
+        {
+            "query": "List the names of all genres in alphabetical oder, together with its ratings in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the names of all genres in alphabetical oder, together with its ratings. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names of all genres in alphabetical order, combined with its ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names of all genres in alphabetical order, combined with its ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of all genres in alphabetical order, combined with its ratings. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"List the names of all genres in alphabetical oder, together with its ratings in a bar chart.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"List the names of all genres in alphabetical oder, together with its ratings. Plot them as bar chart.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Show me a bar chart for what are the names of all genres in alphabetical order, combined with its ratings?\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Return a bar chart on what are the names of all genres in alphabetical order, combined with its ratings?\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"What are the names of all genres in alphabetical order, combined with its ratings. Show bar chart.\" - <class 'IndexError'>: list index out of range"
+    ]
+}

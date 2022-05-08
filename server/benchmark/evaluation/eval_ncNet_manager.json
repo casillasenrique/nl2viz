@@ -1,0 +1,180 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "manager",
+    "results": [
+        {
+            "query": "Show the working years of managers in descending order of their level, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.690998709000517
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the working years of managers in descending order of their level.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.690998709000517
+            }
+        },
+        {
+            "query": "Show the number of the working years of managers in descending order of their level.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5927407346128785
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46, and I want to rank by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a bar chart, order by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8903424212798835
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the countries that have managers of age above 50 or below 46, I want to rank by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6707238844108416
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the countries that have managers of age above 50 or below 46.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6707238844108416
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9985725201175696
+            }
+        },
+        {
+            "query": "A pie chart for showing the number of the countries that have managers of age above 50 or below 46.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9985725201175696
+            }
+        },
+        {
+            "query": "A line chart for showing the number of the working years of managers in descending order of their level.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7158034640089723
+            }
+        },
+        {
+            "query": "Show the number of the working years of managers in descending order of their level.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5927407346128785
+            }
+        },
+        {
+            "query": "Show the working years of managers in descending order of their level, and count them by a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7158034640089723
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a bar chart, and show names in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8903424212798835
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the countries that have managers of age above 50 or below 46, list in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8903424212798835
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46, list in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8903424212798835
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the countries that have managers of age above 50 or below 46, and list in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8903424212798835
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46, and could you show from high to low by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a bar chart, could you rank the number of country from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the countries that have managers of age above 50 or below 46, and count them by a bar chart, and sort in ascending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "Show the number of the countries that have managers of age above 50 or below 46, and could you show by the bars from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the countries that have managers of age above 50 or below 46, could you order x-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950660529642587
+            }
+        }
+    ],
+    "errors": [
+        "\"Show the number of the working years of managers in descending order of their level.\" has 2 benchmarks associated with it",
+        "\"Show the number of the countries that have managers of age above 50 or below 46.\" has 2 benchmarks associated with it",
+        "\"Show the number of the countries that have managers of age above 50 or below 46.\" has 2 benchmarks associated with it",
+        "\"Show the number of the working years of managers in descending order of their level.\" has 2 benchmarks associated with it"
+    ]
+}

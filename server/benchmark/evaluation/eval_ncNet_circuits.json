@@ -1,0 +1,147 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "circuits",
+    "results": [
+        {
+            "query": "Find the id and location of circuits that belong to France or Belgium. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the ids and locations of all circuits in France or Belgium?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the ids and locations of all circuits in France or Belgium?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "What are the ids and locations of all circuits in France or Belgium. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the ids and locations of all circuits in France or Belgium?, order in ascending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "What are the ids and locations of all circuits in France or Belgium Show bar chart, and order in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Find the id and location of circuits that belong to France or Belgium Plot them as bar chart, and could you display circuitId in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the ids and locations of all circuits in France or Belgium?, order in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6464481545805563
+            }
+        },
+        {
+            "query": "Find the id and location of circuits that belong to France or Belgium Plot them as bar chart, order in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6491466182460432
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the ids and locations of all circuits in France or Belgium?, and could you display X-axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6491466182460432
+            }
+        },
+        {
+            "query": "What are the ids and locations of all circuits in France or Belgium Show bar chart, could you display X-axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6491466182460432
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the ids and locations of all circuits in France or Belgium?, and order by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6491466182460432
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the ids and locations of all circuits in France or Belgium?, and list y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523334681165145
+            }
+        },
+        {
+            "query": "What are the ids and locations of all circuits in France or Belgium Show bar chart, sort by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523334681165145
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the ids and locations of all circuits in France or Belgium?, could you order Y from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523334681165145
+            }
+        },
+        {
+            "query": "Find the id and location of circuits that belong to France or Belgium Plot them as bar chart, could you sort in descending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523334681165145
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the ids and locations of all circuits in France or Belgium?, could you sort names in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6444492347945815
+            }
+        },
+        {
+            "query": "Find the id and location of circuits that belong to France or Belgium Plot them as bar chart, show X from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6444492347945815
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the ids and locations of all circuits in France or Belgium?, and show X from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6444492347945815
+            }
+        },
+        {
+            "query": "What are the ids and locations of all circuits in France or Belgium Show bar chart, could you sort X-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6444492347945815
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,42 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "constructorStandings",
+    "results": [
+        {
+            "query": "Show me the correlation about what are the numbers of races for each constructor id?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7161829616200754
+            }
+        },
+        {
+            "query": "Scatter chart. what are the numbers of races for each constructor id?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188488679542506
+            }
+        },
+        {
+            "query": "What are the numbers of races for each constructor id. Show the correlation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7161829616200754
+            }
+        },
+        {
+            "query": "For each constructor id, how many races are there. Show scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7161829616200754
+            }
+        },
+        {
+            "query": "Plot a scatter chart, count(*) by constructorid.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188488679542506
+            }
+        }
+    ],
+    "errors": []
+}

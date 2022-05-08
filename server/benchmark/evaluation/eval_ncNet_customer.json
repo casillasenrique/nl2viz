@@ -1,0 +1,327 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "customer",
+    "results": [
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7927413936239874
+            }
+        },
+        {
+            "query": "what is the average account balance of customers with credit score below 50 for the different account types?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7922391724708424
+            }
+        },
+        {
+            "query": "Show me a pie chart for what is the average account balance of customers with credit score below 50 for the different account types?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7922391724708424
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7922391724708424
+            }
+        },
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7325277977275779
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average account balance of customers with credit score below 50 for the different account types?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019. Visualize them using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276294724826173
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and account balances of customers with the letter 'a' in their names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Can you compare the account balances of customers with the letter 'a' in their names using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average account balance of customers with credit score below 50 for the different account types?, and display Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323937280997997
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types Visualize by bar chart, display the average of acc bal from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324550225152674
+            }
+        },
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50 Show bar chart, sort in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7325208973464954
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average account balance of customers with credit score below 50 for the different account types?, display by the bars in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324550225152674
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types Visualize by bar chart, display acc_type from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324550225152674
+            }
+        },
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50 Show bar chart, and display by the bars in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7325208973464954
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7987520316607865
+            }
+        },
+        {
+            "query": "Draw a pie chart for what are the names and account balances of customers with the letter a in their names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the names and account balances of customers with the letter a in their names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Can you compare the account balances of customers with the letter 'a' in their names using a bar graph, and order by the x axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019 Visualize them using a bar chart, and I want to sort bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names, order by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and account balances of customers with the letter 'a' in their names?, show by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names, list by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Can you compare the account balances of customers with the letter 'a' in their names using a bar graph, list by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019 Visualize them using a bar chart, list in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276294724826173
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and account balances of customers with the letter 'a' in their names?, rank names from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276294724826173
+            }
+        },
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50 Show bar chart, and list by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324006284808826
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average account balance of customers with credit score below 50 for the different account types?, could you list by the X-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types Visualize by bar chart, and order by the names in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names, and I want to display in descending by the acc_bal.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019 Visualize them using a bar chart, show y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276197204459219
+            }
+        },
+        {
+            "query": "Can you compare the account balances of customers with the letter 'a' in their names using a bar graph, and list in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and account balances of customers with the letter 'a' in their names?, could you sort from high to low by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and account balances of customers with the letter 'a' in their names?, and list y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Can you compare the account balances of customers with the letter 'a' in their names using a bar graph, and show from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "What are the names and account balances of customers with the letter a in their names, show by the acc_bal in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Find the name and account balance of the customer whose name includes the letter \u2018a\u2019 Visualize them using a bar chart, and order by the y-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276294724826173
+            }
+        },
+        {
+            "query": "For each account type, find the average account balance of customers with credit score lower than 50 Show bar chart, show by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7325277977275779
+            }
+        },
+        {
+            "query": "What is the average account balance of customers with credit score below 50 for the different account types Visualize by bar chart, and sort in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average account balance of customers with credit score below 50 for the different account types?, and show by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324619228963503
+            }
+        }
+    ],
+    "errors": [
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError"
+    ]
+}

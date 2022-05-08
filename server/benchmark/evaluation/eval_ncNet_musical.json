@@ -1,0 +1,430 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "musical",
+    "results": [
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Return a bar chart on how many musicals has each nominee been nominated for?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Give me a histogram for how many musicals has each nominee been nominated for?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Bar chart x axis nominee y axis the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7906582333782911
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a bar chart, display by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and list the number of nominee in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a bar chart, and could you list from high to low by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and I want to show from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "A pie chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8297884319152956
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7906582333782911
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8297884319152956
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8297884319152956
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", I want to sort x axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and display x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a bar chart, and could you list from high to low by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a bar chart, display x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for Plot them as bar chart, rank in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Give me a histogram for how many musicals has each nominee been nominated for?, sort by the Y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated Plot them as bar chart, and could you order the total number in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Bar chart x axis nominee y axis the total number, and rank in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Return a bar chart on how many musicals has each nominee been nominated for?, and could you order the total number in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a bar chart, sort in desc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a bar chart, I want to sort y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", show by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a bar chart, could you show y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and show by the total number in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359379560864076
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "Plot a pie chart to show different nominees and the number of musicals they have been nominated.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "A pie chart about how many musicals has each nominee been nominated for?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many musicals has each nominee been nominated for?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each nominee.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986527888237164
+            }
+        },
+        {
+            "query": "Return a bar chart on how many musicals has each nominee been nominated for?, and could you order by the X in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for Plot them as bar chart, and display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated Plot them as bar chart, and display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a bar chart, show Nominee from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Bar chart x axis nominee y axis the total number, and display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "Give me a histogram for how many musicals has each nominee been nominated for?, and display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204384
+            }
+        },
+        {
+            "query": "A bar chart for showing the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", could you sort names from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards, and count them by a bar chart, and I want to order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", sort x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\", and count them by a bar chart, display by the x-axis in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7359631921170964
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated Plot them as bar chart, show in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Give me a histogram for how many musicals has each nominee been nominated for?, show in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for Plot them as bar chart, I want to order by the X in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a bar chart, I want to order by the X in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Return a bar chart on how many musicals has each nominee been nominated for?, and I want to show by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Bar chart x axis nominee y axis the total number, I want to show by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        },
+        {
+            "query": "Return a bar chart on how many musicals has each nominee been nominated for?, order Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204388
+            }
+        },
+        {
+            "query": "Give me a histogram for how many musicals has each nominee been nominated for?, show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204388
+            }
+        },
+        {
+            "query": "Bar chart x axis nominee y axis the total number, show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204388
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated Plot them as bar chart, and list Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204388
+            }
+        },
+        {
+            "query": "How many musicals has each nominee been nominated for Plot them as bar chart, show in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936604917204388
+            }
+        },
+        {
+            "query": "Show different nominees and the number of musicals they have been nominated in a bar chart, and order by the the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8270257495059544
+            }
+        }
+    ],
+    "errors": [
+        "\"Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".\" has 2 benchmarks associated with it",
+        "\"Show the number of the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".\" has 2 benchmarks associated with it"
+    ]
+}

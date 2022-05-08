@@ -1,0 +1,98 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "jobs",
+    "results": [
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, and I want to list by the names from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and could you display by the x-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, rank y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and sort maximal salary-min salar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6772837043581728
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and order in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, and rank by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, could you sort by the names in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, I want to show by the bars from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

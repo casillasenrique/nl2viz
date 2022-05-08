@@ -1,0 +1,49 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "poker_player",
+    "results": [
+        {
+            "query": "List the final tables made and the best finishes of poker players in a scatter chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7326704888176425
+            }
+        },
+        {
+            "query": "List the final tables made and the best finishes of poker players. Show the correlation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5969670497186357
+            }
+        },
+        {
+            "query": "Return a scatter chart on what are the final tables made and best finishes for all poker players?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7332791261965165
+            }
+        },
+        {
+            "query": "A scatter chart about what are the final tables made and best finishes for all poker players?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7332791261965165
+            }
+        },
+        {
+            "query": "What are the final tables made and best finishes for all poker players. Plot them as scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7326704888176425
+            }
+        },
+        {
+            "query": "Plot a scatter chart, final table made by best_finish.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7331313874956752
+            }
+        }
+    ],
+    "errors": []
+}

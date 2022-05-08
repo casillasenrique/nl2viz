@@ -1,0 +1,40 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Paragraphs",
+    "results": [
+        {
+            "query": "Show all document ids and the number of paragraphs in each document. Order by document id in a scatter chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all document ids and the number of paragraphs in each document. Order by document id. Visualize by scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the different document ids along with the number of paragraphs corresponding to each, ordered by id with a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the different document ids along with the number of paragraphs corresponding to each, ordered by id. Plot them as scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"Show all document ids and the number of paragraphs in each document. Order by document id in a scatter chart\"",
+        "Error when executing query: \"Show all document ids and the number of paragraphs in each document. Order by document id. Visualize by scatter chart.\"",
+        "Error when executing query: \"Return the different document ids along with the number of paragraphs corresponding to each, ordered by id with a scatter chart.\"",
+        "Error when executing query: \"Return the different document ids along with the number of paragraphs corresponding to each, ordered by id. Plot them as scatter chart.\""
+    ]
+}

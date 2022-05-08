@@ -1,0 +1,14 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "manufacturer",
+    "results": [
+        {
+            "query": "Show all manufacturer names and ids with a bar chart, note that let manufacturer id as Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6887637217444716
+            }
+        }
+    ],
+    "errors": []
+}

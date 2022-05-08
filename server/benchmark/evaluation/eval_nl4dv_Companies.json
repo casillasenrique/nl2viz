@@ -1,0 +1,133 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Companies",
+    "results": [
+        {
+            "query": "compare the number of companies from different industries using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "a pie chart about the number of companies in different industries.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of different industry types.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7821879307064238
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and sort in ascending by the Industry.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620014838112295
+            }
+        },
+        {
+            "query": ", order by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", and order by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and sort in ascending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7590080272796177
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620014838112295
+            }
+        },
+        {
+            "query": ", and show in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7621579184126012
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and list by the the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.762001483811229
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and assets of each company, sorted in ascending order of company name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the name and assets of each company, sorted in ascending order of company name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and assets of each company, sorted in ascending order of company name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the name and assets of each company in ascending order of company name in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the name and assets of each company in ascending order of company name. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": ", rank from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by industry as a bar graph, and rank from high to low by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7590080272796179
+            }
+        }
+    ],
+    "errors": []
+}

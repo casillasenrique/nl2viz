@@ -1,0 +1,272 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Participants",
+    "results": [
+        {
+            "query": "Bar chart x axis participant details y axis participant_id, rank from high to low by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the participant ids and their details using a bar chart, and rank from high to low by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and show in desc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please draw a histogram to show the total number of participants in each type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the number of participants in each participant type code using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant type code y axis the number of participant type code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please draw a histogram to show the total number of participants in each type code, and sort Y from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant type code y axis the number of participant type code, and sort in desc by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the number of participants in each participant type code using a bar chart, and sort y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the participant ids and their details using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart, that just lists the participant ids as Y and their details as X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant details y axis participant_id",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the number of participants in each participant type code using a bar chart, and could you rank from low to high by the Y-axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant type code y axis the number of participant type code, and list in ascending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please draw a histogram to show the total number of participants in each type code, and I want to show by the y-axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please draw a histogram to show the total number of participants in each type code, and order in desc by the Participant_Type_Code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant type code y axis the number of participant type code, show by the bar in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the number of participants in each participant type code using a bar chart, order bars from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the number of participants in each participant type code using a bar chart, order from low to high by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please draw a histogram to show the total number of participants in each type code, list X-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant type code y axis the number of participant type code, and sort in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the participant ids and their details using a bar chart, and I want to order in asc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and display bars from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant details y axis participant_id, and rank in asc by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant details y axis participant_id, and order in descending by the y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and rank by the Participant_ID in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the participant ids and their details using a bar chart, rank in desc by the Participant_ID please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the participant ids and their details using a bar chart, and sort Y in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis participant details y axis participant_id, and sort by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, rank in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart to show the proportion of participant type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many items in each participant type code? Show me a pie chart!",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each participant type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Bar chart x axis participant details y axis participant_id, rank from high to low by the X-axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"List all the participant ids and their details using a bar chart, and rank from high to low by the X-axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and show in desc by the bar.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Please draw a histogram to show the total number of participants in each type code.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Compare the number of participants in each participant type code using a bar chart.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant type code y axis the number of participant type code\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Please draw a histogram to show the total number of participants in each type code, and sort Y from high to low order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant type code y axis the number of participant type code, and sort in desc by the Y please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Compare the number of participants in each participant type code using a bar chart, and sort y-axis in desc order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"List all the participant ids and their details using a bar chart.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Give me a bar chart, that just lists the participant ids as Y and their details as X-axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant details y axis participant_id\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Compare the number of participants in each participant type code using a bar chart, and could you rank from low to high by the Y-axis please?\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant type code y axis the number of participant type code, and list in ascending by the y-axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Please draw a histogram to show the total number of participants in each type code, and I want to show by the y-axis from low to high please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Please draw a histogram to show the total number of participants in each type code, and order in desc by the Participant_Type_Code.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant type code y axis the number of participant type code, show by the bar in desc please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Compare the number of participants in each participant type code using a bar chart, order bars from high to low order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Compare the number of participants in each participant type code using a bar chart, order from low to high by the X-axis please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Please draw a histogram to show the total number of participants in each type code, list X-axis from low to high order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant type code y axis the number of participant type code, and sort in ascending by the x axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"List all the participant ids and their details using a bar chart, and I want to order in asc by the bar.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and display bars from low to high order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant details y axis participant_id, and rank in asc by the bars.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant details y axis participant_id, and order in descending by the y-axis please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, and rank by the Participant_ID in descending.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"List all the participant ids and their details using a bar chart, rank in desc by the Participant_ID please.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"List all the participant ids and their details using a bar chart, and sort Y in asc order.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Bar chart x axis participant details y axis participant_id, and sort by the y axis in ascending.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Give me a bar chart, that just lists the participant ids as Y and their details as X-axis, rank in ascending by the y axis.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"Return a pie chart to show the proportion of participant type code.\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"How many items in each participant type code? Show me a pie chart!\" - <class 'KeyError'>: 'Participants'",
+        "Error when executing \"I want to know the proportion of the total number for each participant type code.\" - <class 'KeyError'>: 'Participants'"
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "representative",
+    "results": [
+        {
+            "query": "Plot how many party by grouped by party as a bar graph, list bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "A bar chart showing how many representatives in each party, order X in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "How many representatives in each party? Visualize with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991798473389423
+            }
+        },
+        {
+            "query": "Create a pie chart showing the number of party across party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991798473389423
+            }
+        },
+        {
+            "query": "Pie. what are the different parties of representative? Show the party name and the number of representatives in each party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7012535417446365
+            }
+        },
+        {
+            "query": "Return a pie on what are the different parties of representative? Show the party name and the number of representatives in each party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991798473389423
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991798473389423
+            }
+        },
+        {
+            "query": "Compute the total the total number across party as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9991798473389423
+            }
+        },
+        {
+            "query": "Plot how many party by grouped by party as a bar graph, could you rank by the total number from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "A bar chart showing how many representatives in each party, and I want to display Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party, sort names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9185822145481669
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each party, and rank x axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9185822145481669
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different parties of representative? Show the party name and the number of representatives in each party, and sort in desc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "A bar chart showing how many representatives in each party, show y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "Plot how many party by grouped by party as a bar graph, rank by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9188341082676317
+            }
+        },
+        {
+            "query": "Plot how many party by grouped by party as a bar graph, rank in desc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9188341082676317
+            }
+        },
+        {
+            "query": "A bar chart showing how many representatives in each party, could you order in descending by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9188341082676317
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different parties of representative? Show the party name and the number of representatives in each party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each party",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different parties of representative? Show the party name and the number of representatives in each party, and show total number in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party, order in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each party, show total number in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "A bar chart showing how many representatives in each party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "Plot how many party by grouped by party as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950944952904405
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each party, and could you order by the bars in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different parties of representative? Show the party name and the number of representatives in each party, could you order by the bars in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party, list by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "What are the different parties of representative? Show the party name and the number of representatives in each party, and could you show total number in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each party, I want to sort Y from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the different parties of representative? Show the party name and the number of representatives in each party, and I want to order the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9948426015709755
+            }
+        }
+    ],
+    "errors": []
+}

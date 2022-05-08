@@ -1,0 +1,252 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "storm",
+    "results": [
+        {
+            "query": "For all storms with at least 1 death, show me the dates active and the total number of deaths with a bar chart, and order in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by dates active with a bar graph, and could you rank by the y-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the total number of deaths by dates_active attribute, and order in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name, and I want to order by the names from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name with a bar graph, and order by the bar in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart, order by the bar in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name, rank by the X-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart, and order by the x-axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name with a bar graph, rank by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the dates active and the total number of deaths with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the total number of deaths by dates_active attribute.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by dates active with a bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name, and rank in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name with a bar graph, order from low to high by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart, sort in asc by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name with a bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the dates active and the total number of deaths with a bar chart, could you sort by the names in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the total number of deaths by dates_active attribute, sort by the names from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by dates active with a bar graph, order names in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the total number of deaths by dates_active attribute, rank by the Dates_active in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by dates active with a bar graph, and I want to rank in descending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the dates active and the total number of deaths with a bar chart, rank by the Dates_active in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart, show Y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name with a bar graph, and could you display from high to low by the Number_Deaths?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by name, order by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the number of deaths by dates active with a bar graph, show y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, compare the total number of deaths by dates_active attribute, and list in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For all storms with at least 1 death, show me the dates active and the total number of deaths with a bar chart, and rank by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List name and damage for all storms in a descending order of max speed with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6977585025400769
+            }
+        },
+        {
+            "query": "List name and damage for all storms in a descending order of max speed. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6977585025400769
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and damage in millions for storms, ordered by their max speeds descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and damage in millions for storms, ordered by their max speeds descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and damage in millions for storms, ordered by their max speeds descending. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

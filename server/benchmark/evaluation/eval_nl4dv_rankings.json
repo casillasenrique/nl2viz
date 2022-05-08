@@ -1,0 +1,42 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "rankings",
+    "results": [
+        {
+            "query": "Find the total number of tours for each ranking date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7386465133316475
+            }
+        },
+        {
+            "query": "Scatter chart. how many total tours were there for each ranking date?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7386465133316475
+            }
+        },
+        {
+            "query": "how many total tours were there for each ranking date?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7386554678000915
+            }
+        },
+        {
+            "query": "How many total tours were there for each ranking date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7386554678000915
+            }
+        },
+        {
+            "query": "Scatter plot to show sum(tours) on x axis and ranking_date on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7386465133316475
+            }
+        }
+    ],
+    "errors": []
+}

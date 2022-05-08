@@ -1,0 +1,637 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Course_Authors_and_Tutors",
+    "results": [
+        {
+            "query": "Find middle_name and author_id , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6721809588669849
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of middle_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6721809588669849
+            }
+        },
+        {
+            "query": "Give me the comparison about author_id over the middle_name by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6721809588669849
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of middle_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6721809588669849
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of middle_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6721809588669849
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of family_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the family_name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the family_name .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of family_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of family_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of personal_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6725313054025605
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of personal_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6725313054025605
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of personal_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6725313054025605
+            }
+        },
+        {
+            "query": "Show me about the distribution of personal_name and author_id in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6725313054025605
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of personal_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6725313054025605
+            }
+        },
+        {
+            "query": "Find personal_name and author_tutor_ATB , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of personal_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the personal_name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of personal_name and author_tutor_ATB in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the personal_name .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of middle_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the middle_name .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of middle_name and author_tutor_ATB in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the middle_name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of middle_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a scatter chart about the correlation between author_tutor_ATB and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7639635494473453
+            }
+        },
+        {
+            "query": "Show me about the correlation between author_tutor_ATB and gender_mf in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7639635494473453
+            }
+        },
+        {
+            "query": "What is the relationship between author_tutor_ATB and gender_mf ?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7611676476095967
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between author_tutor_ATB and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7639635494473453
+            }
+        },
+        {
+            "query": "Visualize the relationship between author_tutor_ATB and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7611676476095967
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of middle_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6477297218606054
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the middle_name by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6477297218606054
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the middle_name .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6477297218606054
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of middle_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6477297218606054
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of middle_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6477297218606054
+            }
+        },
+        {
+            "query": "Find login_name and author_id , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6695782981380054
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of login_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6695782981380054
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of login_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6695782981380054
+            }
+        },
+        {
+            "query": "Show me about the distribution of login_name and author_id in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6695782981380054
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of login_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6695782981380054
+            }
+        },
+        {
+            "query": "Give me the comparison about author_id over the family_name .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717223509198315
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of family_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717223509198315
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of family_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717223509198315
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of family_name and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717223509198315
+            }
+        },
+        {
+            "query": "Show me about the distribution of family_name and author_id in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717223509198315
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of login_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650907905986818
+            }
+        },
+        {
+            "query": "Find login_name and gender_mf , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650907905986818
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the login_name .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650907905986818
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of login_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650907905986818
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of login_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650907905986818
+            }
+        },
+        {
+            "query": "Visualize the relationship between author_id and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7219018930480733
+            }
+        },
+        {
+            "query": "Draw a scatter chart about the correlation between author_id and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7219018930480733
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between author_id and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7219018930480733
+            }
+        },
+        {
+            "query": "Show me about the correlation between author_id and gender_mf in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7219018930480733
+            }
+        },
+        {
+            "query": "A scatter chart shows the correlation between author_id and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7219018930480733
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of login_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of login_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of login_name and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the login_name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of login_name and author_tutor_ATB in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_id over the password by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6178038989432412
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of password and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6178038989432412
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of password and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6178038989432412
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of password and author_id .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6178038989432412
+            }
+        },
+        {
+            "query": "Show me about the distribution of password and author_id in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6178038989432412
+            }
+        },
+        {
+            "query": "Draw a scatter chart about the correlation between author_id and author_tutor_ATB .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7201795688278912
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between author_id and author_tutor_ATB .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7201795688278912
+            }
+        },
+        {
+            "query": "Show me about the correlation between author_id and author_tutor_ATB in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7201795688278912
+            }
+        },
+        {
+            "query": "What is the relationship between author_id and author_tutor_ATB ?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7139322976874576
+            }
+        },
+        {
+            "query": "A scatter chart shows the correlation between author_id and author_tutor_ATB .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7201795688278912
+            }
+        },
+        {
+            "query": "Show me about the distribution of personal_name and gender_mf in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650516159084464
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the personal_name by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650516159084464
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of personal_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650516159084464
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of personal_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650516159084464
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of personal_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6650516159084464
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of password and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027697441620544
+            }
+        },
+        {
+            "query": "Find password and gender_mf , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027697441620544
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the password by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027697441620544
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of password and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027697441620544
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of password and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027697441620544
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of password and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find password and author_tutor_ATB , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of password and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about author_tutor_ATB over the password .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of password and author_tutor_ATB .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of family_name and gender_mf in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663281643822656
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of family_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663281643822656
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of family_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663281643822656
+            }
+        },
+        {
+            "query": "Give me the comparison about gender_mf over the family_name .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663281643822656
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of family_name and gender_mf .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663281643822656
+            }
+        }
+    ],
+    "errors": []
+}

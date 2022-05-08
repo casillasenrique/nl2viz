@@ -1,0 +1,1316 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Person",
+    "results": [
+        {
+            "query": "Draw a bar chart for how many people are under 40 for each gender?, display Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender Plot them as bar chart, and display Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender, sort from high to low by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is minimum age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "what is minimum age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "What is minimum age for different job title.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Return a bar chart on how old is the youngest person for each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "how old is the youngest person for each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "Show minimal age from each job",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.753488736696168
+            }
+        },
+        {
+            "query": "Give the proportion of how many people are under 40 for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.753488736696168
+            }
+        },
+        {
+            "query": "Pie chart. how many people are under 40 for each gender?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie chart. what is average age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7967431619545006
+            }
+        },
+        {
+            "query": "Show me a pie chart for what is average age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7967431619545006
+            }
+        },
+        {
+            "query": "What is average age for different job title. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7586796630641596
+            }
+        },
+        {
+            "query": "Return a pie chart on how old is the average person for each job?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a pie chart for how old is the average person for each job?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How old is the average person for each job. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show mean age from different job.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7586796630641596
+            }
+        },
+        {
+            "query": "What is average age of male for different job title Visualize by bar chart, rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "what is the average age for a male in each job?, and sort X-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Return a histogram on what is average age of male for different job title?, sort bar in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job Visualize by bar chart, and sort X-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for a male in each job?, rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is average age of male for different job title?, order by the job in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "How old is each gender, on average Plot them as bar chart, and rank from high to low by the gender.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Return a histogram on how old is each gender, on average?, rank from high to low by the gender.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Bar graph to show the average of age from different gender, and I want to show by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for each gender?, and sort X in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Give me a histogram for how old is each gender, on average?, and sort X in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "What is the average age for each gender Visualize by bar chart, and could you rank by the x-axis in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average age for each gender?, and I want to show by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "what is average age of male for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7600792172834386
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what is average age of male for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7984144831775094
+            }
+        },
+        {
+            "query": "What is average age of male for different job title. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7600792172834386
+            }
+        },
+        {
+            "query": "Draw a pie chart for what is the average age for a male in each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7984144831775094
+            }
+        },
+        {
+            "query": "Return a pie on what is the average age for a male in each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7600792172834386
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7600792172834386
+            }
+        },
+        {
+            "query": "Return a histogram on how old is the average person for each job?, and could you list by the y axis in desc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "Bar chart x axis job y axis the average of age, list by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Display a bar chart for how old is the average person for each job?, sort in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "What is average age for different job title Visualize by bar chart, rank total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is average age for different job title?, and display by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "How old is the average person for each job Show bar chart, and rank total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "A bar chart about what is average age for different job title?, and rank by the the average of age in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many people are under 40 for each gender?, and rank in desc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender, list bar in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender Plot them as bar chart, and could you show by the X in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "What is minimum age for different job title, sort in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is minimum age for different job title?, and could you display by the X-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "how old is the youngest person for each job?, and sort in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "Return a bar chart on how old is the youngest person for each job?, and could you display names in desc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job Visualize by bar chart, and rank by the X from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "what is minimum age for different job title?, and list by the job in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Show minimal age from each job, I want to show by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender, and list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many people are under 40 for each gender?, order by the gender from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender Plot them as bar chart, list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is minimum age for different job title?, and I want to rank in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "Show minimal age from each job, I want to rank by the minimal age from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job Visualize by bar chart, and I want to rank by the minimal age from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "What is minimum age for different job title, show in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "Return a bar chart on how old is the youngest person for each job?, and I want to rank by the minimal age from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "what is minimum age for different job title?, and rank by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "how old is the youngest person for each job?, and show y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7193570248434766
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is average age of male for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Return a histogram on what is average age of male for different job title?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is average age of male for different job title. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for a male in each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "what is the average age for a male in each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "What is average age for different job title Visualize by bar chart, I want to rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "A bar chart about what is average age for different job title?, and display names from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Display a bar chart for how old is the average person for each job?, sort by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is average age for different job title?, I want to rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Return a histogram on how old is the average person for each job?, and display by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "How old is the average person for each job Show bar chart, sort by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "Bar chart x axis job y axis the average of age, display by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Give me a histogram for how old is each gender, on average?, list in ascending by the mean age.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for each gender?, and rank by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average age for each gender?, and could you show by the Y from low to high please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "What is the average age for each gender Visualize by bar chart, I want to order by the Y in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "Bar graph to show the average of age from different gender, and could you list total number in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "How old is each gender, on average Plot them as bar chart, I want to order by the Y in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339377
+            }
+        },
+        {
+            "query": "Return a histogram on how old is each gender, on average?, could you show by the Y from low to high please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339377
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is average age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "A bar chart about what is average age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "What is average age for different job title. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Return a histogram on how old is the average person for each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "Display a bar chart for how old is the average person for each job?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "How old is the average person for each job. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927779
+            }
+        },
+        {
+            "query": "Bar chart x axis job y axis the average of age",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830000947
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many people are under 40 for each gender?, and rank from low to high by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender Plot them as bar chart, list in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender, and could you order in ascending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317800845829954
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for each gender?, I want to list by the mean age in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average age for each gender?, I want to sort by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Bar graph to show the average of age from different gender, could you order from high to low by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "What is the average age for each gender Visualize by bar chart, I want to list by the mean age in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Give me a histogram for how old is each gender, on average?, and show by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "How old is each gender, on average Plot them as bar chart, I want to sort by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Return a histogram on how old is each gender, on average?, show by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Return a bar chart on how old is the youngest person for each job?, and order minimal age from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job Visualize by bar chart, I want to sort by the total number in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "what is minimum age for different job title?, and list y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "Show minimal age from each job, and order minimal age from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "What is minimum age for different job title, and show in asc by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "how old is the youngest person for each job?, display from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719357024843485
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is minimum age for different job title?, I want to sort by the total number in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.720068936175092
+            }
+        },
+        {
+            "query": "What is the average age for each gender Visualize by bar chart, and show X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average age for each gender?, and show X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "Bar graph to show the average of age from different gender, and I want to display in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "Give me a histogram for how old is each gender, on average?, rank in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339377
+            }
+        },
+        {
+            "query": "How old is each gender, on average Plot them as bar chart, order by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339377
+            }
+        },
+        {
+            "query": "Return a histogram on how old is each gender, on average?, and could you show bars in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339377
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for each gender?, and could you rank x-axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7276194013147759
+            }
+        },
+        {
+            "query": "A bar chart about what is average age for different job title?, and rank y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "What is average age for different job title Visualize by bar chart, and rank y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "Return a histogram on how old is the average person for each job?, and display y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "Display a bar chart for how old is the average person for each job?, display y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "Bar chart x axis job y axis the average of age, and sort Y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "How old is the average person for each job Show bar chart, and show by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is average age for different job title?, I want to show from low to high by the the average of age.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "Count the job title of all people using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the job titles of every person? Please plot the result with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total the number of job across job as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for what is the average age for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7855307819021348
+            }
+        },
+        {
+            "query": "Display a pie chart for what is the average age for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7855307819021348
+            }
+        },
+        {
+            "query": "What is the average age for each gender. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7855307819021348
+            }
+        },
+        {
+            "query": "Visualize a pie chart with how old is each gender, on average?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie. how old is each gender, on average?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7438601732014084
+            }
+        },
+        {
+            "query": "How old is each gender, on average. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the average of age from different gender.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445571851428526
+            }
+        },
+        {
+            "query": "What is average age of male for different job title Visualize by bar chart, list by the mean age in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "what is the average age for a male in each job?, list by the mean age in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Return a histogram on what is average age of male for different job title?, I want to rank in asc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for a male in each job?, and could you show Y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job Visualize by bar chart, and show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is average age of male for different job title?, I want to order y axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is average age for different job title?, order by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "Return a histogram on how old is the average person for each job?, rank x axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "What is average age for different job title Visualize by bar chart, I want to display by the job from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "A bar chart about what is average age for different job title?, I want to display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "Display a bar chart for how old is the average person for each job?, and rank x axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "Bar chart x axis job y axis the average of age, I want to display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7191421830001027
+            }
+        },
+        {
+            "query": "How old is the average person for each job Show bar chart, list X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7183871154927859
+            }
+        },
+        {
+            "query": "Display a pie chart for what is minimum age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7966707531950568
+            }
+        },
+        {
+            "query": "Return a pie on what is minimum age for different job title?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7585817105666859
+            }
+        },
+        {
+            "query": "What is minimum age for different job title. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7966707531950568
+            }
+        },
+        {
+            "query": "Return a pie chart on how old is the youngest person for each job?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie chart. how old is the youngest person for each job?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7579393829603971
+            }
+        },
+        {
+            "query": "Create a pie chart showing minimal age across job.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7966707531950568
+            }
+        },
+        {
+            "query": "Count job title of all people ordered by their names using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7330885678601784
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the names and job titles of every person ordered alphabetically by name?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7330885678601784
+            }
+        },
+        {
+            "query": "Can you compute the number of people with different job titles? Plot them as a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7330885678601784
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is average age of male for different job title?, and show Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Return a histogram on what is average age of male for different job title?, and sort y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is average age of male for different job title Visualize by bar chart, sort by the Y in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job Visualize by bar chart, and rank by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for a male in each job?, rank in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "what is the average age for a male in each job?, and sort y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.718828060376611
+            }
+        },
+        {
+            "query": "Find the number of people who is under 40 for each gender.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many people are under 40 for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "How many people are under 40 for each gender. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7317783481158644
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average age for each gender?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "What is the average age for each gender. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "Give me a histogram for how old is each gender, on average?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Return a histogram on how old is each gender, on average?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "How old is each gender, on average. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7259590541339379
+            }
+        },
+        {
+            "query": "Bar graph to show the average of age from different gender",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.727619401314776
+            }
+        },
+        {
+            "query": "how old is the youngest person for each job?, and could you order x-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7193570248434766
+            }
+        },
+        {
+            "query": "Return a bar chart on how old is the youngest person for each job?, could you rank by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7193570248434766
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is minimum age for different job title?, and display job in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "Show minimal age from each job, could you order x-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "How old is the youngest person for each job Visualize by bar chart, could you list in ascending by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7193570248434766
+            }
+        },
+        {
+            "query": "what is minimum age for different job title?, order x-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "What is minimum age for different job title, and could you list names from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7200689361750837
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is average age of male for different job title?, and sort in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Return a histogram on what is average age of male for different job title?, sort bars in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average age for a male in each job Visualize by bar chart, and show x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "Return a bar chart on what is the average age for a male in each job?, I want to rank by the X from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "What is average age of male for different job title Visualize by bar chart, and rank by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        },
+        {
+            "query": "what is the average age for a male in each job?, rank X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7188280603766118
+            }
+        }
+    ],
+    "errors": []
+}

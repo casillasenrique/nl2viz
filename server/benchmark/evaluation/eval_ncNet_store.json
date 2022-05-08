@@ -1,0 +1,133 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "store",
+    "results": [
+        {
+            "query": "Bar chart x axis type y axis the total number, display Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "Find all types of store and number of them Visualize by bar chart, order by the y axis in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there Plot them as bar chart, and list in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there Plot them as bar chart, and sort from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "Find all types of store and number of them Visualize by bar chart, could you order Type in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "Bar chart x axis type y axis the total number, could you sort x-axis in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        },
+        {
+            "query": "Find all types of store and number of them. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "Bar chart x axis type y axis the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "Find all types of store and number of them. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6843849133409128
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9985558656306953
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9985558656306953
+            }
+        },
+        {
+            "query": "Find all types of store and number of them Visualize by bar chart, could you sort x axis in desc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "Bar chart x axis type y axis the total number, and order in desc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there Plot them as bar chart, and display by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "For each type of store, how many of them are there Plot them as bar chart, and display from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "Bar chart x axis type y axis the total number, display from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8817283929495758
+            }
+        },
+        {
+            "query": "Find all types of store and number of them Visualize by bar chart, rank by the y axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936320015956622
+            }
+        }
+    ],
+    "errors": []
+}

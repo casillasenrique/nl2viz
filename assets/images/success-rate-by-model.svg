@@ -1,0 +1,370 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks"
+  width="585" height="435" viewBox="0 0 585 435">
+  <rect width="585" height="435" fill="white" />
+  <g fill="none" stroke-miterlimit="10" transform="translate(54,74)">
+    <g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+      <g transform="translate(0,0)">
+        <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" />
+        <g>
+          <g class="mark-group role-column-title column-title" role="graphics-object"
+            aria-roledescription="group mark container">
+            <g transform="translate(211,-31)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" />
+              <g>
+                <g class="mark-group role-title">
+                  <g transform="translate(0,-21)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title"
+                        aria-label="Title text 'Model'" pointer-events="none"><text text-anchor="middle"
+                          transform="translate(0,9)" font-family="sans-serif" font-size="11px" font-weight="bold"
+                          fill="#000" opacity="1">Model</text></g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-row-header row_header" role="graphics-object"
+            aria-roledescription="group mark container">
+            <g transform="translate(-1,0)">
+              <path class="background" aria-hidden="true" d="M0,0h0v300h0Z" />
+              <g>
+                <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis"
+                  aria-label="Y-axis titled 'Success Rate' for a linear scale with values from 0% to 100%">
+                  <g transform="translate(0.5,0.5)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-rule role-axis-tick" pointer-events="none">
+                        <line transform="translate(0,300)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,270)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,240)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,210)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,180)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,150)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,120)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,90)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,60)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,30)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,0)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                      </g>
+                      <g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end"
+                          transform="translate(-7,303)" font-family="sans-serif" font-size="10px" fill="#000"
+                          opacity="1">0%</text><text text-anchor="end" transform="translate(-7,273)"
+                          font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10%</text><text
+                          text-anchor="end" transform="translate(-7,243)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">20%</text><text text-anchor="end" transform="translate(-7,213)"
+                          font-family="sans-serif" font-size="10px" fill="#000" opacity="1">30%</text><text
+                          text-anchor="end" transform="translate(-7,183)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">40%</text><text text-anchor="end" transform="translate(-7,153)"
+                          font-family="sans-serif" font-size="10px" fill="#000" opacity="1">50%</text><text
+                          text-anchor="end" transform="translate(-7,123)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">60%</text><text text-anchor="end"
+                          transform="translate(-7,93.00000000000001)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">70%</text><text text-anchor="end"
+                          transform="translate(-7,62.999999999999986)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">80%</text><text text-anchor="end"
+                          transform="translate(-7,32.99999999999999)" font-family="sans-serif" font-size="10px"
+                          fill="#000" opacity="1">90%</text><text text-anchor="end" transform="translate(-7,3)"
+                          font-family="sans-serif" font-size="10px" fill="#000" opacity="1">100%</text></g>
+                      <g class="mark-rule role-axis-domain" pointer-events="none">
+                        <line transform="translate(0,300)" x2="0" y2="-300" stroke="#888" stroke-width="1"
+                          opacity="1" />
+                      </g>
+                      <g class="mark-text role-axis-title" pointer-events="none"><text text-anchor="middle"
+                          transform="translate(-36.576171875,150) rotate(-90) translate(0,-2)" font-family="sans-serif"
+                          font-size="11px" font-weight="bold" fill="#000" opacity="1">Success Rate</text></g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-column-header column_header" role="graphics-object"
+            aria-roledescription="group mark container">
+            <g transform="translate(0,-1)">
+              <path class="background" aria-hidden="true" d="M0,0h200v0h-200Z" />
+              <g>
+                <g class="mark-group role-title">
+                  <g transform="translate(100,-20)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title"
+                        aria-label="Title text 'ncNet'" pointer-events="none"><text text-anchor="middle"
+                          transform="translate(0,8)" font-family="sans-serif" font-size="10px" fill="#000"
+                          opacity="1">ncNet</text></g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+            <g transform="translate(222,-1)">
+              <path class="background" aria-hidden="true" d="M0,0h200v0h-200Z" />
+              <g>
+                <g class="mark-group role-title">
+                  <g transform="translate(100,-20)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title"
+                        aria-label="Title text 'nl4dv'" pointer-events="none"><text text-anchor="middle"
+                          transform="translate(0,8)" font-family="sans-serif" font-size="10px" fill="#000"
+                          opacity="1">nl4dv</text></g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-column-footer column_footer" role="graphics-object"
+            aria-roledescription="group mark container">
+            <g transform="translate(0,301)">
+              <path class="background" aria-hidden="true" d="M0,0h200v0h-200Z" />
+              <g>
+                <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis"
+                  aria-label="X-axis for a discrete scale with 4 values: Easy, Medium, Hard, Extra Hard">
+                  <g transform="translate(0.5,0.5)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-rule role-axis-tick" pointer-events="none">
+                        <line transform="translate(25,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(75,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(125,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(175,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                      </g>
+                      <g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end"
+                          transform="translate(24.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Easy</text><text text-anchor="end"
+                          transform="translate(74.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Medium</text><text text-anchor="end"
+                          transform="translate(124.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Hard</text><text text-anchor="end"
+                          transform="translate(174.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Extra Hard</text></g>
+                      <g class="mark-rule role-axis-domain" pointer-events="none">
+                        <line transform="translate(0,0)" x2="200" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+            <g transform="translate(222,301)">
+              <path class="background" aria-hidden="true" d="M0,0h200v0h-200Z" />
+              <g>
+                <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis"
+                  aria-label="X-axis for a discrete scale with 4 values: Easy, Medium, Hard, Extra Hard">
+                  <g transform="translate(0.5,0.5)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-rule role-axis-tick" pointer-events="none">
+                        <line transform="translate(25,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(75,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(125,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                        <line transform="translate(175,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                      </g>
+                      <g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end"
+                          transform="translate(24.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Easy</text><text text-anchor="end"
+                          transform="translate(74.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Medium</text><text text-anchor="end"
+                          transform="translate(124.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Hard</text><text text-anchor="end"
+                          transform="translate(174.5,7) rotate(270) translate(0,3)" font-family="sans-serif"
+                          font-size="10px" fill="#000" opacity="1">Extra Hard</text></g>
+                      <g class="mark-rule role-axis-domain" pointer-events="none">
+                        <line transform="translate(0,0)" x2="200" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-scope cell" role="graphics-object" aria-roledescription="group mark container">
+            <g transform="translate(0,0)">
+              <path class="background" aria-hidden="true" d="M0.5,0.5h200v300h-200Z" stroke="#ddd" />
+              <g>
+                <g class="mark-group role-axis" aria-hidden="true">
+                  <g transform="translate(0.5,0.5)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-rule role-axis-grid" pointer-events="none">
+                        <line transform="translate(0,300)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,270)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,240)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,210)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,180)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,150)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,120)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,90)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,60)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,30)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,0)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+                <g class="mark-rect role-mark child_marks" role="graphics-object"
+                  aria-roledescription="rect mark container">
+                  <path aria-label="hardness: Easy; success_rate: 80.813648%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M2.5,57.55905511811022h45v242.44094488188978h-45Z" fill="#4c78a8" />
+                  <path aria-label="hardness: Extra Hard; success_rate: 92.207792%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M152.5,23.376623376623385h45v276.6233766233766h-45Z" fill="#f58518" />
+                  <path aria-label="hardness: Hard; success_rate: 63.947798%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M102.5,108.15660685154977h45v191.84339314845022h-45Z"
+                    fill="#e45756" />
+                  <path aria-label="hardness: Medium; success_rate: 78.073171%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M52.5,65.78048780487804h45v234.21951219512198h-45Z" fill="#72b7b2" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+            <g transform="translate(222,0)">
+              <path class="background" aria-hidden="true" d="M0.5,0.5h200v300h-200Z" stroke="#ddd" />
+              <g>
+                <g class="mark-group role-axis" aria-hidden="true">
+                  <g transform="translate(0.5,0.5)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-rule role-axis-grid" pointer-events="none">
+                        <line transform="translate(0,300)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,270)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,240)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,210)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,180)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,150)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,120)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,90)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,60)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,30)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                        <line transform="translate(0,0)" x2="200" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+                <g class="mark-rect role-mark child_marks" role="graphics-object"
+                  aria-roledescription="rect mark container">
+                  <path aria-label="hardness: Easy; success_rate: 41.689239%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M2.5,174.93228268899287h45v125.06771731100713h-45Z" fill="#4c78a8" />
+                  <path aria-label="hardness: Extra Hard; success_rate: 66.878981%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M152.5,99.36305732484078h45v200.63694267515922h-45Z" fill="#f58518" />
+                  <path aria-label="hardness: Hard; success_rate: 65.379113%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M102.5,103.862660944206h45v196.137339055794h-45Z" fill="#e45756" />
+                  <path aria-label="hardness: Medium; success_rate: 55.675795%" role="graphics-symbol"
+                    aria-roledescription="bar" d="M52.5,132.97261484098942h45v167.02738515901058h-45Z" fill="#72b7b2" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend"
+            aria-label="Symbol legend titled 'Query Hardness' for fill color with 4 values: Easy, Extra Hard, Hard, Medium">
+            <g transform="translate(441,0)">
+              <path class="background" aria-hidden="true" d="M0,0h85v66h-85Z" pointer-events="none" />
+              <g>
+                <g class="mark-group role-legend-entry">
+                  <g transform="translate(0,16)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-group role-scope" role="graphics-object"
+                        aria-roledescription="group mark container">
+                        <g transform="translate(0,0)">
+                          <path class="background" aria-hidden="true" d="M0,0h63.79296875v11h-63.79296875Z"
+                            pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#4c78a8" stroke-width="1.5"
+                                opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start"
+                                transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000"
+                                opacity="1">Easy</text></g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                        <g transform="translate(0,13)">
+                          <path class="background" aria-hidden="true" d="M0,0h63.79296875v11h-63.79296875Z"
+                            pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#f58518" stroke-width="1.5"
+                                opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start"
+                                transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000"
+                                opacity="1">Extra Hard</text></g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                        <g transform="translate(0,26)">
+                          <path class="background" aria-hidden="true" d="M0,0h63.79296875v11h-63.79296875Z"
+                            pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#e45756" stroke-width="1.5"
+                                opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start"
+                                transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000"
+                                opacity="1">Hard</text></g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                        <g transform="translate(0,39)">
+                          <path class="background" aria-hidden="true" d="M0,0h63.79296875v11h-63.79296875Z"
+                            pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#72b7b2" stroke-width="1.5"
+                                opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start"
+                                transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000"
+                                opacity="1">Medium</text></g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+                <g class="mark-text role-legend-title" pointer-events="none"><text text-anchor="start"
+                    transform="translate(0,9)" font-family="sans-serif" font-size="11px" font-weight="bold" fill="#000"
+                    opacity="1">Query Hardness</text></g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-title">
+            <g transform="translate(-48.576171875,-69)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+              <g>
+                <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title"
+                  aria-label="Title text 'Success Rate by Model'" pointer-events="none"><text text-anchor="start"
+                    transform="translate(0,10)" font-family="sans-serif" font-size="13px" font-weight="bold" fill="#000"
+                    opacity="1">Success Rate by Model</text></g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+        </g>
+        <path class="foreground" aria-hidden="true" d="" display="none" />
+      </g>
+    </g>
+  </g>
+</svg>

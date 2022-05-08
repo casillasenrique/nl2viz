@@ -1,0 +1,168 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "College",
+    "results": [
+        {
+            "query": "Show me about the distribution of cName and enr in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about enr over the cName .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of cName and enr .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of cName and enr .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find cName and enr , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the proportion of state and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart about the proportion of state and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of state and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie chart to reflect the proportion of state and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart about the proportion of state and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find state and enr , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about enr over the state .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of state and enr .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of state and enr .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about enr over the state by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the proportion of cName and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart about the proportion of cName and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of cName and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the attribute cName and enr, show their proportion by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart about the proportion of cName and enr.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Show me about the distribution of cName and enr in a bar chart.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Give me the comparison about enr over the cName .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Visualize a bar chart about the distribution of cName and enr .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Return a bar chart about the distribution of cName and enr .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Find cName and enr , and visualize them by a bar chart.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Visualize a pie chart about the proportion of state and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Return a pie chart about the proportion of state and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"A pie chart shows the proportion of state and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Give me a pie chart to reflect the proportion of state and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Draw a pie chart about the proportion of state and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Find state and enr , and visualize them by a bar chart.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Give me the comparison about enr over the state .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Return a bar chart about the distribution of state and enr .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Visualize a bar chart about the distribution of state and enr .\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Give me the comparison about enr over the state by a bar chart.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Visualize a pie chart about the proportion of cName and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Return a pie chart about the proportion of cName and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"A pie chart shows the proportion of cName and enr.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"For the attribute cName and enr, show their proportion by a pie chart.\" - <class 'KeyError'>: 'College'",
+        "Error when executing \"Draw a pie chart about the proportion of cName and enr.\" - <class 'KeyError'>: 'College'"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Invoices",
+    "results": [
+        {
+            "query": "Show the order ids and the number of invoices for each order with a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6982085000720485
+            }
+        },
+        {
+            "query": "Show the order ids and the number of invoices for each order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6938540651717329
+            }
+        },
+        {
+            "query": "how many invoices correspond to each order id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a scatter chart for how many invoices correspond to each order id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many invoices correspond to each order id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot a scatter chart, order id by the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

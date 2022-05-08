@@ -1,0 +1,264 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "airlines",
+    "results": [
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit', show by the the number of country from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of all airlines whose names start with Orbit?, could you sort by the y-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a bar chart, rank from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the country of the airlines whose name starts with 'Orbit', show by the the number of country in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a bar chart, could you display Y in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?, and rank from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a bar chart, order total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a bar chart, rank from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit', and list by the Y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of all airlines whose names start with Orbit?, and could you display y axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the country of the airlines whose name starts with 'Orbit', display y-axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?, I want to list by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "A pie chart for what are the number of the countries of all airlines whose names start with Orbit?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit'.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "A pie chart for finding the number of the country of the airlines whose name starts with 'Orbit'.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit'.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of all airlines whose names start with Orbit?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the country of the airlines whose name starts with 'Orbit'.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the country of the airlines whose name starts with 'Orbit', and sort country in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of all airlines whose names start with Orbit?, sort from high to low by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?, and I want to sort in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a bar chart, sort bars in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432315
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a bar chart, could you rank by the x axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit', and sort from high to low by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230606
+            }
+        },
+        {
+            "query": "Find the number of the country of the airlines whose name starts with 'Orbit', and rank by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "What are the countries of all airlines whose names start with Orbit, and count them by a bar chart, and display X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "Find the country of the airlines whose name starts with 'Orbit', and count them by a bar chart, rank by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "What are the number of the countries of all airlines whose names start with Orbit?, could you display in asc by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the country of the airlines whose name starts with 'Orbit', display from low to high by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7703123529230597
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the countries of all airlines whose names start with Orbit?, could you order names from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698142974432306
+            }
+        }
+    ],
+    "errors": [
+        "\"What are the number of the countries of all airlines whose names start with Orbit?\" has 2 benchmarks associated with it",
+        "\"Find the number of the country of the airlines whose name starts with 'Orbit'.\" has 2 benchmarks associated with it",
+        "\"What are the number of the countries of all airlines whose names start with Orbit?\" has 2 benchmarks associated with it",
+        "\"Find the number of the country of the airlines whose name starts with 'Orbit'.\" has 2 benchmarks associated with it"
+    ]
+}

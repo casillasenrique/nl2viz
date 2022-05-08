@@ -1,0 +1,210 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Catalog_Contents",
+    "results": [
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, list in desc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7134767887728165
+            }
+        },
+        {
+            "query": "Display a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, could you sort bars in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7134767887728165
+            }
+        },
+        {
+            "query": "Visualize a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, show bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7134767887728165
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD) Show bar chart, could you list x axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7134767887728165
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities in a bar chart, and could you list catalog_entry_name from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7134767887728165
+            }
+        },
+        {
+            "query": "Display a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, I want to show in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7144799913252872
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities in a bar chart, and show y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7144799913252872
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD) Show bar chart, and I want to show in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7144799913252872
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, I want to list in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7144799913252872
+            }
+        },
+        {
+            "query": "Visualize a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, and show by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7144799913252872
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD) Show bar chart, I want to list in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7142422622927477
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, list by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7142422622927477
+            }
+        },
+        {
+            "query": "Display a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, display by the names from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7142422622927477
+            }
+        },
+        {
+            "query": "Visualize a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, order in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7142422622927477
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities in a bar chart, and I want to list in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7142422622927477
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD). Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie. which catalog contents has price above 700 dollars? Show their catalog entry names and capacities.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7913206723393859
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7913206723393859
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD) Show bar chart, and show Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114310628942375
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities in a bar chart, list total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114310628942375
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, could you order capacity in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114310628942375
+            }
+        },
+        {
+            "query": "Visualize a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, order in asc by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114310628942375
+            }
+        },
+        {
+            "query": "Display a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities, and display by the Y-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114310628942375
+            }
+        },
+        {
+            "query": "Find the name and capacity of products with price greater than 700 (in USD). Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114662660110778
+            }
+        },
+        {
+            "query": "Visualize a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114662660110778
+            }
+        },
+        {
+            "query": "Display a bar chart for which catalog contents has price above 700 dollars? Show their catalog entry names and capacities.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114662660110778
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114662660110778
+            }
+        },
+        {
+            "query": "Which catalog contents has price above 700 dollars? Show their catalog entry names and capacities.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7114662660110778
+            }
+        }
+    ],
+    "errors": []
+}

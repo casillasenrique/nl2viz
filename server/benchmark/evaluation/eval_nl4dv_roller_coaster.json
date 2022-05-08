@@ -1,0 +1,35 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "roller_coaster",
+    "results": [
+        {
+            "query": "Return a scatter on what are the lengths and heights of roller coasters?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7455485177838529
+            }
+        },
+        {
+            "query": "what are the lengths and heights of roller coasters?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7455485177838529
+            }
+        },
+        {
+            "query": "What are the lengths and heights of roller coasters. Show scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7455485177838529
+            }
+        },
+        {
+            "query": "Scatter plot to show length on x axis and height on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7455485177838529
+            }
+        }
+    ],
+    "errors": []
+}

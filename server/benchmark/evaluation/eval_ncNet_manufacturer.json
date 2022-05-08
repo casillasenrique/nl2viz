@@ -1,0 +1,16 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "manufacturer",
+    "results": [
+        {
+            "query": "Show all manufacturer names and ids with a bar chart, note that let manufacturer id as Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"Show all manufacturer names and ids with a bar chart, note that let manufacturer id as Y-axis.\""
+    ]
+}

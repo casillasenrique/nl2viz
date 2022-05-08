@@ -1,0 +1,840 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "singer",
+    "results": [
+        {
+            "query": "Show all countries and the number of singers in each country in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Return a bar chart on how many singers are from each country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6425685381604336
+            }
+        },
+        {
+            "query": "Give me a histogram for how many singers are from each country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6425685381604336
+            }
+        },
+        {
+            "query": "How many singers are from each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6425685381604336
+            }
+        },
+        {
+            "query": "Draw a bar chart of country versus the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a bar chart, and sort bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7660958945220285
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of country of each country, sort names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6418765924897946
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Show a bar chart, and sort by the bar from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8875643424261007
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship, and rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6858840168778636
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth Visualize by bar chart, sort in asc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6858840168778636
+            }
+        },
+        {
+            "query": "Show me maximal net worth millions by citizenship in a histogram, and show by the x-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9912018474147333
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart, show by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6858840168778636
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart, I want to display y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6853127109476893
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth Visualize by bar chart, and sort Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6853127109476893
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship, and sort Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6853127109476893
+            }
+        },
+        {
+            "query": "Show me maximal net worth millions by citizenship in a histogram, sort Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9912018474147332
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.997850601705887
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.997850601705887
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6621592298410287
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across citizenship.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.997850601705887
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a bar chart, could you display by the Citizenship in desc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country, and rank by the x axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship Plot them as bar chart, and show by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "Show me the total number by citizenship in a histogram, rank by the x axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8669507348788038
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Return a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.861771182365187
+            }
+        },
+        {
+            "query": "Compute the total how many country across country as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8669507348788038
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7666403493226994
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Show a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8872169419986586
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of country of each country",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6418812521190361
+            }
+        },
+        {
+            "query": "Show me the total number by citizenship in a histogram, and display by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a bar chart, I want to order total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9871302309760805
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship Plot them as bar chart, rank by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country, and display by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8910281474065176
+            }
+        },
+        {
+            "query": "What is the average age of singers for each country? Visualize with a bar chart, show X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519906
+            }
+        },
+        {
+            "query": "Show the average of age from each country, and show from low to high by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7238724306520928
+            }
+        },
+        {
+            "query": "Show the average age of singers for each country with a bar chart, and order in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519906
+            }
+        },
+        {
+            "query": "What is the average age of singers for each country? Visualize with a bar chart, I want to show by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519887
+            }
+        },
+        {
+            "query": "Show the average of age from each country, I want to list from low to high by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7083256427252285
+            }
+        },
+        {
+            "query": "Show the average age of singers for each country with a bar chart, and I want to show by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519887
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of country of each country, list by the x-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6422842888046847
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Show a bar chart, display by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6422842888046847
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a bar chart, and list by the x-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7660958945220249
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a bar chart, display by the the number of country in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7666403493226994
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of country of each country, and could you rank total number from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6420468915912994
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Show a bar chart, and list from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8872169419986586
+            }
+        },
+        {
+            "query": "Give me a histogram for how many singers are from each country?, and could you display in ascending by the the total number ?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6427341776326969
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country Show bar chart, and show from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Return a bar chart on how many singers are from each country?, list by the y axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6425685381604336
+            }
+        },
+        {
+            "query": "How many singers are from each country, show by the the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6425685381604336
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country in a bar chart, and order Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Draw a bar chart of country versus the total number, rank y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512376
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship by a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8030492303948354
+            }
+        },
+        {
+            "query": "Visualize by pie chart about different citizenships and the maximum net worth of singers of each citizenship.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8030492303948354
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8030492303948354
+            }
+        },
+        {
+            "query": "I want to know the proportion of the maximum net worth for each citizenship.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9976909469603475
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart, and order in descending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6872191967104156
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth Visualize by bar chart, and rank by the X in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6872191967104156
+            }
+        },
+        {
+            "query": "Show me maximal net worth millions by citizenship in a histogram, order by the x axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.903023240413912
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship, could you list x axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.903023240413912
+            }
+        },
+        {
+            "query": "Show the average age of singers for each country with a bar chart, could you order from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519815
+            }
+        },
+        {
+            "query": "Show the average of age from each country, and could you order from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7341035265518125
+            }
+        },
+        {
+            "query": "What is the average age of singers for each country? Visualize with a bar chart, list by the total number in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7083041710229777
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship Plot them as bar chart, could you sort by the x-axis in asc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a bar chart, and rank in asc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "Show me the total number by citizenship in a histogram, and display bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country, and display bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "Show the age of each singer in a bar chart from the oldest to the youngest.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6809026566067834
+            }
+        },
+        {
+            "query": "What is the age of every singer? Return a bar chart in descending order of age?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6804332490652737
+            }
+        },
+        {
+            "query": "Show me the total number by citizenship in a histogram, could you list by the Y-axis in ascending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9900604856765783
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship Plot them as bar chart, and sort total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9900604856765783
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country, and display in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9900604856765783
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a bar chart, and I want to list by the Y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8911551837776986
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of country of each country, and list in descending by the the number of country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6422357354634104
+            }
+        },
+        {
+            "query": "What is the number of singers for each country? Show a bar chart, and I want to rank y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8883883931090346
+            }
+        },
+        {
+            "query": "Show the number of singers in each country with a bar chart, I want to rank y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7666403493226955
+            }
+        },
+        {
+            "query": "Show the average age of singers for each country with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519906
+            }
+        },
+        {
+            "query": "What is the average age of singers for each country? Visualize with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519906
+            }
+        },
+        {
+            "query": "Show the average of age from each country",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519906
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "Show different citizenship of singers and the number of singers of each citizenship. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "For each citizenship, how many singers are from that country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "Show me the total number by citizenship in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9929610788597576
+            }
+        },
+        {
+            "query": "How many singers are from each country, and could you rank by the x-axis in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.642563878531192
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country Show bar chart, and sort bar in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505667
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country in a bar chart, and I want to order by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505667
+            }
+        },
+        {
+            "query": "Give me a histogram for how many singers are from each country?, and sort in descending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.642563878531192
+            }
+        },
+        {
+            "query": "Return a bar chart on how many singers are from each country?, list by the bar from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.642563878531192
+            }
+        },
+        {
+            "query": "Draw a bar chart of country versus the total number, could you rank by the bar in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505667
+            }
+        },
+        {
+            "query": "How many singers are from each country, could you display by the y axis in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429230215048078
+            }
+        },
+        {
+            "query": "Draw a bar chart of country versus the total number, and sort the total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512339
+            }
+        },
+        {
+            "query": "Return a bar chart on how many singers are from each country?, sort the total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429230215048078
+            }
+        },
+        {
+            "query": "Give me a histogram for how many singers are from each country?, and sort the total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429230215048078
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country in a bar chart, show Y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512339
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country Show bar chart, and could you sort from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685512424512339
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country Show bar chart, and I want to sort by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505632
+            }
+        },
+        {
+            "query": "Give me a histogram for how many singers are from each country?, and I want to sort in ascending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429715748460821
+            }
+        },
+        {
+            "query": "Draw a bar chart of country versus the total number, and rank from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505632
+            }
+        },
+        {
+            "query": "Return a bar chart on how many singers are from each country?, and rank from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429715748460821
+            }
+        },
+        {
+            "query": "How many singers are from each country, I want to show by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6429715748460821
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country in a bar chart, and I want to sort by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680067876505632
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6872191967104156
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6872191967104156
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6872191967104156
+            }
+        },
+        {
+            "query": "Show me maximal net worth millions by citizenship in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.903023240413912
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship, could you show by the Y in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6870741107933549
+            }
+        },
+        {
+            "query": "For each citizenship, what is the maximum net worth Visualize by bar chart, and list by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6868060438147071
+            }
+        },
+        {
+            "query": "Show me maximal net worth millions by citizenship in a histogram, and sort by the maximal net worth millions in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459669637251919
+            }
+        },
+        {
+            "query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart, and could you sort by the total number from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6868060438147071
+            }
+        },
+        {
+            "query": "Show the average age of singers for each country with a bar chart, and I want to show in descending by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519902
+            }
+        },
+        {
+            "query": "Show the average of age from each country, and rank by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240680611519902
+            }
+        },
+        {
+            "query": "What is the average age of singers for each country? Visualize with a bar chart, order from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082441618532531
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country by a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8669507348788038
+            }
+        },
+        {
+            "query": "Show all countries and the number of singers in each country. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7732781128050669
+            }
+        },
+        {
+            "query": "Display a pie chart for how many singers are from each country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7928864153031135
+            }
+        },
+        {
+            "query": "Pie chart. how many singers are from each country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7928864153031135
+            }
+        },
+        {
+            "query": "How many singers are from each country. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7928864153031135
+            }
+        },
+        {
+            "query": "Compute the total the total number across country as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8669507348788038
+            }
+        }
+    ],
+    "errors": []
+}

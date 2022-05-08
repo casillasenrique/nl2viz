@@ -9,8 +9,7 @@ app = Flask(__name__, static_url_path="", static_folder="client/build")
 SESSION_TYPE = 'filesystem'
 CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
-app.config["CSV_DATA"] = os.path.join("server", "assets", "data")
-app.config["BENCHMARK_PATH"] = os.path.join("server", "assets", "benchmark")
+app.config["BENCHMARK_PATH"] = os.path.join("server", "benchmark")
 app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = SESSION_TYPE
 Session(app)

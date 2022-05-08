@@ -1,0 +1,32 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Rating",
+    "results": [
+        {
+            "query": "Find the average rating star for each movie that received at least 2 ratings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each movie that received more than 3 reviews, what is the average rating. Show scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a scatter plot of mid and mean stars for .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Find the average rating star for each movie that received at least 2 ratings.\" - <class 'KeyError'>: 'Rating'",
+        "Error when executing \"For each movie that received more than 3 reviews, what is the average rating. Show scatter chart.\" - <class 'KeyError'>: 'Rating'",
+        "Error when executing \"Show me a scatter plot of mid and mean stars for .\" - <class 'KeyError'>: 'Rating'"
+    ]
+}

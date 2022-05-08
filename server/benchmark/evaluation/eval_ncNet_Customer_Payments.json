@@ -1,0 +1,200 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Customer_Payments",
+    "results": [
+        {
+            "query": "List all payment methods and number of payments using each payment methods Plot them as bar chart, sort by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made Show bar chart, display y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods by a bar chart, show by the Y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each payment method code, sort by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different payment method code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods Plot them as bar chart, display names in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods by a bar chart, rank by the payment_method_code from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made Show bar chart, and rank in asc by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each payment method code, rank in asc by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made Show bar chart, could you display in descending by the bar?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods Plot them as bar chart, and could you display in descending by the bar?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each payment method code, show in desc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods by a bar chart, show in desc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each payment method code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods Plot them as bar chart, display by the y axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all payment methods and number of payments using each payment methods by a bar chart, rank from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each payment method, how many payments were made Show bar chart, sort Y in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number from each payment method code, and I want to show y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"List all payment methods and number of payments using each payment methods Plot them as bar chart, sort by the Y in descending.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made Show bar chart, display y-axis in desc order.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods by a bar chart, show by the Y-axis in descending.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Show the total number from each payment method code, sort by the Y-axis from high to low.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods with a pie chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods. Show a pie chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made. Visualize by pie chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Give me a pie to show the total number from different payment method code.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods Plot them as bar chart, display names in ascending order please.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods by a bar chart, rank by the payment_method_code from low to high.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made Show bar chart, and rank in asc by the x-axis please.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Show the total number from each payment method code, rank in asc by the x-axis please.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made Show bar chart, could you display in descending by the bar?\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods Plot them as bar chart, and could you display in descending by the bar?\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Show the total number from each payment method code, show in desc by the bar.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods by a bar chart, show in desc by the bar.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods by a bar chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods. Plot them as bar chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made. Show bar chart.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Show the total number from each payment method code\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods Plot them as bar chart, display by the y axis from low to high please.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"List all payment methods and number of payments using each payment methods by a bar chart, rank from low to high by the y axis.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"For each payment method, how many payments were made Show bar chart, sort Y in ascending order.\" - <class 'KeyError'>: 'Customer_Payments'",
+        "Error when executing \"Show the total number from each payment method code, and I want to show y-axis in ascending order.\" - <class 'KeyError'>: 'Customer_Payments'"
+    ]
+}

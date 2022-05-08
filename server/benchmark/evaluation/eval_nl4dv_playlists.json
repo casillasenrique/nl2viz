@@ -1,0 +1,252 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "playlists",
+    "results": [
+        {
+            "query": "List the name of all playlist, and count them by a bar chart, show by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, and display in ascending by the the number of name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "List the number of the name of all playlist, display Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of all the playlists?, and show by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "What are the number of the names of all the playlists?, and display in ascending by the the number of name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "What are the names of all the playlists, and count them by a bar chart, and show by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of all playlist, display in ascending by the the number of name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6500705379265296
+            }
+        },
+        {
+            "query": "What are the number of the names of all the playlists?, I want to rank x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "List the number of the name of all playlist, display in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "What are the names of all the playlists, and count them by a bar chart, order from low to high by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of all playlist, and list x axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "List the name of all playlist, and count them by a bar chart, show by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of all the playlists?, could you order x axis in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, display in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6460113490368856
+            }
+        },
+        {
+            "query": "List the name of all playlist, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "What are the number of the names of all the playlists?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "What are the names of all the playlists, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of all playlist.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of all the playlists?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "List the number of the name of all playlist.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.65388275330325
+            }
+        },
+        {
+            "query": "What are the names of all the playlists, and count them by a bar chart, and could you rank in descending by the the number of name?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of all the playlists?, and I want to sort by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "What are the number of the names of all the playlists?, and could you sort by the Y in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "List the name of all playlist, and count them by a bar chart, sort Y from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of all playlist, and show by the the number of name from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, could you sort by the Y in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "List the number of the name of all playlist, and show by the the number of name from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6537663326127424
+            }
+        },
+        {
+            "query": "List the name of all playlist, and count them by a bar chart, and sort in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the name of all playlist, and order by the X-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis how many name, list in desc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of all the playlists?, and sort in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "What are the number of the names of all the playlists?, display by the x-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "List the number of the name of all playlist, display by the x-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        },
+        {
+            "query": "What are the names of all the playlists, and count them by a bar chart, and could you show by the bar in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6497380597410133
+            }
+        }
+    ],
+    "errors": []
+}

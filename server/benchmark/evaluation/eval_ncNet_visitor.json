@@ -1,0 +1,49 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "visitor",
+    "results": [
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, and list by the Level_of_membership in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.938195373669453
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, could you order by the y-axis in asc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993947727534756
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, could you order by the Name from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939477275347559
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4, list in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9583153115985491
+            }
+        },
+        {
+            "query": "Can you give me a bar chart to show the name and membership level of the visitors whose membership level is higher than 4.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9939477275347559
+            }
+        },
+        {
+            "query": "Find the name and membership level of the visitors whose membership level is higher than 4. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9986877871089285
+            }
+        }
+    ],
+    "errors": []
+}

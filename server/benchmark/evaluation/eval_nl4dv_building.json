@@ -1,0 +1,35 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "building",
+    "results": [
+        {
+            "query": "Please compare the number of floors for all street address using a bar chart, and order by the number of floors.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6940361595614483
+            }
+        },
+        {
+            "query": "Return a bar chart that the street address as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6940361595614483
+            }
+        },
+        {
+            "query": "Return a bar chart that the name as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009199252168306
+            }
+        },
+        {
+            "query": "Please compare the number of floors for all building names using a bar chart, and order by the number of floors.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009199252168306
+            }
+        }
+    ],
+    "errors": []
+}

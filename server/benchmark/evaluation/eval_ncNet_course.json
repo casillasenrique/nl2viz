@@ -1,0 +1,476 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "course",
+    "results": [
+        {
+            "query": "Return a histogram on what is the total credit does each department offer?, could you rank by the y axis from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074716864173842
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the total credit does each department offer?, and show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074716864173842
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer, show from low to high by the sum crs credit.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074716864173842
+            }
+        },
+        {
+            "query": "How many credits does the department offer Show bar chart, and sort in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Bar chart of sum crs credit from each dept code, rank in ascending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7074716864173842
+            }
+        },
+        {
+            "query": "Display a bar chart for how many credits does the department offer?, and rank in ascending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "how many credits does the department offer?, and rank in ascending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Find the total credits of courses provided by different department Plot them as bar chart, and order by the dept_name in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many total credits are offered by each department?, sort by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Bar chart of total number of credits from each dept name, and display dept_name in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "How many total credits are offered by each department Show bar chart, sort by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many total credits are offered by each department?, and rank bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many total credits are offered by each department?, sort by the total number of credits from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6060778744258094
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many total credits are offered by each department?, sort by the total number of credits from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6060778744258094
+            }
+        },
+        {
+            "query": "Bar chart of total number of credits from each dept name, and sort in asc by the total number of credits.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6060778744258094
+            }
+        },
+        {
+            "query": "How many total credits are offered by each department Show bar chart, I want to display Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6060778744258094
+            }
+        },
+        {
+            "query": "Find the total credits of courses provided by different department Plot them as bar chart, and display Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6060778744258094
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many total credits are offered by each department?, order by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021153169261201
+            }
+        },
+        {
+            "query": "Find the total credits of courses provided by different department Plot them as bar chart, could you sort in ascending by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021153169261201
+            }
+        },
+        {
+            "query": "How many total credits are offered by each department Show bar chart, and rank bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021153169261201
+            }
+        },
+        {
+            "query": "Bar chart of total number of credits from each dept name, rank bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021153169261201
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many total credits are offered by each department?, and order by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021153169261201
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the total credit does each department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "Return a histogram on what is the total credit does each department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7250870655128304
+            }
+        },
+        {
+            "query": "Display a bar chart for how many credits does the department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "how many credits does the department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "How many credits does the department offer. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Bar chart of sum crs credit from each dept code",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "A pie chart about what is the total credit does each department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7779814453983026
+            }
+        },
+        {
+            "query": "Give the proportion of what is the total credit does each department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7779814453983026
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7779814453983026
+            }
+        },
+        {
+            "query": "A pie chart about how many credits does the department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996458458953101
+            }
+        },
+        {
+            "query": "Give the proportion of how many credits does the department offer?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996458458953101
+            }
+        },
+        {
+            "query": "How many credits does the department offer. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996458458953101
+            }
+        },
+        {
+            "query": "Compute the total total number of crs credit across dept code as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7996458458953101
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer, and list from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082306569705245
+            }
+        },
+        {
+            "query": "how many credits does the department offer?, and order from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Bar chart of sum crs credit from each dept code, list from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082306569705245
+            }
+        },
+        {
+            "query": "Display a bar chart for how many credits does the department offer?, and I want to show by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the total credit does each department offer?, I want to list X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082306569705245
+            }
+        },
+        {
+            "query": "How many credits does the department offer Show bar chart, and order from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Return a histogram on what is the total credit does each department offer?, and I want to list X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082306569705245
+            }
+        },
+        {
+            "query": "Bar chart of total number of credits from each dept name, and show from high to low by the total number of credits.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6126911838199646
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many total credits are offered by each department?, and rank y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6126911838199646
+            }
+        },
+        {
+            "query": "Find the total credits of courses provided by different department Plot them as bar chart, and list from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6122721819104687
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many total credits are offered by each department?, order from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6122721819104687
+            }
+        },
+        {
+            "query": "How many total credits are offered by each department Show bar chart, and order by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6122721819104687
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the total credit does each department offer?, order y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.707471686417385
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer, I want to sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.707471686417385
+            }
+        },
+        {
+            "query": "Display a bar chart for how many credits does the department offer?, and I want to rank by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Return a histogram on what is the total credit does each department offer?, rank Y-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.707471686417385
+            }
+        },
+        {
+            "query": "How many credits does the department offer Show bar chart, I want to sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Bar chart of sum crs credit from each dept code, I want to display Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.707471686417385
+            }
+        },
+        {
+            "query": "how many credits does the department offer?, I want to display Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the total credit does each department offer?, rank from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "How many credits does the department offer Show bar chart, I want to order from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Display a bar chart for how many credits does the department offer?, order bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "how many credits does the department offer?, and could you order by the X in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198411291733183
+            }
+        },
+        {
+            "query": "Return a histogram on what is the total credit does each department offer?, I want to show from low to high by the DEPT_CODE please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "What is the total credit does each department offer, could you order by the X in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "Bar chart of sum crs credit from each dept code, I want to order from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7082437784080412
+            }
+        },
+        {
+            "query": "Find the total credits of courses provided by different department. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many total credits are offered by each department?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many total credits are offered by each department?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "How many total credits are offered by each department. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        },
+        {
+            "query": "Bar chart of total number of credits from each dept name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995678644552666
+            }
+        }
+    ],
+    "errors": []
+}

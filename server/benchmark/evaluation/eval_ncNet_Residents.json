@@ -1,0 +1,88 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Residents",
+    "results": [
+        {
+            "query": "Bar chart x axis other details y axis resident_id, list in desc by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just list the resident id and details in a bar chart, rank in descending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just list the resident id and details in a bar chart, and rank in ascending by the resident_id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis other details y axis resident_id, could you list Y in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just list the resident id and details in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis other details y axis resident_id",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis other details y axis resident_id, display y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just list the resident id and details in a bar chart, I want to show from high to low by the resident_id please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis other details y axis resident_id, sort by the bars from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Just list the resident id and details in a bar chart, and could you sort in ascending by the bar please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Bar chart x axis other details y axis resident_id, list in desc by the names.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Just list the resident id and details in a bar chart, rank in descending by the bars.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Just list the resident id and details in a bar chart, and rank in ascending by the resident_id.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Bar chart x axis other details y axis resident_id, could you list Y in ascending order?\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Just list the resident id and details in a bar chart.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Bar chart x axis other details y axis resident_id\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Bar chart x axis other details y axis resident_id, display y-axis in descending order.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Just list the resident id and details in a bar chart, I want to show from high to low by the resident_id please.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Bar chart x axis other details y axis resident_id, sort by the bars from low to high please.\" - <class 'KeyError'>: 'Residents'",
+        "Error when executing \"Just list the resident id and details in a bar chart, and could you sort in ascending by the bar please?\" - <class 'KeyError'>: 'Residents'"
+    ]
+}

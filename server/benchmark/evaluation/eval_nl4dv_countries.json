@@ -1,0 +1,140 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "countries",
+    "results": [
+        {
+            "query": "You can give me a pie chart, that groups and counts the country name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Tell me the proportion of the number of employees working on different countries with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many country name across country name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show how many country name from different country name, and show by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "You can give me a bar chart, that groups and counts the country name, sort from low to high by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a bar chart, could you list in asc by the the number of country name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "You can give me a bar chart, that groups and counts the country name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show how many country name from different country name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "You can give me a bar chart, that groups and counts the country name, and could you list from low to high by the bars please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a bar chart, and could you display from low to high by the x axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show how many country name from different country name, order in asc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a bar chart, could you list from high to low by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "You can give me a bar chart, that groups and counts the country name, list X-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show how many country name from different country name, and rank by the names in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please show me how many employees working on different countries using a bar chart, and display from high to low by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "You can give me a bar chart, that groups and counts the country name, list in descending by the the number of country name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show how many country name from different country name, and could you order in descending by the y-axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,385 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "university",
+    "results": [
+        {
+            "query": "Find the total student enrollment for different affiliation type schools.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6466760907802541
+            }
+        },
+        {
+            "query": "Display a pie chart for what are the total enrollments of universities of each affiliation type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9978590419581823
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the total enrollments of universities of each affiliation type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9978590419581823
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type. Plot them as pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9978590419581823
+            }
+        },
+        {
+            "query": "Compute the total total number of enrollment across affiliation as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9978590419581823
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type Visualize by bar chart, and order by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, and show by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type Show bar chart, show total number of enrollment in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780223
+            }
+        },
+        {
+            "query": "A bar chart about what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, order from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7404606038555729
+            }
+        },
+        {
+            "query": "A bar chart about what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Draw a bar chart of affiliation versus sum enrollment, and I want to list from low to high by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Find the total student enrollment for different affiliation type schools Plot them as bar chart, could you rank in asc by the bar please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the total enrollments of universities of each affiliation type?, order Affiliation in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type Plot them as bar chart, and could you rank in asc by the bar please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the total enrollments of universities of each affiliation type?, I want to list from low to high by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Find the total student enrollment for different affiliation type schools. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the total enrollments of universities of each affiliation type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the total enrollments of universities of each affiliation type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Draw a bar chart of affiliation versus sum enrollment",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, and rank in asc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type Show bar chart, I want to sort X-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.834203542151358
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type Visualize by bar chart, and could you list from low to high by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "A bar chart about what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, I want to sort X-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "Find the total student enrollment for different affiliation type schools Plot them as bar chart, I want to show by the sum enrollment in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type Plot them as bar chart, and I want to show by the sum enrollment in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the total enrollments of universities of each affiliation type?, list Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Draw a bar chart of affiliation versus sum enrollment, I want to show by the sum enrollment in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the total enrollments of universities of each affiliation type?, I want to show by the sum enrollment in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9364057746280766
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980332443752075
+            }
+        },
+        {
+            "query": "Draw a pie chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980332443752075
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980332443752075
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the total enrollments of universities of each affiliation type?, sort y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Find the total student enrollment for different affiliation type schools Plot them as bar chart, display by the sum enrollment from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148194
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type Plot them as bar chart, rank in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Draw a bar chart of affiliation versus sum enrollment, and I want to display y axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the total enrollments of universities of each affiliation type?, display by the y axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950845640498466
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type Show bar chart, and list by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.834203542151358
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type Visualize by bar chart, and I want to rank from low to high by the total number of enrollment please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "A bar chart about what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, list y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, and sort from low to high by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951307859780222
+            }
+        },
+        {
+            "query": "What are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type Visualize by bar chart, and list by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "A bar chart about what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, list by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "Find the total number of students enrolled in the colleges that were founded after the year of 1850 for each affiliation type Show bar chart, and could you rank Affiliation from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7404606038555729
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the different affiliations, and what is the total enrollment of schools founded after 1850 for each enrollment type?, could you order in descending by the x axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551383932317925
+            }
+        },
+        {
+            "query": "What are the total enrollments of universities of each affiliation type Plot them as bar chart, and display in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Draw a bar chart of affiliation versus sum enrollment, and could you rank by the names from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the total enrollments of universities of each affiliation type?, I want to order by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the total enrollments of universities of each affiliation type?, and could you list bar from high to low order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        },
+        {
+            "query": "Find the total student enrollment for different affiliation type schools Plot them as bar chart, could you rank by the names from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311766563148193
+            }
+        }
+    ],
+    "errors": []
+}

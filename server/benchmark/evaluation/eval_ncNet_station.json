@@ -1,0 +1,1971 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "station",
+    "results": [
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a bar chart, and order by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7976061859045838
+            }
+        },
+        {
+            "query": "Bar chart of total number of number of platforms from each location, could you show in descending by the y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567453
+            }
+        },
+        {
+            "query": "Show the total number of platforms of locations in each location in a bar chart, and could you show in descending by the y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567453
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the name of every city that has at least 15 stations and how many stations does it have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "A bar chart about what is the name of every city that has at least 15 stations and how many stations does it have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across city",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8067581797042203
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the name of every city that has at least 15 stations and how many stations does it have?, and rank by the city from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297776
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations Show bar chart, could you order in ascending by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776803
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have Visualize by bar chart, rank in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776803
+            }
+        },
+        {
+            "query": "A bar chart about what is the name of every city that has at least 15 stations and how many stations does it have?, and rank in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297776
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart, and could you order in ascending by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776803
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across city, and I want to order by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8046205009895376
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6869860607102657
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6869860607102657
+            }
+        },
+        {
+            "query": "A bar chart shows how many locations, list by the the number of location from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8160925529814939
+            }
+        },
+        {
+            "query": "How many locations? Draw a bar chart, order by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8160925529814939
+            }
+        },
+        {
+            "query": "Bar graph to show how many location from different location, and sort Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990143994709686
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the name of every city that has at least 15 stations and how many stations does it have?, and order by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have Visualize by bar chart, and display by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations Show bar chart, and order by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart, and display by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "A bar chart about what is the name of every city that has at least 15 stations and how many stations does it have?, and display by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across city, I want to list names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8101757342205306
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8101757342205306
+            }
+        },
+        {
+            "query": "Create a pie chart showing maximal lat across city.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8088682387590684
+            }
+        },
+        {
+            "query": "Show me how many long by long in a histogram, and list by the Y from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5747621657368388
+            }
+        },
+        {
+            "query": "For each station, bin its longitude divided by zero as buckets, and count the frequency in each bucket, order in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7488192535473476
+            }
+        },
+        {
+            "query": "Count the number of services by services, display by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101906382813086
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of services of each services, and rank by the y-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6359424752862967
+            }
+        },
+        {
+            "query": "A bar graph listing the services and how many services provided by all stations, and order from high to low by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101906382813086
+            }
+        },
+        {
+            "query": "Compare the number of services by services with a bar graph, sort by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101906382813086
+            }
+        },
+        {
+            "query": "Give me a bar chart that the x-axis is the services and the Y is the count(services), and show by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6201589959031151
+            }
+        },
+        {
+            "query": "Draw a bar chart of services versus the number of services, and order by the Y-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6963192811738746
+            }
+        },
+        {
+            "query": "Group by services attribute in station table and compute the total number of services with a bar chart, and show by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, I want to order y axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group by the local authorities and count the number of local authorities, and then group by services, order in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6530843037241066
+            }
+        },
+        {
+            "query": "Stacked bar of services and how many services colored by local_authority, and sort in ascending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the comparison with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of platforms in different locations",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of number of platforms across location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London Visualize by bar chart, and show by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6869860607102657
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London with a bar chart, rank in descending by the Name please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6869860607102657
+            }
+        },
+        {
+            "query": "For each location, give me a scatter chart showing the relationships between the number of total_passengers and the number of platforms.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.73008525191469
+            }
+        },
+        {
+            "query": "Draw a scatterplot of sum(number of platforms) vs total number of total passengers where sum(number of platforms) is on the x-axis and points are colored by Location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.73008525191469
+            }
+        },
+        {
+            "query": "Bar graph to show how many installation date from different installation date, and rank total number in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712115114007812
+            }
+        },
+        {
+            "query": "Bin the installation date into Year interval, and then you can draw a bar chart to tell me how many stations each year, order in ascending by the the number of installation date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712115114007812
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into Year interval as the X-axis, and count for showing how many stations are installed each year, and sort y-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6947805168404125
+            }
+        },
+        {
+            "query": "Bar graph to show how many location from different location, and list total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "How many locations? Draw a bar chart, sort total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "A bar chart shows how many locations, list Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "Show maximal lat from each city, I want to show x-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666678827100797
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations Show bar chart, I want to sort city in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6675482709400832
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations Visualize by bar chart, show in descending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6672705184776037
+            }
+        },
+        {
+            "query": "Show me how many long by long in a histogram, could you rank from low to high by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5740286133142926
+            }
+        },
+        {
+            "query": "For each station, bin its longitude divided by zero as buckets, and count the frequency in each bucket, and I want to show by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7488192535473474
+            }
+        },
+        {
+            "query": "Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, sort the number of local authority in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "count services by services, and split by local authorities with a stacked bar chart, and order Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of local authority vs services based on local authority, and order Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, I want to rank from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group by the local authorities and count the number of local authorities, and then group by services, could you display in desc by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6498605849120557
+            }
+        },
+        {
+            "query": "Stacked bar of services and how many services colored by local_authority, could you order from high to low by the bar please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis sum total passengers, order from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991740469268945
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing each location's total number of passengers, and rank total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9286076623489042
+            }
+        },
+        {
+            "query": "Show the total number of passengers of each location in a bar chart, and sort Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991740469268945
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart, and show by the y-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297767
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have Visualize by bar chart, sort y axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297767
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations Show bar chart, and sort in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776826
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across city, and show by the y-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8046190517057372
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the name of every city that has at least 15 stations and how many stations does it have?, display Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297767
+            }
+        },
+        {
+            "query": "A bar chart about what is the name of every city that has at least 15 stations and how many stations does it have?, and could you list the total number in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297767
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London with a bar chart, rank by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6869860607102657
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London Visualize by bar chart, I want to list in asc by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6830943809153053
+            }
+        },
+        {
+            "query": "Show maximal lat from each city, show total number in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6691143812666641
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations Show bar chart, I want to sort by the Y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6676958026108594
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations Visualize by bar chart, and order by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6675445688306626
+            }
+        },
+        {
+            "query": "Show the total number of platforms of locations in each location in a bar chart, I want to show y axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Bar chart of total number of number of platforms from each location, and I want to show y axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a bar chart, and rank by the Y-axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Count the number of local authorities by the local authority, and order Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6959707096046238
+            }
+        },
+        {
+            "query": "A bar graph listing the local authorities and how many local authorities provided by all stations, order in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6963123792222894
+            }
+        },
+        {
+            "query": "Bar chart of how many local authority from each local authority, and order in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6963123792222894
+            }
+        },
+        {
+            "query": "Compare the number of the local authority by the local authority, and could you show by the total number in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6963123792222894
+            }
+        },
+        {
+            "query": "Compute the number of services by services and then split by local authorities. Show the result with a stacked bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "count services by services, and split by local authorities with a stacked bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of local authority vs services based on local authority",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "Show the proportion of the total number of platforms of locations in each location in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "Give me a pie to show total number of number of platforms from different location.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart, and list y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297776
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have Visualize by bar chart, rank in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776803
+            }
+        },
+        {
+            "query": "A bar chart about what is the name of every city that has at least 15 stations and how many stations does it have?, and could you display in descending by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297776
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across city, list in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8046205009895376
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations Show bar chart, and list in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6143424294776803
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the name of every city that has at least 15 stations and how many stations does it have?, and list y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6145224569297776
+            }
+        },
+        {
+            "query": "Give me a bar chart that the x-axis is the services and the Y is the count(services), and show total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196774535181334
+            }
+        },
+        {
+            "query": "Group by services attribute in station table and compute the total number of services with a bar chart, I want to list from high to low by the the number of services.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of services versus the number of services, and show total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6995199600326378
+            }
+        },
+        {
+            "query": "Give me a bar chart about the average of number_of_platforms in different locations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9274220041826124
+            }
+        },
+        {
+            "query": "What is the average of number_of_platforms for each location? Show the comparison with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9274220041826124
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis the average of number of platforms",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9274220041826124
+            }
+        },
+        {
+            "query": "A bar graph listing the services and how many services provided by all stations, display by the bar in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101993462582511
+            }
+        },
+        {
+            "query": "Count the number of services by services, and sort by the services in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101993462582511
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of services of each services, sort in ascending by the services.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6358821019327671
+            }
+        },
+        {
+            "query": "Compare the number of services by services with a bar graph, and display in ascending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101993462582511
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing each location's total number of passengers, and I want to sort by the bars in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.804141367854554
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis sum total passengers, I want to sort in descending by the Location please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.804141367854554
+            }
+        },
+        {
+            "query": "Show the total number of passengers of each location in a bar chart, I want to sort by the bars in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.804141367854554
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis the average of number of platforms, and rank total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Give me a bar chart about the average of number_of_platforms in different locations, and rank total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "What is the average of number_of_platforms for each location? Show the comparison with a bar chart, and sort from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Show the proportion of the total number of passengers in each location with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979467009467579
+            }
+        },
+        {
+            "query": "Give me a pie about the proportion of each location's total number of passengers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9739335234240029
+            }
+        },
+        {
+            "query": "Compute the total total number of total passengers across location as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979467009467579
+            }
+        },
+        {
+            "query": "Bar chart of how many local authority from each local authority, show the number of local authority in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7005683488889197
+            }
+        },
+        {
+            "query": "A bar graph listing the local authorities and how many local authorities provided by all stations, rank from high to low by the the number of local authority.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7005683488889197
+            }
+        },
+        {
+            "query": "Count the number of local authorities by the local authority, and list by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.700226679271254
+            }
+        },
+        {
+            "query": "Compare the number of the local authority by the local authority, show the number of local authority in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7005683488889197
+            }
+        },
+        {
+            "query": "How many different locations? Show the proportion with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979398462920245
+            }
+        },
+        {
+            "query": "Give me a pie chart about the proportion of the different locations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979398462920245
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each location.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979398462920245
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many installation date change over the installation date, and could you list from low to high by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Tell me the trend using a line chart to show the total number of the station over the installation date, could you sort by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Show the number of stations installed change over the installation date of in station table using a line chart, order in ascending by the installation_date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Group by the local authorities and count the number of local authorities, and then group by services.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485782161774832
+            }
+        },
+        {
+            "query": "Compute the number of local authorities by local authorities and then split by services. Show the result with a stacked bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar of services and how many services colored by local_authority",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number of passengers of each location in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7953987466212779
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing each location's total number of passengers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7953987466212779
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis sum total passengers",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7953987466212779
+            }
+        },
+        {
+            "query": "What is the average of number_of_platforms for each location? Show the comparison with a bar chart, I want to order X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.965616227342041
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis the average of number of platforms, and show x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.965616227342041
+            }
+        },
+        {
+            "query": "Give me a bar chart about the average of number_of_platforms in different locations, sort from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.965616227342041
+            }
+        },
+        {
+            "query": "Group by the local authorities and count the number of local authorities, and then group by services, could you rank by the Y in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar of services and how many services colored by local_authority, and order by the y axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, show from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, and I want to show by the y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of local authority vs services based on local authority, and could you display y-axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "count services by services, and split by local authorities with a stacked bar chart, and list in desc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the total number of passengers of each location in a bar chart, and display in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9917229014306903
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing each location's total number of passengers, rank in ascending by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9917229014306903
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis sum total passengers, show from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9917229014306903
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of platforms in different locations, and I want to list from high to low by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164263
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the comparison with a bar chart, and could you order by the total number in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975545514642626
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of number of platforms across location, show from high to low by the total number of number of platforms.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164263
+            }
+        },
+        {
+            "query": "What is the average of number_of_platforms for each location? Show the comparison with a bar chart, and sort Y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Give me a bar chart about the average of number_of_platforms in different locations, and list by the total number in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis the average of number of platforms, and show in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9466315249030176
+            }
+        },
+        {
+            "query": "A bar graph listing the local authorities and how many local authorities provided by all stations, and show from low to high by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071206410083235
+            }
+        },
+        {
+            "query": "Count the number of local authorities by the local authority, sort X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7067828719084982
+            }
+        },
+        {
+            "query": "Compare the number of the local authority by the local authority, show in ascending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071206410083235
+            }
+        },
+        {
+            "query": "Bar chart of how many local authority from each local authority, and display in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071206410083235
+            }
+        },
+        {
+            "query": "Group by services attribute in station table and compute the total number of services with a bar chart, order by the services in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart that the x-axis is the services and the Y is the count(services), and could you show bars from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196633372236501
+            }
+        },
+        {
+            "query": "Draw a bar chart of services versus the number of services, and sort by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196633372236501
+            }
+        },
+        {
+            "query": "Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, show by the X-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of local authority vs services based on local authority, and could you order from low to high by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "count services by services, and split by local authorities with a stacked bar chart, and show by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis sum total passengers, and sort by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7953987466212779
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing each location's total number of passengers, show by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7953987466212779
+            }
+        },
+        {
+            "query": "Show the total number of passengers of each location in a bar chart, and sort in desc by the total number of total passengers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.991740469268945
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the proportion with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "Give me a pie chart about the proportion of the number of platforms in different locations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "Compute the total sum number of platforms across location as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9979375069281753
+            }
+        },
+        {
+            "query": "Show maximal lat from each city, and could you list by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666337541297942
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations Visualize by bar chart, and could you display total number from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6699359050911116
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations Show bar chart, could you list by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6675031979690805
+            }
+        },
+        {
+            "query": "Show how many installation date from each installation date, list in desc by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5328598701685295
+            }
+        },
+        {
+            "query": "Bin the installation date into the day of week interval, and then you can draw a bar chart to tell me how many stations each year, and list Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6320627908654556
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into the day of week interval as the X-axis, and count for showing how many stations are installed each year, display by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6320627908654556
+            }
+        },
+        {
+            "query": "A bar graph listing the local authorities and how many local authorities provided by all stations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071568644035041
+            }
+        },
+        {
+            "query": "Count the number of local authorities by the local authority.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7068085563934302
+            }
+        },
+        {
+            "query": "Compare the number of the local authority by the local authority.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071568644035041
+            }
+        },
+        {
+            "query": "Bar chart of how many local authority from each local authority",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071568644035041
+            }
+        },
+        {
+            "query": "A bar chart shows how many locations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8147032363291721
+            }
+        },
+        {
+            "query": "How many locations? Draw a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8147032363291721
+            }
+        },
+        {
+            "query": "Bar graph to show how many location from different location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8147032363291721
+            }
+        },
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Show the total number of platforms of locations in each location in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Bar chart of total number of number of platforms from each location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations Show bar chart, and could you show X-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6675545995945167
+            }
+        },
+        {
+            "query": "Show maximal lat from each city, list X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666851557552304
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations Visualize by bar chart, and list by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6675545995945167
+            }
+        },
+        {
+            "query": "Count the number of services by services, and display Y-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069834429431529
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of services of each services, could you display from low to high by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6364898622731697
+            }
+        },
+        {
+            "query": "Compare the number of services by services with a bar graph, I want to show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069834429431529
+            }
+        },
+        {
+            "query": "A bar graph listing the services and how many services provided by all stations, order in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069834429431529
+            }
+        },
+        {
+            "query": "Show me the correlation between the number of platforms and the number of total_passengers in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261793177952107
+            }
+        },
+        {
+            "query": "Draw a scatter plot about the correlation between the number of platforms and the number of total_passengers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261793177952107
+            }
+        },
+        {
+            "query": "Plot a scatter chart, sum(number of platforms) by sum total passengers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261793177952107
+            }
+        },
+        {
+            "query": "For all train stations not in London with a pie chart, show me the proportion of total_passengers of different names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8203898320265396
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London. Plot them as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8203898320265396
+            }
+        },
+        {
+            "query": "Count the number of local authorities by the local authority, and rank in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7068085563934302
+            }
+        },
+        {
+            "query": "Compare the number of the local authority by the local authority, and rank in descending by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071568644035041
+            }
+        },
+        {
+            "query": "A bar graph listing the local authorities and how many local authorities provided by all stations, could you display X from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7071568644035041
+            }
+        },
+        {
+            "query": "Bar chart of how many local authority from each local authority, and could you order names in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6029528556804149
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the comparison with a bar chart, and show from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of platforms in different locations, rank from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of number of platforms across location, rank from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "count services by services, and split by local authorities with a stacked bar chart, and could you sort bars from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of local authority vs services based on local authority, and show by the x-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, display from high to low by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each station, bin its longitude divided by zero as buckets, and count the frequency in each bucket.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7488192535473476
+            }
+        },
+        {
+            "query": "Show me how many long by long in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5743362490765872
+            }
+        },
+        {
+            "query": "Show the number of stations installed change over the installation date of in station table using a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Tell me the trend using a line chart to show the total number of the station over the installation date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many installation date change over the installation date",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480782233661905
+            }
+        },
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a bar chart, sort by the Location in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Bar chart of total number of number of platforms from each location, and display by the X-axis in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "Show the total number of platforms of locations in each location in a bar chart, and list by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9903282201567455
+            }
+        },
+        {
+            "query": "A bar chart shows how many locations, and order in ascending by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "Bar graph to show how many location from different location, order in ascending by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "How many locations? Draw a bar chart, and list by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946215058495214
+            }
+        },
+        {
+            "query": "A bar graph listing the services and how many services provided by all stations.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101847852015277
+            }
+        },
+        {
+            "query": "Count the number of services by services.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101847852015277
+            }
+        },
+        {
+            "query": "Compare the number of services by services with a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7101847852015277
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of services of each services",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6358288680394842
+            }
+        },
+        {
+            "query": "How many locations? Draw a bar chart, could you sort X-axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8160925529814939
+            }
+        },
+        {
+            "query": "Bar graph to show how many location from different location, list X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8160925529814939
+            }
+        },
+        {
+            "query": "A bar chart shows how many locations, and sort from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.990143994709686
+            }
+        },
+        {
+            "query": "What is the average of number_of_platforms for each location? Show the comparison with a bar chart, could you list x-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Bar chart x axis location y axis the average of number of platforms, could you list x-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Give me a bar chart about the average of number_of_platforms in different locations, and rank X from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901404576972546
+            }
+        },
+        {
+            "query": "Show the total number of platforms of locations in each location in a bar chart, could you order by the names from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7976061859045838
+            }
+        },
+        {
+            "query": "Bar chart of total number of number of platforms from each location, sort bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7976061859045838
+            }
+        },
+        {
+            "query": "Show all locations and the total number of platforms for all train stations in each location in a bar chart, I want to order by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7976061859045838
+            }
+        },
+        {
+            "query": "For each city, return the highest latitude among its stations. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654916712684709
+            }
+        },
+        {
+            "query": "For each city, what is the highest latitude for its stations. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654916712684709
+            }
+        },
+        {
+            "query": "Show maximal lat from each city",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654916712684709
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London Visualize by bar chart, and I want to sort in ascending by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6837897518516538
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London with a bar chart, and could you display by the x axis from low to high please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6837897518516538
+            }
+        },
+        {
+            "query": "Bin the installation date into Year interval, and then you can draw a bar chart to tell me how many stations each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5778151654136234
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into Year interval as the X-axis, and count for showing how many stations are installed each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6947805168404132
+            }
+        },
+        {
+            "query": "Bar graph to show how many installation date from different installation date",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5778151654136234
+            }
+        },
+        {
+            "query": "Draw a bar chart of services versus the number of services, could you display by the names in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6201731121975982
+            }
+        },
+        {
+            "query": "Group by services attribute in station table and compute the total number of services with a bar chart, display x-axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart that the x-axis is the services and the Y is the count(services), list by the names from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6201731121975982
+            }
+        },
+        {
+            "query": "Give me a bar chart for the number of services of each services, and could you display x-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6363918769067141
+            }
+        },
+        {
+            "query": "Count the number of services by services, could you sort X-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069747349662169
+            }
+        },
+        {
+            "query": "Compare the number of services by services with a bar graph, and could you display x-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069747349662169
+            }
+        },
+        {
+            "query": "A bar graph listing the services and how many services provided by all stations, list in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7069747349662169
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into Year interval as the X-axis, and count for showing how many stations are installed each year, list y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6947805168404132
+            }
+        },
+        {
+            "query": "Bar graph to show how many installation date from different installation date, display the number of installation date from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5781802729201699
+            }
+        },
+        {
+            "query": "Bin the installation date into Year interval, and then you can draw a bar chart to tell me how many stations each year, and could you sort y-axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5781802729201699
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of platforms in different locations, show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of number of platforms across location, and show total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the comparison with a bar chart, I want to order by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9902765857164259
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7495538342782734
+            }
+        },
+        {
+            "query": "List the name and the number of stations for all the cities that have at least 15 stations. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7495538342782734
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what is the name of every city that has at least 15 stations and how many stations does it have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7495538342782734
+            }
+        },
+        {
+            "query": "Give the proportion of what is the name of every city that has at least 15 stations and how many stations does it have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7495538342782734
+            }
+        },
+        {
+            "query": "What is the name of every city that has at least 15 stations and how many stations does it have. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6001662375937817
+            }
+        },
+        {
+            "query": "Compute the total the total number across city as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8627295991926701
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of number of platforms across location, sort by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975545514642626
+            }
+        },
+        {
+            "query": "What is the number of platforms for each location? Show the comparison with a bar chart, rank bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975545514642626
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of platforms in different locations, sort by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7975545514642626
+            }
+        },
+        {
+            "query": "Stacked bar of services and how many services colored by local_authority, and display in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, and order by the names from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group by the local authorities and count the number of local authorities, and then group by services, display in ascending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485782161774832
+            }
+        },
+        {
+            "query": "Group by services attribute in station table and compute the total number of services with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart that the x-axis is the services and the Y is the count(services)",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6201731121975982
+            }
+        },
+        {
+            "query": "Draw a bar chart of services versus the number of services",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.696307314957239
+            }
+        },
+        {
+            "query": "Tell me the trend using a line chart to show the total number of the station over the installation date, show by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480225166137046
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many installation date change over the installation date, and order x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480225166137046
+            }
+        },
+        {
+            "query": "Show the number of stations installed change over the installation date of in station table using a line chart, order by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6480225166137046
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London with a bar chart, show Total_Passengers in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6907742340906159
+            }
+        },
+        {
+            "query": "Show the names and total passengers for all train stations not in London Visualize by bar chart, rank y axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6907742340906159
+            }
+        },
+        {
+            "query": "Bin the installation date into the day of week interval, and then you can draw a bar chart to tell me how many stations each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6317279227494761
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into the day of week interval as the X-axis, and count for showing how many stations are installed each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6317279227494761
+            }
+        },
+        {
+            "query": "Show how many installation date from each installation date",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5374389329855955
+            }
+        },
+        {
+            "query": "Show how many installation date from each installation date, and rank by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5322755023704658
+            }
+        },
+        {
+            "query": "Please give me a bar chart that bins the installation date of stations into the day of week interval as the X-axis, and count for showing how many stations are installed each year, sort in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6264294873241999
+            }
+        },
+        {
+            "query": "Bin the installation date into the day of week interval, and then you can draw a bar chart to tell me how many stations each year, sort from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6264294873241999
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Group by services attribute in station table and compute the total number of services with a bar chart, and show by the Y-axis in asc.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, I want to order y axis from low to high order please.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stacked bar of services and how many services colored by local_authority, and sort in ascending by the Y-axis.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, sort the number of local authority in ascending order.\" - <class 'KeyError'>: ''",
+        "Error when executing \"count services by services, and split by local authorities with a stacked bar chart, and order Y-axis from low to high order.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stack bar chart of the number of local authority vs services based on local authority, and order Y-axis from low to high order.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, I want to rank from high to low by the X.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stacked bar of services and how many services colored by local_authority, could you order from high to low by the bar please?\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of services by services and then split by local authorities. Show the result with a stacked bar graph.\" - <class 'KeyError'>: ''",
+        "Error when executing \"count services by services, and split by local authorities with a stacked bar chart.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stack bar chart of the number of local authority vs services based on local authority\" - <class 'KeyError'>: ''",
+        "Error when executing \"Group by services attribute in station table and compute the total number of services with a bar chart, I want to list from high to low by the the number of services.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of local authorities by local authorities and then split by services. Show the result with a stacked bar graph.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stacked bar of services and how many services colored by local_authority\" - <class 'KeyError'>: ''",
+        "Error when executing \"Group by the local authorities and count the number of local authorities, and then group by services, could you rank by the Y in desc?\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stacked bar of services and how many services colored by local_authority, and order by the y axis in desc.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, show from high to low by the y-axis.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, and I want to show by the y-axis from high to low.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stack bar chart of the number of local authority vs services based on local authority, and could you display y-axis in descending order?\" - <class 'KeyError'>: ''",
+        "Error when executing \"count services by services, and split by local authorities with a stacked bar chart, and list in desc by the Y.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Group by services attribute in station table and compute the total number of services with a bar chart, order by the services in ascending.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, show by the X-axis from low to high.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stack bar chart of the number of local authority vs services based on local authority, and could you order from low to high by the bars?\" - <class 'KeyError'>: ''",
+        "Error when executing \"count services by services, and split by local authorities with a stacked bar chart, and show by the bars from low to high.\" - <class 'KeyError'>: ''",
+        "Error when executing \"count services by services, and split by local authorities with a stacked bar chart, and could you sort bars from high to low order?\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stack bar chart of the number of local authority vs services based on local authority, and show by the x-axis in desc please.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of services by services and then split by local authorities Show the result with a stacked bar graph, display from high to low by the x-axis.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Group by services attribute in station table and compute the total number of services with a bar chart, display x-axis from high to low order please.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Stacked bar of services and how many services colored by local_authority, and display in ascending by the bar.\" - <class 'KeyError'>: ''",
+        "Error when executing \"Compute the number of local authorities by local authorities and then split by services Show the result with a stacked bar graph, and order by the names from low to high.\" - <class 'KeyError'>: 'services'",
+        "Error when executing \"Group by services attribute in station table and compute the total number of services with a bar chart.\" - <class 'KeyError'>: ''"
+    ]
+}

@@ -1,0 +1,603 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "music_festival",
+    "results": [
+        {
+            "query": "A bar chart for returning the number of the categories of music festivals that have the result \"Awarded\", sort from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a bar chart, I want to list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the category of music festivals with result \"Awarded\"?, I want to list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a bar chart, and I want to rank in ascending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7823322433780774
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?, could you order in ascending by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.783689217726478
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\", and show by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the distribution of results of all music festival, I want to rank from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Plot the number of result by grouped by result as a bar graph, and I want to rank from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a bar chart, list in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "What is the distibution of results for each music festival? Could you show me the result with a bar chart, list from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category in a bar chart, and sort X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936005532774409
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category, I want to rank by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936005532774409
+            }
+        },
+        {
+            "query": "Show me the total number by category in a histogram, and order in asc by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936005532774409
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a bar chart, show from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589394622084838
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the categories of music festivals that have the result \"Awarded\", could you show in ascending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589394622084838
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?, could you list Y from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589394622084838
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the category of music festivals with result \"Awarded\"?, could you list Y from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589394622084838
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a bar chart, and sort by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7823507984765508
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\", show from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589394622084838
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the distribution of results of all music festival.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "What is the distibution of results for each music festival? Could you show me the result with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Plot the number of result by grouped by result as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8771633545367307
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the category of music festivals with result \"Awarded\"?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the categories of music festivals that have the result \"Awarded\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "Plot the number of result by grouped by result as a bar graph, and sort by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "What is the distibution of results for each music festival? Could you show me the result with a bar chart, show by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8446739136722634
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the distribution of results of all music festival, and order Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a bar chart, and show Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category, order from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9111938710336888
+            }
+        },
+        {
+            "query": "Show me the total number by category in a histogram, could you order Y in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936005532774409
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category in a bar chart, and sort by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9111938710336888
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category by a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983784908246962
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category. Show a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983784908246962
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different category.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983784908246962
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9075956209781539
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7033314843767488
+            }
+        },
+        {
+            "query": "Show me the total number by category in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9075956209781539
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category, show by the Category in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9075956209781539
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category in a bar chart, and could you order x axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9075956209781539
+            }
+        },
+        {
+            "query": "Show me the total number by category in a histogram, list in descending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9075956209781539
+            }
+        },
+        {
+            "query": "Display a pie chart for how many music festivals have had each kind of result, ordered descending by count?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie on how many music festivals have had each kind of result, ordered descending by count?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many music festivals have had each kind of result, ordered descending by count. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982365745595648
+            }
+        },
+        {
+            "query": "What is the proportion of results for each music festival? Counld you show me the result with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982365745595648
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the proportion of results of all music festival.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982365745595648
+            }
+        },
+        {
+            "query": "Create a pie chart showing the number of result across result.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982365745595648
+            }
+        },
+        {
+            "query": "A bar chart about how many music festivals have had each kind of result, ordered descending by count?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8438210334459635
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many music festivals have had each kind of result, ordered descending by count?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8438210334459635
+            }
+        },
+        {
+            "query": "How many music festivals have had each kind of result, ordered descending by count. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8438210334459635
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a bar chart, sort by the X in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8771633545367307
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the categories of music festivals that have the result \"Awarded\", and rank Category in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the category of music festivals with result \"Awarded\"?, and I want to order by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?, show in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\", show in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a bar chart, and show by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8090466654386987
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a bar chart, and I want to rank x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Plot the number of result by grouped by result as a bar graph, could you order bar from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "What is the distibution of results for each music festival? Could you show me the result with a bar chart, and order by the X in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the distribution of results of all music festival, and show by the x axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "A pie chart for what are the number of the category of music festivals with result \"Awarded\"?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "A pie chart for returning the number of the categories of music festivals that have the result \"Awarded\".",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9031809280823734
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8442070899000855
+            }
+        },
+        {
+            "query": "Return the categories of music festivals that have the result \"Awarded\", and count them by a bar chart, and order by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7823322433780774
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the categories of music festivals that have the result \"Awarded\", and I want to rank y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589461573911295
+            }
+        },
+        {
+            "query": "What are the category of music festivals with result \"Awarded\", and count them by a bar chart, and show by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "Return the number of the categories of music festivals that have the result \"Awarded\", and display Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589461573911295
+            }
+        },
+        {
+            "query": "What are the number of the category of music festivals with result \"Awarded\"?, I want to rank y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8589461573911295
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the category of music festivals with result \"Awarded\"?, rank by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8234172490974597
+            }
+        },
+        {
+            "query": "Please give me a bar chart to show the distribution of results of all music festival, and display by the Y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "What is the distibution of results for each music festival? Could you show me the result with a bar chart, show by the y axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Plot the number of result by grouped by result as a bar graph, and show by the y axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Return the results of all music festivals using a bar chart, I want to sort Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945640951406646
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category in a bar chart, could you show by the Y in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8323708857387256
+            }
+        },
+        {
+            "query": "Return the number of music festivals of each category, show total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8323708857387256
+            }
+        },
+        {
+            "query": "Show me the total number by category in a histogram, show total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9936005532774409
+            }
+        }
+    ],
+    "errors": [
+        "\"What are the number of the category of music festivals with result \"Awarded\"?\" has 2 benchmarks associated with it",
+        "\"Return the number of the categories of music festivals that have the result \"Awarded\".\" has 2 benchmarks associated with it",
+        "Error when executing \"Display a pie chart for how many music festivals have had each kind of result, ordered descending by count?\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"Return a pie on how many music festivals have had each kind of result, ordered descending by count?\" - <class 'KeyError'>: 'x'",
+        "Error when executing \"How many music festivals have had each kind of result, ordered descending by count. Show a pie chart.\" - <class 'KeyError'>: 'x'",
+        "\"What are the number of the category of music festivals with result \"Awarded\"?\" has 2 benchmarks associated with it",
+        "\"Return the number of the categories of music festivals that have the result \"Awarded\".\" has 2 benchmarks associated with it"
+    ]
+}

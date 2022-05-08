@@ -1,0 +1,147 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "weekly_weather",
+    "results": [
+        {
+            "query": "What is the average high temperature for each day of week Plot them as bar chart, and could you order in desc by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6199151008313218
+            }
+        },
+        {
+            "query": "Return a histogram on what is the average high temperature for each day of week?, I want to rank by the bar in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of high temperature from different day of week, and could you order by the bars in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6174080937243217
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average high temperature for each day of week?, and list in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6199151008313218
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average high temperature for each day of week?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6199807314000867
+            }
+        },
+        {
+            "query": "Return a histogram on what is the average high temperature for each day of week?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average high temperature for each day of week. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6199807314000867
+            }
+        },
+        {
+            "query": "Bar graph to show the average of high temperature from different day of week",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6174737242930867
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average high temperature for each day of week?, rank x axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196081961372113
+            }
+        },
+        {
+            "query": "Return a histogram on what is the average high temperature for each day of week?, show x axis in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of high temperature from different day of week, I want to rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6171011890302114
+            }
+        },
+        {
+            "query": "What is the average high temperature for each day of week Plot them as bar chart, display in ascending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196081961372113
+            }
+        },
+        {
+            "query": "What is the average high temperature for each day of week Plot them as bar chart, rank Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.619998529842417
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average high temperature for each day of week?, and display in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.619998529842417
+            }
+        },
+        {
+            "query": "Bar graph to show the average of high temperature from different day of week, and rank Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6174915227354169
+            }
+        },
+        {
+            "query": "Return a histogram on what is the average high temperature for each day of week?, and show in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the average high temperature for each day of week?, display in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the average high temperature for each day of week?, and sort from low to high by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196194534613076
+            }
+        },
+        {
+            "query": "Bar graph to show the average of high temperature from different day of week, and could you show y axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6171124463543075
+            }
+        },
+        {
+            "query": "What is the average high temperature for each day of week Plot them as bar chart, I want to sort in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6196194534613076
+            }
+        }
+    ],
+    "errors": []
+}

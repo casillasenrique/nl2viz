@@ -1,0 +1,91 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "airports",
+    "results": [
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6526634495753972
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343169204986778
+            }
+        },
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart, order in ascending by the elevation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5646677974852544
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a bar chart, order in ascending by the elevation.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.4877997652341624
+            }
+        },
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7919992088193974
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.48401057547468546
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a bar chart, and I want to sort from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.48884886281073237
+            }
+        },
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart, could you display in asc by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7917237819495467
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a bar chart, could you rank in descending by the elevation please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7919992088193974
+            }
+        },
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart, and sort in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.37890210134018004
+            }
+        },
+        {
+            "query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart, and I want to rank in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.792386313613744
+            }
+        },
+        {
+            "query": "What is the altitude (or elevation) of the airports in the city of New York? Show me a bar chart, and I want to rank in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.48798992658558316
+            }
+        }
+    ],
+    "errors": []
+}

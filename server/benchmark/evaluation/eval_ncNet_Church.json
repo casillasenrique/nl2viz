@@ -1,0 +1,128 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Church",
+    "results": [
+        {
+            "query": "How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart, and rank total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis open date y axis how many open date, rank total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart, and display in ascending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis open date y axis how many open date, and order in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows how many churches open each year?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the number of church opening in each year.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of open date change over the open date",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of open date change over the open date, list by the Open_Date in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the number of church opening in each year, could you show by the X-axis in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows how many churches open each year?, and list x axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis open date y axis how many open date",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the number of church opening in each year, and display X-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how the number of open date change over the open date, and I want to display by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows how many churches open each year?, I want to sort by the X-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart, and rank total number in desc order.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Bar chart x axis open date y axis how many open date, rank total number in desc order.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart, and display in ascending by the Y-axis.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Bar chart x axis open date y axis how many open date, and order in asc by the y-axis.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"A line chart shows how many churches open each year?\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Give me the trend about the number of church opening in each year.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Show me a line chart of how the number of open date change over the open date\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Show me a line chart of how the number of open date change over the open date, list by the Open_Date in desc please.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Give me the trend about the number of church opening in each year, could you show by the X-axis in desc?\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"A line chart shows how many churches open each year?, and list x axis from high to low order.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"How many churches open each year? Convert the year into the weekday interval and visualize with a bar chart.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Bar chart x axis open date y axis how many open date\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Give me the trend about the number of church opening in each year, and display X-axis from low to high order.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"Show me a line chart of how the number of open date change over the open date, and I want to display by the x-axis from low to high.\" - <class 'KeyError'>: 'Church'",
+        "Error when executing \"A line chart shows how many churches open each year?, I want to sort by the X-axis from low to high.\" - <class 'KeyError'>: 'Church'"
+    ]
+}

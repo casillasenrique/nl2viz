@@ -1,0 +1,584 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Templates",
+    "results": [
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to sort by the bars in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and rank in ascending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates for each template type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of template type code from each template type code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Give me a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart showing the number of templates with a version number greater than 5 for each template type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and could you show in desc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each Visualize by bar chart, order X-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and list by the Template_Type_Code in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by template type code in a histogram, and list by the Template_Type_Code in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each Plot them as bar chart, and order from high to low by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each with a bar chart, order from high to low by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Show me a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates with a version number greater than 5 for each template type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the different template type codes, and how many templates correspond to each?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the different template type codes, and how many templates correspond to each?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of toatal number of templates for each template type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each with a bar chart, could you list Y-axis in descending order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and I want to show by the y axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and I want to sort by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each Visualize by bar chart, show Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by template type code in a histogram, and list y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each Plot them as bar chart, I want to show by the y axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, I want to sort from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each Plot them as bar chart, and I want to display X-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each with a bar chart, I want to list by the X-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the different template type codes, and how many templates correspond to each?, order from low to high by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each Visualize by bar chart, and I want to sort from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by template type code in a histogram, sort by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relationship between version number and template id in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the relationship between version number and template id? Give me a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter plot to show template id on x axis and version_number on y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show me a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Tell me the number of templates for each template type code with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the number of templates for each template type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the relationship between version number and template id for all templates in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the relationship between version number and template id for each template? Visualize by a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relation between template id and version_number for each Template_Type_Code using a scatter chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and order y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to rank in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show a bar chart, and sort from high to low by the bars please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates for each template type code, and list X-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of template type code from each template type code, sort from high to low by the bars please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the different template type codes, and how many templates correspond to each?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by template type code in a histogram",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates for each template type code, and could you display in descending by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of template type code from each template type code, and rank in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show a bar chart, rank by the the number of template type code in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and I want to rank by the y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Show me a bar chart, and order by the y axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show a bar chart, rank in asc by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of template type code from each template type code, and rank by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates for each template type code, and sort by the bars from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, display from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to display in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the different template type codes, and how many templates correspond to each Plot them as bar chart, could you rank in ascending by the Y-axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each Visualize by bar chart, I want to list in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and display by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all template type codes and number of templates for each with a bar chart, and I want to list in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and order by the the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the total number by template type code in a histogram, and display from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of template type code from each template type code, I want to sort in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of templates for each template type code, and I want to order in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many templates for each template type code? Show a bar chart, and could you list by the the number of template type code from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to sort by the bars in asc.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and rank in ascending by the names.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates for each template type code.\"",
+        "Error when executing query: \"How many templates for each template type code? Show a bar chart.\"",
+        "Error when executing query: \"Show the number of template type code from each template type code\"",
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Give me a pie chart.\"",
+        "Error when executing query: \"Return a pie chart showing the number of templates with a version number greater than 5 for each template type code.\"",
+        "Error when executing query: \"Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and could you show in desc by the x axis?\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each Visualize by bar chart, order X-axis in descending order.\"",
+        "Error when executing query: \"Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and list by the Template_Type_Code in descending.\"",
+        "Error when executing query: \"Show me the total number by template type code in a histogram, and list by the Template_Type_Code in descending.\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each Plot them as bar chart, and order from high to low by the x-axis please.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each with a bar chart, order from high to low by the x-axis please.\"",
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Show me a bar chart.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates with a version number greater than 5 for each template type code.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each in a pie chart.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each. Visualize by pie chart.\"",
+        "Error when executing query: \"Return a pie chart on what are the different template type codes, and how many templates correspond to each?\"",
+        "Error when executing query: \"Show me the proportion on what are the different template type codes, and how many templates correspond to each?\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each.\"",
+        "Error when executing query: \"I want to know the proportion of toatal number of templates for each template type code.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each with a bar chart, could you list Y-axis in descending order please?\"",
+        "Error when executing query: \"Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and I want to show by the y axis in desc.\"",
+        "Error when executing query: \"Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and I want to sort by the Y from high to low.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each Visualize by bar chart, show Y-axis in descending order.\"",
+        "Error when executing query: \"Show me the total number by template type code in a histogram, and list y-axis from high to low order.\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each Plot them as bar chart, I want to show by the y axis in desc.\"",
+        "Error when executing query: \"Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, I want to sort from low to high by the x axis.\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each Plot them as bar chart, and I want to display X-axis in asc order.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each with a bar chart, I want to list by the X-axis from low to high.\"",
+        "Error when executing query: \"Return a bar chart on what are the different template type codes, and how many templates correspond to each?, order from low to high by the X.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each Visualize by bar chart, and I want to sort from low to high by the x axis.\"",
+        "Error when executing query: \"Show me the total number by template type code in a histogram, sort by the X in ascending.\"",
+        "Error when executing query: \"Show the relationship between version number and template id in a scatter chart.\"",
+        "Error when executing query: \"What is the relationship between version number and template id? Give me a scatter chart.\"",
+        "Error when executing query: \"Scatter plot to show template id on x axis and version_number on y axis.\"",
+        "Error when executing query: \"How many templates for each template type code? Show me a pie chart.\"",
+        "Error when executing query: \"Tell me the number of templates for each template type code with a pie chart.\"",
+        "Error when executing query: \"I want to know the proportion of the number of templates for each template type code.\"",
+        "Error when executing query: \"Show me the relationship between version number and template id for all templates in a scatter chart.\"",
+        "Error when executing query: \"What is the relationship between version number and template id for each template? Visualize by a scatter chart.\"",
+        "Error when executing query: \"Show the relation between template id and version_number for each Template_Type_Code using a scatter chart\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and order y-axis in ascending order.\"",
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to rank in ascending by the Y.\"",
+        "Error when executing query: \"How many templates for each template type code? Show a bar chart, and sort from high to low by the bars please.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates for each template type code, and list X-axis in desc order.\"",
+        "Error when executing query: \"Show the number of template type code from each template type code, sort from high to low by the bars please.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each with a bar chart.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each. Visualize by bar chart.\"",
+        "Error when executing query: \"Return a bar chart on what are the different template type codes, and how many templates correspond to each?\"",
+        "Error when executing query: \"Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each. Plot them as bar chart.\"",
+        "Error when executing query: \"Show me the total number by template type code in a histogram\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates for each template type code, and could you display in descending by the total number?\"",
+        "Error when executing query: \"Show the number of template type code from each template type code, and rank in desc by the y-axis.\"",
+        "Error when executing query: \"How many templates for each template type code? Show a bar chart, rank by the the number of template type code in desc.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, and I want to rank by the y-axis from high to low.\"",
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Show me a bar chart, and order by the y axis in descending.\"",
+        "Error when executing query: \"How many templates for each template type code? Show a bar chart, rank in asc by the names.\"",
+        "Error when executing query: \"Show the number of template type code from each template type code, and rank by the bars from low to high.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates for each template type code, and sort by the bars from low to high.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates with a version number greater than 5 for each template type code, display from high to low by the X.\"",
+        "Error when executing query: \"How many templates with version number later than 5 for each template type code? Show me a bar chart, I want to display in desc by the X-axis.\"",
+        "Error when executing query: \"What are the different template type codes, and how many templates correspond to each Plot them as bar chart, could you rank in ascending by the Y-axis please?\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each Visualize by bar chart, I want to list in ascending by the Y-axis please.\"",
+        "Error when executing query: \"Return a bar chart on what are the different template type codes, and how many templates correspond to each?, and display by the Y in ascending.\"",
+        "Error when executing query: \"Show all template type codes and number of templates for each with a bar chart, and I want to list in ascending by the Y-axis please.\"",
+        "Error when executing query: \"Visualize a bar chart for what are the different template type codes, and how many templates correspond to each?, and order by the the total number in ascending.\"",
+        "Error when executing query: \"Show me the total number by template type code in a histogram, and display from low to high by the Y.\"",
+        "Error when executing query: \"Show the number of template type code from each template type code, I want to sort in ascending by the Y-axis please.\"",
+        "Error when executing query: \"Return a bar chart showing the number of templates for each template type code, and I want to order in asc by the y-axis.\"",
+        "Error when executing query: \"How many templates for each template type code? Show a bar chart, and could you list by the the number of template type code from low to high?\""
+    ]
+}

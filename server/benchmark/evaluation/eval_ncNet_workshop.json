@@ -1,0 +1,168 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "workshop",
+    "results": [
+        {
+            "query": "Draw a bar chart that counts the number of venues of each workshop, and rank by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9136711705487377
+            }
+        },
+        {
+            "query": "A bar chart shows the venue for each workshop, sort how many venue in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9893103311511314
+            }
+        },
+        {
+            "query": "Show the number of venue from each venue, sort how many venue in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9893103311511314
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a bar chart, and could you rank y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9893103311511314
+            }
+        },
+        {
+            "query": "A pie chart shows the venue for each workshop.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9987570229098042
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9987570229098042
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each venue.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9987570229098042
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a bar chart, could you rank by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.913281340500186
+            }
+        },
+        {
+            "query": "Draw a bar chart that counts the number of venues of each workshop, could you rank by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.913281340500186
+            }
+        },
+        {
+            "query": "A bar chart shows the venue for each workshop, and could you display Y from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9887863690482824
+            }
+        },
+        {
+            "query": "Show the number of venue from each venue, could you list by the Y-axis in asc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9887863690482824
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a bar chart, display by the X in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Draw a bar chart that counts the number of venues of each workshop, order from high to low by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Show the number of venue from each venue, display by the X in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "A bar chart shows the venue for each workshop, and show by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Show the number of venue from each venue, rank by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950759412163247
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a bar chart, and rank X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950759412163247
+            }
+        },
+        {
+            "query": "A bar chart shows the venue for each workshop, could you sort from low to high by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9950759412163247
+            }
+        },
+        {
+            "query": "Draw a bar chart that counts the number of venues of each workshop, and I want to order in ascending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9097314203088024
+            }
+        },
+        {
+            "query": "A bar chart shows the venue for each workshop.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Return the number of venues of each workshop in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Draw a bar chart that counts the number of venues of each workshop.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        },
+        {
+            "query": "Show the number of venue from each venue",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318765698325986
+            }
+        }
+    ],
+    "errors": []
+}

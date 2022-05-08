@@ -1,0 +1,91 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "furniture",
+    "results": [
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components, could you order by the bar in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components, and could you order by the bar in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components. Show me the proportion of component amounts using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts all furnitures that have more than 10 components.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components, order by the X in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components, and sort X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components, sort from high to low by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components, order by the Num_of_Component in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the component amounts and names of all furnitures that have more than 10 components, and could you order by the y axis from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components, show Y in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

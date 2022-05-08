@@ -1,0 +1,738 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "game",
+    "results": [
+        {
+            "query": "Show the number of games in each season and group by away team in a group line chart The x-axis is season, list by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542888949473635
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Away_team, and could you order X in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by away team in a group line chart The x-axis is season, and could you display by the Season in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542888949473635
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Away_team, list by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show me how many home team by home team in a histogram, and I want to show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965048
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a bar chart, and list by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965048
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by home team in a group line chart. The x-axis is season.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "The trend about the the number of season of different Home_team over the season",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "List the number of games for each away team and group by home team in a stacked bar chart. The x-axis is away team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7310376627930463
+            }
+        },
+        {
+            "query": "Stacked bar chart of how many away team for with each Home_team in each away team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7310376627930463
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by home team in a group line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7398394999723746
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Home_team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491288
+            }
+        },
+        {
+            "query": "Bar chart x axis away team y axis the number of away team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491288
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by home team in a group line chart The x-axis is season, list by the Season from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905367717536086
+            }
+        },
+        {
+            "query": "The trend about the the number of season of different Home_team over the season, order from high to low by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905367717536086
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by home team in a group line chart The x-axis is season, and display in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905367717536086
+            }
+        },
+        {
+            "query": "The trend about the the number of season of different Home_team over the season, and rank from high to low by the Season.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905367717536086
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by home team in a group line chart The x-axis is season, show Season in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by home team in a group line chart The x-axis is season, I want to show in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "The trend about the the number of season of different Home_team over the season, and I want to show in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "The trend about the the number of season of different Home_team over the season, display by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7905640953057839
+            }
+        },
+        {
+            "query": "Stacked bar chart of how many away team for with each Home_team in each away team, rank from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315489261296192
+            }
+        },
+        {
+            "query": "List the number of games for each away team and group by home team in a stacked bar chart The x-axis is away team, could you display from low to high by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315489261296192
+            }
+        },
+        {
+            "query": "Stacked bar chart of how many away team for with each Home_team in each away team, and sort from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7308272865881343
+            }
+        },
+        {
+            "query": "List the number of games for each away team and group by home team in a stacked bar chart The x-axis is away team, and I want to order by the X in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7308272865881343
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "I want to see trend of the number of season by season",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Plot season by how many season as a line chart, and display by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165467272983377
+            }
+        },
+        {
+            "query": "Plot season by how many season as a line chart, and could you sort by the x-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165467272983377
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, and could you sort in ascending by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165467272983377
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, and show x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165467272983377
+            }
+        },
+        {
+            "query": "Stacked bar chart of how many away team for with each Home_team in each away team, and I want to sort X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7310376627930463
+            }
+        },
+        {
+            "query": "List the number of games for each away team and group by home team in a stacked bar chart The x-axis is away team, and sort X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7310376627930463
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show how many home team from different home team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7573254053825789
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "Plot season by how many season as a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "I want to see trend of the number of season by season, and order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, sort from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8078245198909376
+            }
+        },
+        {
+            "query": "I want to see trend of the number of season by season, order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, and order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8078245198909376
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by home team in a group line chart, order by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7398511387151282
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Home_team, and order by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by away team in a group line chart. The x-axis is season.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542888949473635
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Away_team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "List the number of games for each home team and group by away team in a stacked bar chart. The x-axis is home team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315734136105737
+            }
+        },
+        {
+            "query": "Stack bar chart of how many home team vs Away_team based on home team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315734136105737
+            }
+        },
+        {
+            "query": "List the number of games for each home team and group by away team in a stacked bar chart The x-axis is home team, and order in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307278766520545
+            }
+        },
+        {
+            "query": "Stack bar chart of how many home team vs Away_team based on home team, and order names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307278766520545
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by home team in a group line chart, could you rank by the Season in ascending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7398394999723746
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Home_team, show x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by home team in a group line chart, and I want to show by the Season in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7398394999723746
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Home_team, and show x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Plot season by how many season as a line chart, list in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, order in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, and list in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "Plot season by how many season as a line chart, and could you rank by the X from high to low please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8165411778919225
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965048
+            }
+        },
+        {
+            "query": "Show me how many home team by home team in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965048
+            }
+        },
+        {
+            "query": "I want to see trend of the number of season by season, and order by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, show by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8078238309982839
+            }
+        },
+        {
+            "query": "List the number of games in each season with a line chart, and display X in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8078238309982839
+            }
+        },
+        {
+            "query": "I want to see trend of the number of season by season, order by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Stack bar chart of how many home team vs Away_team based on home team, and I want to sort from high to low by the Home_team.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311835150443731
+            }
+        },
+        {
+            "query": "List the number of games for each home team and group by away team in a stacked bar chart The x-axis is home team, and I want to list x-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311835150443731
+            }
+        },
+        {
+            "query": "List the number of games for each away team and group by home team in a stacked bar chart The x-axis is away team, and rank in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7308733644451627
+            }
+        },
+        {
+            "query": "Stacked bar chart of how many away team for with each Home_team in each away team, and could you list y axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7308733644451627
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a bar chart, sort by the y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319190349820981
+            }
+        },
+        {
+            "query": "Show me how many home team by home team in a histogram, I want to sort by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319190349820981
+            }
+        },
+        {
+            "query": "Show me how many home team by home team in a histogram, and I want to order how many home team in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319190349821203
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a bar chart, and display by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319190349821203
+            }
+        },
+        {
+            "query": "List the number of games for each home team and group by away team in a stacked bar chart The x-axis is home team, and could you rank in asc by the how many home team?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315734136105737
+            }
+        },
+        {
+            "query": "Stack bar chart of how many home team vs Away_team based on home team, display how many home team from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315734136105737
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a bar chart, could you show bars in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324553125635495
+            }
+        },
+        {
+            "query": "Bar chart x axis away team y axis the number of away team, and show by the X-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324553125635495
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the number of season over year season by major genres Away_team, I want to display X in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423498090850144
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by away team in a group line chart, could you sort x-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423498090850144
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by away team in a group line chart, and sort in descending by the Season.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423498090850144
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the number of season over year season by major genres Away_team, and order Season from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423498090850144
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by away team in a group line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the number of season over year season by major genres Away_team",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the number of season over year season by major genres Away_team, show in ascending by the Season.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by away team in a group line chart, and order in asc by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the number of season over year season by major genres Away_team, order in asc by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "List the number of games in each season and group by away team in a group line chart, could you list x axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7423359641261039
+            }
+        },
+        {
+            "query": "Bar chart x axis away team y axis the number of away team, and list from low to high by the the number of away team please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491422
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a bar chart, and I want to sort by the the number of away team from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491422
+            }
+        },
+        {
+            "query": "Stack bar chart of how many home team vs Away_team based on home team, and list by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307970464593275
+            }
+        },
+        {
+            "query": "List the number of games for each home team and group by away team in a stacked bar chart The x-axis is home team, and list how many home team in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307970464593275
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by away team in a group line chart The x-axis is season, and list Season in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542642671602842
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Away_team, and list Season in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "I want to see trend the number of season over season by Away_team, order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show the number of games in each season and group by away team in a group line chart The x-axis is season, could you display in desc by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7542642671602842
+            }
+        },
+        {
+            "query": "Bar chart x axis away team y axis the number of away team, I want to rank by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491288
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a bar chart, I want to display by the Y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324406934491288
+            }
+        },
+        {
+            "query": "Bar chart x axis away team y axis the number of away team, sort by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324553125635397
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a bar chart, and I want to sort by the X in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324553125635397
+            }
+        },
+        {
+            "query": "Show the number of games for each home team in a bar chart, and could you show X in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965269
+            }
+        },
+        {
+            "query": "Show me how many home team by home team in a histogram, rank from high to low by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7319336540965269
+            }
+        },
+        {
+            "query": "Show the number of games for each away team in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many away team across away team.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "\"List the number of games in each season with a line chart.\" has 2 benchmarks associated with it",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "\"List the number of games in each season with a line chart.\" has 2 benchmarks associated with it",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions.",
+        "Exception when finding similarity - <class 'ValueError'>: Input images must have the same dimensions."
+    ]
+}

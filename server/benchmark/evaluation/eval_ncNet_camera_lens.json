@@ -1,0 +1,91 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "camera_lens",
+    "results": [
+        {
+            "query": "Count the brand of each camera lens with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 1.0
+            }
+        },
+        {
+            "query": "Compute the total how many brand across brand as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 1.0
+            }
+        },
+        {
+            "query": "Show the number of brand from each brand, and list x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9299526002376948
+            }
+        },
+        {
+            "query": "Group and count brand for each camera lens using a bar chart, and rank X in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9299526002376948
+            }
+        },
+        {
+            "query": "Group and count brand for each camera lens using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Show the number of brand from each brand",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Group and count brand for each camera lens using a bar chart, sort by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Show the number of brand from each brand, show brand in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Group and count brand for each camera lens using a bar chart, and rank in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Show the number of brand from each brand, order total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.995376512582807
+            }
+        },
+        {
+            "query": "Group and count brand for each camera lens using a bar chart, list in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9923387872255985
+            }
+        },
+        {
+            "query": "Show the number of brand from each brand, and I want to show by the how many brand from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9309349642685496
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,28 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "flight",
+    "results": [
+        {
+            "query": "Show how many flights each pilot has flied in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9994542659377382
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many pilot across pilot.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9994542659377382
+            }
+        },
+        {
+            "query": "Show how many flights each pilot has flied in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9944949465175773
+            }
+        }
+    ],
+    "errors": []
+}

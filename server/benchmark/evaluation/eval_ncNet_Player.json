@@ -1,0 +1,160 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Player",
+    "results": [
+        {
+            "query": "A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and order HS from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, and could you list by the total number from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500 Show bar chart, and rank by the total number in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the names and number of hours spent training for each player who trains for less than 1500 hours?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the names and number of hours spent training for each player who trains for less than 1500 hours?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and list by the X-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500 Show bar chart, show names in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, show names in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500 Show bar chart, show pName in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, and list in ascending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, show pName in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, rank y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and display in descending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500 Show bar chart, and list by the y axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and training hours of players whose hours are below 1500. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and number of hours spent training for each player who trains for less than 1500 hours. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and order HS from low to high order.\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, and could you list by the total number from low to high?\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500 Show bar chart, and rank by the total number in asc.\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500. Plot them as pie chart.\"",
+        "Error when executing query: \"Show me the proportion on what are the names and number of hours spent training for each player who trains for less than 1500 hours?\"",
+        "Error when executing query: \"Show me a pie chart for what are the names and number of hours spent training for each player who trains for less than 1500 hours?\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours. Visualize by pie chart.\"",
+        "Error when executing query: \"A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and list by the X-axis from high to low.\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500 Show bar chart, show names in desc order.\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, show names in desc order.\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500 Show bar chart, show pName in asc order.\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, and list in ascending by the names.\"",
+        "Error when executing query: \"A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, show pName in asc order.\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours Visualize by bar chart, rank y axis in descending order.\"",
+        "Error when executing query: \"A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?, and display in descending by the y axis.\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500 Show bar chart, and list by the y axis from high to low.\"",
+        "Error when executing query: \"Find the name and training hours of players whose hours are below 1500. Show bar chart.\"",
+        "Error when executing query: \"A bar chart about what are the names and number of hours spent training for each player who trains for less than 1500 hours?\"",
+        "Error when executing query: \"What are the names and number of hours spent training for each player who trains for less than 1500 hours. Visualize by bar chart.\""
+    ]
+}

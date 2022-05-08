@@ -1,0 +1,829 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Payments",
+    "results": [
+        {
+            "query": "Give me a bar chart that bins the payment date into the Year interval and then shows the average of the amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.701957526168426
+            }
+        },
+        {
+            "query": "Bar graph to show the average of amount payment from different payment method code, could you list the average of amount payment from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7546798837968206
+            }
+        },
+        {
+            "query": "What about the average amounts of payments by each method code? You can give me a bar chart, sort from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7546798837968206
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average amount of payment by each payment method code, and could you show total number in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7546798837968206
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the Year interval and then shows the amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7216435291343144
+            }
+        },
+        {
+            "query": "How many total amounts of payments by each method code? You can give me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the total amount of payment by each payment method code.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "Bar chart of sum amount payment from each payment method code",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the average amount payment as the Y-axis, sort by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733706939492189
+            }
+        },
+        {
+            "query": "Calculate the average of amount for all the payments processed with Visa by each year using a bar chart, rank by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733706939492189
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then shows the amount of each payment, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7135223206517495
+            }
+        },
+        {
+            "query": "Compare the frequency of each payment method code using a bar chart, rank Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7247706402318229
+            }
+        },
+        {
+            "query": "Plot the number of payment method code by grouped by payment method code as a bar graph, show by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7247706402318229
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the total amount payment as the Y-axis, could you rank by the Y in ascending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198503409958721
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa by each year using a bar chart, and rank by the y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198503409958721
+            }
+        },
+        {
+            "query": "What about the average amounts of payments by each method code? You can give me a bar chart, display from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539295872661348
+            }
+        },
+        {
+            "query": "Bar graph to show the average of amount payment from different payment method code, display from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539295872661348
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average amount of payment by each payment method code, and could you display by the bar in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539295872661348
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the Year interval and then shows the average amount of each payment, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6884819737470976
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then compute the average amount of each payment, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.719302652282674
+            }
+        },
+        {
+            "query": "Compare the frequency of each payment method code using a bar chart, I want to display by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7248225269854024
+            }
+        },
+        {
+            "query": "Plot the number of payment method code by grouped by payment method code as a bar graph, and show by the Payment_Method_Code from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7248225269854024
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the total amount of payment by each payment method code, and I want to display by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7427088183707052
+            }
+        },
+        {
+            "query": "How many total amounts of payments by each method code? You can give me a bar chart, list by the y axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7427088183707052
+            }
+        },
+        {
+            "query": "Bar chart of sum amount payment from each payment method code, and show by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7427088183707052
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and count them for a bar chart, sort by the how many date payment made in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164528261133835
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each year using a bar chart, and sort y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164528261133835
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each day of the week using a bar chart, and sort total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7632707776438687
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of week interval and count them for a bar chart, and sort total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7632707776438687
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then shows the amount of each payment, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7135223206517495
+            }
+        },
+        {
+            "query": "How many total amounts of payments by each method code? You can give me a bar chart, and order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7410603213215868
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the total amount of payment by each payment method code, and rank by the Payment_Method_Code in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7410603213215868
+            }
+        },
+        {
+            "query": "Bar chart of sum amount payment from each payment method code, rank by the Payment_Method_Code in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7410603213215868
+            }
+        },
+        {
+            "query": "Compare the frequency of each payment method code using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261166363600512
+            }
+        },
+        {
+            "query": "Plot the number of payment method code by grouped by payment method code as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261166363600512
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the total amount payment as the Y-axis, and rank Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724222695048893
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa of each day of week using a bar chart, show Y from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724222695048893
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of week interval and count them for a bar chart, and list total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695415625896875
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each day of the week using a bar chart, show from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695415625896875
+            }
+        },
+        {
+            "query": "Show the amount for all the payments processed with Visa distributing the payment date with a bar chart, show Amount_Payment from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Give me a histogram to show the date and the amount for all the payments processed with Visa, order y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? List the date and the amount using a bar chart, order by the y axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Return a trend line to show the average amount of payment by each payment day.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.747901290113961
+            }
+        },
+        {
+            "query": "Show the trend about the average amount of each payment about the payment day, line chart. Note that, you should order the payment day in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.747901290113961
+            }
+        },
+        {
+            "query": "Return a trend line with sorting the payment day in ascending order to show the average amount of payment by each payment day.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.747901290113961
+            }
+        },
+        {
+            "query": "Bar graph to show the average of amount payment from different payment method code, rank Payment_Method_Code in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538152243177207
+            }
+        },
+        {
+            "query": "What about the average amounts of payments by each method code? You can give me a bar chart, could you list by the Payment_Method_Code from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538152243177207
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average amount of payment by each payment method code, rank x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538152243177207
+            }
+        },
+        {
+            "query": "Compare the frequency of each payment method code using a bar chart, and could you display x-axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7255001280743261
+            }
+        },
+        {
+            "query": "Plot the number of payment method code by grouped by payment method code as a bar graph, order in descending by the Payment_Method_Code.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7255001280743261
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average amount of payment by each payment method code, sort by the the average of amount payment in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "What about the average amounts of payments by each method code? You can give me a bar chart, and could you rank in ascending by the the average of amount payment please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "Bar graph to show the average of amount payment from different payment method code, and could you rank in ascending by the the average of amount payment please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the Year interval and then shows the total amount of each payment, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7052949649679378
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the total amount payment as the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724327376683959
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa of each day of week using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7724327376683959
+            }
+        },
+        {
+            "query": "Give me a histogram to show the date and the amount for all the payments processed with Visa, and show Date_Payment_Made in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551485810352676
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? List the date and the amount using a bar chart, list by the x axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551485810352676
+            }
+        },
+        {
+            "query": "Show the amount for all the payments processed with Visa distributing the payment date with a bar chart, rank in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7551485810352676
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the average amount payment as the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733711801669131
+            }
+        },
+        {
+            "query": "Calculate the average of amount for all the payments processed with Visa by each year using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733711801669131
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? List the date and the amount using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Give me a histogram to show the date and the amount for all the payments processed with Visa.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Show the amount for all the payments processed with Visa distributing the payment date with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.756067142291969
+            }
+        },
+        {
+            "query": "Give me a histogram to show the date and the amount for all the payments processed with Visa, order in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7543828559875511
+            }
+        },
+        {
+            "query": "Show the amount for all the payments processed with Visa distributing the payment date with a bar chart, display in descending by the Date_Payment_Made please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7543828559875511
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? List the date and the amount using a bar chart, and could you show in desc by the bar please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7543828559875511
+            }
+        },
+        {
+            "query": "What about the average amounts of payments by each method code? You can give me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the average amount of payment by each payment method code.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "Bar graph to show the average of amount payment from different payment method code",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530838603198694
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and count them for a bar chart, order from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164576882903552
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each year using a bar chart, show in descending by the how many date payment made please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164576882903552
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the total amount payment as the Y-axis, and sort by the y axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198552031728117
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa by each year using a bar chart, and could you sort by the total number from high to low please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198552031728117
+            }
+        },
+        {
+            "query": "How many total amounts of payments by each method code? You can give me a bar chart, show in desc by the Payment_Method_Code.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7416053869341553
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the total amount of payment by each payment method code, could you sort by the names from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7416053869341553
+            }
+        },
+        {
+            "query": "Bar chart of sum amount payment from each payment method code, and sort X in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7416053869341553
+            }
+        },
+        {
+            "query": "Show the trend about the total amount of each payment about the payment day, line chart. Note that, you should order the payment day in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.726803625963242
+            }
+        },
+        {
+            "query": "Return a trend line with sorting the payment day in ascending order to show the total amount of payment by each payment day.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.726803625963242
+            }
+        },
+        {
+            "query": "Give me a line chart to show the trend of the amount of each payment of different payment methods, ordered by the payment date in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7038680577879113
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the total amount payment as the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198503409958721
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa by each year using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198503409958721
+            }
+        },
+        {
+            "query": "Please use a bar chart to show the total amount of payment by each payment method code, rank total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "How many total amounts of payments by each method code? You can give me a bar chart, and I want to sort total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "Bar chart of sum amount payment from each payment method code, and could you sort in asc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7406332024549833
+            }
+        },
+        {
+            "query": "Show me the proportion of each payment method code using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each payment method code.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8164545272043758
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then sum the amount of each payment as Y, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7085040650869745
+            }
+        },
+        {
+            "query": "Sum the amount for all the payments processed with Visa of each day of week using a bar chart, and I want to sort by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7784139910094842
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the total amount payment as the Y-axis, I want to sort by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7784139910094842
+            }
+        },
+        {
+            "query": "Calculate the average of amount for all the payments processed with Visa by each year using a bar chart, and could you order y axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733711801669131
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and compute the average amount payment as the Y-axis, sort y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.733711801669131
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? Get the payment Id, the date and the amount for visualizing a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089262541791883
+            }
+        },
+        {
+            "query": "Give me the payment Id, and the amount for all the payments processed with Visa using a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7089262541791883
+            }
+        },
+        {
+            "query": "Calculate the average amount for all the payments processed with Visa of each day of week using a bar chart, and display y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323915256035104
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the average amount payment as the Y-axis, and list in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323915256035104
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then shows the amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487401679099239
+            }
+        },
+        {
+            "query": "What about the proportion of the total amounts of payments by each method code? You can give me a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please use a pie chart to show the proportion of the total amount of payment by each payment method code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing total number of amount payment across payment method code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into Year interval and count them for a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164576882903552
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each year using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7164576882903552
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the Year interval and then compute the total amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7263361149301281
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the day of the week interval and then compute the total amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7308342434657301
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, show me the number of payments of each day of the week using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695279478153196
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of week interval and count them for a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695279478153196
+            }
+        },
+        {
+            "query": "Calculate the average amount for all the payments processed with Visa of each day of week using a bar chart, rank y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7385747167901968
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the average amount payment as the Y-axis, rank y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7385747167901968
+            }
+        },
+        {
+            "query": "Compare the frequency of each payment method code using a bar chart, rank by the how many payment method code from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261166363600512
+            }
+        },
+        {
+            "query": "Plot the number of payment method code by grouped by payment method code as a bar graph, and list by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7261166363600512
+            }
+        },
+        {
+            "query": "Give me a bar chart that bins the payment date into the day of the week interval and then compute the average amount of each payment categorized by the payment method code, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7037539814634072
+            }
+        },
+        {
+            "query": "For those payments processed with Visa, bin the payment day into the Day of Week interval and compute the average amount payment as the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324019937670171
+            }
+        },
+        {
+            "query": "Calculate the average amount for all the payments processed with Visa of each day of week using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7324019937670171
+            }
+        },
+        {
+            "query": "Show me the trend using a line chart that group and count payment date, and then sort the bars in ascending order of date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7881451221247208
+            }
+        },
+        {
+            "query": "Show the amount for all the payments processed with Visa distributing the payment date with a bar chart, I want to order in ascending by the Amount_Payment please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538944404940274
+            }
+        },
+        {
+            "query": "Give me a histogram to show the date and the amount for all the payments processed with Visa, and show in asc by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538944404940274
+            }
+        },
+        {
+            "query": "Which Payments were processed with Visa? List the date and the amount using a bar chart, and rank by the Y from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7538944404940274
+            }
+        }
+    ],
+    "errors": [
+        "\"Give me a bar chart that bins the payment date into the day of the week interval and then shows the amount of each payment, and then sort the bars in ascending order of date.\" has 2 benchmarks associated with it",
+        "\"Give me a bar chart that bins the payment date into the day of the week interval and then shows the amount of each payment, and then sort the bars in ascending order of date.\" has 2 benchmarks associated with it"
+    ]
+}

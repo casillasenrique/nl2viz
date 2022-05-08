@@ -1,0 +1,224 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "county",
+    "results": [
+        {
+            "query": "What are the name and population of each county Plot them as bar chart, list by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show me population by county name in a histogram, sort by the y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and population of each county?, and display Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties Show bar chart, list Y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a bar chart, and list by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show me population by county name in a histogram, list by the Population in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.715739080067793
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a bar chart, could you display by the y axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.715739080067793
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and population of each county?, and I want to sort in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.715739080067793
+            }
+        },
+        {
+            "query": "What are the name and population of each county Plot them as bar chart, and display by the Population from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.715739080067793
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties Show bar chart, rank in asc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.715739080067793
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7601548233508216
+            }
+        },
+        {
+            "query": "Return a pie on what are the name and population of each county?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7601548233508216
+            }
+        },
+        {
+            "query": "Give the proportion of what are the name and population of each county?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7601548233508216
+            }
+        },
+        {
+            "query": "What are the name and population of each county. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total population across county name as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a bar chart, I want to sort by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7190557030237108
+            }
+        },
+        {
+            "query": "What are the name and population of each county Plot them as bar chart, and list County_name from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7190557030237108
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and population of each county?, and I want to sort by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7190557030237108
+            }
+        },
+        {
+            "query": "Show me population by county name in a histogram, rank bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7190557030237108
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties Show bar chart, list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7190557030237108
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and population of each county?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "What are the name and population of each county. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show me population by county name in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189666414945877
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties Show bar chart, show in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189599233133342
+            }
+        },
+        {
+            "query": "Show me population by county name in a histogram, rank names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189599233133342
+            }
+        },
+        {
+            "query": "Show the county name and population of all counties with a bar chart, could you rank by the bar from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189599233133342
+            }
+        },
+        {
+            "query": "What are the name and population of each county Plot them as bar chart, and I want to display in desc by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189599233133342
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the name and population of each county?, and rank names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7189599233133342
+            }
+        }
+    ],
+    "errors": []
+}

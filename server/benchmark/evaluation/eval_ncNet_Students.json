@@ -1,0 +1,168 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Students",
+    "results": [
+        {
+            "query": "A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", show in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart, and I want to order in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart, I want to sort in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and sort by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and order total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and could you list y axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What other details can you tell me about students in reverse alphabetical order, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all the student details in reversed lexicographical order, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and sort in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and show in descending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart, list in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and I want to show y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart, and could you show from high to low by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and sort in descending by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", show in ascending by the Y.\"",
+        "Error when executing query: \"What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart, and I want to order in asc by the total number.\"",
+        "Error when executing query: \"Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart, I want to sort in ascending by the y axis.\"",
+        "Error when executing query: \"What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and sort by the Y from low to high.\"",
+        "Error when executing query: \"A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and order total number in asc order.\"",
+        "Error when executing query: \"Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and could you list y axis in ascending order?\"",
+        "Error when executing query: \"What other details can you tell me about students in reverse alphabetical order, and count them by a bar chart\"",
+        "Error when executing query: \"List all the student details in reversed lexicographical order, and count them by a bar chart\"",
+        "Error when executing query: \"What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?\"",
+        "Error when executing query: \"Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\".\"",
+        "Error when executing query: \"A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?\"",
+        "Error when executing query: \"A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\".\"",
+        "Error when executing query: \"What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart\"",
+        "Error when executing query: \"Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart\"",
+        "Error when executing query: \"A bar chart for what are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and sort in descending by the y-axis.\"",
+        "Error when executing query: \"What are the number of the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\"?, and show in descending by the Y.\"",
+        "Error when executing query: \"What are the dates of the latest logon of the students with family name \"Jaskolski\" or \"Langosh\", and count them by a bar chart, list in descending by the y-axis.\"",
+        "Error when executing query: \"A bar chart for finding the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and I want to show y axis in descending order.\"",
+        "Error when executing query: \"Find the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and count them by a bar chart, and could you show from high to low by the Y?\"",
+        "Error when executing query: \"Find the number of the latest logon date of the students whose family name is \"Jaskolski\" or \"Langosh\", and sort in descending by the Y please.\""
+    ]
+}

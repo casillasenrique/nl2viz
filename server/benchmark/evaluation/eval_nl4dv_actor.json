@@ -1,0 +1,112 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "actor",
+    "results": [
+        {
+            "query": "Calculate the number of actors in each duration of actors using a bar chart, and I want to list by the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group and count the durations for each actor with a bar graph, order in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis duration y axis how many duration, display by the y axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis duration y axis how many duration, and could you order X from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group and count the durations for each actor with a bar graph, sort from low to high by the bar please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Calculate the number of actors in each duration of actors using a bar chart, rank from low to high by the names please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Calculate the number of actors in each duration of actors using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group and count the durations for each actor with a bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis duration y axis how many duration",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group and count the durations for each actor with a bar graph, order in descending by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis duration y axis how many duration, I want to sort in desc by the bar please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Calculate the number of actors in each duration of actors using a bar chart, could you list X-axis in desc order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Calculate the number of actors in each duration of actors using a bar chart, order by the how many duration in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis duration y axis how many duration, and rank by the y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Group and count the durations for each actor with a bar graph, and I want to rank Y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

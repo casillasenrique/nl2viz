@@ -1,0 +1,343 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "employee",
+    "results": [
+        {
+            "query": "Count the number of employees for each city Plot them as bar chart, and rank in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a bar chart, display total number from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the number of employees from each city?, show y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each city, and display total number from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city, and list total number from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the number of employees from each city?, and show y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the number of employees from each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the number of employees from each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each city",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the number of employees from each city?, and could you display bars in desc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city Plot them as bar chart, I want to sort x axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each city, and order in descending by the bars please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city, list x axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the number of employees from each city?, and I want to show from high to low by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a bar chart, display x axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000 Visualize by bar chart, rank in ascending by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7093514003094561
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000 Visualize by bar chart, could you rank Y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7093514003094561
+            }
+        },
+        {
+            "query": "List the number of the first name of all employees with job code PROF ordered by their date of birth.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the first names of all employees that are professors ordered by date of birth, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the first names of all employees that are professors ordered by date of birth?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the first name of all employees with job code PROF ordered by their date of birth.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the first names of all employees that are professors ordered by date of birth?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the first name of all employees with job code PROF ordered by their date of birth, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the number of employees from each city?, I want to display by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the number of employees from each city?, and list from high to low by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a bar chart, list by the Y-axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city Plot them as bar chart, list from high to low by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each city, could you list from high to low by the y axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city, and I want to display by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7093514003094561
+            }
+        },
+        {
+            "query": "Show me a pie chart for what is the number of employees from each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about what is the number of employees from each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total the total number across city as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each city, I want to display X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the number of employees from each city?, and I want to list from low to high by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city Plot them as bar chart, and sort x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what is the number of employees from each city?, sort bar from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of employees for each city with a bar chart, and I want to display X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of employees from each city, and I want to display X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000 Visualize by bar chart, could you rank in descending by the Sex?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7093539650391074
+            }
+        },
+        {
+            "query": "Find the number of employees of each gender whose salary is lower than 50000 Visualize by bar chart, I want to rank by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7093539650391074
+            }
+        }
+    ],
+    "errors": []
+}

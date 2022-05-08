@@ -1,0 +1,217 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "files",
+    "results": [
+        {
+            "query": "For each file format, return the number of artists who released songs in that format Show bar chart, and show by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "how many songs were released for each format?, order in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "A bar chart about how many songs were released for each format?, and list X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "How many songs were released for each format Show bar chart, and order by the formats from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different formats, list X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "For each file format, return the number of artists who released songs in that format.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9998325505799314
+            }
+        },
+        {
+            "query": "Show me a pie chart for how many songs were released for each format?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9998325505799314
+            }
+        },
+        {
+            "query": "Display a pie chart for how many songs were released for each format?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9998325505799314
+            }
+        },
+        {
+            "query": "How many songs were released for each format. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9998325505799314
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different formats.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9998325505799314
+            }
+        },
+        {
+            "query": "For each file format, return the number of artists who released songs in that format Show bar chart, and order in desc by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "How many songs were released for each format Show bar chart, I want to order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "A bar chart about how many songs were released for each format?, could you list Y-axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different formats, order in descending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "how many songs were released for each format?, and sort in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "For each file format, return the number of artists who released songs in that format. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "how many songs were released for each format?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "A bar chart about how many songs were released for each format?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "How many songs were released for each format. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different formats",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "A bar chart about how many songs were released for each format?, could you rank in asc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different formats, and display by the the total number in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "how many songs were released for each format?, and could you order by the y-axis in asc please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "For each file format, return the number of artists who released songs in that format Show bar chart, and could you show in ascending by the the total number ?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "How many songs were released for each format Show bar chart, and display Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9945853577684431
+            }
+        },
+        {
+            "query": "For each file format, return the number of artists who released songs in that format Show bar chart, and order bar from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8507591820509971
+            }
+        },
+        {
+            "query": "A bar chart about how many songs were released for each format?, and could you rank by the x axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8507591820509971
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different formats, and I want to rank by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8507591820509971
+            }
+        },
+        {
+            "query": "how many songs were released for each format?, show from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8507591820509971
+            }
+        },
+        {
+            "query": "How many songs were released for each format Show bar chart, I want to sort by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8507591820509971
+            }
+        }
+    ],
+    "errors": []
+}

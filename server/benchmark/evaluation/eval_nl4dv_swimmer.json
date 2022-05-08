@@ -1,0 +1,5089 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "swimmer",
+    "results": [
+        {
+            "query": "Give me the comparison about meter_100 over the Time by a bar chart, and sort by the names from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Time and meter_100 , could you display in descending by the x-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Time and meter_100 , and visualize them by a bar chart, show by the X in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis meter_100, and display from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and meter_100 , and could you order by the X in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and meter_100 , list bars in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 by a bar chart, and could you list in ascending by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and meter_100 in a bar chart, could you list from low to high by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_300 and meter_100 , and visualize them by a bar chart, and sort by the names from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot meter_100 by grouped by meter 300 as a bar graph, could you list in ascending by the bars?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_300 and meter_100 , and could you list from low to high by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 , I want to show by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the sum of ID , and group by attribute Nationality in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Show total number of id from each nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970040123255252
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of meter_100 , and group by attribute meter_200, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot mean meter 100 by grouped by meter 200 as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200, rank in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200 in a bar chart, and could you display bar in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, and show by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, show from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of meter 100 across meter 200, rank from low to high by the x axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200, rank in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and show the average of meter 100 in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis mean meter 100, and I want to display in asc by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6025466125897557
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and display by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality in a bar chart, show the average of meter 100 in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Find Nationality and the average of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and I want to display in ascending by the the average of meter 100.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the Nationality , and group by attribute Nationality by a bar chart, and display by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of ID , and group by attribute meter_200 in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the average of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of ID , and group by attribute meter_200, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Draw a bar chart of meter 200 versus the average of id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Find Nationality and the amount of Nationality , and group by attribute Nationality, and visualize them by a bar chart, display by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis how many nationality, and sort in desc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, list by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, list by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Nationality over the Nationality , and group by attribute Nationality, show in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016725508610996
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of ID , and group by attribute meter_200, and visualize them by a bar chart, and display by the sum id in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, I want to list from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the sum of ID , and group by attribute meter_200, display by the sum id in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the meter_200 , and group by attribute meter_200 by a bar chart, order Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "Show total number of id from each meter 200, and I want to list from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, rank in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646416810748507
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and I want to show by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "Show the average of id from each nationality, and list in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of ID over the Nationality , and group by attribute Nationality by a bar chart, and list in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "Find Nationality and the average of ID , and group by attribute Nationality, and visualize them by a bar chart, could you sort bars from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, I want to display in descending by the Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Nationality and the average of ID , and group by attribute Nationality, list in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7051352241715145
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200, and show total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, I want to rank in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200 in a bar chart, show Y-axis in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, display Y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of meter 100 across meter 200, and could you order from low to high by the Y-axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200, display Y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of meter_100 , and group by attribute meter_200, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of meter 100 across meter 200",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and order in descending by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of meter_200 over the meter_200 , and group by attribute meter_200, rank by the total number in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of meter 200 across meter 200, and I want to show Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and I want to rank from high to low by the the number of meter 200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200 in a bar chart, I want to show Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the amount of meter_200 , and group by attribute meter_200, and visualize them by a bar chart, rank in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis mean meter 100, rank from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.602718002675508
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and display in asc by the Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6147293869619669
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality in a bar chart, and rank from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6147293869619669
+            }
+        },
+        {
+            "query": "Find Nationality and the average of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, display in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6147293869619669
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the Nationality , and group by attribute Nationality by a bar chart, display in asc by the Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6147293869619669
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, could you show in asc by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6147293869619669
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_700 and meter_100 in a bar chart, could you sort by the meter_700 in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_700 and meter_100 , and visualize them by a bar chart, order by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 700, I want to rank bar from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_700 and meter_100 , and list from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and meter_100 , list from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_700 , and sort by the X-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 by a bar chart, and could you display x axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_700 and ID , and could you display x axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_700 and ID , and rank meter_700 in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 , and rank x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 700 y axis id, could you list by the bar in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and ID , rank meter_700 in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, I want to show by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, and could you list in descending by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality, display bar in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the sum of ID , and group by attribute Nationality in a bar chart, order by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Show total number of id from each nationality, sort Nationality in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality by a bar chart, sort by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6921685979343623
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Find Nationality and the amount of Nationality , and group by attribute Nationality, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Nationality over the Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis how many nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of ID , and group by attribute meter_200 in a bar chart, order total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "Draw a bar chart of meter 200 versus the average of id, order total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the average of ID , and group by attribute meter_200, sort Y-axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, sort Y-axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and order by the y axis from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of ID , and group by attribute meter_200, and visualize them by a bar chart, and show from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6719147843809985
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and ID , and I want to display x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of name and ID , and show names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "Plot id by grouped by name as a bar graph, show by the x-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the name , and show by the x-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and ID , list in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and ID , and list by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7128145495113873
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_300 and meter_100 , and list Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 by a bar chart, could you display in desc by the y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 , and display in desc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_300 and meter_100 , and visualize them by a bar chart, and could you display in desc by the y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot meter_100 by grouped by meter 300 as a bar graph, rank in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and meter_100 in a bar chart, and list Y from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Time and ID in a bar chart, show bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Find Time and ID , and visualize them by a bar chart, sort by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the Time by a bar chart, sort X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis id, and I want to order X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and ID , could you show by the X-axis from high to low please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and ID , and display x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.669527262264641
+            }
+        },
+        {
+            "query": "Find Nationality and the amount of Nationality , and group by attribute Nationality, and visualize them by a bar chart, and I want to rank by the how many nationality from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis how many nationality, and list in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, list y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and list in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and I want to rank by the how many nationality from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Nationality over the Nationality , and group by attribute Nationality, and rank total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046562324461654
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and meter_100 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_300 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_300 and meter_100 , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot meter_100 by grouped by meter 300 as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, could you sort in asc by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Find Nationality and the amount of Nationality , and group by attribute Nationality, and visualize them by a bar chart, and could you show names in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis how many nationality, could you display in asc by the bars?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Nationality over the Nationality , and group by attribute Nationality, and show in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046977545066463
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_600 and meter_100 , and could you display x axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and meter_100 , and could you order by the x-axis from high to low please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and meter_100 , display X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 , display X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 by a bar chart, and could you order by the x-axis from high to low please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing meter_100 across meter 600, display X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of meter_200 over the meter_200 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the amount of meter_200 , and group by attribute meter_200, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of meter 200 across meter 200",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of ID over the Nationality , and group by attribute Nationality by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Nationality and the average of ID , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "Find Nationality and the average of ID , and group by attribute Nationality, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "Show the average of id from each nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100307093008325
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200, and could you list x-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200, order bar from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, list x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of meter 100 across meter 200, display x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, list x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200 in a bar chart, and show by the x axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of name and meter_100 in a bar chart, could you rank by the bar from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and meter_100 , sort from low to high by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and meter_100 , and display from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and meter_100 , and list by the name in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the name by a bar chart, could you order name from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus meter_100, list by the name in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, I want to order bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965618870317805
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and could you sort X-axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965618870317805
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the Nationality , and group by attribute Nationality, and order x axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965618870317805
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and I want to list bar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965618870317805
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis sum meter 100, order x axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6847102633245624
+            }
+        },
+        {
+            "query": "Find Nationality and the sum of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and order by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965618870317805
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_400 by a bar chart, sort in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_400 and ID in a bar chart, and order by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and ID , sort in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Find meter_400 and ID , and visualize them by a bar chart, order by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and ID , order by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Show id from each meter 400, and sort y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200, sort by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200 in a bar chart, and could you show mean meter 100 from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, and order by the y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200, I want to list mean meter 100 from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Plot mean meter 100 by grouped by meter 200 as a bar graph, and list by the y axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, I want to list mean meter 100 from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.61478701560798
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality in a bar chart, and order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.61478701560798
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.61478701560798
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis mean meter 100, I want to order from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6027563049698066
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the Nationality , and group by attribute Nationality by a bar chart, and order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.61478701560798
+            }
+        },
+        {
+            "query": "Find Nationality and the average of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and display in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.61478701560798
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and ID , and display by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and ID , display by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_600 and ID , order in asc by the ID.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 600 y axis id, and sort Y from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "Find meter_600 and ID , and visualize them by a bar chart, sort Y from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_600 and ID in a bar chart, list by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667437745383363
+            }
+        },
+        {
+            "query": "Create a bar chart showing meter_100 across meter 600, and could you order from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and meter_100 , show y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 , and could you order y axis in asc order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_600 and meter_100 , and could you order y axis in asc order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and meter_100 , show y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 by a bar chart, and could you order from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, sort by the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and order by the Y-axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200 in a bar chart, I want to sort the number of meter 200 in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the amount of meter_200 , and group by attribute meter_200, and visualize them by a bar chart, display by the the number of meter 200 in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of meter_200 over the meter_200 , and group by attribute meter_200, I want to rank by the y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of meter 200 across meter 200, and rank by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of name and ID , could you list bar in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Plot id by grouped by name as a bar graph, display by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and ID , and I want to display x-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and ID , display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the name , and I want to show in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and ID , and display from low to high by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_500 and meter_100 , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and meter_100 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 500 y axis meter_100",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_400 and meter_100 , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_400 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_400 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 400",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 , order by the meter_100 in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, and sort from high to low by the meter_100.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and meter_100 , list by the Y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and meter_100 in a bar chart, sort Y in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_500 and meter_100 , and visualize them by a bar chart, sort y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 500 y axis meter_100, sort y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of name and meter_100 in a bar chart, rank y axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the name by a bar chart, rank y axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and meter_100 , sort y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and meter_100 , and order by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus meter_100, and sort by the total number in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and meter_100 , and order by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and I want to display in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "Find Nationality and the average of ID , and group by attribute Nationality, and visualize them by a bar chart, and list by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "Show the average of id from each nationality, and sort X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Nationality and the average of ID , and group by attribute Nationality, and could you sort from low to high by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and I want to sort by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of ID over the Nationality , and group by attribute Nationality by a bar chart, display X-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.706677510515113
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_600 and ID in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Find meter_600 and ID , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_600 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 600 y axis id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_700 and meter_100 in a bar chart, order by the Y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 700, and order by the meter_100 from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_700 , and order by the meter_100 from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and meter_100 , and show y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_700 and meter_100 , and visualize them by a bar chart, I want to show meter_100 in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_700 and meter_100 , and I want to show meter_100 in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and ID , list by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and ID in a bar chart, and show x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_500 , and list by the meter_500 in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_500 and ID , and rank in desc by the meter_500.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_500 and ID , list by the meter_500 in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Show id from each meter 500, and could you sort x axis in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6653371032894281
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and ID in a bar chart, order names in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "Show id from each meter 500, and could you show by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_500 and ID , and rank in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_500 , rank in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_500 and ID , and show in ascending by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and ID , rank in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6708064610563346
+            }
+        },
+        {
+            "query": "Find meter_300 and ID , and visualize them by a bar chart, and display y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_300 and ID , I want to show from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Show id from each meter 300, and I want to show from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_300 and ID , I want to show from low to high by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_300 , and I want to display by the ID in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and ID in a bar chart, could you show by the Y-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, and display from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200, sort from high to low by the total number of meter 100 please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing total number of meter 100 across meter 200, and rank y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200 in a bar chart, could you list y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of meter_100 , and group by attribute meter_200, and I want to order y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, sort from high to low by the total number of meter 100 please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of ID , and group by attribute meter_200, and visualize them by a bar chart, I want to order by the Y from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and rank by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "Show total number of id from each meter 200, I want to sort in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and I want to order by the Y from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and display in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the meter_200 , and group by attribute meter_200 by a bar chart, and order in ascending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6602176417010107
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and ID , could you sort y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Show me about the distribution of Time and ID in a bar chart, could you sort y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the Time by a bar chart, could you list ID from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Find Time and ID , and visualize them by a bar chart, and show y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis id, could you list ID from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and ID , and sort by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722503391558594
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_500 and ID , and could you sort in descending by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and ID in a bar chart, could you order y axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and ID , and could you order y axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_500 , and show y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_500 and ID , and I want to rank y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "Show id from each meter 500, could you rank in descending by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717506331937759
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_700 , and I want to rank y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_700 and meter_100 in a bar chart, and sort Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and meter_100 , sort Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_700 and meter_100 , I want to rank y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 700, list meter_100 in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_700 and meter_100 , and visualize them by a bar chart, sort total number from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the Time by a bar chart, and could you rank by the X-axis in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis meter_100, show by the names in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and meter_100 , I want to display in asc by the X please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Time and meter_100 , and list by the X in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and meter_100 , and I want to rank in asc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Time and meter_100 , and visualize them by a bar chart, could you rank by the X-axis in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality in a bar chart, sort from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614739455022519
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the Nationality , and group by attribute Nationality by a bar chart, and sort by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614739455022519
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis mean meter 100, and could you list X in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.602600781335035
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, sort names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6021372898858512
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality, and I want to show by the Nationality from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614739455022519
+            }
+        },
+        {
+            "query": "Find Nationality and the average of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, I want to show by the Nationality from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614739455022519
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, sort by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936357614368373
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and could you list by the total number from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936357614368373
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis sum meter 100, and rank from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6834569929051382
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and I want to display by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936357614368373
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the Nationality , and group by attribute Nationality, and list y axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936357614368373
+            }
+        },
+        {
+            "query": "Find Nationality and the sum of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and rank from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936357614368373
+            }
+        },
+        {
+            "query": "Find meter_300 and ID , and visualize them by a bar chart, and show bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_300 and ID , display by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_300 , and I want to list by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Show id from each meter 300, and rank from low to high by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and ID in a bar chart, I want to rank by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_300 and ID , and order by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6709645415629569
+            }
+        },
+        {
+            "query": "Find Time and ID , and visualize them by a bar chart, display by the y-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Show me about the distribution of Time and ID in a bar chart, order y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the Time by a bar chart, and sort ID in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and ID , and sort y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and ID , and sort y-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis id, and sort by the y axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6667680221538537
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the Nationality , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Find Nationality and the sum of meter_100 , and group by attribute Nationality, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis sum meter 100",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6835547551413539
+            }
+        },
+        {
+            "query": "Show me about the correlation between ID and meter_100 in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7052129526117397
+            }
+        },
+        {
+            "query": "Draw a scatter chart about the correlation between ID and meter_100 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7052129526117397
+            }
+        },
+        {
+            "query": "What is the relationship between ID and meter_100 ?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7001060455351465
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between ID and meter_100 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7052129526117397
+            }
+        },
+        {
+            "query": "Visualize the relationship between ID and meter_100 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7001060455351465
+            }
+        },
+        {
+            "query": "Show me a scatter plot of id and meter_100 for .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7052129526117397
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_400 , could you show by the meter_100 in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_400 and meter_100 , display meter_100 in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and meter_100 , and display by the meter_100 in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and could you display by the y axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 400, and could you display by the y axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and meter_100 , and could you display by the y axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of name and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the name .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Plot id by grouped by name as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100028194153459
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_400 by a bar chart, show in descending by the ID.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and ID , order by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "Find meter_400 and ID , and visualize them by a bar chart, and list by the Y from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "Show id from each meter 400, show in descending by the ID.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and ID , and order by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_400 and ID in a bar chart, and could you order in descending by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717530163558489
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_500 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and ID in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_500 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_500 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Show id from each meter 500",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the sum of ID , and group by attribute Nationality in a bar chart, and order from low to high by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, order from low to high by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, could you show by the x-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality, order by the Nationality in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Show total number of id from each nationality, order by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality by a bar chart, order by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6960131295983812
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and ID , and rank Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the name , display by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of name and ID , I want to order by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and ID , I want to order by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and ID , and could you rank by the Y in ascending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "Plot id by grouped by name as a bar graph, and display ID in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7090911308452162
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 500 y axis meter_100, sort y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 , and I want to sort in ascending by the meter_100.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, I want to sort in ascending by the meter_100.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_500 and meter_100 , and visualize them by a bar chart, and list by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and meter_100 in a bar chart, I want to show by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and meter_100 , and list by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_600 and ID , and visualize them by a bar chart, rank by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and ID , and I want to display X-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and ID , and could you rank in desc by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_600 and ID , could you rank in desc by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 600 y axis id, sort X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_600 and ID in a bar chart, and rank by the meter_600 from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663719486046542
+            }
+        },
+        {
+            "query": "Find meter_300 and ID , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_300 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and ID in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_300 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_300 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Show id from each meter 300",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663602538628988
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_400 and meter_100 , display in descending by the meter_100.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and meter_100 , and show in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 400, and show in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_400 , show in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and I want to sort by the Y in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and meter_100 , rank from high to low by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and meter_100 , and list in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and meter_100 , and list in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of name and meter_100 in a bar chart, and display y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the name by a bar chart, display in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus meter_100, and rank by the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and meter_100 , and I want to sort Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_300 and ID , and rank X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Show id from each meter 300, order by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Find meter_300 and ID , and visualize them by a bar chart, and rank X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_300 and ID , could you display in descending by the X-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_300 , display in descending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and ID in a bar chart, and show in descending by the meter_300.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6654696545510982
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_600 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing meter_100 across meter 600",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and ID , I want to display from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and ID , and sort from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the name , could you show by the ID in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of name and ID , and sort from high to low by the ID.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and ID , sort from high to low by the ID.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "Plot id by grouped by name as a bar graph, and I want to display from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7140140187263994
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of name and meter_100 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus meter_100",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, order in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality by a bar chart, could you order by the y axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the sum of ID , and group by attribute Nationality in a bar chart, order by the sum id from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality, and order in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, order in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Show total number of id from each nationality, and display total number in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6916330965175015
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, could you order by the total number from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis how many nationality, could you list by the y axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, list Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Find Nationality and the amount of Nationality , and group by attribute Nationality, and visualize them by a bar chart, and show by the how many nationality from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Nationality over the Nationality , and group by attribute Nationality, could you list by the y axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the amount of Nationality , and group by attribute Nationality, and list Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7016160386298914
+            }
+        },
+        {
+            "query": "Plot meter_100 by grouped by meter 300 as a bar graph, I want to show Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_300 and meter_100 , and visualize them by a bar chart, and list meter_100 in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_300 and meter_100 , list total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 by a bar chart, and show from low to high by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 , and list meter_100 in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and meter_100 in a bar chart, and I want to show Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 600 y axis id, show by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and ID , and order by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "Find meter_600 and ID , and visualize them by a bar chart, show by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and ID , list in asc by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_600 and ID , and show by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_600 and ID in a bar chart, and sort in asc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6702968860117542
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_700 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_700 and meter_100 in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_700 and meter_100 , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_700 and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 700",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200 in a bar chart, order bars in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of meter_200 over the meter_200 , and group by attribute meter_200, and could you display by the X in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and sort names in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6867610588032451
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of meter 200 across meter 200, and could you display by the X in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the amount of meter_200 , and group by attribute meter_200, and visualize them by a bar chart, show in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and order from low to high by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_700 , could you show bars in desc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and meter_100 , and rank from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_700 and meter_100 in a bar chart, and could you list names from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 700, and display x axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_700 and meter_100 , and visualize them by a bar chart, and display bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_700 and meter_100 , display x axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_400 and ID in a bar chart, sort by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and ID , I want to show by the names in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "Find meter_400 and ID , and visualize them by a bar chart, sort by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and ID , and order by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_400 by a bar chart, could you sort x axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "Show id from each meter 400, and sort by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6713880719385097
+            }
+        },
+        {
+            "query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and rank by the X in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and meter_100 , rank X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_400 , I want to show bars in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 400, rank by the X in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_400 and meter_100 , and rank X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and meter_100 , and rank by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of meter 200 across meter 200, and display x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and rank by the x-axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of meter_200 over the meter_200 , and group by attribute meter_200, sort from high to low by the meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the amount of meter_200 , and group by attribute meter_200, and visualize them by a bar chart, and rank by the x-axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200 in a bar chart, I want to display meter_200 in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the amount of meter_200 , and group by attribute meter_200, and list by the bar in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and ID , rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and ID , and list by the bar from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Find Time and ID , and visualize them by a bar chart, and list by the bar from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis id, and order by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Show me about the distribution of Time and ID in a bar chart, and rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the Time by a bar chart, and show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the meter_200 , and group by attribute meter_200 by a bar chart, and show by the meter_200 in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "Show total number of id from each meter 200, and order by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of ID , and group by attribute meter_200, and visualize them by a bar chart, order bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the sum of ID , and group by attribute meter_200, display by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and order bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and order by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6637366107563412
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 , I want to sort by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and meter_100 , and rank by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_600 and meter_100 , and could you display by the Y in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing meter_100 across meter 600, and display Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and meter_100 , and I want to sort by the Y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 by a bar chart, display Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 , and I want to rank x-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_600 by a bar chart, and list from low to high by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and meter_100 , and rank by the bars in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing meter_100 across meter 600, and could you show by the meter_600 from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and meter_100 , I want to rank x-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_600 and meter_100 , list from low to high by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of ID , and group by attribute meter_200, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the meter_200 , and group by attribute meter_200 by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the sum of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "Show total number of id from each meter 200",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6646485977832639
+            }
+        },
+        {
+            "query": "Show id from each meter 300, and list in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_300 and ID , and show y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Find meter_300 and ID , and visualize them by a bar chart, list in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_300 , and show by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_300 and ID , and order y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and ID in a bar chart, could you order by the y-axis in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6718341679526906
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and I want to list by the X in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Find Nationality and the sum of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and sort by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, could you rank x axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the Nationality , and group by attribute Nationality, rank names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6845202338896862
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis sum meter 100, and I want to sort in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6835547551413539
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, sort by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6937284936606912
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200 in a bar chart, could you rank x-axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, and could you display by the x-axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, and I want to rank bars in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200, and order in ascending by the meter_200.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200, and show by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot mean meter 100 by grouped by meter 200 as a bar graph, and order in ascending by the meter_200.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6110950321233087
+            }
+        },
+        {
+            "query": "Find meter_400 and ID , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_400 and ID in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_400 by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Show id from each meter 400",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6662565262906112
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, I want to sort from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Show total number of id from each nationality, and order by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the sum of ID , and group by attribute Nationality in a bar chart, and display by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality by a bar chart, and display by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the Nationality , and group by attribute Nationality, could you order in descending by the Y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of ID , and group by attribute Nationality, order by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6970018963224117
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 by a bar chart, sort by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_700 and ID , sort by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_700 and ID , and sort by the ID from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 700 y axis id, display y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 , display y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and ID , display y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6717915952150434
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, rank y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200, display Y in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200, display from high to low by the mean meter 100.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6113041113163359
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200 in a bar chart, display Y in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, and list mean meter 100 from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995923130880602
+            }
+        },
+        {
+            "query": "Plot mean meter 100 by grouped by meter 200 as a bar graph, I want to display in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6113041113163359
+            }
+        },
+        {
+            "query": "Show me about the distribution of name and meter_100 in a bar chart, show by the X-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of name and meter_100 , display from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of name and meter_100 , and display from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the name by a bar chart, and I want to list by the X in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of name versus meter_100, show in descending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of name and meter_100 , and order in desc by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Nationality and the sum of meter_100 , and group by attribute Nationality, and visualize them by a bar chart, and could you sort in descending by the total number of meter 100?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965783973621633
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis sum meter 100, display y axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6843577305536405
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, show total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965783973621633
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of meter_100 over the Nationality , and group by attribute Nationality, I want to display from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965783973621633
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and display y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965783973621633
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the sum of meter_100 , and group by attribute Nationality, and I want to display from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6965783973621633
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Time and meter_100 , and show in ascending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Time and meter_100 , and visualize them by a bar chart, show in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and meter_100 , order Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the Time by a bar chart, show in ascending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis meter_100, and I want to sort from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and meter_100 , I want to display in asc by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 700 y axis id, and display by the y axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and ID , I want to rank in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 by a bar chart, order in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 , I want to show by the Y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_700 and ID , and I want to sort by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_700 and ID , order in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6663103094094317
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and rank by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "Draw a bar chart of meter 200 versus the average of id, show from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of ID , and group by attribute meter_200, and visualize them by a bar chart, list by the y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and I want to order y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the average of ID , and group by attribute meter_200, and list Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of ID , and group by attribute meter_200 in a bar chart, and I want to order y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6763486889791476
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_600 and ID in a bar chart, and order by the ID from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "Find meter_600 and ID , and visualize them by a bar chart, show by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_600 and ID , order total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_600 and ID , show by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_600 and ID , and rank in descending by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 600 y axis id, order by the ID from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6722447360045907
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 , and order by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_700 and ID , and order in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and ID , I want to sort in ascending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 by a bar chart, and could you display in asc by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 700 y axis id, could you show in ascending by the meter_700?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_700 and ID , could you show in ascending by the meter_700?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6666944273178869
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of ID over the Nationality , and group by attribute Nationality by a bar chart, and list from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "Show the average of id from each nationality, I want to display in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Nationality and the average of ID , and group by attribute Nationality, and rank from low to high by the mean id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, rank from low to high by the mean id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and could you display in ascending by the Y please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "Find Nationality and the average of ID , and group by attribute Nationality, and visualize them by a bar chart, and I want to display in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7046594335295473
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_500 , rank by the ID in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and ID , and I want to rank y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and ID in a bar chart, rank Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_500 and ID , rank by the ID in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Show id from each meter 500, order total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_500 and ID , rank by the ID in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.666270308247782
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of ID , and group by attribute meter_200, and visualize them by a bar chart, display from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, display from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of ID , and group by attribute meter_200 in a bar chart, and could you rank bar in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "Draw a bar chart of meter 200 versus the average of id, and display bars from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and display from low to high by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the average of ID , and group by attribute meter_200, and rank in ascending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6764455011828558
+            }
+        },
+        {
+            "query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and sort from low to high by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_400 , could you order in asc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show meter_100 from different meter 400, I want to list X-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_400 and meter_100 , and show from low to high by the bar please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and meter_100 , and could you order in asc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and meter_100 , I want to show by the bar in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show id from each meter 400, and list by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "Find meter_400 and ID , and visualize them by a bar chart, and display x axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_400 and ID , display x axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_400 and ID , could you list meter_400 in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_400 and ID in a bar chart, list by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_400 by a bar chart, and list in desc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6658904257492329
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis meter_100, and show by the y axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and meter_100 , and show meter_100 from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Time and meter_100 , and visualize them by a bar chart, list in desc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the Time by a bar chart, and could you rank from high to low by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Time and meter_100 , and sort Y-axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and meter_100 , and rank total number from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Time and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the Time by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Time and meter_100 , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and meter_100 .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis meter_100",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of ID , and group by attribute meter_200, and visualize them by a bar chart, and order by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of ID , and group by attribute meter_200 in a bar chart, and order by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the average of ID , and group by attribute meter_200, I want to rank by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and order from high to low by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Draw a bar chart of meter 200 versus the average of id, and could you order by the bars in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_200 and the average of ID , and group by attribute meter_200, and could you show in desc by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6731350711371705
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, could you list by the bars from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "Find meter_200 and the sum of ID , and group by attribute meter_200, and visualize them by a bar chart, and I want to display in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "Show total number of id from each meter 200, and list by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of ID over the meter_200 , and group by attribute meter_200 by a bar chart, and I want to display in ascending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_200 and the sum of ID , and group by attribute meter_200, and list meter_200 in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the sum of ID , and group by attribute meter_200, list meter_200 in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664455100845677
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200 in a bar chart, rank by the bars in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_200 and the average of meter_100 , and group by attribute meter_200, and visualize them by a bar chart, and display in desc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot mean meter 100 by grouped by meter 200 as a bar graph, display in descending by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6113041113163359
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_200 and the average of meter_100 , and group by attribute meter_200, list from high to low by the names please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200, and I want to rank from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the meter_200 , and group by attribute meter_200 by a bar chart, and I want to order from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_700 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of meter_700 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the meter_700 by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of meter_700 and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 700 y axis id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690888441307706
+            }
+        },
+        {
+            "query": "Show me about the distribution of Time and ID in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Time and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Give me the comparison about ID over the Time by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Time and ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Find Time and ID , and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Bar chart x axis time y axis id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6671401880050271
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 , and I want to rank by the X-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and meter_100 in a bar chart, and rank x-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_500 and meter_100 , and visualize them by a bar chart, and order in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and meter_100 , could you list meter_500 from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, and display from high to low by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 500 y axis meter_100, order in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Nationality and the average of ID , and group by attribute Nationality, and visualize them by a bar chart, display by the y-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Nationality and the average of ID , and group by attribute Nationality, and order in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of ID over the Nationality , and group by attribute Nationality by a bar chart, rank by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "Show the average of id from each nationality, display mean id in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and list in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Nationality and the average of ID , and group by attribute Nationality, and order in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7100133797195866
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, rank in asc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_500 and meter_100 , and visualize them by a bar chart, could you list by the X in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis meter 500 y axis meter_100, and list by the bars in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of meter_500 and meter_100 , and rank by the bar from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_500 and meter_100 in a bar chart, rank by the bar from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_500 , show bar from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Show me about the distribution of Nationality and the average of meter_100 , and group by attribute Nationality in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Find Nationality and the average of meter_100 , and group by attribute Nationality, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of meter_100 over the Nationality , and group by attribute Nationality by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.614557996876214
+            }
+        },
+        {
+            "query": "Bar chart x axis nationality y axis mean meter 100",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6025466125897557
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 , and could you order by the bar from high to low?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about meter_100 over the meter_300 by a bar chart, list X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of meter_300 and meter_100 in a bar chart, rank by the bars in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find meter_300 and meter_100 , and visualize them by a bar chart, and rank by the bars in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of meter_300 and meter_100 , and list X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot meter_100 by grouped by meter 300 as a bar graph, I want to order by the names in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,367 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Student_Tests_Taken",
+    "results": [
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, and display y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", sort from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, and order y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", and order total number from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List each test result and its count in descending order of count by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List each test result and its count in descending order of count. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each distinct test result, find the number of students who got the result. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, and order by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, order by the Y in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", I want to show by the y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", and could you list in ascending by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", sort Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", show total number from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, and show total number from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, sort Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, display by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", list from low to high by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", sort by the names in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, sort by the names in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List each test result and its count in descending order of count by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List each test result and its count in descending order of count. Show the proportion.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each distinct test result, find the number of students who got the result.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", order x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for finding the number of the dates of the tests taken with result \"Pass\", display x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a line chart, and order x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a line chart, could you rank in desc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", and I want to rank x axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a line chart, and order by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for finding the number of the dates of the tests taken with result \"Pass\", order X in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a line chart, and I want to display by the X-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for finding the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, and list in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, and sort in desc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", and sort in descending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", list in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart, and rank names in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\", show X-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\", and I want to list by the bars from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart, rank by the X in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates of the tests taken with result \"Pass\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the dates of the tests taken with result \"Pass\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"Find the number of the dates of the tests taken with result \"Pass\".\" has 3 benchmarks associated with it",
+        "\"Find the dates of the tests taken with result \"Pass\", and count them by a bar chart\" has 2 benchmarks associated with it",
+        "\"A bar chart for finding the number of the dates of the tests taken with result \"Pass\".\" has 2 benchmarks associated with it",
+        "\"Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart\" has 2 benchmarks associated with it",
+        "\"Find the number of the dates of the tests taken with result \"Pass\".\" has 3 benchmarks associated with it",
+        "\"Find the number of the dates of the tests taken with result \"Pass\".\" has 3 benchmarks associated with it",
+        "\"Find the dates of the tests taken with result \"Pass\", and count them by a bar chart\" has 2 benchmarks associated with it",
+        "\"A bar chart for finding the number of the dates of the tests taken with result \"Pass\".\" has 2 benchmarks associated with it",
+        "\"Which tests have \"Pass\" results? Return the dates when the tests were taken, and count them by a bar chart\" has 2 benchmarks associated with it"
+    ]
+}

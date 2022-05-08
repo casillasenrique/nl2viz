@@ -1,0 +1,276 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Settlements",
+    "results": [
+        {
+            "query": "Plot date claim settled by the number of date claim settled as a line chart, and list by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Tell me the trend about the claim dates using a trend line, and could you show Date_Claim_Settled from low to high order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the trend about the frequency of the claim dates, and list by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the trend about the frequency of the claim dates.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Tell me the trend about the claim dates using a trend line.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date claim settled by the number of date claim settled as a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made, and could you order in asc by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Year interval and count them for visualizing a bar chart, could you list Y-axis in ascending order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled, and order the number of date claim settled in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart, show by the Y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Day of Week interval and count them for visualizing a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart, and order Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled, order Y-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made, I want to sort in descending by the how many date claim made please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Day of Week interval and count them for visualizing a bar chart, and rank y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Year interval and count them for visualizing a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Year interval and count them for visualizing a bar chart, and show in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made, rank from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Tell me the trend about the claim dates using a trend line, and sort by the Date_Claim_Settled in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the trend about the frequency of the claim dates, and I want to order in desc by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date claim settled by the number of date claim settled as a line chart, and I want to order in desc by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into Year interval and count them for visualizing a bar chart, show Y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled, and sort y-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into Year interval and count them for visualizing a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into Year interval and count them for visualizing a bar chart, and could you order by the the number of date claim settled from high to low?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date claim settled y axis the number of date claim settled, rank from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bin the claim date into the Day of Week interval and count them for visualizing a bar chart, display by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date claim made across date claim made, could you list y-axis from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing query: \"Plot date claim settled by the number of date claim settled as a line chart, and list by the X from low to high.\"",
+        "Error when executing query: \"Tell me the trend about the claim dates using a trend line, and could you show Date_Claim_Settled from low to high order please?\"",
+        "Error when executing query: \"Show the trend about the frequency of the claim dates, and list by the X from low to high.\"",
+        "Error when executing query: \"Show the trend about the frequency of the claim dates.\"",
+        "Error when executing query: \"Tell me the trend about the claim dates using a trend line.\"",
+        "Error when executing query: \"Plot date claim settled by the number of date claim settled as a line chart\"",
+        "Error when executing query: \"Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart.\"",
+        "\"Bar chart x axis date claim settled y axis the number of date claim settled\" has 2 benchmarks associated with it",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled\"",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made, and could you order in asc by the Y-axis?\"",
+        "Error when executing query: \"Bin the claim date into the Year interval and count them for visualizing a bar chart, could you list Y-axis in ascending order please?\"",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled, and order the number of date claim settled in descending order.\"",
+        "Error when executing query: \"Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart, show by the Y-axis in desc.\"",
+        "Error when executing query: \"Bin the claim date into the Day of Week interval and count them for visualizing a bar chart.\"",
+        "\"Create a bar chart showing the number of date claim made across date claim made\" has 2 benchmarks associated with it",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made\"",
+        "Error when executing query: \"Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart, and order Y-axis from low to high order.\"",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled, order Y-axis from low to high order.\"",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made, I want to sort in descending by the how many date claim made please.\"",
+        "Error when executing query: \"Bin the claim date into the Day of Week interval and count them for visualizing a bar chart, and rank y axis in descending order.\"",
+        "Error when executing query: \"Bin the claim date into the Year interval and count them for visualizing a bar chart.\"",
+        "\"Create a bar chart showing the number of date claim made across date claim made\" has 2 benchmarks associated with it",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made\"",
+        "Error when executing query: \"Bin the claim date into the Year interval and count them for visualizing a bar chart, and show in desc by the y-axis.\"",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made, rank from high to low by the y-axis.\"",
+        "Error when executing query: \"Tell me the trend about the claim dates using a trend line, and sort by the Date_Claim_Settled in desc.\"",
+        "Error when executing query: \"Show the trend about the frequency of the claim dates, and I want to order in desc by the X.\"",
+        "Error when executing query: \"Plot date claim settled by the number of date claim settled as a line chart, and I want to order in desc by the X.\"",
+        "Error when executing query: \"Bin the claim date into Year interval and count them for visualizing a bar chart, show Y-axis in asc order.\"",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled, and sort y-axis in ascending order please.\"",
+        "Error when executing query: \"Bin the claim date into Year interval and count them for visualizing a bar chart.\"",
+        "\"Bar chart x axis date claim settled y axis the number of date claim settled\" has 2 benchmarks associated with it",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled\"",
+        "Error when executing query: \"Bin the claim date into Year interval and count them for visualizing a bar chart, and could you order by the the number of date claim settled from high to low?\"",
+        "Error when executing query: \"Bar chart x axis date claim settled y axis the number of date claim settled, rank from high to low by the Y-axis.\"",
+        "Error when executing query: \"Bin the claim date into the Day of Week interval and count them for visualizing a bar chart, display by the y axis in ascending.\"",
+        "Error when executing query: \"Create a bar chart showing the number of date claim made across date claim made, could you list y-axis from low to high order?\""
+    ]
+}

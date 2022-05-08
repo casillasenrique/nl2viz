@@ -1,0 +1,56 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Invoices",
+    "results": [
+        {
+            "query": "Show the order ids and the number of invoices for each order with a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the order ids and the number of invoices for each order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "how many invoices correspond to each order id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a scatter chart for how many invoices correspond to each order id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many invoices correspond to each order id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot a scatter chart, order id by the total number .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Show the order ids and the number of invoices for each order with a scatter chart.\" - <class 'KeyError'>: 'Invoices'",
+        "Error when executing \"Show the order ids and the number of invoices for each order.\" - <class 'KeyError'>: 'Invoices'",
+        "Error when executing \"how many invoices correspond to each order id?\" - <class 'KeyError'>: 'Invoices'",
+        "Error when executing \"Draw a scatter chart for how many invoices correspond to each order id?\" - <class 'KeyError'>: 'Invoices'",
+        "Error when executing \"How many invoices correspond to each order id.\" - <class 'KeyError'>: 'Invoices'",
+        "Error when executing \"Plot a scatter chart, order id by the total number .\" - <class 'KeyError'>: 'Invoices'"
+    ]
+}

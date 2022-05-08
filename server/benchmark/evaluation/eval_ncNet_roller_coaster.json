@@ -1,0 +1,35 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "roller_coaster",
+    "results": [
+        {
+            "query": "Return a scatter on what are the lengths and heights of roller coasters?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720177085722309
+            }
+        },
+        {
+            "query": "what are the lengths and heights of roller coasters?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5275906034419346
+            }
+        },
+        {
+            "query": "What are the lengths and heights of roller coasters. Show scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6720177085722309
+            }
+        },
+        {
+            "query": "Scatter plot to show length on x axis and height on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8239185405582546
+            }
+        }
+    ],
+    "errors": []
+}

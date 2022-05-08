@@ -1,0 +1,707 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "competition",
+    "results": [
+        {
+            "query": "A bar chart for how many competitions for each country, and display bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.683967609718747
+            }
+        },
+        {
+            "query": "Show me the number of country by country in a histogram, and I want to sort in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6850191686179704
+            }
+        },
+        {
+            "query": "How many competitions for each country?, rank by the Country in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.683967609718747
+            }
+        },
+        {
+            "query": "Compare the total number of competitions for each country, I want to sort in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.683967609718747
+            }
+        },
+        {
+            "query": "How many competitions for each country?, and list by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "Compare the total number of competitions for each country, and sort by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "Show me the number of country by country in a histogram, and rank by the y axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6850299095616853
+            }
+        },
+        {
+            "query": "A bar chart for how many competitions for each country, and I want to list y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "Show the number of different competition types with a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "What is the number of types of competition?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "A bar chart showing the number of different competition types.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many competition type of each competition type",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the types of competition and number of competitions for that type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the types of competition and number of competitions for that type?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7917122981173706
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each competition type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7917122981173706
+            }
+        },
+        {
+            "query": "What is the number of types of competition?, order in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many competition type of each competition type, rank from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "Show the number of different competition types with a bar graph, and order by the bar in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "A bar chart showing the number of different competition types, could you show from low to high by the bar please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "A bar chart showing the number of different competition types, display from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "Show the number of different competition types with a bar graph, and I want to display from high to low by the Competition_type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many competition type of each competition type, and I want to order in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "What is the number of types of competition?, I want to display X-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "Show me the number of country by country in a histogram, sort by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6865746488896307
+            }
+        },
+        {
+            "query": "How many competitions for each country?, and list in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.685523089990407
+            }
+        },
+        {
+            "query": "A bar chart for how many competitions for each country, and order x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.685523089990407
+            }
+        },
+        {
+            "query": "Compare the total number of competitions for each country, rank Country in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.685523089990407
+            }
+        },
+        {
+            "query": "What is the number of types of competition?, sort the number of competition type from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "A bar chart showing the number of different competition types, display by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "Show the number of different competition types with a bar graph, sort the number of competition type from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many competition type of each competition type, order by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500450332536458
+            }
+        },
+        {
+            "query": "Show the proportion of different competition types.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7917122981173706
+            }
+        },
+        {
+            "query": "What is the proportion of types of every competition?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7897264097742606
+            }
+        },
+        {
+            "query": "A pie chart showing the proportion of different competition types.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show how many competition type from different competition type.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7917122981173706
+            }
+        },
+        {
+            "query": "Show the number of different competition types with a bar graph, list in asc by the Y please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "A bar chart showing the number of different competition types, I want to rank Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "What is the number of types of competition?, and could you rank Y-axis in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many competition type of each competition type, and rank the number of competition type in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7500327059803572
+            }
+        },
+        {
+            "query": "How many competitions for each country?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "A bar chart for how many competitions for each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "Compare the total number of competitions for each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6839783506624616
+            }
+        },
+        {
+            "query": "Show me the number of country by country in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6850299095616853
+            }
+        },
+        {
+            "query": "A stacked bar chart about the total number in each competition type, and then split by country, could you order by the bars from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6972064707479039
+            }
+        },
+        {
+            "query": "How many competitions in each competition type? And split them by country, and could you sort in ascending by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7002391307333268
+            }
+        },
+        {
+            "query": "Compute the total number in each competition type, and then split by country, and sort in asc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7002391307333268
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of country for with each Competition_type in each country, sort in asc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6972064707479039
+            }
+        },
+        {
+            "query": "Return a histogram on what are the types of competition and number of competitions for that type?, I want to display total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the types of competition and number of competitions for that type?, rank in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type Show bar chart, and I want to order the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type Visualize by bar chart, and I want to order the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by competition type as a bar graph, and sort by the y axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type in a bar chart, sort Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "Compute the total number in each competition type, and then split by country, show in desc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6994404385275699
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of country for with each Competition_type in each country, order bar in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6964129942505278
+            }
+        },
+        {
+            "query": "How many competitions in each competition type? And split them by country, show in desc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6994404385275699
+            }
+        },
+        {
+            "query": "A stacked bar chart about the total number in each competition type, and then split by country, and order in descending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6964129942505278
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type Show bar chart, and rank Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type Visualize by bar chart, and order in asc by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Return a histogram on what are the types of competition and number of competitions for that type?, order by the Y in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type in a bar chart, show Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by competition type as a bar graph, and I want to show from low to high by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the types of competition and number of competitions for that type?, and order in asc by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "A bar chart for how many competitions for each country, and rank by the the number of country in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6870299912953559
+            }
+        },
+        {
+            "query": "Compare the total number of competitions for each country, show Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6870299912953559
+            }
+        },
+        {
+            "query": "Show me the number of country by country in a histogram, rank by the the number of country in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6880815501945795
+            }
+        },
+        {
+            "query": "How many competitions for each country?, and list by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6870299912953559
+            }
+        },
+        {
+            "query": "How many competitions in each competition type? And split them by country, and order Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7528207326702798
+            }
+        },
+        {
+            "query": "Compute the total number in each competition type, and then split by country, could you show in ascending by the y axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7528207326702798
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of country for with each Competition_type in each country, and show by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7483024239213334
+            }
+        },
+        {
+            "query": "A stacked bar chart about the total number in each competition type, and then split by country, and could you display by the Y-axis from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7483024239213334
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of country for with each Competition_type in each country, sort by the the number of country in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7493131001457881
+            }
+        },
+        {
+            "query": "How many competitions in each competition type? And split them by country, sort by the the number of country in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7536981595312224
+            }
+        },
+        {
+            "query": "Compute the total number in each competition type, and then split by country, and could you order by the y-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7536981595312224
+            }
+        },
+        {
+            "query": "A stacked bar chart about the total number in each competition type, and then split by country, and rank by the y axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7493131001457881
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by competition type as a bar graph, and display names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type Show bar chart, I want to display by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Return a histogram on what are the types of competition and number of competitions for that type?, I want to list from high to low by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type in a bar chart, display by the x-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type Visualize by bar chart, list from high to low by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the types of competition and number of competitions for that type?, and display X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the types of competition and number of competitions for that type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Return a histogram on what are the types of competition and number of competitions for that type?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by competition type as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7516930828902141
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by competition type as a bar graph, and order X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type in a bar chart, sort by the bars in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "Return a histogram on what are the types of competition and number of competitions for that type?, and list by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "What are the types of competition and number of competitions for that type Show bar chart, and display names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "List the types of competition and the number of competitions of each type Visualize by bar chart, sort bars in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the types of competition and number of competitions for that type?, order X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517054101635029
+            }
+        },
+        {
+            "query": "How many competitions in each competition type? And split them by country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7002391307333268
+            }
+        },
+        {
+            "query": "Compute the total number in each competition type, and then split by country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7002391307333268
+            }
+        },
+        {
+            "query": "A stacked bar chart about the total number in each competition type, and then split by country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6972064707479039
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of country for with each Competition_type in each country",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6972064707479039
+            }
+        }
+    ],
+    "errors": []
+}

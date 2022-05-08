@@ -1,0 +1,532 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Highschooler",
+    "results": [
+        {
+            "query": "Show the names and their average grades of each high schooler with a bar chart, and I want to rank by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler, and order in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "Bar graph to show mean grade from different name, and could you rank in descending by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the names and the average grades for each high schooler?, and I want to rank by the bars in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "What are the names and the average grades for each high schooler Plot them as a bar chart, I want to show from high to low by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and the average grades for each high schooler?, and list X in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5694927280239553
+            }
+        },
+        {
+            "query": "Bar graph to show the number of name from different name, display in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6630915455578236
+            }
+        },
+        {
+            "query": "Can you show me a bar chart to answer how many people with different names for each high schooler?, and I want to rank how many name from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663233053628206
+            }
+        },
+        {
+            "query": "Count the names of each high schooler using a bar chart, order in desc by the how many name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663233053628206
+            }
+        },
+        {
+            "query": "Count the names of each high schooler using a bar chart, and order by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562796283482425
+            }
+        },
+        {
+            "query": "Bar graph to show the number of name from different name, list bar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562796283482425
+            }
+        },
+        {
+            "query": "Can you show me a bar chart to answer how many people with different names for each high schooler?, order by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562796283482425
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names and their total grades for each high schooler?, and show by the y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6644483556958378
+            }
+        },
+        {
+            "query": "What are the names and their total grades for each high schooler? Show me the result using a bar chart, and show in descending by the total number of grade.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6644483556958378
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis total number of grade, show by the y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6643622606512083
+            }
+        },
+        {
+            "query": "Show the names and sum grades of each high schooler Plot them as bar graph, and display in desc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6644483556958378
+            }
+        },
+        {
+            "query": "Show the names and the total grades of each high schooler by a bar chart, list by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6644483556958378
+            }
+        },
+        {
+            "query": "What are the names and total grades for each high schooler Plot them as a bar chart, show by the y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6644483556958378
+            }
+        },
+        {
+            "query": "Bar graph to show the number of name from different name, and could you order Y in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587839313270808
+            }
+        },
+        {
+            "query": "Can you show me a bar chart to answer how many people with different names for each high schooler?, show from low to high by the how many name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6586424232566983
+            }
+        },
+        {
+            "query": "Count the names of each high schooler using a bar chart, show from low to high by the how many name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6586424232566983
+            }
+        },
+        {
+            "query": "Bar graph to show the number of name from different name, display by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        },
+        {
+            "query": "Count the names of each high schooler using a bar chart, display by the x axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        },
+        {
+            "query": "Can you show me a bar chart to answer how many people with different names for each high schooler?, and show from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the names and the average grades for each high schooler?, sort Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler with a bar chart, could you rank in descending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "What are the names and the average grades for each high schooler Plot them as a bar chart, and could you list in desc by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler, could you list in desc by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "Bar graph to show mean grade from different name, could you show y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and the average grades for each high schooler?, and could you show y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5734038097754155
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and the average grades for each high schooler?, and list by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "What are the names and the average grades for each high schooler Plot them as a bar chart, could you display by the Y in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "Bar graph to show mean grade from different name, could you order from low to high by the Y please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler, and could you order from low to high by the total number please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the names and the average grades for each high schooler?, and list by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler with a bar chart, order in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5712434506011675
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler, order X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Bar graph to show mean grade from different name, could you list by the name from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and the average grades for each high schooler?, list in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler with a bar chart, list in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the names and the average grades for each high schooler?, and display in ascending by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "What are the names and the average grades for each high schooler Plot them as a bar chart, I want to show X-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Show the names and the total grades of each high schooler by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Show the names and sum grades of each high schooler. Plot them as bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names and their total grades for each high schooler?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "What are the names and their total grades for each high schooler? Show me the result using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "What are the names and total grades for each high schooler. Plot them as a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis total number of grade",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6575898786911909
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names and their total grades for each high schooler?, and display from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6568196136888212
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis total number of grade, display by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6567335186441916
+            }
+        },
+        {
+            "query": "What are the names and their total grades for each high schooler? Show me the result using a bar chart, and display by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6568196136888212
+            }
+        },
+        {
+            "query": "What are the names and total grades for each high schooler Plot them as a bar chart, sort name in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6568196136888212
+            }
+        },
+        {
+            "query": "Show the names and sum grades of each high schooler Plot them as bar graph, could you order from high to low by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6568196136888212
+            }
+        },
+        {
+            "query": "Show the names and the total grades of each high schooler by a bar chart, sort in desc by the name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6568196136888212
+            }
+        },
+        {
+            "query": "What are the names and total grades for each high schooler Plot them as a bar chart, and could you show by the name in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis total number of grade, show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6575898786911909
+            }
+        },
+        {
+            "query": "Show the names and the total grades of each high schooler by a bar chart, and could you show by the name in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names and their total grades for each high schooler?, and order x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Show the names and sum grades of each high schooler Plot them as bar graph, I want to list bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "What are the names and their total grades for each high schooler? Show me the result using a bar chart, and order x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6576759737358201
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Show the names and their average grades of each high schooler.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the names and the average grades for each high schooler?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the names and the average grades for each high schooler?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "What are the names and the average grades for each high schooler. Plot them as a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Bar graph to show mean grade from different name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5710150823761483
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis total number of grade, and order from low to high by the total number of grade.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6595428030846301
+            }
+        },
+        {
+            "query": "Show the names and the total grades of each high schooler by a bar chart, display y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596288981292595
+            }
+        },
+        {
+            "query": "What are the names and total grades for each high schooler Plot them as a bar chart, and order by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596288981292595
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names and their total grades for each high schooler?, could you display in asc by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596288981292595
+            }
+        },
+        {
+            "query": "Show the names and sum grades of each high schooler Plot them as bar graph, and could you sort Y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596288981292595
+            }
+        },
+        {
+            "query": "What are the names and their total grades for each high schooler? Show me the result using a bar chart, I want to sort by the y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6596288981292595
+            }
+        },
+        {
+            "query": "Count the names of each high schooler using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        },
+        {
+            "query": "Can you show me a bar chart to answer how many people with different names for each high schooler?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        },
+        {
+            "query": "Bar graph to show the number of name from different name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6561168776269056
+            }
+        }
+    ],
+    "errors": []
+}

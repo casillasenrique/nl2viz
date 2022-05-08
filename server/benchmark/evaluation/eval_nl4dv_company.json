@@ -1,0 +1,1043 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "company",
+    "results": [
+        {
+            "query": "Bar chart x axis headquarters y axis the total number, and sort y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7733976894946809
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter with a bar chart, order y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7733976894946809
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter, order y axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7733976894946809
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter, show in descending by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7545397251739662
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter with a bar chart, show Headquarters in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754686353485816
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there Visualize by bar chart, and order names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754686353485816
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each headquarters, and rank in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754686353485816
+            }
+        },
+        {
+            "query": "Bar chart x axis headquarters y axis the total number, and display by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7780937119077199
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter with a bar chart, and order from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.778862580477607
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter, and I want to show y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.778862580477607
+            }
+        },
+        {
+            "query": "what are the main indstries and total market value for each industry?, and could you display bars in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280252380490565
+            }
+        },
+        {
+            "query": "A bar chart about what are the main indstries and total market value for each industry?, rank in ascending by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7269039893382829
+            }
+        },
+        {
+            "query": "Draw a bar chart of main industry versus total number of market value, I want to show by the X-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7255061944202273
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry, show in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323241885018227
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry Visualize by bar chart, rank in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7269039893382829
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry by a bar chart, show in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323241885018227
+            }
+        },
+        {
+            "query": "Bar chart x axis industry y axis the number of industry, order by the Industry from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7505126576530771
+            }
+        },
+        {
+            "query": "Return a bar chart about the number of companies for each industry, list from high to low by the bars please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of headquarters vs Industry based on headquarters, display Y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7770714926985565
+            }
+        },
+        {
+            "query": "How many companies are there in each headquarters? Return a stacked bar chart to group by industry and headquearters, and count by headquarters, and could you show in desc by the how many headquarters?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.776202464520331
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a bar chart, and rank by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.740981765819487
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a bar chart, show X-axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7407890887190582
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a bar chart, could you sort in asc by the y axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7408182848665211
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a bar chart, and display y axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7407890887190582
+            }
+        },
+        {
+            "query": "What is the number of companies for each headquarter? Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711187324276283
+            }
+        },
+        {
+            "query": "Show the number of headquarters from each headquarters",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711187324276283
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a bar chart, show y-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7502502593501047
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a bar chart, could you order in ascending by the y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7502502593501047
+            }
+        },
+        {
+            "query": "Bar chart of how many headquarters from each headquarters, and list in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7499829513961299
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7726288209247936
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7726288209247936
+            }
+        },
+        {
+            "query": "Bar chart x axis headquarters y axis the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7726288209247936
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry by a bar chart, show in asc by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323435905151109
+            }
+        },
+        {
+            "query": "what are the main indstries and total market value for each industry?, and display in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323435905151109
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry Visualize by bar chart, I want to order sum market value in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280429059884246
+            }
+        },
+        {
+            "query": "A bar chart about what are the main indstries and total market value for each industry?, I want to order sum market value in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280429059884246
+            }
+        },
+        {
+            "query": "Draw a bar chart of main industry versus total number of market value, and order in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7291307728461357
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry, and order in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280429059884246
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart to show all main industry and total market value in each industry.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the main indstries and total market value for each industry?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the sum market value for each main industry.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7802621570072166
+            }
+        },
+        {
+            "query": "Bar chart x axis industry y axis the number of industry, I want to show y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7539760850803073
+            }
+        },
+        {
+            "query": "Return a bar chart about the number of companies for each industry, display by the Y from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of headquarters from each headquarters, and I want to rank by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7719877606058546
+            }
+        },
+        {
+            "query": "What is the number of companies for each headquarter? Visualize by bar chart, show from low to high by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7711187324276283
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter, I want to list Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7518823977874379
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter with a bar chart, show from low to high by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there Visualize by bar chart, and show from low to high by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each headquarters, I want to list Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7518823977874379
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a bar chart, and I want to sort from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7499803157760595
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a bar chart, and show x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7502476237300343
+            }
+        },
+        {
+            "query": "Bar chart of how many headquarters from each headquarters, list names in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7502476237300343
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of headquarters vs Industry based on headquarters, and I want to display in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7734363037855769
+            }
+        },
+        {
+            "query": "How many companies are there in each headquarters? Return a stacked bar chart to group by industry and headquearters, and count by headquarters, and I want to sort from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7734363037855769
+            }
+        },
+        {
+            "query": "Bar chart x axis industry y axis the number of industry, could you list in ascending by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the number of companies for each industry, order bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7505126576530761
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a bar chart, display bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7407852878919973
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a bar chart, and list names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7409779649924261
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7645411048473593
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different headquarters.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7645411048473593
+            }
+        },
+        {
+            "query": "Show the relationship between the rank and market values of the companies in the banking industry and group by company with a group scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7837089392094051
+            }
+        },
+        {
+            "query": "Bar chart x axis industry y axis the number of industry, display by the the number of industry from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the number of companies for each industry, and order in asc by the Y please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7507600673897072
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527895427145784
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527895427145784
+            }
+        },
+        {
+            "query": "Bar chart of how many headquarters from each headquarters",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527895427145784
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each headquarters, order in asc by the Headquarters.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7518797621673676
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter with a bar chart, show from low to high by the Headquarters.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517331338555179
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there Visualize by bar chart, and rank in asc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7518797621673676
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter, and order bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7518797621673676
+            }
+        },
+        {
+            "query": "Return a bar chart about the number of companies for each industry.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis industry y axis the number of industry",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of headquarters vs Industry based on headquarters, show by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7757976579747381
+            }
+        },
+        {
+            "query": "How many companies are there in each headquarters? Return a stacked bar chart to group by industry and headquearters, and count by headquarters, and rank X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7766666861529637
+            }
+        },
+        {
+            "query": "Show the number of headquarters from each headquarters, and I want to show by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7765777512834896
+            }
+        },
+        {
+            "query": "What is the number of companies for each headquarter? Visualize by bar chart, could you sort by the Headquarters in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7765777512834896
+            }
+        },
+        {
+            "query": "List the company name and rank for all companies in the decreasing order of their sales in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7216083788146138
+            }
+        },
+        {
+            "query": "List the company name and rank for all companies in the decreasing order of their sales. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7216083788146138
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what is the name and rank of every company ordered by descending number of sales?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7216083788146138
+            }
+        },
+        {
+            "query": "What is the name and rank of every company ordered by descending number of sales. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7216083788146138
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter with a bar chart, sort X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7785343556879237
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter, and list X-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7785343556879237
+            }
+        },
+        {
+            "query": "Bar chart x axis headquarters y axis the total number, could you list x-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7785343556879237
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there Visualize by bar chart, and I want to list in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7545423607940367
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter, and order the total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7546889891058864
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter with a bar chart, could you display by the the total number from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7545423607940367
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each headquarters, rank by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7546889891058864
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter, and could you list in ascending by the X please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7723064682621755
+            }
+        },
+        {
+            "query": "Show the different headquarters and number of companies at each headquarter with a bar chart, list bars from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7730753368320628
+            }
+        },
+        {
+            "query": "Bar chart x axis headquarters y axis the total number, and sort by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7723064682621755
+            }
+        },
+        {
+            "query": "What is the number of companies for each headquarter? Visualize by bar chart, and could you order by the total number in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7723101132684725
+            }
+        },
+        {
+            "query": "Show the number of headquarters from each headquarters, could you order by the total number in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7723101132684725
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "what are the main indstries and total market value for each industry?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "A bar chart about what are the main indstries and total market value for each industry?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "Draw a bar chart of main industry versus total number of market value",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7255259487487041
+            }
+        },
+        {
+            "query": "How many companies are there in each headquarters? Return a stacked bar chart to group by industry and headquearters, and count by headquarters.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7741990978287845
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of headquarters vs Industry based on headquarters",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7741990978287845
+            }
+        },
+        {
+            "query": "Show the relationship between the rank and market values of the companies in the banking industry with a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7589855877885386
+            }
+        },
+        {
+            "query": "Find the market values of the companies in the banking industry with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the market value of every comapny in the banking industry? Return a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the rank of the companies in the banking industry order by their sales and profits in billion with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.77132591907892
+            }
+        },
+        {
+            "query": "What is the rank every company in the banking industry ordered by sales and profits? Show a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.77132591907892
+            }
+        },
+        {
+            "query": "Find the market values of the companies in the banking industry order by their sales and profits in billion with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7552380765778987
+            }
+        },
+        {
+            "query": "What is the market value of every comapny in the banking industry ordered by sales and profits? Return a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7552380765778987
+            }
+        },
+        {
+            "query": "How many companies are there in each headquarters? Return a stacked bar chart to group by industry and headquearters, and count by headquarters, show by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7734108009821398
+            }
+        },
+        {
+            "query": "Stack bar chart of the number of headquarters vs Industry based on headquarters, rank by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7742798291603658
+            }
+        },
+        {
+            "query": "Draw a bar chart of main industry versus total number of market value, and display y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.72913261876886
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry Visualize by bar chart, I want to sort Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.728044751911149
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry by a bar chart, rank in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.726923779861878
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry, and I want to sort Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.728044751911149
+            }
+        },
+        {
+            "query": "A bar chart about what are the main indstries and total market value for each industry?, sort by the Y-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "what are the main indstries and total market value for each industry?, and sort by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323454364378351
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a bar chart, and could you display by the total number from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7408144840394603
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a bar chart, and display Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7407852878919973
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a bar chart, and list by the Headquarters from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527869070945078
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a bar chart, I want to order in descending by the Headquarters please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530542150484827
+            }
+        },
+        {
+            "query": "Bar chart of how many headquarters from each headquarters, order from high to low by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530542150484827
+            }
+        },
+        {
+            "query": "Show the number of companies whose headquarters are not from USA fpr each main industry in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7410405848970232
+            }
+        },
+        {
+            "query": "How many companies that are not headquartered in the United States for each main industry? Show me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7408144840394603
+            }
+        },
+        {
+            "query": "A pie chart showing the number of companies for each industry.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show how many industry from different industry.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many headquarters across headquarters.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of headquarters from each headquarters, and I want to show y-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7777750042513989
+            }
+        },
+        {
+            "query": "What is the number of companies for each headquarter? Visualize by bar chart, sort by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7769059760731727
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "List all headquarters and the number of companies in each headquarter.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "For each headquarter, what are the headquarter and how many companies are centered there. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each headquarters",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517357694755882
+            }
+        },
+        {
+            "query": "what are the main indstries and total market value for each industry?, and order by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280270017307542
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry, order by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280270017307542
+            }
+        },
+        {
+            "query": "A bar chart about what are the main indstries and total market value for each industry?, and could you rank X-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7269057530199805
+            }
+        },
+        {
+            "query": "Draw a bar chart of main industry versus total number of market value, order from high to low by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7291130878683747
+            }
+        },
+        {
+            "query": "Show all main industry and total market value in each industry by a bar chart, display x-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7280270017307542
+            }
+        },
+        {
+            "query": "What are the main indstries and total market value for each industry Visualize by bar chart, list in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7323259521835203
+            }
+        },
+        {
+            "query": "Bar chart of how many headquarters from each headquarters, could you sort from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527895427145785
+            }
+        },
+        {
+            "query": "Show the number of companies in each headquarter with a bar chart, and order by the the number of headquarters in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7530568506685532
+            }
+        },
+        {
+            "query": "How many companies in each headquarter? Plot a bar chart, and could you sort from high to low by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7527895427145785
+            }
+        }
+    ],
+    "errors": []
+}

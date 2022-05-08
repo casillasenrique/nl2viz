@@ -1,0 +1,21 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "endowment",
+    "results": [
+        {
+            "query": "List each donator name and the amount of endowment in descending order of the amount of endowment by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6341353131270183
+            }
+        },
+        {
+            "query": "List each donator name and the amount of endowment in descending order of the amount of endowment. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6341353131270183
+            }
+        }
+    ],
+    "errors": []
+}

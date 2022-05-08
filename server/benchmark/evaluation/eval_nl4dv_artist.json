@@ -1,0 +1,553 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "artist",
+    "results": [
+        {
+            "query": "Give me a bar chart about the number of countries in the artist table, and list by the Country in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7659986393083883
+            }
+        },
+        {
+            "query": "Show how many country from each country, and could you show by the bars from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7659986393083883
+            }
+        },
+        {
+            "query": "Compare all countries with a bar chart, I want to order by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7659986393083883
+            }
+        },
+        {
+            "query": "What is the number of countries in the artist table?, I want to order by the bars in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7659986393083883
+            }
+        },
+        {
+            "query": "What are the average ages of artists by countries? Visualize the result with a histogram, order in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the average of artists' age by country in a bar graph, I want to sort by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176474
+            }
+        },
+        {
+            "query": "Show the average of artists' age by country, and I want to sort by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176474
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the average of age, and display by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176474
+            }
+        },
+        {
+            "query": "What are the names and ages of artists? Show the result in a bar graph, and show x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6466638206663345
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis age, and display in ascending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6466638206663345
+            }
+        },
+        {
+            "query": "Show all artist names and ages in a histogram, list from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6466638206663345
+            }
+        },
+        {
+            "query": "A bar chart compares the ages of all artists, rank by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6466638206663345
+            }
+        },
+        {
+            "query": "What are the average ages of artists by countries? Visualize the result with a histogram, and I want to display in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the average of artists' age by country in a bar graph, could you rank in ascending by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "Show the average of artists' age by country, I want to rank Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the average of age, and I want to show by the y-axis in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "Show the average of artists' age by country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "What are the average ages of artists by countries? Visualize the result with a histogram.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the average of artists' age by country in a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the average of age",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836908
+            }
+        },
+        {
+            "query": "What is the number of countries in the artist table?, I want to order from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.765998639308386
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of countries in the artist table, and could you display by the bars in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.765998639308386
+            }
+        },
+        {
+            "query": "Show how many country from each country, show bars in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.765998639308386
+            }
+        },
+        {
+            "query": "Compare all countries with a bar chart, could you display by the bars in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.765998639308386
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis age, and rank Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6454784909020709
+            }
+        },
+        {
+            "query": "Show all artist names and ages in a histogram, rank Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6454784909020709
+            }
+        },
+        {
+            "query": "What are the names and ages of artists? Show the result in a bar graph, and sort by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6454784909020709
+            }
+        },
+        {
+            "query": "A bar chart compares the ages of all artists, sort by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6454784909020709
+            }
+        },
+        {
+            "query": "Show all artist names and ages in a histogram.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "What are the names and ages of artists? Show the result in a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "A bar chart compares the ages of all artists.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis age",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis age, and show Age in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.646639414755341
+            }
+        },
+        {
+            "query": "Show all artist names and ages in a histogram, list Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.646639414755341
+            }
+        },
+        {
+            "query": "What are the names and ages of artists? Show the result in a bar graph, list y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.646639414755341
+            }
+        },
+        {
+            "query": "A bar chart compares the ages of all artists, I want to display in desc by the Y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.646639414755341
+            }
+        },
+        {
+            "query": "Compare all countries with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "What is the number of countries in the artist table?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of countries in the artist table",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Show how many country from each country",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Show how many country from each country, and display total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of countries in the artist table, and list total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Compare all countries with a bar chart, display Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "What is the number of countries in the artist table?, and I want to rank how many country in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year with a bar chart, could you order by the y axis in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620865203959418
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year, and rank y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620865203959418
+            }
+        },
+        {
+            "query": "Show all countries with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the proportion of the number of countries in the artist table?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582570107962284
+            }
+        },
+        {
+            "query": "Give me a pie chart about the proportion of the number of countries in the artist table",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many country across country.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For artist names who are not from the United States, how many names in each year?, and I want to sort by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7792100262165805
+            }
+        },
+        {
+            "query": "For artist names who are not from United States, show me a stacked that the x-axis is the Year_Join and the group by name in Y, and order by the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7792100262165805
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620865203959418
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7620865203959418
+            }
+        },
+        {
+            "query": "What are the famous titles and ages of each artist, listed in descending order by age using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7184893641705629
+            }
+        },
+        {
+            "query": "Give me a histogram showing the famous titles and ages of each artist with the age in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7184893641705629
+            }
+        },
+        {
+            "query": "For artist names who are not from United States, show me a stacked that the x-axis is the Year_Join and the group by name in Y, I want to rank y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7768507139917683
+            }
+        },
+        {
+            "query": "For artist names who are not from the United States, how many names in each year?, and show by the how many year join in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7768507139917683
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the average of age, sort in desc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836882
+            }
+        },
+        {
+            "query": "What are the average ages of artists by countries? Visualize the result with a histogram, sort in descending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average of artists' age by country, and sort in desc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836882
+            }
+        },
+        {
+            "query": "Compare the average of artists' age by country in a bar graph, rank by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945843719836882
+            }
+        },
+        {
+            "query": "What are the average ages of artists by countries? Visualize the result with a histogram, display in ascending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the average of artists' age by country in a bar graph, and could you show Country from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176499
+            }
+        },
+        {
+            "query": "Show the average of artists' age by country, and I want to order by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176499
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the average of age, and I want to order by the Country in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6945707075176499
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year with a bar chart, I want to display Y-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7580908624195514
+            }
+        },
+        {
+            "query": "For all artist names who are not from the United States, show the total number of each year, show in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7580908624195514
+            }
+        },
+        {
+            "query": "Give me a bar chart about the number of countries in the artist table, and show by the Y from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Compare all countries with a bar chart, and sort how many country in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Show how many country from each country, could you list by the Y from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "What is the number of countries in the artist table?, I want to rank by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766012407681376
+            }
+        },
+        {
+            "query": "Show all artist names and ages in a histogram, could you sort bar from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "Bar chart x axis name y axis age, and I want to order from high to low by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "A bar chart compares the ages of all artists, and rank in desc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6455172484611079
+            }
+        },
+        {
+            "query": "What are the names and ages of artists? Show the result in a bar graph, and I want to rank names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6475972814692758
+            }
+        },
+        {
+            "query": "For artist names who are not from United States, show me a stacked that the x-axis is the Year_Join and the group by name in Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7768507139917683
+            }
+        },
+        {
+            "query": "For artist names who are not from the United States, how many names in each year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7768507139917683
+            }
+        }
+    ],
+    "errors": []
+}

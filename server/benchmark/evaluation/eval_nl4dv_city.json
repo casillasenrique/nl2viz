@@ -1,0 +1,175 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "city",
+    "results": [
+        {
+            "query": "Show the average of population from each status, rank from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7420008240631871
+            }
+        },
+        {
+            "query": "A bar chart about what are the statuses and average populations of each city?, display by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city Plot them as bar chart, and rank in asc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the statuses and average populations of each city?, rank in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the statuses and average populations of each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about what are the statuses and average populations of each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7626847314288274
+            }
+        },
+        {
+            "query": "I want to know the proportion of the average population for each status.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7626847314288274
+            }
+        },
+        {
+            "query": "A bar chart about what are the statuses and average populations of each city?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the statuses and average populations of each city?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "Show the average of population from each status",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7420008240631871
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city Plot them as bar chart, and list by the y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445444065587608
+            }
+        },
+        {
+            "query": "Show the average of population from each status, list by the the average of population in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7420174569305593
+            }
+        },
+        {
+            "query": "A bar chart about what are the statuses and average populations of each city?, I want to sort by the the average of population in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445444065587608
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the statuses and average populations of each city?, I want to sort by the the average of population in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average of population from each status, and rank by the Y in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7420008240631871
+            }
+        },
+        {
+            "query": "A bar chart about what are the statuses and average populations of each city?, could you sort Y from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city Plot them as bar chart, and show in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445277736913886
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the statuses and average populations of each city?, could you sort Y from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the statuses and average populations of each city?, list by the names in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what are the statuses and average populations of each city?, and sort names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445444065587608
+            }
+        },
+        {
+            "query": "What are the statuses and average populations of each city Plot them as bar chart, and I want to order names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7445444065587608
+            }
+        },
+        {
+            "query": "Show the average of population from each status, and sort names in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745344249310298
+            }
+        }
+    ],
+    "errors": []
+}

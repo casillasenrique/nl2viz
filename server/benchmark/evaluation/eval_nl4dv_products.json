@@ -1,0 +1,2681 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "products",
+    "results": [
+        {
+            "query": "For those products with a price between 60 and 120, draw a pie chart about the proportion of name and code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a pie chart shows the proportion of name and code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, for the attribute name and code, show their proportion by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the proportion of code and code in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me a pie chart to reflect the proportion of name and code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of names for each product in the store?, and sort by the Name in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, order by the bar from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the names of all the products in the store and return me a bar chart, could you sort X from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a bar chart, and display from high to low by the x axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of all products in the store?, and I want to show in asc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and prices of all products in the store?, and I want to sort by the x axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of all products in the store Plot them as bar chart, sort by the x axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of mean price from each name, and show bars from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, I want to display by the Y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, show in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product type code y axis maximal product price, and show in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of products with price at most 200, and count them by a bar chart, and rank by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the names of products with price at most 200?, and could you list in ascending by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Select the name of the products with a price less than or equal to $200, and count them by a bar chart, and rank by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of products with price at most 200?, and show from low to high by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and manufacturer , rank from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about manufacturer over the name , sort by the y-axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and manufacturer , rank from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and manufacturer , and rank from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and manufacturer , and could you order by the Y in asc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name , order by the names from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name by a bar chart, could you list by the Name in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and price , and visualize them by a bar chart, and could you rank in desc by the Name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and price , I want to sort in desc by the bar please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and price , show by the x-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of minimum product price for each product type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the names of all the products in the store and return me a bar chart, could you order y axis in asc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, order by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of names for each product in the store?, and display by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type Visualize by bar chart, I want to sort in desc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product Visualize by bar chart, and display in descending by the the average of product price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a bar chart, and could you list the average of product price from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show mean product price from different product type code, rank Y-axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average price for each type of product?, and show y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for sum price of each name, and display from low to high by the y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and total prices of all products in the store?, display from low to high by the y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and the total prices of all products in the store?, and display by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and the accumulated prices of all products in the store Plot them as a bar chart, I want to order by the Y in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, and show X-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product type code y axis maximal product price, could you display from low to high by the product_type_code?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, and I want to display in asc by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize the relationship between price and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between price and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, what is the relationship between price and manufacturer ?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between price and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the correlation between price and manufacturer in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average price of the products for each category?, order by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of product price from different product category code, and I want to display by the Y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a bar chart, and list y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what is the average price of the products for each category?, and rank from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code, and order by the mean product price in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category, list y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart, and list minimal product price from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart, sort Y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of product type code versus minimal product price, sort Y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?, and rank in descending by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, and rank in descending by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of minimal price from each name, and order by the y-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, and sort bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, and could you list by the x axis in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of maximal product price from each product type code, and display in descending by the product_type_code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average price for each type of product?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type. Visualize by bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show mean product price from different product type code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of maximal product price from each product type code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of products with price at most 200, and count them by a bar chart, display by the Name in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the names of products with price at most 200?, and order by the X-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Select the name of the products with a price less than or equal to $200, and count them by a bar chart, I want to list in asc by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of products with price at most 200?, and rank by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relationship between minimum product price and maximum product price and group by product type code in a group scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatterplot of minimal product price vs max(product price) by product_type_code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the proportion of what is the average price for each type of product?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what is the average price for each type of product?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the average of product price from different product type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of maximal product price from each product type code, and list from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, sort by the y axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, rank in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a scatter chart about the correlation between price and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a scatter chart shows the correlation between price and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, what is the relationship between price and manufacturer , and group by attribute name?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize the relationship between price and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between price and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, and display by the names in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product type code y axis maximal product price, order names from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, and show in desc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and price , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and code , rank names in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and code , could you rank by the x-axis in desc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and code , and could you rank by the x-axis in desc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and code , and visualize them by a bar chart, list from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and code , list X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about manufacturer over the name , list in desc by the y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and manufacturer , I want to rank in descending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and manufacturer , show Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and manufacturer , and sort in desc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and manufacturer , and I want to sort from high to low by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a bar chart, rank x-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a bar chart, I want to order by the total number in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total maximal product price across product type code as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and manufacturer , display by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and manufacturer , display by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and manufacturer , and could you order in ascending by the x-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and manufacturer , I want to list in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about manufacturer over the name , and rank x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show maximal product price from different product type code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the correlation between code and manufacturer in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a scatter chart about the correlation between code and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a scatter chart shows the correlation between code and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between code and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between code and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and price , order in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name by a bar chart, and show by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and price , and visualize them by a bar chart, I want to rank by the y-axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and price , and order in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name , and list from low to high by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, and sort from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?, I want to show bars in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of minimal price from each name, order by the bar in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the names of all the products in the store and return me a bar chart, could you order Name in asc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, and order by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of names for each product in the store?, and I want to list names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show mean product price from different product type code, and I want to sort in asc by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average price for each type of product?, and order y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type Visualize by bar chart, and list by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product Visualize by bar chart, list by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a bar chart, order by the total number in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about manufacturer over the name , and show by the names from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and manufacturer , and display by the Name in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and manufacturer , order in descending by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and manufacturer , and display x axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and manufacturer , show in descending by the X please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category, could you list by the bars in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average price of the products for each category?, show from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a bar chart, sort in ascending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what is the average price of the products for each category?, and rank product_category_code in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code, and sort in ascending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of product price from different product category code, show names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of all products in the store?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and prices of all products in the store?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of all products in the store. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of mean price from each name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the code of the product that is cheapest in each product category and the minimum price with a scatterplot.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the codes of the cheapest products in each category and the corresponding cheapest price?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a scatter plot of code and minimal price for .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of all products in the store Plot them as bar chart, show Y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of mean price from each name, and order mean price in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and prices of all products in the store?, rank y axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of all products in the store?, could you rank by the mean price in descending please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, and I want to order by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of maximal product price from each product type code, and I want to list in ascending by the bars please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, and order names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type Visualize by bar chart, and sort x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a bar chart, and rank bars from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product Visualize by bar chart, and could you sort by the X-axis in asc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average price for each type of product?, rank x axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show mean product price from different product type code, and rank x axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of product names using a bar chart, and display in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product name y axis how many product name, display in desc by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart with the product name and their frequency, sort by the X in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a bar chart, rank x axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the proportion of the product name for each product using a pie chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of products for each product name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what is the average price of the products for each category?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average price of the products for each category?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of product price from different product category code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relationship between minimum product price and maximum product price and group by product type code in a group scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show max(product price) vs minimal product price as scatter plot use a different color for each product_type_code",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of mean price from each name, I want to display from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and prices of all products in the store?, show from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of all products in the store Plot them as bar chart, and show mean price in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of all products in the store?, and I want to sort by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the names of products with price at most 200?, and I want to show by the X in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of products with price at most 200, and count them by a bar chart, and display in desc by the Name please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of products with price at most 200?, and list by the bars in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Select the name of the products with a price less than or equal to $200, and count them by a bar chart, and could you display Name from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and code , and list in desc by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and code , I want to sort by the Y in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and code , and display Code in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and code , and visualize them by a bar chart, and list in desc by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and code , I want to order Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a bar chart, and I want to sort by the y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, and sort by the y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of minimal price from each name, and order y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?, and list in ascending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name by a bar chart, and sort by the Y from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and price , and visualize them by a bar chart, and list in desc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and price , and display by the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name , and sort Price in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and price , order in desc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart, and could you rank x axis in ascending order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart, and could you rank x axis in ascending order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of product type code versus minimal product price, and I want to rank in asc by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for sum price of each name, I want to display by the x-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and the total prices of all products in the store?, and could you list from high to low by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and total prices of all products in the store?, display by the bar in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and the accumulated prices of all products in the store Plot them as a bar chart, and could you list from high to low by the X-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart on what is the average price of the products for each category?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what is the average price of the products for each category?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category, Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about the average price of products that have each category code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a bar chart, and I want to list from high to low by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of minimal price from each name, order from low to high by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, sort in ascending by the bar.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?, and list in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, list by the maximal product price in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of maximal product price from each product type code, show in desc by the maximal product price please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, order in descending by the maximal product price please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name by a bar chart, order by the x axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and price , sort in ascending by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and price , and visualize them by a bar chart, and sort in ascending by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about price over the name , and I want to display bars in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and price , I want to display bars in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and total prices of all products in the store?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and the total prices of all products in the store?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and the accumulated prices of all products in the store. Plot them as a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for sum price of each name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what are the names and prices of all products in the store?, show bars in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of all products in the store?, and order names in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of mean price from each name, order names in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of all products in the store Plot them as bar chart, I want to order X in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relationship between minimum product price and maximum product price in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a bar chart, and could you rank y-axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of minimal price from each name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the names of all the products in the store and return me a bar chart, display y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, sort Y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of names for each product in the store?, and order Y in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and manufacturer .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me the comparison about manufacturer over the name .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of product names using a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart with the product name and their frequency.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product name y axis how many product name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart, could you display by the y axis in asc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart, I want to sort in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product type code y axis maximal product price, and could you sort by the maximal product price in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of product names using a bar chart, rank by the Y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product name y axis how many product name, rank by the Y-axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart with the product name and their frequency, and show by the y axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product name y axis how many product name, and I want to display in asc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of product names using a bar chart, and list x-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart with the product name and their frequency, sort in ascending by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and code , and I want to rank by the x-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and code , and I want to rank by the x-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and code , and visualize them by a bar chart, sort by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and code , show bars in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and code , and display by the names in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the correlation between code and price , and group by attribute name in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize the relationship between code and price , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a scatter chart about the correlation between code and price , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between code and price , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between code and price , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and code .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and code , and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and code .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and code .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and code .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the names of all the products in the store and return me a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the number of names for each product in the store?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type by a bar chart, and display X in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price for each product type Visualize by bar chart, I want to display by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show mean product price from different product type code, and show bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what is the average price for each type of product?, I want to display by the x axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price for each type of product Visualize by bar chart, and show bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a bar chart, and order Y in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what is the average price of the products for each category?, order Y in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code, and could you sort mean product price from high to low order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of product price from different product category code, and order Y in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category, I want to show from high to low by the mean product price please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average price of the products for each category?, could you show from high to low by the y axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the names of products with price at most 200?, list how many name in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of products with price at most 200, and count them by a bar chart, display how many name in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of products with price at most 200?, display in descending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Select the name of the products with a price less than or equal to $200, and count them by a bar chart, order Y in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the highest price of product, grouped by product type? Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the maximum product price for each product type in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product type code y axis maximal product price",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a pie chart about the proportion of name and manufacturer.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me a pie chart to reflect the proportion of name and manufacturer.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a pie chart shows the proportion of name and manufacturer.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a pie chart about the proportion of name and manufacturer.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a pie chart about the proportion of name and manufacturer.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Display a pie chart for what are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for what are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and prices of products that cost at least 180, sorted by price decreasing and name ascending. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product name in a bar chart, order x axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and the total prices of all products in the store?, order y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and total prices of all products in the store?, and sort in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and the accumulated prices of all products in the store Plot them as a bar chart, show by the total number from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for sum price of each name, and order y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the relationship between minimum product price and maximum product price in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Scatter plot to show max(product price) on x axis and minimal product price on y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names and the accumulated prices of all products in the store Plot them as a bar chart, I want to show by the x-axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the names and total prices of all products in the store?, could you order in ascending by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart for sum price of each name, and could you order in ascending by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the names and the total prices of all products in the store?, and sort bar from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a pie chart about the proportion of name and price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a pie chart about the proportion of name and price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a pie chart about the proportion of name and price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, give me a pie chart to reflect the proportion of name and price.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the proportion of price and price in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between code and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the correlation between code and manufacturer , and group by attribute name in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize the relationship between code and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between code and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a scatter chart shows the correlation between code and manufacturer , and group by attribute name.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of products with price higher than 1000 or lower than 500 for each product type code in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of product type code versus minimal product price",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of product type code versus minimal product price, and rank in desc by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart, and I want to sort X-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart, and show by the X-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the average price of the products for each category, and sort bars in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code, and show X in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what is the average price of the products for each category?, and I want to order bar from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about what is the average price of the products for each category?, sort bars in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the average price of products that have each category code in a bar chart, could you rank x axis in desc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the average of product price from different product category code, and show bar in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of product type code versus minimal product price, display by the total number from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the lowest price of product, grouped by product type? Show a bar chart, could you rank by the y-axis from low to high please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give the minimum product price for each product type in a bar chart, display by the total number from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Select the name of the products with a price less than or equal to $200, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for what are the number of the names of products with price at most 200?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the names of products with price at most 200, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of the names of products with price at most 200?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the frequency of product names using a bar chart, and list from low to high by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis product name y axis how many product name, I want to order by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart with the product name and their frequency, list from low to high by the y axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between code and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a scatter chart shows the correlation between code and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a scatter chart about the correlation between code and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a scatter chart about the correlation between code and price .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, show me about the correlation between code and price in a scatter chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, return a bar chart about the distribution of name and code , I want to sort from low to high by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, draw a bar chart about the distribution of name and code , and rank by the y axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, a bar chart shows the distribution of name and code , list Y-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, visualize a bar chart about the distribution of name and code , I want to sort in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For those products with a price between 60 and 120, find name and code , and visualize them by a bar chart, list Y-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"What is the lowest price of product, grouped by product type? Show a bar chart.\" has 2 benchmarks associated with it",
+        "\"Give the minimum product price for each product type in a bar chart.\" has 2 benchmarks associated with it",
+        "\"Give the minimum product price for each product type in a pie chart.\" has 2 benchmarks associated with it",
+        "\"What is the lowest price of product, grouped by product type? Show a pie chart.\" has 2 benchmarks associated with it",
+        "\"What is the lowest price of product, grouped by product type? Show a pie chart.\" has 2 benchmarks associated with it",
+        "\"Give the minimum product price for each product type in a pie chart.\" has 2 benchmarks associated with it",
+        "\"What is the highest price of product, grouped by product type? Show a bar chart.\" has 2 benchmarks associated with it",
+        "\"Give the maximum product price for each product type in a bar chart.\" has 2 benchmarks associated with it",
+        "\"Show the relationship between minimum product price and maximum product price and group by product type code in a group scatter chart.\" has 2 benchmarks associated with it",
+        "\"Give the maximum product price for each product type in a pie chart.\" has 2 benchmarks associated with it",
+        "\"What is the highest price of product, grouped by product type? Show a pie chart.\" has 2 benchmarks associated with it",
+        "\"What is the highest price of product, grouped by product type? Show a pie chart.\" has 2 benchmarks associated with it",
+        "\"Give the maximum product price for each product type in a pie chart.\" has 2 benchmarks associated with it",
+        "\"Show the relationship between minimum product price and maximum product price and group by product type code in a group scatter chart.\" has 2 benchmarks associated with it",
+        "\"Show the relationship between minimum product price and maximum product price in a scatter chart.\" has 2 benchmarks associated with it",
+        "\"What is the highest price of product, grouped by product type? Show a bar chart.\" has 2 benchmarks associated with it",
+        "\"Give the maximum product price for each product type in a bar chart.\" has 2 benchmarks associated with it",
+        "\"Show the relationship between minimum product price and maximum product price in a scatter chart.\" has 2 benchmarks associated with it",
+        "\"What is the lowest price of product, grouped by product type? Show a bar chart.\" has 2 benchmarks associated with it",
+        "\"Give the minimum product price for each product type in a bar chart.\" has 2 benchmarks associated with it"
+    ]
+}

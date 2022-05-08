@@ -1,0 +1,350 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "matches",
+    "results": [
+        {
+            "query": "Show me a bar chart for how many matches were played each year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8035484678992767
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8035484678992767
+            }
+        },
+        {
+            "query": "Sum the number of matches that happened each year. Plot them as a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523855852474761
+            }
+        },
+        {
+            "query": "Show sum count(*) from each year",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523855852474761
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played in each year?, rank by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7667997776839788
+            }
+        },
+        {
+            "query": "How many matches were played in each year, and rank by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7667997776839788
+            }
+        },
+        {
+            "query": "Find the number of matches happened in each year Plot them as bar chart, show in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7667997776839788
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year?, and rank x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7667997776839788
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each year, and display names from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7667997776839788
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each year, and I want to order by the bar in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459366113123146
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year?, order in asc by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459366113123146
+            }
+        },
+        {
+            "query": "How many matches were played in each year, display bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459366113123146
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played in each year?, and display x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459366113123146
+            }
+        },
+        {
+            "query": "Find the number of matches happened in each year Plot them as bar chart, and show names in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8459366113123146
+            }
+        },
+        {
+            "query": "Show me a bar chart for the average of how many matches were played each year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6565235793929726
+            }
+        },
+        {
+            "query": "Return a histogram on the average of how many matches were played in each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6565235793929726
+            }
+        },
+        {
+            "query": "Compute the average of the number of matches that happened each year. Plot them as a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6565235793929726
+            }
+        },
+        {
+            "query": "Bar graph to show mean count(*) from different year",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6565235793929726
+            }
+        },
+        {
+            "query": "Find the number of matches happened in each year. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played in each year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "How many matches were played in each year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each year",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Bar graph to show mean count(*) from different year, display from high to low by the the average of count(*).",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6608605330220685
+            }
+        },
+        {
+            "query": "Compute the average of the number of matches that happened each year Plot them as a bar chart, I want to order Y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6609849946328618
+            }
+        },
+        {
+            "query": "Return a histogram on the average of how many matches were played in each year, could you show by the the average of count(*) in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6608605330220685
+            }
+        },
+        {
+            "query": "Show me a bar chart for the average of how many matches were played each year?, list y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6609849946328618
+            }
+        },
+        {
+            "query": "Show sum count(*) from each year, I want to order Y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.645308330871278
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played each year?, I want to show from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7010186235955121
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year, list in desc by the sum count(*).",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.645308330871278
+            }
+        },
+        {
+            "query": "Sum the number of matches that happened each year Plot them as a bar chart, and list in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.645308330871278
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year, order from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8394088836626992
+            }
+        },
+        {
+            "query": "Show sum count(*) from each year, and list in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523855852474761
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played each year?, and order from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8394088836626992
+            }
+        },
+        {
+            "query": "Sum the number of matches that happened each year Plot them as a bar chart, order from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6523855852474761
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played in each year?, list by the the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year?, could you sort in desc by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7175890979138969
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each year, I want to sort Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460198566533218
+            }
+        },
+        {
+            "query": "How many matches were played in each year, could you list total number in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460198566533218
+            }
+        },
+        {
+            "query": "Find the number of matches happened in each year Plot them as bar chart, and show the total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460198566533218
+            }
+        },
+        {
+            "query": "Return a histogram on how many matches were played in each year?, order Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460212160975488
+            }
+        },
+        {
+            "query": "How many matches were played in each year, and sort Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460212160975488
+            }
+        },
+        {
+            "query": "Bar chart of the total number from each year, and order Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460212160975488
+            }
+        },
+        {
+            "query": "Find the number of matches happened in each year Plot them as bar chart, I want to list in ascending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8460212160975488
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many matches were played in each year?, and I want to sort in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7964628661956875
+            }
+        },
+        {
+            "query": "Return a histogram on the average of how many matches were played in each year, order by the the average of count(*) in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664244995677449
+            }
+        },
+        {
+            "query": "Show me a bar chart for the average of how many matches were played each year?, list by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664244995677449
+            }
+        },
+        {
+            "query": "Compute the average of the number of matches that happened each year Plot them as a bar chart, sort Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664244995677449
+            }
+        },
+        {
+            "query": "Bar graph to show mean count(*) from different year, rank in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.664244995677449
+            }
+        }
+    ],
+    "errors": []
+}

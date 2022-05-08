@@ -1,0 +1,35 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Research_Staff",
+    "results": [
+        {
+            "query": "What details are there on the research staff? List the result in ascending alphabetical order, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of the research staff details, and order in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the research staff details, and order in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the research staff details, and order in ascending order, and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

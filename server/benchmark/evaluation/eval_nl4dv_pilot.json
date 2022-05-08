@@ -1,0 +1,266 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "pilot",
+    "results": [
+        {
+            "query": "Bar graph to show the total number from different nationality, sort total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315892988864133
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality Show bar chart, and sort total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315892988864133
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality, display by the total number in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different nationality, and show in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality Show bar chart, display by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality, and display by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of positions of the pilots?, and I want to rank by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7377818743525908
+            }
+        },
+        {
+            "query": "Bar chart of the number of position from each position, and could you sort the number of position in asc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7377818743525908
+            }
+        },
+        {
+            "query": "Please compare the frequency of the position of the pilots using a bar chart, and order Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7377818743525908
+            }
+        },
+        {
+            "query": "Show me a pie chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7753594320605967
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7753594320605967
+            }
+        },
+        {
+            "query": "Compute the total the total number across nationality as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the frequency of the position of the pilots using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.737030427816946
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of positions of the pilots?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.737030427816946
+            }
+        },
+        {
+            "query": "Bar chart of the number of position from each position",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.737030427816946
+            }
+        },
+        {
+            "query": "What is the proportion of positions of pilots?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7960012495609409
+            }
+        },
+        {
+            "query": "Show a pie chart to compare the number of each position of the pilot.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each position.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7960012495609409
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality, and I want to list by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345454
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different nationality, I want to show by the X-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345454
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality Show bar chart, list by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345454
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different nationality",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345452
+            }
+        },
+        {
+            "query": "Bar graph to show the total number from different nationality, list in ascending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345454
+            }
+        },
+        {
+            "query": "What are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality Show bar chart, display in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7311725676345454
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality, and could you display total number from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315892988864134
+            }
+        },
+        {
+            "query": "Bar chart of the number of position from each position, rank by the Y from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7377818743525916
+            }
+        },
+        {
+            "query": "Please compare the frequency of the position of the pilots using a bar chart, and could you list in descending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370304278169467
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of positions of the pilots?, rank in descending by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7377818743525916
+            }
+        },
+        {
+            "query": "Bar chart of the number of position from each position, and list in ascending by the Position.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370494893266626
+            }
+        },
+        {
+            "query": "Please compare the frequency of the position of the pilots using a bar chart, and could you sort from low to high by the bar please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370494893266626
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of positions of the pilots?, and I want to order bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7378009358623073
+            }
+        },
+        {
+            "query": "Bar chart of the number of position from each position, list by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370494893266639
+            }
+        },
+        {
+            "query": "Can you draw a bar chart to show the number of positions of the pilots?, list in desc by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370494893266639
+            }
+        },
+        {
+            "query": "Please compare the frequency of the position of the pilots using a bar chart, and could you order by the bars from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7378009358623089
+            }
+        }
+    ],
+    "errors": []
+}

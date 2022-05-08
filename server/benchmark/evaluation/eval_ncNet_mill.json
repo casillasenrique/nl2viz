@@ -1,0 +1,48 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "mill",
+    "results": [
+        {
+            "query": "How many mills of 'Grondzeiler' type are built in each year? Give me the trend, rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "How many mills of 'Grondzeiler' type are built in each year? Give me the trend, list x-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "How many mills of 'Grondzeiler' type are built in each year? Give me the trend, order in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "How many mills of 'Grondzeiler' type are built in each year? Give me the trend, list in descending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "How many mills of 'Grondzeiler' type are built in each year? Give me the trend.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        }
+    ],
+    "errors": [
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError"
+    ]
+}

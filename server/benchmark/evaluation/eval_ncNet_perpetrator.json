@@ -1,0 +1,175 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "perpetrator",
+    "results": [
+        {
+            "query": "Visualize a pie chart with what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982994057191682
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982994057191682
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.699210524763146
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each country.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9982994057191682
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there Plot them as bar chart, and rank by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9096132174589228
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, could you display in descending by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9096132174589228
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the total number, sort x-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9096132174589228
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, sort x-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9096132174589228
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the total number, and list by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9104958281757151
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, and list from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901535746466896
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there Plot them as bar chart, and could you sort total number in ascending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901535746466896
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, I want to order y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901535746466896
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, and list in descending by the y axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the total number, list total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, and display by the Y-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there Plot them as bar chart, and sort by the the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9901578660007669
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, I want to rank by the X-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the total number, and sort X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there, I want to rank by the X-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there Plot them as bar chart, I want to show names from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the countries of perpetrators? Show each country and the corresponding number of perpetrators there.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "What are the countries of perpetrators? Show each country and the corresponding number of perpetrators there. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        },
+        {
+            "query": "Bar chart x axis country y axis the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947068331089793
+            }
+        }
+    ],
+    "errors": []
+}

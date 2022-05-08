@@ -1,0 +1,469 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "film",
+    "results": [
+        {
+            "query": "Visualize a bar chart for how films are produced by each studio?, I want to display in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio by a bar chart, I want to display in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "How films are produced by each studio Show bar chart, display y axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio Show bar chart, and show the total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "Show me the total number by studio in a histogram, and rank by the Y in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "A bar chart about how films are produced by each studio?, display y axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689753958090304
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how films are produced by each studio?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "A bar chart about how films are produced by each studio?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "How films are produced by each studio. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "Show me the total number by studio in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6689831598631591
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director in a bar chart, and rank Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director Plot them as bar chart, I want to show total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by directed by as a bar graph, I want to show total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8642793363164536
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8642793363164536
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different directed by.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8642793363164536
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of films for each director.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7697999183402171
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "Bar graph to show the number of directed by from different directed by",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of films for each director, rank in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7697999183402171
+            }
+        },
+        {
+            "query": "Bar graph to show the number of directed by from different directed by, order by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a bar chart, and could you display by the how many directed by in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how films are produced by each studio?, could you show by the bars from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668182353241502
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio Show bar chart, sort X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668182353241502
+            }
+        },
+        {
+            "query": "Show me the total number by studio in a histogram, and sort by the X in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668182353241502
+            }
+        },
+        {
+            "query": "How films are produced by each studio Show bar chart, and rank x-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668182353241502
+            }
+        },
+        {
+            "query": "A bar chart about how films are produced by each studio?, sort by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.667038567627968
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio by a bar chart, and sort by the Studio in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668182353241502
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director in a bar chart, sort Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by directed by as a bar graph, sort from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director Plot them as bar chart, sort in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how films are produced by each studio?, list bar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668025182778461
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio Show bar chart, could you list by the X from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668025182778461
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio by a bar chart, I want to rank by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668025182778461
+            }
+        },
+        {
+            "query": "How films are produced by each studio Show bar chart, and list bar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668025182778461
+            }
+        },
+        {
+            "query": "A bar chart about how films are produced by each studio?, and show by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6668813971649269
+            }
+        },
+        {
+            "query": "Show me the total number by studio in a histogram, I want to rank by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.668025182778461
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by directed by as a bar graph, and I want to rank by the bars in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director Plot them as bar chart, display in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director in a bar chart, and I want to rank by the bars in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "Give me a pie chart showing the number of films for each director.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8423093868962249
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8423093868962249
+            }
+        },
+        {
+            "query": "Give me a pie to show how many directed by from different directed by.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8642793363164536
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by directed by as a bar graph, list from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director in a bar chart, and display Directed_by from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director Plot them as bar chart, list X-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7706008834359553
+            }
+        },
+        {
+            "query": "Show me the total number by studio in a histogram, and show Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "Visualize a bar chart for how films are produced by each studio?, and order Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "How films are produced by each studio Show bar chart, and order Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "A bar chart about how films are produced by each studio?, and show Y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio Show bar chart, and list the total number in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "List the studios of each film and the number of films produced by that studio by a bar chart, and order from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6690857894678189
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "List all directors along with the number of films directed by each director. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by directed by as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7678341582170711
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of films for each director, and I want to display by the x-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a bar chart, and could you order from high to low by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "Bar graph to show the number of directed by from different directed by, and I want to sort by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7695576280888239
+            }
+        },
+        {
+            "query": "Bar graph to show the number of directed by from different directed by, show Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766790902869941
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a bar chart, and list y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766790902869941
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of films for each director, and I want to list total number from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766790902869941
+            }
+        },
+        {
+            "query": "Bar graph to show the number of directed by from different directed by, show Directed_by in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766790902869941
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the number of films for each director, and display bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.767033193121334
+            }
+        },
+        {
+            "query": "What is the number of films of each director? Return a bar chart, order in ascending by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.766147308909678
+            }
+        }
+    ],
+    "errors": []
+}

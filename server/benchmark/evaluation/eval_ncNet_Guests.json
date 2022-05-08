@@ -1,0 +1,316 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Guests",
+    "results": [
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?, show by the x axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\", list x axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart, and I want to show by the x-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for returning the number of the date of birth for all the guests with gender code \"Male\", sort by the X in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart, and display from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show each gender code and the corresponding count of guests sorted by the count in descending order by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show each gender code and the corresponding count of guests sorted by the count in descending order. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\", and could you display by the x axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?, I want to show x axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart, list date_of_birth in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart, I want to show x axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for returning the number of the date of birth for all the guests with gender code \"Male\", I want to show x axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart, I want to order the number of date of birth from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\", could you rank in desc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?, list by the y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart, and list by the y axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\", and show Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show each gender code and the corresponding count of guests sorted by the count in descending order by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show each gender code and the corresponding count of guests sorted by the count in descending order. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart, list in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\", sort Y in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\", and rank from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?, and sort Y in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart, sort in ascending by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return the number of the date of birth for all the guests with gender code \"Male\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart for returning the number of the date of birth for all the guests with gender code \"Male\".",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the number of dates of birth of all the guests whose gender is \"Male\"?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?, show by the x axis in desc.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\", list x axis in descending order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart, and I want to show by the x-axis from high to low.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A line chart for returning the number of the date of birth for all the guests with gender code \"Male\", sort by the X in descending.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart, and display from high to low by the X.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Show each gender code and the corresponding count of guests sorted by the count in descending order by a pie chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Show each gender code and the corresponding count of guests sorted by the count in descending order. Show a pie chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts with a pie chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts. Visualize by pie chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\", and could you display by the x axis in asc?\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?, I want to show x axis in ascending order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart, list date_of_birth in asc order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart, I want to show x axis in ascending order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A line chart for returning the number of the date of birth for all the guests with gender code \"Male\", I want to show x axis in ascending order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\".\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart\" - <class 'KeyError'>: 'Guests'",
+        "\"Return the number of the date of birth for all the guests with gender code \"Male\".\" has 2 benchmarks associated with it",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\".\" - <class 'KeyError'>: 'Guests'",
+        "\"What are the number of dates of birth of all the guests whose gender is \"Male\"?\" has 2 benchmarks associated with it",
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart, I want to order the number of date of birth from high to low order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\", could you rank in desc by the Y?\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?, list by the y-axis in descending.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart, and list by the y axis in descending.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\", and show Y in descending order.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Show each gender code and the corresponding count of guests sorted by the count in descending order by a bar chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Show each gender code and the corresponding count of guests sorted by the count in descending order. Show bar chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts in a bar chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Sort the gender codes in descending order of their corresponding number of guests. Return both the gender codes and counts. Show bar chart.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a bar chart, list in ascending by the y axis.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\", sort Y in ascending order please.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A bar chart for returning the number of the date of birth for all the guests with gender code \"Male\", and rank from low to high by the y axis.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?, and sort Y in ascending order please.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a bar chart, sort in ascending by the total number please.\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"Return the date of birth for all the guests with gender code \"Male\", and count them by a line chart\" - <class 'KeyError'>: 'Guests'",
+        "\"Return the number of the date of birth for all the guests with gender code \"Male\".\" has 2 benchmarks associated with it",
+        "Error when executing \"Return the number of the date of birth for all the guests with gender code \"Male\".\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"A line chart for returning the number of the date of birth for all the guests with gender code \"Male\".\" - <class 'KeyError'>: 'Guests'",
+        "Error when executing \"What are dates of birth of all the guests whose gender is \"Male\", and count them by a line chart\" - <class 'KeyError'>: 'Guests'",
+        "\"What are the number of dates of birth of all the guests whose gender is \"Male\"?\" has 2 benchmarks associated with it",
+        "Error when executing \"What are the number of dates of birth of all the guests whose gender is \"Male\"?\" - <class 'KeyError'>: 'Guests'"
+    ]
+}

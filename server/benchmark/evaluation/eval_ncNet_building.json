@@ -1,0 +1,40 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "building",
+    "results": [
+        {
+            "query": "Please compare the number of floors for all street address using a bar chart, and order by the number of floors.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart that the street address as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart that the name as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please compare the number of floors for all building names using a bar chart, and order by the number of floors.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Please compare the number of floors for all street address using a bar chart, and order by the number of floors.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Return a bar chart that the street address as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Return a bar chart that the name as the X-axis, and the number of floors for all buildings as Y-axis, and ordered by the number of floors.\" - <class 'IndexError'>: list index out of range",
+        "Error when executing \"Please compare the number of floors for all building names using a bar chart, and order by the number of floors.\" - <class 'IndexError'>: list index out of range"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "STUDENT",
+    "results": [
+        {
+            "query": "A bar chart for what are the number of the last names of female students, ordered by age descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "Find the number of the last name of female (sex is F) students in the descending order of age.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "Find the last name of female (sex is F) students in the descending order of age, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "What are the last names of female students, ordered by age descending, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "A bar chart for finding the number of the last name of female (sex is F) students in the descending order of age.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "What are the number of the last names of female students, ordered by age descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6902647307974378
+            }
+        },
+        {
+            "query": "For each advisor, report the total number of students advised by him or her. Plot them as scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7787691963950228
+            }
+        },
+        {
+            "query": "Visualize a scatter chart on how many students does each advisor have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7787691963950228
+            }
+        },
+        {
+            "query": "A scatter chart about how many students does each advisor have?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7787691963950228
+            }
+        },
+        {
+            "query": "How many students does each advisor have.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7726486297775491
+            }
+        },
+        {
+            "query": "Scatter plot to show advisor on x axis and the total number on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7787691963950228
+            }
+        }
+    ],
+    "errors": []
+}

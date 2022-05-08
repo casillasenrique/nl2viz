@@ -1,0 +1,88 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "TV_series",
+    "results": [
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are 3 most highly rated episodes in the TV series table and what were those ratings. Plot them as bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are 3 most highly rated episodes in the TV series table and what were those ratings. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"List top 3 highest Rating TV series. List the TV series's Episode and Rating in a bar chart.\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show bar chart.\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"Draw a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"Show me a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"What are 3 most highly rated episodes in the TV series table and what were those ratings. Plot them as bar chart.\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"List top 3 highest Rating TV series. List the TV series's Episode and Rating with a pie chart.\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show a pie chart.\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"Show me the proportion on what are 3 most highly rated episodes in the TV series table and what were those ratings?\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"what are 3 most highly rated episodes in the TV series table and what were those ratings?\" - <class 'KeyError'>: 'TV_series'",
+        "Error when executing \"What are 3 most highly rated episodes in the TV series table and what were those ratings. Visualize by pie chart.\" - <class 'KeyError'>: 'TV_series'"
+    ]
+}

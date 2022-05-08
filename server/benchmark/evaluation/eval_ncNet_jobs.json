@@ -1,0 +1,98 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "jobs",
+    "results": [
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8161494201662182
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8161494201662182
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, and I want to list by the names from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8436846678691134
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and could you display by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8436846678691134
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, rank y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8453464163509783
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and sort maximal salary-min salar from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5976713553725359
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, and order in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8177014883524351
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, and rank by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8391198031838248
+            }
+        },
+        {
+            "query": "what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?, could you sort by the names in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8161494201662182
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000 Plot them as bar chart, I want to show by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8161494201662182
+            }
+        },
+        {
+            "query": "A pie chart about what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9659164834606545
+            }
+        },
+        {
+            "query": "Return a pie chart on what are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9659164834606545
+            }
+        },
+        {
+            "query": "What are the job titles, and range of salaries for jobs with maximum salary between 12000 and 18000. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9659164834606545
+            }
+        }
+    ],
+    "errors": []
+}

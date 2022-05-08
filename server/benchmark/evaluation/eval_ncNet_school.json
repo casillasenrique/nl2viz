@@ -1,0 +1,406 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "school",
+    "results": [
+        {
+            "query": "Show each county along with the number of schools.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562677208730378
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of schools in each county.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562677208730378
+            }
+        },
+        {
+            "query": "Draw a bar chart of county versus the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.689099584740287
+            }
+        },
+        {
+            "query": "Please give me a bar chart for the total enrollment in each county, could you rank County in descending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7361652219497706
+            }
+        },
+        {
+            "query": "Compare the total enrollment in each county with a bar chart, and could you order in desc by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7208887964809371
+            }
+        },
+        {
+            "query": "Show sum enrollment from each county, and I want to list X in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7361652219497706
+            }
+        },
+        {
+            "query": "Draw a bar chart of county versus the total number, and display by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6798481931048306
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of schools in each county, order X in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6562932121088608
+            }
+        },
+        {
+            "query": "Show each county along with the number of schools, and could you rank by the x-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6798481931048306
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across denomination, and rank by the Denomination in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination Visualize by bar chart, and could you list Denomination in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "Show each county along with the number of schools with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.866469062067894
+            }
+        },
+        {
+            "query": "What is the proportion of the number of schools in different counties?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.866469062067894
+            }
+        },
+        {
+            "query": "Create a pie chart showing the total number across county.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.806868798407962
+            }
+        },
+        {
+            "query": "Show the proportion of the total enrollment in each county with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8033971323465673
+            }
+        },
+        {
+            "query": "Please give me a pie chart for the proportion of the total enrollment in each county.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8033971323465673
+            }
+        },
+        {
+            "query": "Compute the total sum enrollment across county as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8033971323465673
+            }
+        },
+        {
+            "query": "Show sum enrollment from each county, sort y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7321742895857408
+            }
+        },
+        {
+            "query": "Compare the total enrollment in each county with a bar chart, sort y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7321742895857408
+            }
+        },
+        {
+            "query": "Please give me a bar chart for the total enrollment in each county, sort in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7242584742951325
+            }
+        },
+        {
+            "query": "Draw a bar chart of county versus the total number, show by the y axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7120650620398244
+            }
+        },
+        {
+            "query": "Show each county along with the number of schools, and display Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.663264115360232
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of schools in each county, and rank y axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7120650620398244
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination Visualize by bar chart, order X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8497809085677955
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across denomination, I want to sort by the Denomination from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8497809085677955
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9976957530375786
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different denomination.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9976957530375786
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination Visualize by bar chart, list from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8497809085677955
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across denomination, and could you show y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of schools in each county, and display y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6641806273471516
+            }
+        },
+        {
+            "query": "Show each county along with the number of schools, and display in ascending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.711291174355431
+            }
+        },
+        {
+            "query": "Draw a bar chart of county versus the total number, order by the Y in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.711291174355431
+            }
+        },
+        {
+            "query": "Show the relationship between the number of schools in each county and total enrollment in each county by a scatter plot.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7877893039558156
+            }
+        },
+        {
+            "query": "Plot the number of schools and total enrollment in each county with a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7877893039558156
+            }
+        },
+        {
+            "query": "Plot a scatter chart, count(*) by sum enrollment.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7143593194896457
+            }
+        },
+        {
+            "query": "Compare the total enrollment in each county with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7360293851268386
+            }
+        },
+        {
+            "query": "Please give me a bar chart for the total enrollment in each county.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7360293851268386
+            }
+        },
+        {
+            "query": "Show sum enrollment from each county",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7360293851268386
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across denomination",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "For each denomination, return the denomination and the count of schools with that denomination Visualize by bar chart, and rank total number from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across denomination, rank in desc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946212947620797
+            }
+        },
+        {
+            "query": "Show sum enrollment from each county, and sort by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6930050020732318
+            }
+        },
+        {
+            "query": "Please give me a bar chart for the total enrollment in each county, display by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6930050020732318
+            }
+        },
+        {
+            "query": "Compare the total enrollment in each county with a bar chart, and list by the names from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7277170981056181
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7375334990557928
+            }
+        },
+        {
+            "query": "Draw a bar chart of county versus the total number, order in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7067262835077507
+            }
+        },
+        {
+            "query": "Show each county along with the number of schools, I want to display in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.689099584740287
+            }
+        },
+        {
+            "query": "Return a bar chart showing the number of schools in each county, and display in desc by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.689099584740287
+            }
+        },
+        {
+            "query": "Show the relationship between the number of schools in each county and total enrollment in each county by a scatter plot.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7877893039558156
+            }
+        },
+        {
+            "query": "Plot the number of schools and total enrollment in each county with a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7877893039558156
+            }
+        },
+        {
+            "query": "Show count(*) vs total number of enrollment as scatter plot use a different color for each County",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7877893039558156
+            }
+        },
+        {
+            "query": "Show sum enrollment from each county, sort from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6889958446057735
+            }
+        },
+        {
+            "query": "Compare the total enrollment in each county with a bar chart, show y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7415943667536231
+            }
+        },
+        {
+            "query": "Please give me a bar chart for the total enrollment in each county, and order by the sum enrollment in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.725017583834183
+            }
+        },
+        {
+            "query": "",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7375334990557928
+            }
+        }
+    ],
+    "errors": [
+        "\"Show the relationship between the number of schools in each county and total enrollment in each county by a scatter plot.\" has 2 benchmarks associated with it",
+        "\"Plot the number of schools and total enrollment in each county with a scatter chart.\" has 2 benchmarks associated with it",
+        "\"\" has 2 benchmarks associated with it",
+        "\"Show the relationship between the number of schools in each county and total enrollment in each county by a scatter plot.\" has 2 benchmarks associated with it",
+        "\"Plot the number of schools and total enrollment in each county with a scatter chart.\" has 2 benchmarks associated with it",
+        "\"\" has 2 benchmarks associated with it"
+    ]
+}

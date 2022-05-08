@@ -1,0 +1,203 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "wrestler",
+    "results": [
+        {
+            "query": "Show the reign and days held of wrestlers in a scatter chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983661663631915
+            }
+        },
+        {
+            "query": "Show the reign and days held of wrestlers. Visualize by scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983661663631915
+            }
+        },
+        {
+            "query": "Draw a scatter chart for what are the reigns and days held of all wrestlers?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983661663631915
+            }
+        },
+        {
+            "query": "What are the reigns and days held of all wrestlers. Visualize by scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983661663631915
+            }
+        },
+        {
+            "query": "Scatter plot to show reign on x axis and days_held on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9983661663631915
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of the number of locations of the wrestlers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980021653105305
+            }
+        },
+        {
+            "query": "Give the proportion of the number of locations of all wrestlers with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980021653105305
+            }
+        },
+        {
+            "query": "Compute the total the number of location across location as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9980021653105305
+            }
+        },
+        {
+            "query": "What is the number of locations of the wrestlers? Visualize by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "Give the number of locations of all wrestlers with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "A bar chart for what is the number of locations of the wrestlers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "Draw a bar chart of location versus how many location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "A bar chart for what is the number of locations of the wrestlers, and sort by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318553110439172
+            }
+        },
+        {
+            "query": "Draw a bar chart of location versus how many location, sort by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318553110439172
+            }
+        },
+        {
+            "query": "What is the number of locations of the wrestlers? Visualize by a bar chart, and sort by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318553110439172
+            }
+        },
+        {
+            "query": "Give the number of locations of all wrestlers with a bar chart, sort by the x-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318553110439172
+            }
+        },
+        {
+            "query": "A bar chart for what is the number of locations of the wrestlers, and show total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9897623197412232
+            }
+        },
+        {
+            "query": "Draw a bar chart of location versus how many location, could you order from low to high by the the number of location?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9897623197412232
+            }
+        },
+        {
+            "query": "Give the number of locations of all wrestlers with a bar chart, show by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "What is the number of locations of the wrestlers? Visualize by a bar chart, order in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9897623197412232
+            }
+        },
+        {
+            "query": "What is the number of locations of the wrestlers? Visualize by a bar chart, I want to list by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "A bar chart for what is the number of locations of the wrestlers, and could you order in asc by the Location?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "Draw a bar chart of location versus how many location, and display by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "Give the number of locations of all wrestlers with a bar chart, and could you sort x axis from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9941085843946856
+            }
+        },
+        {
+            "query": "Draw a bar chart of location versus how many location, I want to sort by the y-axis in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9909693883322737
+            }
+        },
+        {
+            "query": "Give the number of locations of all wrestlers with a bar chart, display in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9909693883322737
+            }
+        },
+        {
+            "query": "A bar chart for what is the number of locations of the wrestlers, and I want to show y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9909693883322737
+            }
+        },
+        {
+            "query": "What is the number of locations of the wrestlers? Visualize by a bar chart, and I want to sort by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8318553110439172
+            }
+        }
+    ],
+    "errors": []
+}

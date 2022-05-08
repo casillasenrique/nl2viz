@@ -1,0 +1,133 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "broadcast",
+    "results": [
+        {
+            "query": "Plot the total number by grouped by time of day as a bar graph, and list from high to low by the names.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day Show bar chart, display X in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day in a bar chart, and could you order in desc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by time of day as a bar graph, rank in ascending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day Show bar chart, order Y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day in a bar chart, order y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by time of day as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each time of day.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day in a bar chart, sort names from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by time of day as a bar graph, rank X-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day Show bar chart, could you show by the x-axis in asc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day in a bar chart, sort Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of programs broadcast for each time section of a day Show bar chart, could you rank by the the total number in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by time of day as a bar graph, and list Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

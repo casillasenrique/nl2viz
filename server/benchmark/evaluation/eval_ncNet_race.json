@@ -1,0 +1,353 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "race",
+    "results": [
+        {
+            "query": "Show the race class and number of races in each class with a bar chart, and sort in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different classes of races, and how many races correspond to each?, and sort in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each Show bar chart, could you rank by the X in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class, and could you display x axis in desc order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different classes of races, and how many races correspond to each?, sort from high to low by the names please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each class, sort in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Show me how many in each class of all races using a bar chart, show in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946292037728172
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many class across class, could you order Y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946292037728172
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class in a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Display a pie chart for what are the different classes of races, and how many races correspond to each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "Visualize a pie chart with what are the different classes of races, and how many races correspond to each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7282088537319126
+            }
+        },
+        {
+            "query": "Compute the total the total number across class as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each Show bar chart, and could you sort by the X-axis from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class, and could you display bar from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each class, and order x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different classes of races, and how many races correspond to each?, and list x axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different classes of races, and how many races correspond to each?, order x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class with a bar chart, and list x axis in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many class across class, sort y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946292037728174
+            }
+        },
+        {
+            "query": "Show me how many in each class of all races using a bar chart, and sort by the the number of class in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8185838526307524
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different classes of races, and how many races correspond to each?, list by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class with a bar chart, and list by the y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each Show bar chart, could you list y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each class, and could you sort from high to low by the y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class, and could you rank Y-axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different classes of races, and how many races correspond to each?, and rank y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show me how many in each class of all races using a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8185838526307524
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many class across class",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8185838526307524
+            }
+        },
+        {
+            "query": "Show me the proportion of classes of all races using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "What is the proportion of classes of all races? Give me a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many class across class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9992206487461465
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different classes of races, and how many races correspond to each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different classes of races, and how many races correspond to each?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each class",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show me how many in each class of all races using a bar chart, and I want to order in descending by the Class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8185838526307524
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many class across class, and list from high to low by the x-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8185838526307524
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many class across class, show by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946292037728172
+            }
+        },
+        {
+            "query": "Show me how many in each class of all races using a bar chart, and show by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9946292037728172
+            }
+        },
+        {
+            "query": "Give me a bar chart for the total number of each class, display in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8175458141169454
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class, and could you sort total number in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are the different classes of races, and how many races correspond to each?, and show in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the different classes of races, and how many races correspond to each?, and could you order in ascending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "What are the different classes of races, and how many races correspond to each Show bar chart, order from low to high by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        },
+        {
+            "query": "Show the race class and number of races in each class with a bar chart, could you show in ascending by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.993591165259012
+            }
+        }
+    ],
+    "errors": [
+        "\"Show the race class and number of races in each class.\" has 2 benchmarks associated with it",
+        "\"Show the race class and number of races in each class.\" has 2 benchmarks associated with it"
+    ]
+}

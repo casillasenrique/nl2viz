@@ -1,0 +1,288 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "Employees",
+    "results": [
+        {
+            "query": "Show all role codes and the number of employees in each role with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart about what is the code of each role and the number of employees in each role?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "I want to know the proportion of employees for each role code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the code of each role and the number of employees in each role?, and I want to display bars in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role Show bar chart, and show by the X-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role by a bar chart, could you sort from low to high by the names?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis role code y axis the total number, order X-axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role Show bar chart, order X-axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what is the code of each role and the number of employees in each role?, could you sort from low to high by the names?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what is the code of each role and the number of employees in each role?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the code of each role and the number of employees in each role?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis role code y axis the total number",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis role code y axis the total number, I want to display in descending by the Role_Code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role Show bar chart, and could you show by the bars in desc please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role by a bar chart, display from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role Show bar chart, and I want to show by the x axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the code of each role and the number of employees in each role?, sort x axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what is the code of each role and the number of employees in each role?, and sort x axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role Show bar chart, and order by the y axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role Show bar chart, I want to rank from high to low by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis role code y axis the total number, sort by the the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the code of each role and the number of employees in each role?, order by the y axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role by a bar chart, and sort by the the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what is the code of each role and the number of employees in each role?, and I want to order in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role by a bar chart, show in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a histogram on what is the code of each role and the number of employees in each role?, and show in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show all role codes and the number of employees in each role Show bar chart, and show from low to high by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what is the code of each role and the number of employees in each role?, and could you sort y axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis role code y axis the total number, and show in ascending by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the code of each role and the number of employees in each role Show bar chart, could you sort y axis in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "Error when executing \"Show all role codes and the number of employees in each role with a pie chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role. Show a pie chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"A pie chart about what is the code of each role and the number of employees in each role?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role. Plot them as pie chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"I want to know the proportion of employees for each role code.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Return a histogram on what is the code of each role and the number of employees in each role?, and I want to display bars in ascending order.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role Show bar chart, and show by the X-axis in ascending.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role by a bar chart, could you sort from low to high by the names?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Bar chart x axis role code y axis the total number, order X-axis from low to high order please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role Show bar chart, order X-axis from low to high order please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Give me a histogram for what is the code of each role and the number of employees in each role?, could you sort from low to high by the names?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role by a bar chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role. Show bar chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Give me a histogram for what is the code of each role and the number of employees in each role?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Return a histogram on what is the code of each role and the number of employees in each role?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role. Show bar chart.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Bar chart x axis role code y axis the total number\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Bar chart x axis role code y axis the total number, I want to display in descending by the Role_Code.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role Show bar chart, and could you show by the bars in desc please?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role by a bar chart, display from high to low by the X-axis please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role Show bar chart, and I want to show by the x axis in desc please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Return a histogram on what is the code of each role and the number of employees in each role?, sort x axis in desc order please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Give me a histogram for what is the code of each role and the number of employees in each role?, and sort x axis in desc order please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role Show bar chart, and order by the y axis in desc please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role Show bar chart, I want to rank from high to low by the Y-axis please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Bar chart x axis role code y axis the total number, sort by the the total number from high to low.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Return a histogram on what is the code of each role and the number of employees in each role?, order by the y axis in desc please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role by a bar chart, and sort by the the total number from high to low.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Give me a histogram for what is the code of each role and the number of employees in each role?, and I want to order in descending by the Y-axis.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role by a bar chart, show in ascending by the Y-axis please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Return a histogram on what is the code of each role and the number of employees in each role?, and show in ascending by the Y-axis please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Show all role codes and the number of employees in each role Show bar chart, and show from low to high by the y axis.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Give me a histogram for what is the code of each role and the number of employees in each role?, and could you sort y axis in ascending order?\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"Bar chart x axis role code y axis the total number, and show in ascending by the Y-axis please.\" - <class 'KeyError'>: 'Employees'",
+        "Error when executing \"What is the code of each role and the number of employees in each role Show bar chart, could you sort y axis in ascending order?\" - <class 'KeyError'>: 'Employees'"
+    ]
+}

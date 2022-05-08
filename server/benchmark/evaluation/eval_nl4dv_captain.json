@@ -1,0 +1,1060 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "captain",
+    "results": [
+        {
+            "query": "Draw a bar chart for how many captains with younger than 50 are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many captains with younger than 50 are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "A bar chart about how many captains are in each rank?, show from low to high by the Rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Show the total number from each rank, and show in asc by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank by a bar chart, and list by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank Visualize by bar chart, and show from low to high by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "How many captains are in each rank, and show from low to high by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Stacked bar of class and the number of class colored by Rank, sort Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7622644424430579
+            }
+        },
+        {
+            "query": "A stacked bar graph shows the total number of captains categorize by ranks of different classes, I want to order by the how many class in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7548821240223443
+            }
+        },
+        {
+            "query": "What is the total number of captains in each rank and class? Let class as X-axis, and categorize by rank with a stacked bar chart, rank by the how many class in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7548821240223443
+            }
+        },
+        {
+            "query": "What is the total number of captains in each rank and class? Let class as X-axis, and categorize by rank with a stacked bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754344825595036
+            }
+        },
+        {
+            "query": "A stacked bar graph shows the total number of captains categorize by ranks of different classes.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754344825595036
+            }
+        },
+        {
+            "query": "Stacked bar of class and the number of class colored by Rank",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7615750910213235
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many captains with younger than 50 are in each rank?, sort by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7726676715584454
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank, and rank in ascending by the Rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank, list by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank by a bar chart, rank in ascending by the Rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many captains with younger than 50 are in each rank?, display in ascending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Show the total number from each rank, and list the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank Visualize by bar chart, rank by the the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "A bar chart about how many captains are in each rank?, and rank in desc by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank by a bar chart, list the total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "How many captains are in each rank, show in desc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains of different classes, order from high to low by the the number of class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7214840901805433
+            }
+        },
+        {
+            "query": "Compare the total number of captains with different classes using a bar graph, and order from high to low by the the number of class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7214840901805433
+            }
+        },
+        {
+            "query": "What is the total number of captains with different classes?, and list Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7245831586543455
+            }
+        },
+        {
+            "query": "Plot how many class by grouped by class as a bar graph, and rank total number from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7214840901805433
+            }
+        },
+        {
+            "query": "What is the relationship between the average and minimum age of captains in different classes?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7672656883218115
+            }
+        },
+        {
+            "query": "Tell me the relationship between average and minimum age of captains in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7691434276428555
+            }
+        },
+        {
+            "query": "Show me a scatter plot for the relationship between average and minimum age of captains in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7698841881627129
+            }
+        },
+        {
+            "query": "Show me a scatter plot of avg(age) and minimal age for .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7722281755757873
+            }
+        },
+        {
+            "query": "What is the relationship between the average and minimum age of captains in different classes?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7672656883218115
+            }
+        },
+        {
+            "query": "Tell me the relationship between average and minimum age of captains in each class. Give a scatter plot.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680064488416685
+            }
+        },
+        {
+            "query": "Show me a scatter plot for the relationship between average and minimum age of captains in each class, color different classes.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680064488416685
+            }
+        },
+        {
+            "query": "Show the relation between avg(age) and minimal age for each Class using a scatter chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7680064488416685
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank by a bar chart, and rank by the y axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many captains with younger than 50 are in each rank?, show by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank, list by the y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many captains with younger than 50 are in each rank?, list by the y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank, display y axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847617
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many captains with younger than 50 are in each rank?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on how many captains with younger than 50 are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.813392055974662
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank. Plot them as pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A stacked bar graph shows the total number of captains categorize by ranks of different classes, and display in desc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7554513149172793
+            }
+        },
+        {
+            "query": "What is the total number of captains in each rank and class? Let class as X-axis, and categorize by rank with a stacked bar chart, show names from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7554513149172793
+            }
+        },
+        {
+            "query": "Stacked bar of class and the number of class colored by Rank, could you list in descending by the Class?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7626934862153187
+            }
+        },
+        {
+            "query": "Compare the total number of captains with different classes using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains of different classes.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "What is the total number of captains with different classes?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "Plot how many class by grouped by class as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class, and I want to show from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7095370697046723
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing the average age of captains in each class, order by the y axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6971049529149148
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by class as a bar graph, and show in desc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7095370697046723
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes?, and could you order in descending by the mean age please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6971049529149148
+            }
+        },
+        {
+            "query": "A stacked bar graph shows the total number of captains categorize by ranks of different classes, and I want to order total number from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.753180961768189
+            }
+        },
+        {
+            "query": "Stacked bar of class and the number of class colored by Rank, and order in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7605445400114444
+            }
+        },
+        {
+            "query": "What is the total number of captains in each rank and class? Let class as X-axis, and categorize by rank with a stacked bar chart, I want to order total number from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.753180961768189
+            }
+        },
+        {
+            "query": "Plot how many class by grouped by class as a bar graph, and display by the X-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7329040326280154
+            }
+        },
+        {
+            "query": "Compare the total number of captains with different classes using a bar graph, and I want to order by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7214840901805433
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains of different classes, I want to order by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7214840901805433
+            }
+        },
+        {
+            "query": "What is the total number of captains with different classes?, sort by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7329040326280154
+            }
+        },
+        {
+            "query": "Return a pie on how many captains are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "how many captains are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "How many captains are in each rank. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank. Show the proportion.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "Compare the total number of different ranks using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains in each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Bar graph to show the number of rank from different rank",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Stacked bar of class and the number of class colored by Rank, and display in asc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7615750910213235
+            }
+        },
+        {
+            "query": "What is the total number of captains in each rank and class? Let class as X-axis, and categorize by rank with a stacked bar chart, rank by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754344825595036
+            }
+        },
+        {
+            "query": "A stacked bar graph shows the total number of captains categorize by ranks of different classes, could you list in ascending by the x-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.754344825595036
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7087744378924864
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7087744378924864
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing the average age of captains in each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7087744378924864
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by class as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7087744378924864
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many captains with younger than 50 are in each rank?, and show Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many captains with younger than 50 are in each rank?, and rank Y-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank, show in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank, display by the the total number from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank by a bar chart, show in descending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "A bar chart about how many captains are in each rank?, and I want to list in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank by a bar chart, and sort in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7554781143287554
+            }
+        },
+        {
+            "query": "Show the total number from each rank, and I want to list in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "How many captains are in each rank, and I want to show from low to high by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank Visualize by bar chart, and order by the y-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533915
+            }
+        },
+        {
+            "query": "Tell me the proportion of the total number of different ranks using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "Show me a pie chart comparing the total number of captains in each rank.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the proportion of the total number of captains in each rank using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the number of rank from different rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8115789519664776
+            }
+        },
+        {
+            "query": "What is the total number of captains with different classes?, I want to rank from low to high by the the number of class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240526418915363
+            }
+        },
+        {
+            "query": "Compare the total number of captains with different classes using a bar graph, and display total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215395216913564
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains of different classes, display total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215395216913564
+            }
+        },
+        {
+            "query": "Plot how many class by grouped by class as a bar graph, and show by the Y-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes? Show the result with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8394318019756003
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8394318019756003
+            }
+        },
+        {
+            "query": "I want to know the proportion of the average age for each class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8013211180122416
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes?, order by the bars from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6981215620833687
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class, display by the names in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7095916080842026
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by class as a bar graph, and show by the bar in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7095916080842026
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing the average age of captains in each class, could you display by the bar in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7095916080842026
+            }
+        },
+        {
+            "query": "How many captains are in each rank, and list X from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "A bar chart about how many captains are in each rank?, and could you order by the X-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Show the total number from each rank, and order bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank by a bar chart, sort in desc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7548615277279661
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank Visualize by bar chart, and show in desc by the Rank please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains in each rank, and rank total number in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Bar graph to show the number of rank from different rank, and rank by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Compare the total number of different ranks using a bar graph, and order from high to low by the how many rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by class as a bar graph, could you show in ascending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7087744378924864
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing the average age of captains in each class, order in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6981263840255787
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes?, and order mean age in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6981263840255787
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class, and rank Y-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6981263840255787
+            }
+        },
+        {
+            "query": "Visualize a bar chart showing the average age of captains in each class, I want to rank in asc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6985747171442033
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by class as a bar graph, I want to order by the bar from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6985747171442033
+            }
+        },
+        {
+            "query": "Return the average age of captains in each class, and rank from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6985747171442033
+            }
+        },
+        {
+            "query": "What is the average age of captains in different classes?, and order from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6985747171442033
+            }
+        },
+        {
+            "query": "What is the total number of captains with different classes?, show by the Class in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "Plot how many class by grouped by class as a bar graph, order in asc by the Class.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215395216913564
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains of different classes, and rank by the Class from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7215395216913564
+            }
+        },
+        {
+            "query": "Compare the total number of captains with different classes using a bar graph, show by the Class in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.730919335349387
+            }
+        },
+        {
+            "query": "How many captains with younger than 50 are in each rank, and sort in desc by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7753572363240777
+            }
+        },
+        {
+            "query": "Draw a bar chart for how many captains with younger than 50 are in each rank?, order from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank, and I want to order by the X from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Count the number of captains younger than 50 of each rank by a bar chart, and order from high to low by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many captains with younger than 50 are in each rank?, and list bars from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7841203767847634
+            }
+        },
+        {
+            "query": "Tell me the proportion of the total number of different classes using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7958398367824411
+            }
+        },
+        {
+            "query": "Show me a pie chart comparing the total number of captains in each class.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the proportion of the total number of captains in each class using a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total how many class across class as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart about how many captains are in each rank?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "How many captains are in each rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Count the number of captains that have each rank. Visualize by bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Show the total number from each rank",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7716963369533941
+            }
+        },
+        {
+            "query": "Compare the total number of different ranks using a bar graph, could you order X in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains in each rank, sort by the Rank in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.753754684688373
+            }
+        },
+        {
+            "query": "Bar graph to show the number of rank from different rank, and display by the Rank in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082098
+            }
+        },
+        {
+            "query": "Compare the total number of different ranks using a bar graph, and sort from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7543712712891625
+            }
+        },
+        {
+            "query": "Bar graph to show the number of rank from different rank, and list how many rank in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082071
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains in each rank, and list how many rank in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082071
+            }
+        },
+        {
+            "query": "Bar graph to show the number of rank from different rank, I want to display bar in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082071
+            }
+        },
+        {
+            "query": "Show me a bar chart comparing the total number of captains in each rank, rank in ascending by the Rank.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7705438951082071
+            }
+        },
+        {
+            "query": "Compare the total number of different ranks using a bar graph, and sort bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7543712712891625
+            }
+        }
+    ],
+    "errors": [
+        "\"What is the relationship between the average and minimum age of captains in different classes?\" has 2 benchmarks associated with it",
+        "\"What is the relationship between the average and minimum age of captains in different classes?\" has 2 benchmarks associated with it"
+    ]
+}

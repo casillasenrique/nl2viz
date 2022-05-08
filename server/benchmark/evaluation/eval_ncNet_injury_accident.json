@@ -1,0 +1,42 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "injury_accident",
+    "results": [
+        {
+            "query": "How many injured players not suffering from injury of 'Knee problem' in each match? Show me a bar chart grouping by number of matches, and sort y-axis in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7059328359560236
+            }
+        },
+        {
+            "query": "How many injured players not suffering from injury of 'Knee problem' in each match? Show me a bar chart grouping by number of matches, I want to display from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6878135292145923
+            }
+        },
+        {
+            "query": "How many injured players not suffering from injury of 'Knee problem' in each match? Show me a bar chart grouping by number of matches, I want to display from high to low by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6544994942100465
+            }
+        },
+        {
+            "query": "How many injured players not suffering from injury of 'Knee problem' in each match? Show me a bar chart grouping by number of matches, and rank by the y axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6589617129817578
+            }
+        },
+        {
+            "query": "How many injured players not suffering from injury of 'Knee problem' in each match? Show me a bar chart grouping by number of matches.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6878135292145923
+            }
+        }
+    ],
+    "errors": []
+}

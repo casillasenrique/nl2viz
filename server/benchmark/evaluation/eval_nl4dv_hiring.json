@@ -1,0 +1,4296 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "hiring",
+    "results": [
+        {
+            "query": "Find Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, display from high to low by the mean employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6961760466857828
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, could you list in descending by the Y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time, and sort by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Bar chart x axis is full time y axis mean employee id, sort by the Y in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time in a bar chart, rank from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, and could you sort in desc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday by a bar chart, and I want to sort from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7461366322010625
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday, could you order by the Y-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7461366322010625
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, show total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7461366322010625
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, I want to order Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7461366322010625
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, and could you order by the Y-axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7461366322010625
+            }
+        },
+        {
+            "query": "Show sum employee id from each start from, and I want to sort from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7505224943707468
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from bin start_from by time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from bin start_from by time in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Plot start from by the average of employee id as a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Show me the trend about Employee_ID over Start_from with a line chart, I want to display by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "Plot start from by employee_id as a line chart, list by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of Employee_ID over Start_from , and order X-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "Show me about the change of Employee_ID over Start_from in a line chart, order by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Employee_ID over Start_from , order X-axis from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "Give me the trend about Employee_ID over Start_from , order by the X-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Employee_ID over Start_from , and sort X in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513567712214817
+            }
+        },
+        {
+            "query": "A scatter chart shows the correlation between Shop_ID and Employee_ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6873738850644013
+            }
+        },
+        {
+            "query": "Draw a scatter chart about the correlation between Shop_ID and Employee_ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6873738850644013
+            }
+        },
+        {
+            "query": "Visualize the relationship between Shop_ID and Employee_ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6837305365337346
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between Shop_ID and Employee_ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6873738850644013
+            }
+        },
+        {
+            "query": "Visualize a scatter chart about the correlation between Shop_ID and Employee_ID .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6873738850644013
+            }
+        },
+        {
+            "query": "Scatter plot to show shop id on x axis and employee_id on y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6873738850644013
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the sum of Shop_ID bin start_from by weekday, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show total number of shop id from each start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to list x axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and I want to display by the x axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "The trend about the the number of start from of different Is_full_time over the start from, and display x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and could you sort by the x axis in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and I want to display by the x axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the amount of Start_from, Start_from, visualize the trend, and I want to list x axis from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, display x-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about Shop_ID over Start_from .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of Shop_ID over Start_from in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Shop_ID over Start_from .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Shop_ID over Start_from .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of Shop_ID over Start_from .",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of Shop_ID over Start_from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of shop_id over the start from?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the amount of Start_from over Start_from bin start_from by time, could you display Start_from in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from bin start_from by time, order X-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of the number of start from over the start from?, display x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the amount of Start_from over Start_from bin start_from by time with a line chart, and rank in desc by the Start_from.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from bin start_from by time, and list by the X-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from bin start_from by time, display x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the amount of Start_from over Start_from bin start_from by time in a line chart, and list by the X-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time in a bar chart, show in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of shop id by grouped by is full time as a bar graph, and order by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time, order by the y-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, and display in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, could you rank in asc by the y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and visualize them by a bar chart, sort by the total number from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, list y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of employee id, I want to rank from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, and rank from high to low by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, and list total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from bin start_from by weekday, sort y axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the average of Employee_ID bin start_from by weekday in a bar chart, and sort from high to low by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7036565396450148
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the proportion of Is_full_time and the sum of Shop_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of Is_full_time and the sum of Shop_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart about the proportion of Is_full_time and the sum of Shop_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie chart to reflect the proportion of Is_full_time and the sum of Shop_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the attribute Is_full_time and the sum of Shop_ID, show their proportion by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compute the total total number of shop id across is full time as a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Shop_ID bin start_from by weekday, and I want to order by the total number in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, and could you display in desc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from bin start_from by weekday by a bar chart, and I want to sort y-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of shop id, and could you display in desc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, and rank by the Y-axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, could you display in desc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about Shop_ID over Start_from , order by the Start_from in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Shop_ID over Start_from , list by the x axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of Shop_ID over Start_from in a line chart, list by the X-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of Shop_ID over Start_from, show by the x axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Shop_ID over Start_from , and order by the X-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of shop_id over the start from?, and I want to list from high to low by the X-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of Shop_ID over Start_from , and order by the Start_from in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from bin start_from by time, and display in asc by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from bin start_from by time, could you show by the X-axis in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the amount of Start_from over Start_from bin start_from by time, and display by the x axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of the number of start from over the start from?, show by the X from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the amount of Start_from over Start_from bin start_from by time with a line chart, sort from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from bin start_from by time, and sort from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the amount of Start_from over Start_from bin start_from by time in a line chart, and could you show by the X-axis in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and I want to list by the y axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the average of shop id for with each Is_full_time in each start from, sort by the y axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart, could you sort in desc by the the average of shop id?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, sort by the y axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, show in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, rank Y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of sum shop id from each is full time, and list in desc by the total number of shop id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, list in desc by the total number of shop id.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and rank total number from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time in a bar chart, rank y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, rank y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and I want to order by the Y in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the amount of Start_from over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the amount of Start_from over Start_from bin start_from by time in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the amount of Start_from over Start_from bin start_from by time with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of the number of start from over the start from?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus sum employee id, and could you list by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279646231070211
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and display by the total number of employee id in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, could you list by the total number in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Find Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, and I want to display total number in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, rank Y in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, order Y in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of start from for with each Is_full_time in each start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7602025567530215
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and show y axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7602025567530215
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and sort in ascending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7602025567530215
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and sort in ascending by the the average of employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7602025567530215
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and sort by the total number in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7602025567530215
+            }
+        },
+        {
+            "query": "Stacked bar chart of mean employee id for with each Is_full_time in each start from, and show y axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7643969527785287
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart, sort in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7477329962295096
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, I want to sort total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7477329962295096
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, rank by the total number from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7477329962295096
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and I want to show total number in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7477329962295096
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and could you order from high to low by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7477329962295096
+            }
+        },
+        {
+            "query": "Stack bar chart of sum employee id vs Is_full_time based on start from, sort in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517199491898446
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, I want to rank in ascending by the sum employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496509714152712
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and I want to rank in ascending by the sum employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496509714152712
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, I want to display by the y axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7456640184549358
+            }
+        },
+        {
+            "query": "Stack bar chart of sum employee id vs Is_full_time based on start from, and I want to rank in ascending by the sum employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496509714152712
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, and could you show in asc by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7456640184549358
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart, and order total number from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7456640184549358
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, sort X-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Find Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, could you rank in asc by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, could you rank in asc by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus sum employee id, order x axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279646231070211
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and display by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and could you rank in asc by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart, and sort y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and display by the y-axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, I want to display y-axis in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, sort in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of total number of shop id for with each Is_full_time in each start from, sort in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and display total number of shop id in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis is full time y axis mean employee id, show in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, and I want to list by the Is_full_time in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time in a bar chart, I want to list by the Is_full_time in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time, and sort in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, display by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, show in descending by the bar.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Visualize the general trend of the average of shop id over the start from, could you sort in ascending by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from bin start_from by time, show x-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from bin start_from by time with a line chart, could you rank X from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Shop_ID over Start_from bin start_from by time, could you rank X from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the average of Shop_ID over Start_from bin start_from by time, and could you rank X from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend, could you sort in ascending by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from bin start_from by time, show x-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the average of Employee_ID bin start_from by weekday in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of employee id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974589577391042
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from bin start_from by time, sort X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, and rank from low to high by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, display in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, and display in asc by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the sum of Employee_ID over Start_from bin start_from by time, I want to sort by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Employee_ID over Start_from bin start_from by time in a line chart, and sort Start_from in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484513487351211
+            }
+        },
+        {
+            "query": "I want to see trend of sum employee id by start from, list by the x axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496554274583338
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Bar chart x axis is full time y axis mean employee id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6961760466857828
+            }
+        },
+        {
+            "query": "Find Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the average of shop id for with each Is_full_time in each start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show total number of shop id from each start from, and I want to show by the y axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday, display y axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday, and order y-axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the sum of Shop_ID bin start_from by weekday, and visualize them by a bar chart, could you rank in desc by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday, and sort Y in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday by a bar chart, and list from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of sum shop id from each is full time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and sort by the X-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "The trend about the the number of start from of different Is_full_time over the start from, list in asc by the x axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, rank x axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the amount of Start_from, Start_from, visualize the trend, display by the Start_from in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and show by the X-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, display by the Start_from in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time, and could you rank by the Start_from from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from bin start_from by time with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the average of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the general trend of the average of shop id over the start from.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of total number of shop id for with each Is_full_time in each start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from bin start_from by weekday, show in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.697467143032838
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, and show in asc by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.697467143032838
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of employee id, and display total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.697467143032838
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, and show by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.697467143032838
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the average of Employee_ID bin start_from by weekday in a bar chart, and I want to order by the mean employee id from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6989627093668588
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID bin start_from by weekday, display Y-axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.697467143032838
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from bin start_from by time in a line chart, and display by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Plot start from by the average of employee id as a line chart, and could you display in ascending by the Start_from?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend, and order in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from bin start_from by time, and show by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from bin start_from by time, and I want to order X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Employee_ID over Start_from bin start_from by time, could you display in ascending by the Start_from?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from bin start_from by time, show from low to high by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487275066870972
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the amount of Start_from, Start_from, visualize the trend.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the amount of Start_from over Start_from , and group by attribute Is_full_time and bin start_from by time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "The trend about the the number of start from of different Is_full_time over the start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of shop id by grouped by is full time as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the number of start from, and could you order by the y axis in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from bin start_from by weekday, and I want to display y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the amount of Start_from bin start_from by weekday in a bar chart, and sort from high to low by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from bin start_from by weekday, and visualize them by a bar chart, could you show in descending by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday, show by the y axis in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday, I want to display y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of sum shop id from each is full time, list from low to high by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, order total number of shop id in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time in a bar chart, rank y axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and I want to show total number of shop id in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, list from low to high by the Y please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, show Y-axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Is_full_time over the Is_full_time , and group by attribute Is_full_time by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus how many is full time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and could you rank in desc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time in a bar chart, list in descending by the x axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and list in descending by the x axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and could you rank in desc by the x axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, and I want to list by the X from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of sum shop id from each is full time, and I want to list by the X from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday, and could you show from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday, and could you show from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Shop_ID bin start_from by weekday, and list by the Y in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the sum of Shop_ID bin start_from by weekday, and visualize them by a bar chart, and list in asc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show total number of shop id from each start from, and could you show from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from bin start_from by weekday by a bar chart, and could you show from low to high by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411269130349464
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411269130349464
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411269130349464
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411269130349464
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411269130349464
+            }
+        },
+        {
+            "query": "Show sum employee id from each start from",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7455127296838895
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and sort by the Start_from from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "For the sum of Employee_ID, Start_from, visualize the trend, and I want to list by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, order X-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross sum employee id over year start from by major genres Is_full_time, and I want to sort by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7474409800143543
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to list by the X in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and rank x axis in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and I want to list x axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7462578024811267
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time in a bar chart, and order X-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, order X-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus how many is full time, and rank in descending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and order X-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Is_full_time over the Is_full_time , and group by attribute Is_full_time by a bar chart, and display from high to low by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, sort from high to low by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Employee_ID over Start_from .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Employee_ID over Start_from .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of Employee_ID over Start_from .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Give me the trend about Employee_ID over Start_from .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Show me the trend about Employee_ID over Start_from with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Show me about the change of Employee_ID over Start_from in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Plot start from by employee_id as a line chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and I want to show in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus how many is full time, and I want to list in asc by the Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and list by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and I want to display from low to high by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Is_full_time over the Is_full_time , and group by attribute Is_full_time by a bar chart, list by the x-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time in a bar chart, I want to show in ascending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a scatter chart about the correlation between Shop_ID and Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582816796100214
+            }
+        },
+        {
+            "query": "Return a scatter chart about the correlation between Shop_ID and Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582816796100214
+            }
+        },
+        {
+            "query": "What is the relationship between Shop_ID and Employee_ID , and group by attribute Is_full_time?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7541965187311046
+            }
+        },
+        {
+            "query": "Show me about the correlation between Shop_ID and Employee_ID , and group by attribute Is_full_time in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582816796100214
+            }
+        },
+        {
+            "query": "Draw a scatter chart about the correlation between Shop_ID and Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582816796100214
+            }
+        },
+        {
+            "query": "Show shop id vs employee_id as scatter plot use a different color for each Is_full_time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7582816796100214
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and could you display by the X in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross sum employee id over year start from by major genres Is_full_time, rank in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7474974168062651
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, order in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, order in desc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "For the sum of Employee_ID, Start_from, visualize the trend, could you show in descending by the X?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, could you rank by the x axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and could you display by the X in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7088687811876656
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7088687811876656
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7088687811876656
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7088687811876656
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7088687811876656
+            }
+        },
+        {
+            "query": "Stacked bar chart of mean employee id for with each Is_full_time in each start from",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7105453679940883
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and list by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, show y axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart, show by the total number in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, I want to display from high to low by the Y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, sort in descending by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of total number of shop id for with each Is_full_time in each start from, show by the total number in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross total number of shop id over year start from by major genres Is_full_time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, rank x axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time in a bar chart, sort in ascending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and sort in ascending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, show x axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time, and order names in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "Bar chart x axis is full time y axis mean employee id, display bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950801034886229
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend, rank in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from bin start_from by time, rank by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Employee_ID over Start_from bin start_from by time, and sort x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Plot start from by the average of employee id as a line chart, and sort from high to low by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from bin start_from by time, show X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from bin start_from by time, rank by the X-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from bin start_from by time in a line chart, and rank in desc by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7487278336227181
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and display Y in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, sort by the total number in descending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and display in desc by the the number of is full time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Is_full_time over the Is_full_time , and group by attribute Is_full_time by a bar chart, and sort by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus how many is full time, sort by the Y from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time in a bar chart, and display in desc by the the number of is full time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the sum of Shop_ID, Start_from, visualize the trend.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from bin start_from by time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the sum of Shop_ID over Start_from bin start_from by time with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot total number of shop id over start from in a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of shop id by grouped by is full time as a bar graph, and I want to rank from high to low by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and visualize them by a bar chart, and sort in desc by the Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, list in descending by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, could you show X-axis in descending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time in a bar chart, I want to rank from high to low by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time, list by the bar in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from bin start_from by weekday, and visualize them by a bar chart, and list by the how many start from in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from bin start_from by weekday, and list in asc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the amount of Start_from bin start_from by weekday in a bar chart, list in asc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the number of start from, and could you list in asc by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday, and list in asc by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday, show how many start from in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Shop_ID bin start_from by weekday, list by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, sort by the total number in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, and rank in ascending by the y-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from bin start_from by weekday by a bar chart, could you order by the y-axis from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of shop id, and display total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday, display Y-axis from low to high order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, display from low to high by the names please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart of sum shop id from each is full time, display from low to high by the names please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time in a bar chart, and display from low to high by the names please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, could you sort in ascending by the bar please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, order by the names in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time, sort in ascending by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize the general trend of the average of shop id over the start from, rank in desc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from bin start_from by time with a line chart, rank in desc by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from bin start_from by time, list Start_from in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the average of Shop_ID over Start_from bin start_from by time, order by the X from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend, and list Start_from in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the average of Shop_ID over Start_from bin start_from by time, and could you display by the Start_from in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from bin start_from by time, and could you display by the Start_from in desc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and show by the x-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, and order by the X from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart, and sort in descending by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and display by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to sort Start_from in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend, and display by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199102525688988
+            }
+        },
+        {
+            "query": "I want to see trend mean employee id over start from by Is_full_time, sort by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199995023692697
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from bin start_from by time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Employee_ID over Start_from bin start_from by time in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the sum of Employee_ID over Start_from bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "I want to see trend of sum employee id by start from",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496557543939533
+            }
+        },
+        {
+            "query": "Return a pie chart about the proportion of Is_full_time and the amount of Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the proportion of Is_full_time and the amount of Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the attribute Is_full_time and the amount of Is_full_time, show their proportion by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart about the proportion of Is_full_time and the amount of Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A pie chart shows the proportion of Is_full_time and the amount of Is_full_time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show how many is full time from different is full time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, display by the Start_from from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend, sort in asc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart, and list from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and rank from low to high by the Start_from.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and list from low to high by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the average of shop id over year start from by major genres Is_full_time, I want to list by the Start_from in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, and order by the Start_from from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of Shop_ID over Start_from , sort by the Start_from in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Can you draw the trend of shop_id over the start from?, sort in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about Shop_ID over Start_from , and rank Start_from from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Shop_ID over Start_from , sort in ascending by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of Shop_ID over Start_from, and I want to sort in ascending by the Start_from please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Shop_ID over Start_from , list Start_from in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of Shop_ID over Start_from in a line chart, and order by the x-axis in ascending please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, list in asc by the x-axis please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, and I want to order by the X-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and rank x axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross total number of shop id over year start from by major genres Is_full_time, I want to list by the x-axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to order x axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and I want to list in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, display by the x-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Find Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus sum employee id",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279646231070211
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time in a bar chart, could you rank y-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and could you display y-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, and could you display y-axis from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Bar chart x axis is full time y axis mean employee id, and show in ascending by the mean employee id please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6961780926664555
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, I want to order in asc by the mean employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6961780926664555
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Is_full_time , and group by attribute Is_full_time, show in ascending by the mean employee id please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6950821494692957
+            }
+        },
+        {
+            "query": "Find Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, show in desc by the total number of employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, list by the total number in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus sum employee id, list by the total number in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279646231070211
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, show in desc by the total number of employee id.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, order Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, list by the total number in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "For the sum of Employee_ID, Start_from, visualize the trend.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7463142392730372
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross sum employee id over year start from by major genres Is_full_time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7474974168062651
+            }
+        },
+        {
+            "query": "Give me the trend about Employee_ID over Start_from , sort in descending by the X please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Plot start from by employee_id as a line chart, and show x-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Show me the trend about Employee_ID over Start_from with a line chart, and show X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Show me about the change of Employee_ID over Start_from in a line chart, order x axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "A line chart shows the trend of Employee_ID over Start_from , and show X-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of Employee_ID over Start_from , and show from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of Employee_ID over Start_from , show X in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7513495133130524
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time, and rank x axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time, I want to show in desc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from bin start_from by time, rank x axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the sum of Shop_ID over Start_from bin start_from by time with a line chart, and show X from high to low order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot total number of shop id over start from in a line chart, and could you order in descending by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from bin start_from by time, and could you order in descending by the X?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the sum of Shop_ID, Start_from, visualize the trend, I want to show in desc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and visualize them by a bar chart, I want to sort in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time in a bar chart, and rank bar from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, and I want to sort in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, could you show names in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of shop id by grouped by is full time as a bar graph, and sort X-axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time, could you sort by the Is_full_time in ascending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from bin start_from by weekday, and visualize them by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the amount of Start_from bin start_from by weekday in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the number of start from",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, and display Start_from from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, show in desc by the Start_from.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Employee_ID over Start_from bin start_from by time in a line chart, and show in desc by the Start_from.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Employee_ID over Start_from bin start_from by time, and list x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "I want to see trend of sum employee id by start from, and list x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7496557543939533
+            }
+        },
+        {
+            "query": "A line chart shows the trend of the sum of Employee_ID over Start_from bin start_from by time, rank by the x axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Employee_ID over Start_from bin start_from by time, rank x-axis in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7484516756707412
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday by a bar chart, order Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7399455938532405
+            }
+        },
+        {
+            "query": "Show sum employee id from each start from, and display in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7443314560229249
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, and order Y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7399455938532405
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, and display in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7399455938532405
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from bin start_from by weekday, and sort by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7399455938532405
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID bin start_from by weekday, and show by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7399455938532405
+            }
+        },
+        {
+            "query": "Return a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, display by the x-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to order by the x-axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and sort x axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, display from high to low by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross total number of shop id over year start from by major genres Is_full_time, and display from high to low by the x axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and display by the Start_from in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and sort x axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and display y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, could you show Y in ascending order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and I want to show by the y-axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart, I want to order in asc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID , and group by attribute Is_full_time and bin start_from by weekday, and display y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the average of shop id for with each Is_full_time in each start from, display y axis from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, I want to list Start_from in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend, and sort x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, order from high to low by the Start_from please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, and could you list in descending by the Start_from please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the average of shop id over year start from by major genres Is_full_time, and order from high to low by the Start_from please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart, and sort x-axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and order x axis from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time, and I want to rank in asc by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a line chart about the change of the sum of Shop_ID over Start_from bin start_from by time, show from low to high by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the sum of Shop_ID over Start_from bin start_from by time with a line chart, I want to display by the x-axis from low to high please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot total number of shop id over start from in a line chart, list by the x-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the sum of Shop_ID, Start_from, visualize the trend, rank X in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the sum of Shop_ID over Start_from bin start_from by time, display x-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the sum of Shop_ID over Start_from bin start_from by time, and rank X in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and list in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7628124607118337
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, rank from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7628124607118337
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, I want to sort in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7628124607118337
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, could you order by the y axis in desc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7628124607118337
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday, and I want to list from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7628124607118337
+            }
+        },
+        {
+            "query": "Stacked bar chart of mean employee id for with each Is_full_time in each start from, and rank by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7670077393905843
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "For the average of Shop_ID, Start_from, visualize the trend.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Shop_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me line charts of worldwide gross the average of shop id over year start from by major genres Is_full_time",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, rank total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, I want to order total number in asc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart, I want to show by the y axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of start from for with each Is_full_time in each start from, order total number in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and show in asc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, rank by the Y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and could you rank by the X from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "I want to see trend mean employee id over start from by Is_full_time, I want to show by the x-axis in asc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199419940944835
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and show by the Start_from in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time, and show by the Start_from in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart, and display in ascending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart, and sort by the x axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend, rank by the Start_from from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, and show Y in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday, rank by the total number in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of start from for with each Is_full_time in each start from, and list from high to low by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, and visualize them by a bar chart, and could you rank from high to low by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the amount of Start_from , and group by attribute Is_full_time and bin start_from by weekday, and could you rank from high to low by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Start_from over the Start_from , and group by attribute Is_full_time and bin start_from by weekday by a bar chart, and show by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and could you list by the x-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, list by the bars in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus sum employee id, and display bars in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279646231070211
+            }
+        },
+        {
+            "query": "Find Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and visualize them by a bar chart, rank in descending by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, could you list by the x-axis from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the sum of Employee_ID , and group by attribute Is_full_time, and show by the bar in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7240850667110745
+            }
+        },
+        {
+            "query": "For the attribute Is_full_time and the sum of Employee_ID, show their proportion by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart about the proportion of Is_full_time and the sum of Employee_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the proportion of the sum of Employee_ID and the sum of Employee_ID in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a pie chart about the proportion of Is_full_time and the sum of Employee_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a pie chart about the proportion of Is_full_time and the sum of Employee_ID.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a pie chart showing sum employee id across is full time.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745187485661638
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745187485661638
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745187485661638
+            }
+        },
+        {
+            "query": "Show me about the distribution of Start_from and the sum of Employee_ID , and group by attribute Is_full_time and bin start_from by weekday in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745187485661638
+            }
+        },
+        {
+            "query": "Give me the comparison about the sum of Employee_ID over the Start_from , and group by attribute Is_full_time and bin start_from by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.745187485661638
+            }
+        },
+        {
+            "query": "Stack bar chart of sum employee id vs Is_full_time based on start from",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7491744386219729
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time in a bar chart, show in desc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time by a bar chart, I want to show from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and list in descending by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the average of shop id by grouped by is full time as a bar graph, could you order Y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find Is_full_time and the average of Shop_ID , and group by attribute Is_full_time, and visualize them by a bar chart, sort Y-axis in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Is_full_time , and group by attribute Is_full_time, could you order Y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time in a bar chart, and I want to list by the the number of is full time in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, show from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the amount of Is_full_time over the Is_full_time , and group by attribute Is_full_time by a bar chart, show from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and show from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart of is full time versus how many is full time, I want to list by the the number of is full time in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Is_full_time and the amount of Is_full_time , and group by attribute Is_full_time, and could you display in asc by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A line chart shows the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Draw a line chart about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "For the average of Employee_ID, Start_from, visualize the trend.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Show me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time with a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Show me about the change of the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time in a line chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "Give me the trend about the average of Employee_ID over Start_from , and group by attribute Is_full_time and bin start_from by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7198527442941117
+            }
+        },
+        {
+            "query": "I want to see trend mean employee id over start from by Is_full_time",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7199419940944835
+            }
+        },
+        {
+            "query": "Visualize a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me the comparison about the average of Shop_ID over the Start_from bin start_from by weekday by a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "A bar chart shows the distribution of Start_from and the average of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart about the distribution of Start_from and the average of Shop_ID bin start_from by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis start from y axis the average of shop id",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"For the average of Employee_ID, Start_from, visualize the trend.\" has 2 benchmarks associated with it",
+        "\"For the average of Shop_ID, Start_from, visualize the trend.\" has 2 benchmarks associated with it",
+        "\"For the average of Shop_ID, Start_from, visualize the trend.\" has 2 benchmarks associated with it",
+        "\"For the average of Employee_ID, Start_from, visualize the trend.\" has 2 benchmarks associated with it"
+    ]
+}

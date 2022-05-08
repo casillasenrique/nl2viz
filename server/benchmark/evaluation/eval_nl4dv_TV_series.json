@@ -1,0 +1,77 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "TV_series",
+    "results": [
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7062773519932243
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7062773519932243
+            }
+        },
+        {
+            "query": "Draw a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7062773519932243
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7062773519932243
+            }
+        },
+        {
+            "query": "What are 3 most highly rated episodes in the TV series table and what were those ratings. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7062773519932243
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List top 3 highest Rating TV series. List the TV series's Episode and Rating. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7834530066511896
+            }
+        },
+        {
+            "query": "what are 3 most highly rated episodes in the TV series table and what were those ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7834530066511896
+            }
+        },
+        {
+            "query": "What are 3 most highly rated episodes in the TV series table and what were those ratings. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

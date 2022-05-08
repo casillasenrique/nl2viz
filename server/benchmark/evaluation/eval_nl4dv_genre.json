@@ -1,0 +1,42 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "genre",
+    "results": [
+        {
+            "query": "List the names of all genres in alphabetical oder, together with its ratings in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485127008244358
+            }
+        },
+        {
+            "query": "List the names of all genres in alphabetical oder, together with its ratings. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485127008244358
+            }
+        },
+        {
+            "query": "Show me a bar chart for what are the names of all genres in alphabetical order, combined with its ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485127008244358
+            }
+        },
+        {
+            "query": "Return a bar chart on what are the names of all genres in alphabetical order, combined with its ratings?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485127008244358
+            }
+        },
+        {
+            "query": "What are the names of all genres in alphabetical order, combined with its ratings. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6485127008244358
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,133 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "railway",
+    "results": [
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder by a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936046040693246
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936046040693246
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across builder",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936046040693246
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder by a bar chart, and order x-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901809140561013
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across builder, and list by the x axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901809140561013
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder Show bar chart, and display x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901809140561013
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across builder, I want to list x-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901837657636363
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder by a bar chart, show in desc by the Builder.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901837657636363
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder Show bar chart, and show in desc by the Builder.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901837657636363
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder by a bar chart, show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901760251655142
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across builder, and I want to show Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901760251655142
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder Show bar chart, and order in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6901760251655142
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder Show bar chart, could you order from high to low by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936095139431683
+            }
+        },
+        {
+            "query": "Show different builders of railways, along with the corresponding number of railways using each builder by a bar chart, could you order from high to low by the y axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936095139431683
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across builder, and could you rank Y in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6936095139431683
+            }
+        },
+        {
+            "query": "A bar chart for listing the number of the builders of railways in ascending alphabetical order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6933899010938042
+            }
+        },
+        {
+            "query": "List the number of the builders of railways in ascending alphabetical order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6933899010938042
+            }
+        },
+        {
+            "query": "List the builders of railways in ascending alphabetical order, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6933899010938042
+            }
+        }
+    ],
+    "errors": []
+}

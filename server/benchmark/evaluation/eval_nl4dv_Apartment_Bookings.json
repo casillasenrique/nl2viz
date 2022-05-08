@@ -1,0 +1,616 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Apartment_Bookings",
+    "results": [
+        {
+            "query": "Bar chart x axis booking end date y axis the number of booking end date, and could you sort by the total number in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking end date by weekday with a bar chart, sort from low to high by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking end date by weekday, could you display Y-axis in asc order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each day and group by booking end date with a line chart, sort by the booking_end_date in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each day? Show me a line chart grouping by booking end date, and show by the booking_end_date from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many booking end date change over the booking end date, and sort by the x-axis in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings in a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many bookings does each booking status have? List the booking status code and the number of corresponding bookings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by booking status code as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking end date by year with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking end date by year.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of booking end date from different booking end date",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, I want to order total number in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings Show bar chart, and could you order by the total number in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings with a bar chart, and show by the the total number in desc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by booking status code as a bar graph, show total number in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, show total number in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings, and order from high to low by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings in a bar chart, list by the Y-axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking start date by year with a bar chart, could you sort from low to high by the y axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking start date by year, rank in ascending by the how many booking start date.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the number of booking start date by booking start date in a histogram, and order by the total number from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many booking start date by grouped by booking start date as a bar graph, order Y in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking start date by weekday, and order total number in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking start date by weekday with a bar chart, show how many booking start date in ascending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of booking end date from different booking end date, could you list in desc by the how many booking end date?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking end date by year, I want to rank in descending by the how many booking end date.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking end date by year with a bar chart, and could you list in desc by the how many booking end date?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings, sort booking_status_code from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings Show bar chart, sort booking_status_code from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by booking status code as a bar graph, and I want to order in ascending by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, show names in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, could you rank by the x-axis from low to high?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings in a bar chart, and show X-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings with a bar chart, and show names in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Pie chart. how many bookings does each booking status have? List the booking status code and the number of corresponding bookings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different booking status code.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking start date by weekday with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking start date by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many booking start date by grouped by booking start date as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot how many booking start date by grouped by booking start date as a bar graph, display by the total number from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking start date by weekday, could you order by the how many booking start date in descending?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking start date by weekday with a bar chart, and I want to show in desc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each day and group by booking end date with a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each day? Show me a line chart grouping by booking end date.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many booking end date change over the booking end date",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings Show bar chart, and rank by the names from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, rank by the booking_status_code from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings, order X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings in a bar chart, rank by the names from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, could you rank booking_status_code from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by booking status code as a bar graph, rank by the names from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings with a bar chart, order X from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking end date by weekday with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking end date by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis booking end date y axis the number of booking end date",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings with a bar chart, sort in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the total number by grouped by booking status code as a bar graph, sort in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings in a bar chart, order Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Return a bar chart on how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, and rank by the y-axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the booking status code and the corresponding number of bookings Show bar chart, and order in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a bar chart for how many bookings does each booking status have? List the booking status code and the number of corresponding bookings, and rank by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many bookings does each booking status have? List the booking status code and the number of corresponding bookings, and rank by the Y from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of booking end date from different booking end date, and could you show in asc by the Y?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking end date by year, rank in ascending by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking end date by year with a bar chart, could you list Y in ascending order please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the number of booking start date by booking start date in a histogram, and sort by the how many booking start date from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking start date by year, and I want to rank in desc by the Y.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking start date by year with a bar chart, could you sort in desc by the Y-axis please?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each year and bin booking start date by year with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each year? Show me a bar chart binning booking start date by year.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the number of booking start date by booking start date in a histogram",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each day and group by booking end date with a line chart, and I want to sort by the x axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each day? Show me a line chart grouping by booking end date, and I want to sort by the x axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me a line chart of how how many booking end date change over the booking end date, I want to sort by the x axis in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many apartment bookings in each weekday? Show me a bar chart binning booking end date by weekday, list Y-axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of apartment bookings in each weekday and bin booking end date by weekday with a bar chart, and sort y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis booking end date y axis the number of booking end date, list y axis in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}

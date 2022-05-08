@@ -1,0 +1,469 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "driver",
+    "results": [
+        {
+            "query": "Show the average age of drivers from the same home city using a bar graph, and sort total number from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Compare the average age of drivers from the same home city with a bar chart, could you rank in descending by the Y-axis please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by home city as a bar graph, show from high to low by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6988167878953907
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across party",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Plot the number of home city by grouped by home city as a bar graph, and show from high to low by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the comparison of the total number of the home city of all drivers with a bar chart, and could you order the number of home city from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the number of home cities of all drivers, I want to show by the y axis from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a bar chart to show the name and age for all drivers, list by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6247119047342511
+            }
+        },
+        {
+            "query": "Bar graph to show age from different name, and display from low to high by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6247119047342511
+            }
+        },
+        {
+            "query": "Show the name and age for all drivers with a bar chart, and display by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6247119047342511
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across party, and sort in desc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party Plot them as bar chart, and I want to rank y-axis from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party with a bar chart, and I want to order in desc by the the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the average age of drivers from the same home city using a bar graph, sort total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009235632318065
+            }
+        },
+        {
+            "query": "Compare the average age of drivers from the same home city with a bar chart, and could you list by the y-axis in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009235632318065
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by home city as a bar graph, and sort total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974117588600167
+            }
+        },
+        {
+            "query": "Show the name and age for all drivers with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446717
+            }
+        },
+        {
+            "query": "Give me a bar chart to show the name and age for all drivers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446717
+            }
+        },
+        {
+            "query": "Bar graph to show age from different name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446717
+            }
+        },
+        {
+            "query": "Show the average age of drivers from the same home city using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Compare the average age of drivers from the same home city with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by home city as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6988167878953907
+            }
+        },
+        {
+            "query": "Plot the number of home city by grouped by home city as a bar graph, could you order in asc by the total number?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the number of home cities of all drivers, order in asc by the the number of home city.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the comparison of the total number of the home city of all drivers with a bar chart, and rank Y in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show age from different name, sort Y in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446709
+            }
+        },
+        {
+            "query": "Give me a bar chart to show the name and age for all drivers, could you rank in descending by the total number?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446709
+            }
+        },
+        {
+            "query": "Show the name and age for all drivers with a bar chart, rank in descending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6276709958446709
+            }
+        },
+        {
+            "query": "Plot the number of home city by grouped by home city as a bar graph, I want to rank in descending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the comparison of the total number of the home city of all drivers with a bar chart, I want to rank in descending by the bars.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the number of home cities of all drivers, show by the names in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the average age of drivers from the same home city using a bar graph, could you rank X from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by home city as a bar graph, could you sort by the bar from high to low?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6988167878953907
+            }
+        },
+        {
+            "query": "Compare the average age of drivers from the same home city with a bar chart, sort in descending by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7023285922671808
+            }
+        },
+        {
+            "query": "Show the comparison of the total number of the home city of all drivers with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the number of home cities of all drivers",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the number of home city by grouped by home city as a bar graph",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Compare the average age of drivers from the same home city with a bar chart, display bars in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009235632318065
+            }
+        },
+        {
+            "query": "Show the average age of drivers from the same home city using a bar graph, and show X in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7009235632318065
+            }
+        },
+        {
+            "query": "Plot the average of age by grouped by home city as a bar graph, and show X in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6974117588600167
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party by a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party. Visualize by pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show the total number from different party.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7549534711710058
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party with a bar chart, and order from low to high by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party Plot them as bar chart, and order in asc by the X-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across party, and show in asc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428796
+            }
+        },
+        {
+            "query": "Show the comparison of the total number of the home city of all drivers with a bar chart, and show by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the number of home cities of all drivers, show by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot the number of home city by grouped by home city as a bar graph, could you sort by the x axis in asc?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across party, and order y-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party Plot them as bar chart, and display total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party with a bar chart, display from low to high by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Create a bar chart showing the total number across party, sort bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party with a bar chart, and sort bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Show the party and the number of drivers in each party Plot them as bar chart, show bar in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7514689929428803
+            }
+        },
+        {
+            "query": "Bar graph to show age from different name, display by the x-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6242030515496476
+            }
+        },
+        {
+            "query": "Show the name and age for all drivers with a bar chart, I want to show from high to low by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6242030515496476
+            }
+        },
+        {
+            "query": "Give me a bar chart to show the name and age for all drivers, sort by the names in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6242030515496476
+            }
+        },
+        {
+            "query": "Show the proportion of the home city of all drivers with a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Please give me a pie chart to show the proportion of the home city of all drivers",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a pie to show how many home city from different home city.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show age from different name, list x axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6251544335980416
+            }
+        },
+        {
+            "query": "Show the name and age for all drivers with a bar chart, and sort by the x-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6251544335980416
+            }
+        },
+        {
+            "query": "Give me a bar chart to show the name and age for all drivers, and order bar in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6251544335980416
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,623 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Dogs",
+    "results": [
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by day interval, display the number of date departed from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by day interval, and list the number of date departed in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "Bar chart x axis date departed y axis the number of date departed, show Y in asc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that groups by departed date, and could you show bars in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "Show how many date departed from each date departed, and I want to order by the date_departed in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date, could you sort date_departed in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "Show how many date departed from each date departed, and rank in desc by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date, sort x axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that groups by departed date, and sort x axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that groups by departed date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "Show how many date departed from each date departed",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a bar chart, rank names in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7349645290000536
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a bar chart, rank by the X-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622936
+            }
+        },
+        {
+            "query": "Show the relationship between age and weight of the dogs who have been abandoned in a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6975716344998113
+            }
+        },
+        {
+            "query": "What is the relationship between age and weight of the dogs who have been abandoned? Return a scatter chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6975716344998113
+            }
+        },
+        {
+            "query": "How many dogs arrived in each day? Visualize with a bar chart that bins arrived date by weekday, rank in descending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each day with a bar chart that bins arrived date by weekday, order by the Y in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of date arrived from different date arrived, sort the number of date arrived from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a line chart that groups by departed date, display in asc by the X-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.791991461495451
+            }
+        },
+        {
+            "query": "Plot date arrived by how many date arrived as a trend line, show by the X in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a line chart that groups by departed date, rank by the x-axis in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7800658139694495
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date, order how many date departed in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "Show how many date departed from each date departed, and show from low to high by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that groups by departed date, could you list in asc by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698531
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622936
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315280441398296
+            }
+        },
+        {
+            "query": "Show the number of date arrived from each date arrived, display in ascending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each year with a bar chart, and order in ascending by the total number please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many dogs arrived in each year? Visualize with a bar chart, and display in ascending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504662
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504662
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a bar chart, rank Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504672
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a bar chart, display in descending by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504672
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a bar chart, and list names in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504664
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a bar chart, and rank in desc by the X.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504664
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by weekday, and sort in desc by the the number of date departed.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846042635288021
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date departed across date departed, and sort in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846042635288021
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by weekday, and sort in descending by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846042635288021
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846170084199388
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by weekday.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846170084199388
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date departed across date departed",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7846170084199388
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a line chart that groups by departed date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.791991461495451
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a line chart that groups by departed date.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.791991461495451
+            }
+        },
+        {
+            "query": "Plot date arrived by how many date arrived as a trend line",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a bar chart, could you show X-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315280441398301
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a bar chart, order from high to low by the x axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622938
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a bar chart, and list bars in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504663
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a bar chart, and I want to sort by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504663
+            }
+        },
+        {
+            "query": "How many dogs arrived in each day? Visualize with a bar chart that bins arrived date by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each day with a bar chart that bins arrived date by weekday.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of date arrived from different date arrived",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of date arrived from each date arrived, I want to sort Y in desc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many dogs arrived in each year? Visualize with a bar chart, list y axis in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each year with a bar chart, rank Y-axis in descending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a bar chart, could you rank total number in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504662
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a bar chart, could you list y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7411469380504662
+            }
+        },
+        {
+            "query": "Show the relationship between age and weight of the dogs who have been abandoned in a group scatter chart that groups by dog's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7117646634910196
+            }
+        },
+        {
+            "query": "What is the relationship between age and weight of the dogs who have been abandoned? Return a group scatter chart that groups by dog's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7117646634910196
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a bar chart, order by the y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7315280441398313
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a bar chart, rank total number in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622949
+            }
+        },
+        {
+            "query": "How many dogs arrived in each year? Visualize with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each year with a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show the number of date arrived from each date arrived",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many dogs arrived in each day? Visualize with a bar chart that bins arrived date by weekday, list by the Y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs arrived in each day with a bar chart that bins arrived date by weekday, and list by the Y-axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar graph to show the number of date arrived from different date arrived, and display in asc by the total number.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by weekday, could you show total number in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7784415715939117
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by weekday, and could you show total number in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7784415715939117
+            }
+        },
+        {
+            "query": "Create a bar chart showing the number of date departed across date departed, and I want to show in ascending by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7784415715939117
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that groups by departed date, and sort in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date, sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "Show how many date departed from each date departed, and sort from high to low by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7425807338698527
+            }
+        },
+        {
+            "query": "List the dog name and weight of the dogs who have been abandoned in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What is the weight of each dog that was abandoned? Show in a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by day interval.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by day interval.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "Bar chart x axis date departed y axis the number of date departed",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377898
+            }
+        },
+        {
+            "query": "Bar chart x axis date departed y axis the number of date departed, and list by the Y from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377899
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by day interval, and display Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377899
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a bar chart that bins departed date by day interval, display in descending by the Y please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7364056303377899
+            }
+        },
+        {
+            "query": "How many dogs departed in each day? Visualize with a line chart that groups by departed date, sort in descending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7919389645438007
+            }
+        },
+        {
+            "query": "List the number of dogs departed in each day with a line chart that groups by departed date, display x axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7919389645438007
+            }
+        },
+        {
+            "query": "Plot date arrived by how many date arrived as a trend line, rank in descending by the X.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "List the dog name and age of the dogs who have been abandoned in a bar chart, and list in ascending by the y-axis please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622938
+            }
+        },
+        {
+            "query": "How old is each dog that was abandoned? Show in a bar chart, and order age from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7370608870622938
+            }
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,395 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "entrepreneur",
+    "results": [
+        {
+            "query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?, rank in descending by the bar please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor, rank from high to low by the x axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "Return a histogram on how many entrepreneurs correspond to each investor?, and could you list bars from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "Draw a bar chart of investor versus the total number, and could you list bars from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor, and show from high to low by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "how many entrepreneurs correspond to each investor?, show from high to low by the bars please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9175291062731264
+            }
+        },
+        {
+            "query": "how many entrepreneurs correspond to each investor?, and rank Y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9157552828760159
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?, and show in desc by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9877181028215248
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor, I want to order in descending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9157552828760159
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor, and I want to rank Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9877181028215248
+            }
+        },
+        {
+            "query": "Draw a bar chart of investor versus the total number, I want to rank Y from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9877181028215248
+            }
+        },
+        {
+            "query": "Return a histogram on how many entrepreneurs correspond to each investor?, show in desc by the total number please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9877181028215248
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "Create a pie chart showing how many investor across investor.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "Return a pie on what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "Display a pie chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor. Visualize by pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "A pie chart about how many entrepreneurs correspond to each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "Display a pie chart for how many entrepreneurs correspond to each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Compute the total the total number across investor as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9975193659665681
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.919271636834206
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.919271636834206
+            }
+        },
+        {
+            "query": "Bar graph to show the number of investor from different investor",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.919271636834206
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor, and order by the names in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?, and show by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor, and show by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "how many entrepreneurs correspond to each investor?, I want to display by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Draw a bar chart of investor versus the total number, I want to display by the bar in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Return a histogram on how many entrepreneurs correspond to each investor?, sort by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "how many entrepreneurs correspond to each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Return a histogram on how many entrepreneurs correspond to each investor?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "Draw a bar chart of investor versus the total number",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9938573224708769
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a bar chart, and could you sort in desc by the bar?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9183960852565628
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a bar chart, and I want to show by the x axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9183960852565628
+            }
+        },
+        {
+            "query": "Bar graph to show the number of investor from different investor, I want to show by the x axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9183960852565628
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a bar chart, and I want to show Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9885178525105766
+            }
+        },
+        {
+            "query": "Bar graph to show the number of investor from different investor, show by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.919271636834206
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a bar chart, I want to order by the total number in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.919271636834206
+            }
+        },
+        {
+            "query": "how many entrepreneurs correspond to each investor?, and sort Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9184046578507696
+            }
+        },
+        {
+            "query": "How many entrepreneurs correspond to each investor, could you display Y in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9876508735271395
+            }
+        },
+        {
+            "query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?, and I want to display in asc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9876508735271395
+            }
+        },
+        {
+            "query": "Draw a bar chart of investor versus the total number, show total number in ascending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9876508735271395
+            }
+        },
+        {
+            "query": "What are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor, and could you display Y in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9876508735271395
+            }
+        },
+        {
+            "query": "Return a histogram on how many entrepreneurs correspond to each investor?, and I want to sort from low to high by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9184046578507696
+            }
+        },
+        {
+            "query": "Bar graph to show the number of investor from different investor, and display Y-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9885850818049619
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a bar chart, and display Y-axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9885850818049619
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a bar chart, rank y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9885850818049619
+            }
+        },
+        {
+            "query": "Bar graph to show the number of investor from different investor, rank by the bars from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.994724301454314
+            }
+        },
+        {
+            "query": "Show the number of companies each investor has invested with a bar chart, show by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.994724301454314
+            }
+        },
+        {
+            "query": "How many companies each investor has invested? Show me a bar chart, and show by the X from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.994724301454314
+            }
+        }
+    ],
+    "errors": [
+        "\"How many entrepreneurs correspond to each investor.\" has 2 benchmarks associated with it",
+        "\"How many entrepreneurs correspond to each investor.\" has 2 benchmarks associated with it"
+    ]
+}

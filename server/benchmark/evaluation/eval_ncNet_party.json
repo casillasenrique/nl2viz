@@ -1,0 +1,731 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "party",
+    "results": [
+        {
+            "query": "How many parties of the time they took office, binning the took office into Year interval, and then split by the minister's name, rank by the the number of took office from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7491964207724852
+            }
+        },
+        {
+            "query": "Stack bar chart of how many took office vs Minister based on took office, and could you sort by the y axis from low to high?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7491964207724852
+            }
+        },
+        {
+            "query": "Count the total number of different locations of parties using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.793181359994883
+            }
+        },
+        {
+            "query": "Give me the proportion about the location of each party with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.793181359994883
+            }
+        },
+        {
+            "query": "Create a pie chart showing the number of location across location.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.793181359994883
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into WEEKDAY interval",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7306321036626141
+            }
+        },
+        {
+            "query": "Bar graph to show the number of took office from different took office",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7306321036626141
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a bar chart, and order in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8183274142503477
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a bar chart, order in asc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8183274142503477
+            }
+        },
+        {
+            "query": "Show the total number of the last year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the last year into weekday interval, and count the first year, and rank y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7748299176500861
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Bin the last year into weekday interval and count them, and could you display y-axis in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7748299176500861
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, and show by the the number of first year in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7290572322305301
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into Year interval, and then split by the minister's name, and sort Y in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7494558671036965
+            }
+        },
+        {
+            "query": "Stack bar chart of how many took office vs Minister based on took office, list by the y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7494558671036965
+            }
+        },
+        {
+            "query": "Compare the total number of each minister using a bar graph, rank in descending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Bar chart x axis minister y axis how many minister, could you sort by the X-axis in descending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office, could you sort by the Y in descending please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7415482823207622
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the left office into Weekday interval, and then split by the minister's name, and rank by the how many left office in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7382889929210613
+            }
+        },
+        {
+            "query": "How many parties of the time they leave office, binning the leave office into WEEKDAY interval",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7326082082869624
+            }
+        },
+        {
+            "query": "Bar chart x axis left office y axis the number of left office",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7326082082869624
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the first year into weekday interval and count the first year, and I want to display y axis from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.768794811379851
+            }
+        },
+        {
+            "query": "Bar chart x axis left office y axis the number of left office, order by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.732737643010052
+            }
+        },
+        {
+            "query": "How many parties of the time they leave office, binning the leave office into WEEKDAY interval, display by the how many left office in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.732737643010052
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Count the last year for a bar chart, could you list by the Y in asc?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7485561650319625
+            }
+        },
+        {
+            "query": "Count the last year of parties with theme \"Spring\" or \"Teqnology\" with a bar grpah, and I want to show in ascending by the the number of last year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7485561650319625
+            }
+        },
+        {
+            "query": "Give me a bar chart, that group by location and count them.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586463
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many location across location",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586463
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the left office into Weekday interval, and then split by the minister's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7279100473414792
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517659235227695
+            }
+        },
+        {
+            "query": "Compare the total number of each minister using a bar graph, and list by the X in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "Bar chart x axis minister y axis how many minister, list names from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the left office into Weekday interval, and then split by the minister's name, and display in ascending by the Y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7374450351879722
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office, and I want to list Y in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7405603873808833
+            }
+        },
+        {
+            "query": "Plot how many minister by grouped by minister as a bar graph, display y-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9918194809601092
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the total number of each minister, I want to list in asc by the total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9918194809601092
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7290572322305301
+            }
+        },
+        {
+            "query": "Show the proportion of all ministers using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.999375650759859
+            }
+        },
+        {
+            "query": "Compute the total how many minister across minister as a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.999375650759859
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the first year into weekday interval and count the first year, rank by the Y in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7750667777624328
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a bar chart, list by the Minister from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953255
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a bar chart, rank in asc by the bars.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953255
+            }
+        },
+        {
+            "query": "Compare the total number of each minister using a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Bar chart x axis minister y axis how many minister",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Give me a bar chart, that group by location and count them, list Y in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7394285187087357
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many location across location, and sort by the the number of location from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7394285187087357
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into WEEKDAY interval, I want to show by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307590110408251
+            }
+        },
+        {
+            "query": "Bar graph to show the number of took office from different took office, I want to sort in desc by the Y please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7307590110408251
+            }
+        },
+        {
+            "query": "Plot how many minister by grouped by minister as a bar graph, and list in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9860359715761852
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the total number of each minister, and sort y axis in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9860359715761852
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many location across location, could you rank from high to low by the names?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586463
+            }
+        },
+        {
+            "query": "Give me a bar chart, that group by location and count them, show by the Location in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586463
+            }
+        },
+        {
+            "query": "Stacked bar of took office and how many took office colored by Minister, and sort Y from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7365506675821772
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into Weekday interval, and then split by the minister's name, list in ascending by the how many took office.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7365506675821772
+            }
+        },
+        {
+            "query": "Plot how many minister by grouped by minister as a bar graph, and order by the Minister in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the total number of each minister, and show by the x-axis in asc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "Show the total number of the last year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the last year into weekday interval, and count the first year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7690471208708004
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Bin the last year into weekday interval and count them.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7690471208708004
+            }
+        },
+        {
+            "query": "Give me a bar chart, that group by location and count them, rank x axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586446
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many location across location, sort X from low to high order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7358238106586446
+            }
+        },
+        {
+            "query": "Plot how many minister by grouped by minister as a bar graph, and rank by the bar from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the total number of each minister, display by the bars in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9106968870250111
+            }
+        },
+        {
+            "query": "Compare the total number of each minister using a bar graph, list the number of minister in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9918194809601092
+            }
+        },
+        {
+            "query": "Bar chart x axis minister y axis how many minister, and rank by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.915998113683488
+            }
+        },
+        {
+            "query": "Give me a bar chart showing the total number of each minister.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "Plot how many minister by grouped by minister as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9954505579094333
+            }
+        },
+        {
+            "query": "Stacked bar of took office and how many took office colored by Minister, and display by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7372763163374199
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into Weekday interval, and then split by the minister's name, and show y axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7372763163374199
+            }
+        },
+        {
+            "query": "How many parties of the time they left office, binning the left office time into Year interval, and then split by the minister's name, I want to display in ascending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7515329835056064
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office, could you display in asc by the y-axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7515329835056064
+            }
+        },
+        {
+            "query": "Count the last year of parties with theme \"Spring\" or \"Teqnology\" with a bar grpah.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7501466867030366
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Count the last year for a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7501466867030366
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a bar chart, sort by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953261
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a bar chart, and I want to order by the x-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953261
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a bar chart, I want to show Y-axis from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8763351537999159
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a bar chart, and could you show total number from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8763351537999159
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the first year into weekday interval and count the first year.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7692543537578428
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Count the last year for a bar chart, I want to rank y axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504733983580024
+            }
+        },
+        {
+            "query": "Count the last year of parties with theme \"Spring\" or \"Teqnology\" with a bar grpah, I want to rank in descending by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7504733983580024
+            }
+        },
+        {
+            "query": "How many parties of the time they left office, binning the left office time into Year interval, and then split by the minister's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517659235227695
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517659235227695
+            }
+        },
+        {
+            "query": "Compare the total number of each minister using a bar graph, display by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9153073038718723
+            }
+        },
+        {
+            "query": "Bar chart x axis minister y axis how many minister, display the number of minister in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9860359715761852
+            }
+        },
+        {
+            "query": "Stacked bar chart of the number of left office for with each Minister in each left office, list the number of left office in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517905856682389
+            }
+        },
+        {
+            "query": "How many parties of the time they left office, binning the left office time into Year interval, and then split by the minister's name, sort in desc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7517905856682389
+            }
+        },
+        {
+            "query": "Bar chart x axis left office y axis the number of left office, show total number from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343567011907045
+            }
+        },
+        {
+            "query": "How many parties of the time they leave office, binning the leave office into WEEKDAY interval, show by the y-axis in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7343567011907045
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into Weekday interval, and then split by the minister's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7249567214323148
+            }
+        },
+        {
+            "query": "Stacked bar of took office and how many took office colored by Minister",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7249567214323148
+            }
+        },
+        {
+            "query": "Give me a bar chart, that group by location and count them, and sort by the the number of location from low to high please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7388623025192759
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many location across location, and display by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7388623025192759
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into Year interval, and then split by the minister's name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7491964207724852
+            }
+        },
+        {
+            "query": "Stack bar chart of how many took office vs Minister based on took office",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7491964207724852
+            }
+        },
+        {
+            "query": "What are the last year of the parties whose theme is \"Spring\" or \"Teqnology\"? Bin the last year into weekday interval and count them, display total number in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685875181736136
+            }
+        },
+        {
+            "query": "Show the total number of the last year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, bin the last year into weekday interval, and count the first year, and order by the Y in ascending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7685875181736136
+            }
+        },
+        {
+            "query": "Show the total number of the first year of parties with the theme \"Spring\" or \"Teqnology\" with a bar chart, and display in desc by the Y.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.729057232230533
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953255
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a bar chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8519830036953255
+            }
+        },
+        {
+            "query": "Which ministers are not a part of the Progress Party, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9377755603114496
+            }
+        },
+        {
+            "query": "Show all ministers who do not belong to Progress Party, and count them by a pie chart",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9377755603114496
+            }
+        },
+        {
+            "query": "How many parties of the time they took office, binning the took office into WEEKDAY interval, could you rank y-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7322937993252833
+            }
+        },
+        {
+            "query": "Bar graph to show the number of took office from different took office, and show by the Y in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.7322937993252833
+            }
+        },
+        {
+            "query": "Please tell me the repeat times of each ministers using a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.999375650759859
+            }
+        },
+        {
+            "query": "I want to know the proportion of the total number for each minister.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.999375650759859
+            }
+        }
+    ],
+    "errors": [
+        "\"Stacked bar chart of the number of left office for with each Minister in each left office\" has 2 benchmarks associated with it",
+        "\"Stacked bar chart of the number of left office for with each Minister in each left office\" has 2 benchmarks associated with it"
+    ]
+}

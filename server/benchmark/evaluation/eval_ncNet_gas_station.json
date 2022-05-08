@@ -1,0 +1,112 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "gas_station",
+    "results": [
+        {
+            "query": "Draw a bar chart of manager name versus how many manager name, and show by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9268863916242562
+            }
+        },
+        {
+            "query": "Show the number of gas stations for each manager in a bar chart, I want to rank by the Y from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.935728942525342
+            }
+        },
+        {
+            "query": "How many gas stations dors each manager have? Plot a bar chart, and I want to list in asc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.935728942525342
+            }
+        },
+        {
+            "query": "Show the number of gas stations for each manager in a bar chart, and sort from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9288273208631564
+            }
+        },
+        {
+            "query": "How many gas stations dors each manager have? Plot a bar chart, and sort from high to low by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9650059003950414
+            }
+        },
+        {
+            "query": "Draw a bar chart of manager name versus how many manager name, I want to sort how many manager name in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9650059003950414
+            }
+        },
+        {
+            "query": "Show the number of gas stations for each manager in a bar chart, and show by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9919451868535446
+            }
+        },
+        {
+            "query": "How many gas stations dors each manager have? Plot a bar chart, show by the names in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9919451868535446
+            }
+        },
+        {
+            "query": "Draw a bar chart of manager name versus how many manager name, and list X from low to high order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9919451868535446
+            }
+        },
+        {
+            "query": "Show the number of gas stations for each manager in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.935728942525342
+            }
+        },
+        {
+            "query": "How many gas stations dors each manager have? Plot a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.935728942525342
+            }
+        },
+        {
+            "query": "Draw a bar chart of manager name versus how many manager name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.935728942525342
+            }
+        },
+        {
+            "query": "How many gas stations dors each manager have? Plot a bar chart, list bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282425253016818
+            }
+        },
+        {
+            "query": "Show the number of gas stations for each manager in a bar chart, and I want to show by the X in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282425253016818
+            }
+        },
+        {
+            "query": "Draw a bar chart of manager name versus how many manager name, and list bars in descending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9282425253016818
+            }
+        }
+    ],
+    "errors": []
+}

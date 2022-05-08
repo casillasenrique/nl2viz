@@ -1,0 +1,546 @@
+{
+    "model_name": "ncNet",
+    "dataset_name": "train",
+    "results": [
+        {
+            "query": "Find the number of trains starting from each origin Plot them as bar chart, I want to rank in descending by the the total number .",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5628658056870274
+            }
+        },
+        {
+            "query": "Show me the total number by origin in a histogram, and I want to list by the Y-axis in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6512666191287343
+            }
+        },
+        {
+            "query": "Compare all train names' total numbers, and display by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8337063024213113
+            }
+        },
+        {
+            "query": "Show the number of train names in a bar chart, show by the y-axis from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8337063024213113
+            }
+        },
+        {
+            "query": "Plot how many name by grouped by name as a bar graph, display by the total number from low to high.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8331237759283615
+            }
+        },
+        {
+            "query": "Give me the times and numbers of all trains that go to Chennai with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Give me the times and numbers of all trains that go to Chennai.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show me the proportion of times and numbers of all trains that go to Chennai with a pie chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Tell me the distribution of the number of trains at each arrival time with a bar chart, could you display in descending by the x axis?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6209262566747711
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many arrival across arrival, I want to display by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6209262566747711
+            }
+        },
+        {
+            "query": "Visualize a bar chart, the x-axis is the arrival time, and the y-axis is the total number of trains in each arrival time, and order names in descending order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6209262566747711
+            }
+        },
+        {
+            "query": "Visualize a bar chart, the x-axis is the arrival time, and the y-axis is the total number of trains in each arrival time, and show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6006233763557144
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many arrival across arrival, list by the the number of arrival in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6004119413000558
+            }
+        },
+        {
+            "query": "Tell me the distribution of the number of trains at each arrival time with a bar chart, and show Y in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6323065257061197
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many arrival across arrival, rank in desc by the y axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5995150016651023
+            }
+        },
+        {
+            "query": "Visualize a bar chart, the x-axis is the arrival time, and the y-axis is the total number of trains in each arrival time, display by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5992359797271108
+            }
+        },
+        {
+            "query": "Tell me the distribution of the number of trains at each arrival time with a bar chart, and display by the Y-axis from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6321583346873948
+            }
+        },
+        {
+            "query": "Compare all train names' total numbers, and display from high to low by the how many name.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9748139530731095
+            }
+        },
+        {
+            "query": "Plot how many name by grouped by name as a bar graph, and sort by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9815236047186247
+            }
+        },
+        {
+            "query": "Show the number of train names in a bar chart, sort by the total number in descending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9815236047186247
+            }
+        },
+        {
+            "query": "Show the number of train names in a bar chart, and sort in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Compare all train names' total numbers, and show in asc by the names.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Plot how many name by grouped by name as a bar graph, order in ascending by the x-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Show the name of all trains, count the name and show them with a bar chart, could you rank in asc by the X please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947293853022198
+            }
+        },
+        {
+            "query": "Plot the number of name by grouped by name as a bar graph, and could you show Name in asc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947293853022198
+            }
+        },
+        {
+            "query": "Visualize a bar chart, group by name and compute each group's total number, and display X-axis in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9947293853022198
+            }
+        },
+        {
+            "query": "Give me the times and numbers of all trains that go to Chennai, ordered by time with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Give me the times and numbers of all trains that go to Chennai, ordered by time. Show bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Visualize a bar graph about the times and numbers of all trains that go to Chennai, ordered by time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": -1
+            }
+        },
+        {
+            "query": "Show me the total number by origin in a histogram, could you list in ascending by the Y?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5648823273427506
+            }
+        },
+        {
+            "query": "Find the number of trains starting from each origin Plot them as bar chart, and order in asc by the y-axis.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6184099591776122
+            }
+        },
+        {
+            "query": "Visualize a bar chart, group by name and compute each group's total number, and I want to list the number of name from high to low order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.974358586949046
+            }
+        },
+        {
+            "query": "Show the name of all trains, count the name and show them with a bar chart, show by the Y-axis from high to low please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.974358586949046
+            }
+        },
+        {
+            "query": "Plot the number of name by grouped by name as a bar graph, and I want to list the number of name in desc order please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.974358586949046
+            }
+        },
+        {
+            "query": "Plot the number of name by grouped by name as a bar graph, and order names from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8374388787822672
+            }
+        },
+        {
+            "query": "Show the name of all trains, count the name and show them with a bar chart, and display by the bar from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8374388787822672
+            }
+        },
+        {
+            "query": "Visualize a bar chart, group by name and compute each group's total number, could you display Name in descending order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6698348633732937
+            }
+        },
+        {
+            "query": "How many trains in each name category, give me the result with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587226495026804
+            }
+        },
+        {
+            "query": "Compare the total number of trains in each name by a bar graph.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587226495026804
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587226495026804
+            }
+        },
+        {
+            "query": "Show the name of all trains, count the name and show them with a bar chart, and could you list Y from low to high order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.980486952546712
+            }
+        },
+        {
+            "query": "Plot the number of name by grouped by name as a bar graph, could you list Y in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.980486952546712
+            }
+        },
+        {
+            "query": "Visualize a bar chart, group by name and compute each group's total number, could you show by the the number of name in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8332531320242085
+            }
+        },
+        {
+            "query": "Show the name of all trains, count the name and show them with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8332531320242085
+            }
+        },
+        {
+            "query": "Visualize a bar chart, group by name and compute each group's total number.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8332531320242085
+            }
+        },
+        {
+            "query": "Plot the number of name by grouped by name as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8332531320242085
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, could you show x-axis from low to high order please?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848049640117161
+            }
+        },
+        {
+            "query": "How many trains in each name category, give me the result with a bar chart, and list bars in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848049640117161
+            }
+        },
+        {
+            "query": "Compare the total number of trains in each name by a bar graph, and sort by the Name in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848049640117161
+            }
+        },
+        {
+            "query": "Find the number of trains starting from each origin. Plot them as bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5556915500134624
+            }
+        },
+        {
+            "query": "Show me the total number by origin in a histogram",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5556915500134624
+            }
+        },
+        {
+            "query": "Compare the total number of trains in each name by a bar graph, and order by the Name from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.658645759923331
+            }
+        },
+        {
+            "query": "How many trains in each name category, give me the result with a bar chart, and order by the Name from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.658645759923331
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, and could you show x-axis from high to low order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.658645759923331
+            }
+        },
+        {
+            "query": "Find the number of trains starting from each origin Plot them as bar chart, and sort bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5557620096648437
+            }
+        },
+        {
+            "query": "Show me the total number by origin in a histogram, could you display x-axis in ascending order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6422247266624866
+            }
+        },
+        {
+            "query": "How many trains in each name category, give me the result with a bar chart, and could you show from low to high by the the number of name?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6855796844187695
+            }
+        },
+        {
+            "query": "Compare the total number of trains in each name by a bar graph, sort by the total number in ascending.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587226495026804
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, and could you sort by the y-axis in ascending?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6587226495026804
+            }
+        },
+        {
+            "query": "Tell me the distribution of the number of trains at each arrival time with a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6209262566747711
+            }
+        },
+        {
+            "query": "Visualize a bar chart, the x-axis is the arrival time, and the y-axis is the total number of trains in each arrival time.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5931679027982907
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many arrival across arrival",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6838196268251444
+            }
+        },
+        {
+            "query": "Give me a bar chart for how many name of each name, and sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848237026896591
+            }
+        },
+        {
+            "query": "Compare the total number of trains in each name by a bar graph, sort y-axis in desc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848237026896591
+            }
+        },
+        {
+            "query": "How many trains in each name category, give me the result with a bar chart, and could you order y axis in desc order?",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6848237026896591
+            }
+        },
+        {
+            "query": "Compare all train names' total numbers.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Show the number of train names in a bar chart.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Plot how many name by grouped by name as a bar graph",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.9951836343927566
+            }
+        },
+        {
+            "query": "Show the number of train names in a bar chart, list by the x-axis in desc.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8378931278728045
+            }
+        },
+        {
+            "query": "Plot how many name by grouped by name as a bar graph, I want to order by the X in descending please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8378931278728045
+            }
+        },
+        {
+            "query": "Compare all train names' total numbers, show by the x-axis in desc please.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.8378931278728045
+            }
+        },
+        {
+            "query": "Find the number of trains starting from each origin Plot them as bar chart, order bars from high to low order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5556915500134624
+            }
+        },
+        {
+            "query": "Show me the total number by origin in a histogram, and sort by the names from high to low.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6173455810071954
+            }
+        },
+        {
+            "query": "Tell me the distribution of the number of trains at each arrival time with a bar chart, rank bar in ascending order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5931912688099138
+            }
+        },
+        {
+            "query": "Visualize a bar chart, the x-axis is the arrival time, and the y-axis is the total number of trains in each arrival time, and sort x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.5931912688099138
+            }
+        },
+        {
+            "query": "Create a bar chart showing how many arrival across arrival, sort x-axis in asc order.",
+            "produced_spec": true,
+            "metrics": {
+                "ssim": 0.6838551813012322
+            }
+        }
+    ],
+    "errors": [
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError",
+        "FileNotFoundError"
+    ]
+}

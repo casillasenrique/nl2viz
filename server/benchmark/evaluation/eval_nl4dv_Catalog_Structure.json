@@ -1,0 +1,178 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Catalog_Structure",
+    "results": [
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10, rank by the bars in asc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the name and level of catalog structure with level number between 5 and 10, list from low to high by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1 Show bar chart, and list from low to high by the X-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the name and level of catalog structure with level number between 5 and 10, could you order X-axis from low to high order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the name and level of catalog structure with level number between 5 and 10",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the name and level of catalog structure with level number between 5 and 10",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1. Show bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the name and level of catalog structure with level number between 5 and 10, and show from high to low by the x-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the name and level of catalog structure with level number between 5 and 10, list by the x axis in desc.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1 Show bar chart, and list names in desc order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10, could you sort by the catalog_level_name from high to low?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Draw a pie chart for what are the name and level of catalog structure with level number between 5 and 10",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Show me the proportion on what are the name and level of catalog structure with level number between 5 and 10",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1. Show a pie chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the name and level of catalog structure with level number between 5 and 10, and could you sort Y-axis from high to low order?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1 Show bar chart, and rank by the Y-axis in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10, show by the total number from high to low.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the name and level of catalog structure with level number between 5 and 10, and rank total number in descending order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "What are the name and level of catalog structure with level number between 5 and 1 Show bar chart, and display in ascending by the y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Visualize a bar chart for what are the name and level of catalog structure with level number between 5 and 10, and I want to list in ascending by the y axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Give me a histogram for what are the name and level of catalog structure with level number between 5 and 10, and sort y-axis in asc order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the name and level of catalog structure with level between 5 and 10, and list by the y axis in ascending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": [
+        "\"Find the name and level of catalog structure with level between 5 and 10.\" has 2 benchmarks associated with it",
+        "\"Find the name and level of catalog structure with level between 5 and 10.\" has 2 benchmarks associated with it"
+    ]
+}

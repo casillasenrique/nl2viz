@@ -1,0 +1,112 @@
+{
+    "model_name": "nl4dv",
+    "dataset_name": "Catalogs",
+    "results": [
+        {
+            "query": "On which days more than one revisions were made on catalogs, bin the date into weekday interval and count them to show the trend, and sort by the date_of_latest_revision in descending.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a line chart, I want to order by the x axis from high to low please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date of latest revision by the number of date of latest revision as a line chart, and list date_of_latest_revision from high to low order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a line chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "On which days more than one revisions were made on catalogs, bin the date into weekday interval and count them to show the trend.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date of latest revision by the number of date of latest revision as a line chart",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a line chart, sort by the x axis from low to high.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Plot date of latest revision by the number of date of latest revision as a line chart, rank by the x axis in asc please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "On which days more than one revisions were made on catalogs, bin the date into weekday interval and count them to show the trend, list in asc by the date_of_latest_revision please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a bar chart.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of latest revision y axis the number of date of latest revision",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a bar chart, and rank Y from low to high order.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of latest revision y axis the number of date of latest revision, and display y axis in ascending order please.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Bar chart x axis date of latest revision y axis the number of date of latest revision, could you rank in desc by the Y-axis?",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        },
+        {
+            "query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a bar chart, and I want to list in desc by the Y-axis.",
+            "produced_spec": false,
+            "metrics": {
+                "ssim": 0
+            }
+        }
+    ],
+    "errors": []
+}
