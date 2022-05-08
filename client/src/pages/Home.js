@@ -7,9 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../components/Loader';
 import githubLogo from '../images/github-logo.png';
 
-const SERVER_URL = 'http://localhost:5000';
-
-export default function Home() {
+export default function Home({ version, serverUrl }) {
   const [loading, setLoading] = useState(true);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedDataset, setSelectedDataset] = useState(null);
@@ -23,9 +21,9 @@ export default function Home() {
 
   useEffect(() => {
     Promise.all([
-      axios.get(`${SERVER_URL}/api/datasets`), // All datasets
-      axios.get(`${SERVER_URL}/api/models`), // All models
-      axios.get(`${SERVER_URL}/api/model?${document.cookie}`),
+      axios.get(`${serverUrl}/api/datasets`), // All datasets
+      axios.get(`${serverUrl}/api/models`), // All models
+      axios.get(`${serverUrl}/api/model?${document.cookie}`),
     ])
       .then(([datasetsRes, modelsRes, currentModelRes]) => {
         const [datasets, models, currentModel] = [
@@ -43,7 +41,7 @@ export default function Home() {
 
         // Then fetch the dataset to try to avoid concurrency issues
         axios
-          .get(`${SERVER_URL}/api/dataset?${document.cookie}`)
+          .get(`${serverUrl}/api/dataset?${document.cookie}`)
           .then((res) => {
             const currentDataset = res.data.response;
             if (currentDataset) {
@@ -67,7 +65,7 @@ export default function Home() {
 
   const fetchAvailableQueries = async (dataset) => {
     return axios
-      .get(`${SERVER_URL}/api/benchmark/${dataset}/queries`)
+      .get(`${serverUrl}/api/benchmark/${dataset}/queries`)
       .then((res) => res.data.response)
       .catch((err) => toast.error(err));
   };
@@ -75,7 +73,7 @@ export default function Home() {
   const handleChangeDataset = (newDataset) => {
     setLoading(true);
     axios
-      .post(`${SERVER_URL}/api/dataset?${document.cookie}`, {
+      .post(`${serverUrl}/api/dataset?${document.cookie}`, {
         dataset: newDataset,
       })
       .then((res) => {
@@ -99,7 +97,7 @@ export default function Home() {
   const handleChangeModel = (newModel) => {
     setLoading(true);
     axios
-      .post(`${SERVER_URL}/api/model?${document.cookie}`, { model: newModel })
+      .post(`${serverUrl}/api/model?${document.cookie}`, { model: newModel })
       .then((res) => {
         const model = res.data.response;
         setSelectedModel(model);
@@ -118,7 +116,7 @@ export default function Home() {
     if (availableQueries.includes(submittedQuery)) {
       axios
         .get(
-          `${SERVER_URL}/api/benchmark/execute?query=${submittedQuery}&${document.cookie}`,
+          `${serverUrl}/api/benchmark/execute?query=${submittedQuery}&${document.cookie}`,
         )
         .then((res) => {
           setNlVizData(res.data.response.model_result);
@@ -136,7 +134,7 @@ export default function Home() {
     }
     axios
       .get(
-        `${SERVER_URL}/api/execute?query=${submittedQuery}&${document.cookie}`,
+        `${serverUrl}/api/execute?query=${submittedQuery}&${document.cookie}`,
       )
       .then((res) => {
         setNlVizData(res.data.response);
@@ -155,9 +153,17 @@ export default function Home() {
 
       <span className="flex w-full">
         <div className="w-1/5 p-2">
-          <p className="text-gray-100 text-left">
-            This is a website that serves as an end-to-end system for
-            benchmarking natural language to visualization systems.
+          <p className="text-gray-300 text-left text-sm outline-dashed outline-1 outline-gray-500 p-3 rounded">
+            This website serves as a tool to visualize natural language to
+            visualization models compared to a benchmark. Visit the{' '}
+            <a
+              className="hover:text-yellow-500 transition-colors"
+              href="https://github.com/casillasenrique/6s079-final-project"
+              target="_blank"
+            >
+              GitHub page
+            </a>{' '}
+            for more details.
           </p>
         </div>
         <div className="w-4/5 flex justify-center relative">
@@ -189,7 +195,7 @@ export default function Home() {
               src={githubLogo}
               alt="GitHub Logo"
             />
-            <p>v1.0.2</p>
+            <p>v{version}</p>
           </a>
         </div>
       </span>

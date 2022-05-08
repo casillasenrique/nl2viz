@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
 import { useEffect } from 'react';
+
+const VERSION = '1.0.5';
+const SERVER_URL = 'http://localhost:5000';
 
 function App() {
   useEffect(() => {
@@ -22,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <Home />
+      <Home version={VERSION} serverUrl={SERVER_URL} />
     </div>
   );
 }
