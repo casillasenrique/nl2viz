@@ -8,6 +8,7 @@ const Dashboard = ({
   benchmarkVizData,
   handleSubmitQuery,
   noQueryYet,
+  model,
 }) => {
   const [vizIndex, setVizIndex] = useState(0);
 
@@ -204,7 +205,7 @@ const Dashboard = ({
           {nlVizData && !loadingViz && (
             <ul>
               <li>
-                Model name: <code className="text-gray-200">{'TODO'}</code>
+                Model name: <code className="text-gray-200">{model}</code>
               </li>
               <li>
                 Visualization Count:{' '}

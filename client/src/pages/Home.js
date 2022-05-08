@@ -208,6 +208,7 @@ export default function Home({ version, serverUrl }) {
         loadingViz={loadingViz}
         handleSubmitQuery={handleSubmit}
         noQueryYet={noQueryYet}
+        model={selectedModel}
       />
       <ToastContainer theme="dark" />
     </div>
