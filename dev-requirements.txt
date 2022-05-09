@@ -1,1 +1,7 @@
 scikit-image
+plotly
+altair
+torch==1.8.0
+torchtext==0.6.0
+dask
+distributed

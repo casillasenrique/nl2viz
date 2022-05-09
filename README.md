@@ -1,17 +1,22 @@
-# End-to-end Natural Language to Visualization Analysis
+# Benchmarking Natural Language to Visualization Models
 
 ## Abstract
 This project serves as a tool to test the quality of Natural Language to
 Visualization (NL2Viz) models based on existing benchmarks.
 
 ## Project Overview
-The app uses a React front-end (bootstrapped with `create-react-app`) and a
-Python backend using the `Flask` web framework. 
-The following NL2Viz models are supported on the server:
+The app uses a React front-end (bootstrapped with
+[`create-react-app`](https://create-react-app.dev/)) and a Python backend using
+the [`Flask`](https://flask.palletsprojects.com) web framework. The benchmark is
+provided by `nvBench` \[[1](#1-nvbench-benchmark)\], which gives a list of
+$(query, viz)$ pairs. The following NL2Viz models are supported on the server:
 
-* [nl4dv]()
-* [ncNet]()
+* `ncNet` \[[2](#2-ncnet-model)\]  
+* `nl4dv` \[[3](#3-nl4dv-model)\] 
 
+The tool is deployed at https://nl2viz.herokuapp.com/. Due to the
+resource-intensive nature of these models, however, it is highly likely that the
+application crashes several times. Use at your own risk!
 ### Structure
 A high-level overview of the project structure is shown below.
 
@@ -23,10 +28,9 @@ A high-level overview of the project structure is shown below.
  ┃ ┃ ┣ 📂components
  ┃ ┃ ┗ 📂pages
  ┣ 📂server
- ┃ ┣ 📂assets
- ┃ ┃ ┣ 📂benchmark
- ┃ ┃ ┃ ┣ 📂data
- ┃ ┃ ┃ ┗ 📜benchmark_meta.json
+ ┃ ┣ 📂benchmark
+ ┃ ┃ ┣ 📂data
+ ┃ ┃ ┗ 📜benchmark_meta.json
  ┃ ┣ 📂models
  ┃ ┃ ┣ 📂ncNet
  ┃ ┃ ┗ 📂nl4dv
@@ -51,51 +55,12 @@ The [`app.py`](app.py) file is the entry point for the server, while
 React apps.
 
 ### Datasets
-The following list of datasets are available in the app, found
-[here](server/assets/benchmark/data/). The list is does not cover the entire
-benchmark due to space limitations.
-```
-📂server/assets/benchmark/data
-┣ 📜Activity.csv
-┣ 📜aircraft.csv
-┣ 📜airport.csv
-┣ 📜airport_aircraft.csv
-┣ 📜Allergy_Type.csv
-┣ 📜Apartments.csv
-┣ 📜Apartment_Bookings.csv
-┣ 📜Apartment_Buildings.csv
-┣ 📜Apartment_Facilities.csv
-┣ 📜architect.csv
-┣ 📜Assets.csv
-┣ 📜Asset_Parts.csv
-┣ 📜author.csv
-┣ 📜bridge.csv
-┣ 📜cinema.csv
-┣ 📜Engineer_Skills.csv
-┣ 📜Engineer_Visits.csv
-┣ 📜Faculty.csv
-┣ 📜Faculty_Participates_in.csv
-┣ 📜Fault_Log.csv
-┣ 📜Fault_Log_Parts.csv
-┣ 📜film.csv
-┣ 📜Guests.csv
-┣ 📜Has_Allergy.csv
-┣ 📜Maintenance_Contracts.csv
-┣ 📜Maintenance_Engineers.csv
-┣ 📜match.csv
-┣ 📜mill.csv
-┣ 📜Participates_in.csv
-┣ 📜Parts.csv
-┣ 📜Part_Faults.csv
-┣ 📜pilot.csv
-┣ 📜schedule.csv
-┣ 📜Skills.csv
-┣ 📜Skills_Required_To_Fix.csv
-┣ 📜Staff.csv
-┣ 📜Student.csv
-┣ 📜Third_Party_Companies.csv
-┗ 📜View_Unit_Status.csv
-```
+The datasets available in this tool are found [here](server/benchmark/data/).
+Note that the only datasets that exist in this directory are those that have an
+associated benchmark. Some benchmarks require more than one dataset to be used
+in order to produce the final result; these benchmarks are excluded in this
+tool. Therefore the datasets that are never used by a benchmark are also not
+included.
 
 ## Local Use/Development
 Follow the steps below to get started:
@@ -105,35 +70,49 @@ Follow the steps below to get started:
    is required for the models to work, since they both use older versions of
    libraries that have been depracated in the newer versions of Python.
 3. Start the virtual environment.
-4. Install the dependencies in your virtual environment by running `pip install
-   -r requirements.txt`.
+4. Install the dependencies in your virtual environment by running `pip install -r requirements.txt`. **NOTE**: [`requirements.txt`](requirements.txt)
+   installs the CPU version of [`pytorch`](https://pytorch.org/). This is
+   necessary for the production environment, but may yield slower processing
+   times in development. If you are planning on doing a lot of development, also
+   make sure to install the GPU version by installing the requirements in
+   [`dev-requirements.txt`](dev-requirements.txt). This requirements
+   file also contains modules required to perform evaluation, such as
+   [`Dask`](https://distributed.dask.org/en/stable/quickstart.html) and
+   [`scikit-image`](https://scikit-image.org/) 
 5. For the `nl4dv` model to work, install the following dependencies separately
-  (see the documentation
-  `nl4dv`[documentation](https://nl4dv.github.io/nl4dv/documentation.html) for
-  more details.):
+  (see the `nl4dv`
+  [documentation](https://nl4dv.github.io/nl4dv/documentation.html) for more
+  details.):
     - `python -m nltk.downloader popular`
     - `python -m spacy download en_core_web_sm`
 
 6. In the root directory, run `flask run` to start the server. To start it in
    development mode, create a `.flaskenv` file in the root directory and add
-   `FLASK_ENV=development`,
-7. Navigate to the `client/` directory and run `npm i` to install the
+   `FLASK_ENV=development`. The server is served at http://localhost:5000 by default.
+7. Navigate to the [`client/`](client/) directory and run `npm i` to install the
    dependencies for the React frontend.
 8. Still in `client/` run `npm start` to start the client, served at
-   http://localhost:3000. 
+   http://localhost:3000.
+9. For full access to all of the features, still in `client/`, run `npm run
+   build` to build the latest version of the frontend. Then, instead of needing
+   to start the client, simply start the server and navigate to
+   http://localhost:5000 which serves the static buildpack. 
 
 
 ## References
 
-* nvBench **(Evaluation)**
-  * [Github](https://github.com/TsinghuaDatabaseGroup/nvBench)
-  * [Paper](https://dl.acm.org/doi/abs/10.1145/3448016.3457261)
-* ncNet
+#### 1. `nvBench` (Benchmark)
+   * **Authors:** Yuyu Luo, Nan Tang, Guoliang Li, Chengliang Chai, Wenbo Li,
+  and Xuedi Qin
+   * [Github](https://github.com/TsinghuaDatabaseGroup/nvBench)
+   * [Paper](https://dl.acm.org/doi/abs/10.1145/3448016.3457261)
+
+#### 2. `ncNet` (Model)
+  * **Authors:** Yuyu Luo, Nan Tang, Guoliang Li, Jiawei Tang, Chengliang Chai,
+  and Xuedi Qin
   * [Github](https://github.com/Thanksyy/ncNet)
   * [Paper](https://luoyuyu.vip/files/ncNet-VIS21.pdf)  
-* nl4dv
+#### 3. `nl4dv` (Model)
+  * **Authors:** Arpit Narechania, Arjun Srinivasan, and John Stasko
   * [Github](https://github.com/nl4dv/nl4dv)
   * [Paper](https://www.cc.gatech.edu/~anarechania3/docs/publications/nl4dv_vis_2020.pdf)
-<!-- * DeepEye
-  * [Github](https://github.com/Thanksyy/DeepEye-APIs)
-  * [Paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde18-deepeye.pdf) -->
