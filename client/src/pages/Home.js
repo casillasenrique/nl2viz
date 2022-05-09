@@ -162,7 +162,7 @@ export default function Home({ version, serverUrl }) {
             visualization models compared to a benchmark. Visit the{' '}
             <a
               className="hover:text-yellow-500 transition-colors"
-              href="https://github.com/casillasenrique/6s079-final-project"
+              href="https://github.com/casillasenrique/nl2viz"
               target="_blank"
             >
               GitHub page
@@ -191,7 +191,7 @@ export default function Home({ version, serverUrl }) {
         <div className="flex w-1/5 justify-end items-start p-2">
           <a
             className="flex gap-2 items-center w-fit text-gray-200 hover:text-gray-50 transition-colors"
-            href="https://github.com/casillasenrique/6s079-final-project"
+            href="https://github.com/casillasenrique/nl2viz"
             target="_blank"
           >
             <img
