@@ -78,7 +78,9 @@ Follow the steps below to get started:
    [`dev-requirements.txt`](dev-requirements.txt). This requirements
    file also contains modules required to perform evaluation, such as
    [`Dask`](https://distributed.dask.org/en/stable/quickstart.html) and
-   [`scikit-image`](https://scikit-image.org/) 
+   [`scikit-image`](https://scikit-image.org/). If you do choose to re-run
+   evaluation, also make sure to install the node modules by running `npm i` in
+   the project root directory. 
 5. For the `nl4dv` model to work, install the following dependencies separately
   (see the `nl4dv`
   [documentation](https://nl4dv.github.io/nl4dv/documentation.html) for more
