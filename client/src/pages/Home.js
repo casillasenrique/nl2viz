@@ -127,6 +127,7 @@ export default function Home({ version, serverUrl }) {
           console.log(err);
         })
         .finally(() => {
+          console.log('done!');
           setLoadingViz(false);
           setNoQueryYet(false);
         });
@@ -142,7 +143,10 @@ export default function Home({ version, serverUrl }) {
       .catch((err) => {
         console.log(err);
       })
-      .finally(() => setLoadingViz(false));
+      .finally(() => {
+        setLoadingViz(false);
+        setNoQueryYet(false);
+      });
   };
 
   return (

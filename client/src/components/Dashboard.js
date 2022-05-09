@@ -222,7 +222,7 @@ const Dashboard = ({
               </li>
               <li>
                 Associated benchmarks:{' '}
-                <code className="text-gray-200">{benchmarkVizData.length}</code>
+                <code className="text-gray-200">{benchmarkVizData?.length || 0}</code>
               </li>
             </ul>
           )}
