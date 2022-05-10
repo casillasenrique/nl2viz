@@ -129,8 +129,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*.pdf
-**/server-jars
+/assets/papers
 
 notes.md
 
