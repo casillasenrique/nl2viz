@@ -2,7 +2,8 @@
 
 ## Abstract
 This project serves as a tool to test the quality of Natural Language to
-Visualization (NL2Viz) models based on existing benchmarks.
+Visualization (NL2Viz) models based on existing benchmarks. Read the project
+report [here](assets/Benchmarking%20Natural%20Language%20to%20Data%20Visualization%20Models.pdf).
 
 ## Project Overview
 The app uses a React front-end (bootstrapped with
